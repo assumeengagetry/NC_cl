@@ -1,0 +1,39 @@
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{五、B部分：实际接口与本机缓存处理}
+每阶段先用Wireshark自带dumpcap在真实接口\code{en0}、\code{utun4}开始采集，再执行命令，最后停止捕获。\code{en0}采集与\code{223.5.5.5}的53端口流量及本机ICMP，\code{utun4}采集与\code{100.100.100.100}的53端口流量。
+\par 百度首次测试前16:38:42、川大首次测试前16:38:52，分别以管理员权限执行下列macOS命令，实际退出状态均为0；重复测试前不再清缓存。
+\begin{flushleft}\ttfamily
+dscacheutil -flushcache\par
+killall -HUP mDNSResponder
+\end{flushleft}
+\Evidence{fig:mac-cache}{\imgCache}{两轮清缓存成功及缓存转储失败的原始命令输出（日志回显）}{117mm}
+\par 两次\code{dscacheutil -cachedump}均输出“Unable to get details from the cache node”，未能列出缓存条目，不能因退出0写成转储成功。未清理Tailscale代理及远端解析器缓存，因此不称为完整DNS链路冷缓存测试。
+}
+
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{六、B部分：百度首次与重复ping}
+使用macOS语法\code{ping -n -c 3 -W 1500 -t 8 www.baidu.com}；\code{-W}单位为毫秒，\code{-t}单位为秒。首次前完成本机清缓存，重复测试前不再清理。两次均3发3收，平均往返时间分别为40.282与40.546毫秒。
+\Evidence{fig:mac-ping-baidu}{\imgPingBaidu}{百度首次与重复ping原始输出，实际地址183.2.172.177（日志回显）}{140mm}
+\par 首次在最终抓包帧1、2出现DNS查询与响应，随后帧3—8为3组ICMP请求/应答；重复测试帧9—14只有3组ICMP请求/应答，未出现该域名的DNS查询，支持本机解析路径复用了缓存结果。
+}
+
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{六、B部分：川大首次与重复ping（续）}
+执行\code{ping -n -c 3 -W 1500 -t 8 www.scu.edu.cn}，随后原命令重复一次，中间不清缓存。两次均3发0收、丢包率100\%，进程退出2；实际使用地址均为\code{202.115.47.167}。
+\Evidence{fig:mac-ping-scu}{\imgPingScu}{川大首次与重复ping原始输出，均未收到ICMP响应（日志回显）}{140mm}
+\par 首次帧15、16已经取得成功A回答，帧17—19向返回地址发出ICMP请求；重复测试仅有帧20—22的ICMP请求。ICMP无响应不能认定为DNS解析失败，也不能单凭本次测量区分目标不响应ICMP与链路过滤等原因。
+}
+
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{七、B部分：四种nslookup及抓包整理}
+四条查询均指定可达解析器\code{223.5.5.5}，末尾的点表示完整域名：
+\begin{flushleft}\ttfamily
+nslookup -type=A www.baidu.com. 223.5.5.5\par
+nslookup -type=CNAME www.baidu.com. 223.5.5.5\par
+nslookup -type=A www.scu.edu.cn. 223.5.5.5\par
+nslookup -type=CNAME www.scu.edu.cn. 223.5.5.5
+\end{flushleft}
+\par 按\code{dns}及目标\code{dns.qry.name}筛选两个实验域名，ping阶段另保留与实际目标地址有关的\code{icmp}，再按时间戳合并为\capturefile。最终30帧包含12帧DNS、18帧ICMP，未改写报文字节和时间戳。过滤器及阶段时间保存在附件\path{attachments/real-dns/}中的\path{*-capture.txt}和\path{phases.json}。
+\Evidence{fig:dns-repeat}{\imgRepeat}{Wireshark最终文件的帧1—22；百度重复帧9—14、川大重复帧20—22仅有ICMP}{88mm}
+\par 捕获时段为16:38:41.735—16:39:14.272（UTC+8），不能把这段采集时间写成课程学时。Wi-Fi原有DNS为\code{114.114.114.114}，但ping实际经\code{utun4}查询\code{100.100.100.100}；四条nslookup则经\code{en0}查询指定解析器。
+}

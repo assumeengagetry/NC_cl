@@ -1,0 +1,4 @@
+Completed: 2026-10-24T16:39:14.426+08:00
+No DNS, routing, network service, or VPN settings were modified.
+Root used only to clear system DNS cache; measurements executed as apple.
+Final capture: 2024141460445_许盛凯_实验2_DNS.pcapng

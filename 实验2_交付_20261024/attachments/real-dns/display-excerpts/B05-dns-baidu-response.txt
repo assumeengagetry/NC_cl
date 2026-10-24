@@ -1,0 +1,30 @@
+原始日志回显 / Saved original log replay
+非新一轮实时测量。采集日期：2026-10-24，Asia/Shanghai
+最终文件：2024141460445_许盛凯_实验2_DNS.pcapng
+帧 2，TShark 原始报文解析日志节选；省略非关键行，未改字段
+===========================================================================
+Internet Protocol Version 4, Src: 100.100.100.100, Dst: 100.96.206.115
+User Datagram Protocol, Src Port: 53, Dst Port: 52347
+Domain Name System (response)
+    Transaction ID: 0xa06b
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type A, class IN
+    Answers
+        www.baidu.com: type CNAME, class IN, cname www.a.shifen.com
+            Time to live: 1001 (16 minutes, 41 seconds)
+            CNAME: www.a.shifen.com
+        www.a.shifen.com: type A, class IN, addr 183.2.172.177
+            Time to live: 606 (10 minutes, 6 seconds)
+            Address: 183.2.172.177
+    [Request In: 1]

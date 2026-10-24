@@ -1,0 +1,119 @@
+Frame 24: Packet, 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 24, 2026 16:39:06.972030000 CST
+    UTC Arrival Time: Oct 24, 2026 08:39:06.972030000 UTC
+    Epoch Arrival Time: 1792831146.972030000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 8.574000 milliseconds]
+    [Time since reference or first frame: 23.112507000 seconds]
+    Frame Number: 24
+    Frame Length: 135 bytes (1080 bits)
+    Capture Length: 135 bytes (1080 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: 60:38:e0:c5:b8:c0, Dst: 2a:c9:00:37:02:8a
+    Destination: 2a:c9:00:37:02:8a
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 60:38:e0:c5:b8:c0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 223.5.5.5, Dst: 10.20.41.180
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 121
+    Identification: 0x94c9 (38089)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 110
+    Protocol: UDP (17)
+    Header Checksum: 0x9fd8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 223.5.5.5
+    Destination Address: 10.20.41.180
+    [Stream index: 3]
+User Datagram Protocol, Src Port: 53, Dst Port: 54482
+    Source Port: 53
+    Destination Port: 54482
+    Length: 101
+    Checksum: 0x0000 [zero-value ignored]
+        [Checksum Status: Not present]
+    [Stream index: 2]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 8.574000 milliseconds]
+        [Time since previous frame: 8.574000 milliseconds]
+    UDP payload (93 bytes)
+Domain Name System (response)
+    Transaction ID: 0x706e
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type A, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        www.baidu.com: type CNAME, class IN, cname www.a.shifen.com
+            Name: www.baidu.com
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+            Time to live: 1094 (18 minutes, 14 seconds)
+            Data length: 18
+            CNAME: www.a.shifen.com
+        www.a.shifen.com: type A, class IN, addr 110.242.70.57
+            Name: www.a.shifen.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 29 (29 seconds)
+            Data length: 4
+            Address: 110.242.70.57
+        www.a.shifen.com: type A, class IN, addr 110.242.69.21
+            Name: www.a.shifen.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 29 (29 seconds)
+            Data length: 4
+            Address: 110.242.69.21
+    [Request In: 23]
+    [Time: 8.574000 milliseconds]
+
+0000  2a c9 00 37 02 8a 60 38 e0 c5 b8 c0 08 00 45 00   *..7..`8......E.
+0010  00 79 94 c9 00 00 6e 11 9f d8 df 05 05 05 0a 14   .y....n.........
+0020  29 b4 00 35 d4 d2 00 65 00 00 70 6e 81 80 00 01   )..5...e..pn....
+0030  00 03 00 00 00 00 03 77 77 77 05 62 61 69 64 75   .......www.baidu
+0040  03 63 6f 6d 00 00 01 00 01 c0 0c 00 05 00 01 00   .com............
+0050  00 04 46 00 12 03 77 77 77 01 61 06 73 68 69 66   ..F...www.a.shif
+0060  65 6e 03 63 6f 6d 00 c0 2b 00 01 00 01 00 00 00   en.com..+.......
+0070  1d 00 04 6e f2 46 39 c0 2b 00 01 00 01 00 00 00   ...n.F9.+.......
+0080  1d 00 04 6e f2 45 15                              ...n.E.
+

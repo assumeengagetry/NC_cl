@@ -1,0 +1,21 @@
+Timezone: Asia/Shanghai
+Start: 2026-10-24T16:38:42.742+08:00
+$ /usr/bin/dscacheutil -flushcache
+
+[exit=0]
+End: 2026-10-24T16:38:42.761+08:00
+
+Timezone: Asia/Shanghai
+Start: 2026-10-24T16:38:42.761+08:00
+$ /usr/bin/killall -HUP mDNSResponder
+
+[exit=0]
+End: 2026-10-24T16:38:42.780+08:00
+
+Timezone: Asia/Shanghai
+Start: 2026-10-24T16:38:43.785+08:00
+$ /usr/bin/dscacheutil -cachedump
+Unable to get details from the cache node
+
+[exit=0]
+End: 2026-10-24T16:38:43.816+08:00

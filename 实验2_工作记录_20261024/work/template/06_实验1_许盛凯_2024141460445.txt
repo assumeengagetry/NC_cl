@@ -1,0 +1,368 @@
+=== PAGE 1 ===
+ൌဒ 1ğWebა HTTP༅
+ྠ ଀ğ ྸഹऺ
+ğ 2024141460445
+ඌ
+ഽğ ӧ৓
+2026 ୍ 10 ᄅ 13 ರ
+
+=== PAGE 2 ===
+࠹
+࿐ჽ
+ۡ
+ğ2024141460445ඌ
+ؽ34ֻࢫ ᇛ
+ज़ӱ଀ӫ࠹ൌဒज़ൈֻ3i4ࢫ
+ൌဒཛଢ Webა HTTP༅ࡗ2026 ୍ 10 ᄅ 13 ರ
+֥
+ༀఖ஥ᇂაླྀၰሂЇđປӮၛ༯ଢѓğ
+1. ᄝ Arch Linux ഈ஥ᇂ Apache HTTP Server๐
+ቔႨb
+2.෿်૫đဒᆣ URL༢đಒಪ်૫Ⴎ
+HTTPb
+3.֥GETaሑ෿઒aো
+b
+4.൤Conditional GETࠣ304ቔႨb
+࣢ߌ
+Ҡቔ༢๤ Arch LinuxčrollingĎ đLinux 7.2.9-arch1-1đx86_64
+ࡱIntel Core i9-13900HX ĠTSharkҩଽթ 31,775 MiB
+ༀఖ Apache HTTP Server 2.4.69 čUnixĎ đ࿊ᄴApacheσ
+ᛍফఖ Chromium 153.0.8010.52৫ൌဒ஥ᇂđე࿽ zh-CN
+༅ Wireshark/TShark 4.7.4 Ġdumpcapࠆ
+१ anyࣜwlo1ԛ
+ׄhttp://127.0.0.1:8086/
+ׄgaia.cs.umass.eduđTCP 80१
+টჷğՖ Arch֤Linux Apache aAPRބAPR-utilЇđ൐ႨЧ
+ࠏArchࠩhttpd.serviceb
+࡮evidence/࿐ᇛЌӻ
+ॢϢb
+1
+
+=== PAGE 3 ===
+࠹
+ൌဒଽಸ
+a
+ӱ྽a
+ބ
+Ď
+၂a಩ༀ 1ğApache౼a஥ᇂაဒᆣ
+1.bູ Arch Linux đ࿊ᄴ ApacheൡႨႿ Windows
+֥IISݣwin32đၹՎՖ Archٚܲextra ҝ
+౼ Linux ϱ Apache 2.4.69ࠣAPR ၇ঠb
+2.৖ᄎྛbЧ
+ᄎྛଢ੣đ൐Ⴈ LD_LIBRARY_PATHༀb
+3.஥ᇂbᇅቔ UTF-8֥index.htmlaϫ
+ູ experiment/httpd.confđರᆽЌթႿ experiment
+/logs/b
+4.b൐Ⴈ httpd -f <ࣥtൻԛ Syntax OK Ġෛ
+ЧՑൌ২b ss -ltn๐ 127.0.0.1:8086࠽GETਫ਼
+֤֞ࣥ200b
+๭ 1࠽Apache๐ሑ෿
+ၬ
+Listen 127.0.0.1:8086ࠏIPv4֥TCP 8086ༀđ
+अთຩb
+DocumentRootקURLఏ൓ଢ੣đ сྶაDirectory֥
+ຶ၂ᇁb
+DirectoryIndex index.htmlଏಪ൮်b
+Require all grantedଢ ੣b Ч ଢ ੣ ਸ਼ Ⴈ Options
+-Indexesоଢ੣෬ႄđѩႨ AllowOverride None
+ᆸ.htaccessb
+2
+
+=== PAGE 4 ===
+࠹
+ഈĎ
+ൌဒଽಸ
+ݔࢲ
+๭ 2 ᆇൌ Chromium࡮
+੣
+ଢ੣ /home/assumeengage/NC_cl/
+ൌဒ 1_Overleaf/experiment/www
+ࡱindex.html
+१ 127.0.0.1:8086ଏಪ HTTP१Ď
+໙ URL http://127.0.0.1:8086/
+ݔࢲԛ GET / HTTP/1.1 đApacheْ߭200đ ᆞ໓ཁൕປᆜൌဒ
+ྐ༏b
+URL ᇏ 127.0.0.1ࣥ/ 
+ଢ੣đᄜႮ DirectoryIndex֥index.htmlච
+ࠌHTMLđ္҂൞൐Ⴈ file:// յषb
+HTTP໙ TCP 80Ⴈ 8086đၹՎ URL ᇏсྶཿԛ
+:8086֥Apache൞ЧՑ
+ༀb
+ӱൕၩ
+Chromium
+GET /
+Apache
+127.0.0.1:8086
+DocumentRoot
+index.html
+3
+
+=== PAGE 5 ===
+࠹
+ഈĎ
+ൌဒଽಸ
+೘a಩ༀ 2Ч HTTPӱაᆣऌ
+թđૼಒ൐Ⴈ http://ᆶb༵षఓ dumpcap
+đ ᄜյष်૫Ġ ໃ൐ႨHTTPS սูଢѓ HTTPೆರӈᛍফఖCookie֨ࠇ
+੣ሑ෿bhttp://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html
+ੲఖູ host 128.119.245.12 and tcp port 80 đWiresharkੲఖູ httpb
+ݣࠆ38 ᆠđఃᇏ 10 ᆠФ്љູ HTTPĠ౨౰ᆠ 8ཙႋᆠ 12֥
+b
+๭ 3 file1֥GET ౨౰čᆠ 8࡮
+๭ 4 file1֥200 OK ཙႋčᆠ 12࡮
+๭ 3i8֥Wiresharkॢ
+bປᆜჰ๭ა pcapng ๝ൈЌ਽b
+4
+
+=== PAGE 6 ===
+࠹
+ഈĎ
+ൌဒଽಸ
+ඹa಩ༀ 3໙
+http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html
+໙ file2ഈඍჰ൓URLb
+൮Ց౨౰ູᆠ 20đཙႋູᆠ 23թဒᆣ൮҆b
+๭ 5 file2 ൮Ց GETčᆠ 20Ď đીႵIf-Modified-SinceࠇIf-None-Match
+๭ 6 ൮Ցཙႋčᆠ 23Ď đሑ෿200aൌุ 371ԛ Last-Modified ა ETag
+֥TCP ඹჭቆູ 10.20.41.171:57438 ა 128.119.245.12:80đWiresharkູ
+tcp.stream == 1 b
+5
+
+=== PAGE 7 ===
+࠹
+ഈĎ
+ൌဒଽಸ
+໴a಩ༀ 3թဒᆣ
+ཌྷ๝ URL ᆳྛ၂Ց௴๙඗ྍđ҂ᆳྛ఼ᇅ඗ྍđ္҂ᄜՑ
+ೆဒᆣఖđᆠ 28Ց GETđᆠ 29໙न
+൐Ⴈ tcp.stream == 1 b
+๭ 7Ց GETčᆠ 28Ď đ๝ൈེջIf-None-MatchaIf-Modified-Sinceބmax-age=0
+๭ 8Ցཙႋčᆠ 29Ď đຩ઎ሑ෿ູ304 Not Modified đીႵൌุᆞ໓
+ᆠ 29 ીႵ Content-LengthaContent-TypeࠇFile Data်૫ᆞ໓đ
+ෂਔປᆜ HTMLb
+6
+
+=== PAGE 8 ===
+࠹
+ഈĎ
+ൌဒଽಸ
+ஆᅰ
+1.१҂ॖႨğಃཋ໙ี
+གྷའğᄎྛ tshark -Dđ ѩิൕCouldn't run dumpcap in child
+process: Permission deniedሂЇb
+ஆҰ၇ऌğࠏusr/bin/dumpcap෮උቆູ wiresharkđಃཋູ rwxr-xr--đၘऎ
+Ⴕ cap_net_adminacap_net_rawቆbၹՎ҂൞
+Wireshark ໃνልđ္҂൞ླေၛ root۱GUIb
+ğೆ wiresharkଽᆳྛሂЇӱ྽bğᇗ
+֞wlo1aanyaloݣ38֥pcapngb
+2. ်૫ಯཁൕᆞ໓đ֌ຩ઎ཙႋ҂൞ᄜՑ 200
+གྷའğfile2đ ֆ
+འಸၞ༂ၛູᄜՑԮൻਔປᆜᆞ໓b
+ஆҰ၇ऌğҰ Wireshark ᆠ 29đ ఃሑ෿ྛູHTTP/1.1 304 Not Modified Ġ ᆠ28
+ဒᆣఖაᆠ 23ᆴ၂ᇁđᆠ 29ൌุb
+ԩ৘აဒᆣğ်૫ᅚൕbЧ
+ࡱGETْ߭304ؿ
+ْ߭200 ປᆜ်૫p b
+ఃऎุϺᇹ
+1. Arch WikiğApache HTTP Server bؓނArchࠣLinuxൔđ ৘
+ࢳListenaDocumentRootఙ Windows߭
+๐ൌ২b
+https://wiki.archlinux.org/title/Apache_HTTP_Server
+2. Apache 2.4ğӱ྽ httpdbؓނfa -tބم
+DFOREGROUNDၬb
+https://httpd.apache.org/docs/2.4/programs/httpd.html
+3. WiresharkğPrivileges ა dumpcapb൞ dumpcapط
+༅ GUIބpcapngb
+https://www.wireshark.org/docs/wsdg_html_chunked/ChSrcBinary.html
+https://www.wireshark.org/docs/wsug_html_chunked/AppToolsdumpcap.html
+4. RFC 9110 ğHTTP Semantics bֻކࢲ8.8a13ࠣ15.4.5ࡱ
+ބ304ࡼETag༐b
+https://www.rfc-editor.org/rfc/rfc9110
+7
+
+=== PAGE 9 ===
+࠹
+੣
+ෘ
+ሹ
+ႋ e v i d e n c e / h t t p- e x p e r i m e n t . p c a p ng đ ҂ ൞ ᇗ ྍ щ
+Ⴟ HTTPb
+ݼ೤ TCP ੀ؇Bمٚࠇ
+8 file1 ౨౰ 0 521 GET
+12 file1 ཙႋ 0 557 200 OK
+20 file2 ൮Ց౨౰ 1 521 GET
+23 file2 ൮Ցཙႋ 1 801 200 OK
+28 file2Ց౨౰ 1 633 GET
+29 file2Ցཙႋ 1 378 304 Not Modified
+؊޼IPv4 10.20.41.171Ġfile1१ 57426đfile2 ਆՑन 57438
+ༀఖ IPv4१ 128.119.245.12:80
+HTTP ϱЧ౨౰აཙႋनູ HTTP/1.1
+౨౰ე࿽აщ઒ Accept-Language: zh-CN ĠAccept-Encoding: gzip,
+deflate
+file1؇text/html; charset=UTF-8 ĠContent-Length: 128
+file1ࡗTue, 28 Oct 2025 05:59:01 GMT
+file1 ETag "80-64231b6717e87"
+file2؇Content-Length: 371֥HTML ູ 371ࢫ
+le2 Last-Modified Tue, 28 Oct 2025 05:59:01 GMT
+file2 ETag "173-64231b67176b7"
+Ց GET ဒᆣఖ If-Modified-Since ა ൮ Ց Last-Modified ཌྷ ๝Ġ
+If-None-Match ა൮Ց ETag ཌྷ๝
+304 ൌุ ໭ൌุĠໃԛགྷ Content-Length൮҆
+Ԯൻ႕ཙ
+൮Ց file2֥371ࢫHTML֤֞304đીႵᇗྍԮൻൌุb
+֥ൌุԮൻਈູ
+371 − 0 = 371b
+ބ304ຩ઎๙
+љູ801ބࢫ378ҵᆴູ 423
+Ⴟ 371ൌุҵᆴb
+Б໓ Date੣ູ 2026-10-13 13:04:53 GMT čfile1Ď a13:05:12 GMT
+čfile2ބ13:05:13 GMTູ
+іൕb
+8
+
+=== PAGE 10 ===
+࠹
+ഈĎ
+੣
+ෘ
+ϖa಩ༀ 2༅ีč1i5Ď
+1.a౨౰ሧჷა HTTP ϱЧ൞൉હĤ
+๭ 3 ᇏ ᆠ 8౨ ౰ ྛ ູ GET /wireshark-labs/HTTP-wireshark-file1.html
+HTTP/1.1ູ GET֥HTTP-wireshark-file1.htmlđ
+౨౰ϱЧູ HTTP/1.1ĠHost: gaia.cs.umass.eduሧჷb
+2.ე൞൉હĤ
+๭ 4 ᇏᆠ 12ሑ෿ྛູ HTTP/1.1 200 OK đ ෮ၛཙႋϱЧູHTTP/1.1đ ሑ෿઒ູ200đ
+ეູ OKՑ GETଽಸ஑
+҂ିᆺ၇ऌ 200b
+3.ٚIPބTCPљ൞൉હĤ
+ᆠ 8֥IPv4ᆶູ 10.20.41.171ᆶູ 128.119.245.12ĠTCP१ູ
+57426१ູ 80bᆠ 12ༀఖ 128.119.245.12:80ْ
+؊޼10.20.41.171:57426b57426קܥ
+HTTP१b
+4. Accept-LanguageĤ
+ᆠ 8ᆺႵ Accept-Language: zh-CNุᇏ
+ე
+ე࿽ഡູzh-CNଢѓ
+ႇ໓ᆞ໓b
+5. Accept-EncodingĤ
+ᆠ 8֥Accept-Encoding: gzip, deflateਆᇕଽಸщ઒đ
+ༀఖсಖ൐Ⴈਔ gzipࠇdeflateଽಸщ઒đႋҰु ཙႋ֥
+Content-Encodingb
+๭ 4ᆠ 12 ીႵ Content-Encoding؀HTML൮҆
+ଽಸ࿢෪đॖο identitybContent-Type֥charset=UTF-8ژ
+đ҂൞ gzip֥brࠇzstdb
+9
+
+=== PAGE 11 ===
+࠹
+ഈĎ
+੣
+ෘ
+a಩ༀ 2༅ีč6i10Ď
+6. Accept ა Content-Type౵љ൞൉હĤ
+ᆠ 8֥Acceptਙ ԛ text/htmlaapplication/xhtml+xmla
+application/xml;q=0.9aimage/avifaimage/webpaimage/apnga*/*;q=0.8ࠣ
+application/signed-exchange;v=b3;q=0.7ؓ
+Ġໃཁൔཿ qཛଏಪಃᇗູ 1b
+ᆠ 12֥Content-Type: text/html; charset=UTF-8ༀఖْ߭࠽൞ HTML
+ູ UTF-8bAcceptđContent-Type ൞ཙႋҧ࿊ᇏі
+іղb
+7.Ĥ
+๭ 4 ᇏ Last-Modified: Tue, 28 Oct 2025 05:59:01 GMTൈ
+ࠧ2025 ୍ 10 ᄅ 28 ರ 05:59:01 GMT֥Date:
+Tue, 13 Oct 2026 13:04:53 GMTႋ 2026 ୍ 10 ᄅ 13໙đਆᆀႨ๯҂๝b
+8.Ĥ
+ᆠ 12֥Content-Length: 128 іૼཙႋൌุູ 128đWireshark ๝ൈཁൕ File
+Data: 128 bytes֥HTMLູ 128ބHTTP
+൮҆đ္҂൞ TCP/IPᆠሹӉູ 557ඪૼ
+o128o557ཌྷูսb
+9.҂൞ః෰ሧჷĤ
+ᆠ 8ૼಒູ /wireshark-labs/HTTP-wireshark-file1.htmlĠᆠ 12֥
+Request in frame: 8ࠣFull request URI৳bᆠ 12ݣ
+Congratulations. You've downloaded the fileປᆜ URLđ౏ো྘ູ
+HTML؇128৳აᆞ໓၂ᇁb
+ሂЇਸ਼Ⴕᆠ 14 ౨౰ /favicon.icoa ᆠ15ْ߭301֞HTTPSᆶb ᆃ҂
+ཙႋđႋஆԢĠ҂ିϜ 301קHTMLཟb
+10.ႨĤ
+ູ HTTP/1.1đᆠ 8 Ⴕ Connection: keep-alive đᆠ 12 Ⴕ Connection:
+Keep-AliveࠣKeep-Alive: timeout=5, max=100ᄍྸЌӻbᆺुᆠ 8ބ
+12Ⴈഈb
+Ұ๝၂ TCP ੀ/৫bЧ
+ՑປᆜሂЇᇏᆠ 14a15 აᆠ 8a12 ๝උ tcp.stream == 0 ĠՎຓᆠ 20a23 აᆠ 28a29
+๝උੀ 1Ⴈbfaviconđ ֌҂ିูսଢѓ်૫
+༅b
+10
+
+=== PAGE 12 ===
+࠹
+ഈĎ
+੣
+ෘ
+൅a಩ༀ 3ğConditional GET༅ีč1i4Ď
+1.၂Ց GETĤ
+๭ 5ᆠ 20 ીႵ If-Modified-SinceࠇIf-None-Match໙భၘౢԢൌဒᛍফ
+౨౰൞௴๙ GETđ
+ༀఖᄝᆠ 23ْ߭200ປᆜ 371ࢫHTML۴
+๷ҩb
+2.൉હྐ༏Ĥ
+๭ 6ᆠ 23ğLast-Modified: Tue, 28 Oct 2025 05:59:01
+GMT ა ETag: "173-64231b67176b7"࿃
+If-Modified-Sinceϱ
+࿃ If-None-Matchb
+ETagĠLast-Modified໙
+b
+3.ԛ GET༢Ĥ
+๭ 7 ૼ ಒ թ ᄝ ᆠ 28đ ಯ ູ GET /wireshark-labs/HTTP-wireshark-file2.html
+HTTP/1.1թb ౨ ౰
+Ⴕ Cache-Control: max-age=0ݣIf-Modified-Since: Tue, 28 Oct 2025
+05:59:01 GMTބIf-None-Match: "173-64231b67176b7"љაᆠ 23֥Last-
+ModifiedބETag ປಆ၂ᇁb
+֤֞304ᄯbა఼ᇅ඗ྍಡ
+ҰఃႵིྟb
+4.֤֞304թđᄸဢ႕ཙԮൻĤ
+๭ 8ᆠ 29ሑ෿ູ 304 Not Modified đ აᆠ28ْ֥߭ETagaLast-Modified
+ࡱGETༀఖ҂
+ෂປᆜൌุb ЧՑթဒᆣđ ҂൞ oໃ౨౰ຩ઎p Ġ ๝ൈԛགྷIf-None-Match
+ა If-Modified-Since ൈđHTTP֥If-None-Match ູႪ༵b
+304 ཙႋીႵཨ༏ᆞ໓đЧՑ္ໃԛགྷ Content-LengthࠇContent-Typeđ҂ିϜಌാሳ
+೼ሱҀӮ Content-Length: 0֥371ЧປӮཁൕđസಀ
+Ց GETބ304ဒᆣఖ҂௄஥đᄵ
+ْ߭200ຩ઎౨౰đ ֌ЧՑᆣऌ
+ૼಒ҂උႿᆃਆᇕ౦ঃb
+Ҁԉඪૼ
+֥ٓܿIN-MODIFIED-SINCE࠽HTTP ൮҆ᇏ
+ѓሙ଀ӫ If-Modified-Since်૫ሑ෿္҂ି౼սሂ
+֥304 ሑ෿ྛb
+11
+
+=== PAGE 13 ===
+࠹
+ં
+Ď
+1. W ebbၘᄝ Arch Linux ഈᄎྛ Apache HTTP Server 2.4.69 đ ປӮ
+ᆶ 8086๐ሑ෿aᛍ
+ބ200ൌဒ଀ӫb
+2.Ч HTTPb file1ᆠ 8/12 ູ၂ቆ GET ა 200ҐႨ
+HTTP/1.1קHTML؇128đໃലૼଽ
+ე࿽/ૂุো྘/ष
+b
+3.bfile2ᆠ 20/23֤200ބ371ᆠ
+28ဒᆣఖđᆠ 29ْ߭304թဒ
+ႿીႵຩ઎๙ྐb
+ࢲ
+໙ี 1Ĥ
+ْ߭200Ġᆠ 28൮҆
+ᆠ 29֥304bContent-LengthaFile Data֥ؓ؇
+ҳ๝၂ TCP
+đ҂ିᆺु keep-alive ലૼb
+໙ี 2ဒ൉હđሧਘҰᄇᄝଧ၂҄ႵϺᇹĤ
+఺aଢ
+ॉ੮TLSྍbArchWiki ა Apache
+஥ᇂଢ੣đ Wireshark໊ dumpcap
+҂൞
+ྀᅶӒ Windows νል҄ᇧb
+঺ഽ
+௟ၰ
+ğഽద଀ğ
+12

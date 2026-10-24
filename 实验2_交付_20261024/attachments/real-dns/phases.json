@@ -1,0 +1,174 @@
+[
+  {
+    "phase": "01-ping-baidu-first",
+    "command": [
+      "/sbin/ping",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "1500",
+      "-t",
+      "8",
+      "www.baidu.com"
+    ],
+    "capture_start": "2026-10-24T16:38:41.735+08:00",
+    "capture_end": "2026-10-24T16:38:46.999+08:00",
+    "ping_ip": "183.2.172.177",
+    "command_exit": 0,
+    "raw_file": "/tmp/nccl-real-dns-20261024/01-ping-baidu-first-raw.pcapng",
+    "final_phase_file": "01-ping-baidu-first.pcapng",
+    "export_filter": "(dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")) || (icmp && ip.addr == 183.2.172.177)",
+    "raw_sha256": "78854003d9e7a0e4e44496f0386805c7770efe23ea2e658923e3654531944919",
+    "phase_sha256": "2c7ea97feee62638210686a1ff508bca33a1c214cdcf80eebec87e2be2b560fd",
+    "cache_flush": true
+  },
+  {
+    "phase": "02-ping-baidu-repeat",
+    "command": [
+      "/sbin/ping",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "1500",
+      "-t",
+      "8",
+      "www.baidu.com"
+    ],
+    "capture_start": "2026-10-24T16:38:47.133+08:00",
+    "capture_end": "2026-10-24T16:38:51.182+08:00",
+    "ping_ip": "183.2.172.177",
+    "command_exit": 0,
+    "raw_file": "/tmp/nccl-real-dns-20261024/02-ping-baidu-repeat-raw.pcapng",
+    "final_phase_file": "02-ping-baidu-repeat.pcapng",
+    "export_filter": "(dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")) || (icmp && ip.addr == 183.2.172.177)",
+    "raw_sha256": "4f43cc82987faee0b88335128397945a35bda0c4a033587ed1a35cb007282f4f",
+    "phase_sha256": "b568f3d88e5ba833d2c3ecf7d3cf1bbcbc9ff1ebc215f0164f5abd9dafeb2220",
+    "cache_flush": false
+  },
+  {
+    "phase": "03-ping-scu-first",
+    "command": [
+      "/sbin/ping",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "1500",
+      "-t",
+      "8",
+      "www.scu.edu.cn"
+    ],
+    "capture_start": "2026-10-24T16:38:51.433+08:00",
+    "capture_end": "2026-10-24T16:38:58.973+08:00",
+    "ping_ip": "202.115.47.167",
+    "command_exit": 2,
+    "raw_file": "/tmp/nccl-real-dns-20261024/03-ping-scu-first-raw.pcapng",
+    "final_phase_file": "03-ping-scu-first.pcapng",
+    "export_filter": "(dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")) || (icmp && ip.addr == 202.115.47.167)",
+    "raw_sha256": "9d98f1d55cba96df9d221d392d875dff981d72789c97c554329ba13ff4bd7f3e",
+    "phase_sha256": "01d866d75f53a2faf27a4d6fe5754fb749f41cc183c360c30b4f014eb42bc26b",
+    "cache_flush": true
+  },
+  {
+    "phase": "04-ping-scu-repeat",
+    "command": [
+      "/sbin/ping",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "1500",
+      "-t",
+      "8",
+      "www.scu.edu.cn"
+    ],
+    "capture_start": "2026-10-24T16:38:59.102+08:00",
+    "capture_end": "2026-10-24T16:39:05.594+08:00",
+    "ping_ip": "202.115.47.167",
+    "command_exit": 2,
+    "raw_file": "/tmp/nccl-real-dns-20261024/04-ping-scu-repeat-raw.pcapng",
+    "final_phase_file": "04-ping-scu-repeat.pcapng",
+    "export_filter": "(dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")) || (icmp && ip.addr == 202.115.47.167)",
+    "raw_sha256": "2464d21ce06c630cfb05311e6b6689d30814c4ffff83607ce5c54216a8785da8",
+    "phase_sha256": "e744032a3a1e3b8db23b506e70630611d41a0e4c2fb80bd532ab5f67c5c95091",
+    "cache_flush": false
+  },
+  {
+    "phase": "05-nslookup-baidu-a",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=A",
+      "www.baidu.com.",
+      "223.5.5.5"
+    ],
+    "capture_start": "2026-10-24T16:39:05.901+08:00",
+    "capture_end": "2026-10-24T16:39:07.904+08:00",
+    "ping_ip": null,
+    "command_exit": 0,
+    "raw_file": "/tmp/nccl-real-dns-20261024/05-nslookup-baidu-a-raw.pcapng",
+    "final_phase_file": "05-nslookup-baidu-a.pcapng",
+    "export_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")",
+    "raw_sha256": "59bc5514a0f3b765ee98265d139546f685f7a66d74b01909be383fbaff665c6d",
+    "phase_sha256": "ab99079da2ce7ba1f87db4b18f67f216a11226935211df80c3d85dc63e03d49d",
+    "cache_flush": false
+  },
+  {
+    "phase": "06-nslookup-baidu-cname",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=CNAME",
+      "www.baidu.com.",
+      "223.5.5.5"
+    ],
+    "capture_start": "2026-10-24T16:39:08.024+08:00",
+    "capture_end": "2026-10-24T16:39:10.028+08:00",
+    "ping_ip": null,
+    "command_exit": 0,
+    "raw_file": "/tmp/nccl-real-dns-20261024/06-nslookup-baidu-cname-raw.pcapng",
+    "final_phase_file": "06-nslookup-baidu-cname.pcapng",
+    "export_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")",
+    "raw_sha256": "51d5fe2a39c52966f3da0a91579fcc52c061f060dcabc2ade81442db1e057871",
+    "phase_sha256": "3200bf565ae6abe1af9a592abf4162266972b411158bc69da813fe249955a845",
+    "cache_flush": false
+  },
+  {
+    "phase": "07-nslookup-scu-a",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=A",
+      "www.scu.edu.cn.",
+      "223.5.5.5"
+    ],
+    "capture_start": "2026-10-24T16:39:10.140+08:00",
+    "capture_end": "2026-10-24T16:39:12.138+08:00",
+    "ping_ip": null,
+    "command_exit": 0,
+    "raw_file": "/tmp/nccl-real-dns-20261024/07-nslookup-scu-a-raw.pcapng",
+    "final_phase_file": "07-nslookup-scu-a.pcapng",
+    "export_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")",
+    "raw_sha256": "eddc3cd13a2ad20e2a5e538073b718ff713d456e2e6b13b52c205cc8dd90da00",
+    "phase_sha256": "d66c62fa894e70e9b7d52c1b1f6a6693ef04a59fcc7d8442d01fb34c154426cb",
+    "cache_flush": false
+  },
+  {
+    "phase": "08-nslookup-scu-cname",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=CNAME",
+      "www.scu.edu.cn.",
+      "223.5.5.5"
+    ],
+    "capture_start": "2026-10-24T16:39:12.270+08:00",
+    "capture_end": "2026-10-24T16:39:14.272+08:00",
+    "ping_ip": null,
+    "command_exit": 0,
+    "raw_file": "/tmp/nccl-real-dns-20261024/08-nslookup-scu-cname-raw.pcapng",
+    "final_phase_file": "08-nslookup-scu-cname.pcapng",
+    "export_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")",
+    "raw_sha256": "0936ec7e246f1b3cff8619c94be7f6dbc696dafa16a251258830b1960782a1f6",
+    "phase_sha256": "0b1cb434c4cbc7565063b38cc2b679754b5a0921f59c29966765905431bd84aa",
+    "cache_flush": false
+  }
+]

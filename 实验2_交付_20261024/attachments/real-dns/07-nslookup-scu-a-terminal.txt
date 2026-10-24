@@ -1,0 +1,13 @@
+Timezone: Asia/Shanghai
+Start: 2026-10-24T16:39:11.147+08:00
+$ /usr/bin/nslookup -type=A www.scu.edu.cn. 223.5.5.5
+Server:		223.5.5.5
+Address:	223.5.5.5#53
+
+Non-authoritative answer:
+Name:	www.scu.edu.cn
+Address: 202.115.47.167
+
+
+[exit=0]
+End: 2026-10-24T16:39:11.206+08:00

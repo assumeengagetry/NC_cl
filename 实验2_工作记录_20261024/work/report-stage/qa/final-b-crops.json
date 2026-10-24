@@ -1,0 +1,92 @@
+[
+  {
+    "output": "B07-nslookup-baidu-A.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1689
+    ]
+  },
+  {
+    "output": "B01-cache-log.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1189
+    ]
+  },
+  {
+    "output": "B06-dns-scu-response.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1461
+    ]
+  },
+  {
+    "output": "B09-nslookup-scu-A.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1423
+    ]
+  },
+  {
+    "output": "B08-nslookup-baidu-CNAME.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1461
+    ]
+  },
+  {
+    "output": "B10-nslookup-scu-CNAME.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1651
+    ]
+  },
+  {
+    "output": "B02-ping-baidu-log.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1189
+    ]
+  },
+  {
+    "output": "B03-ping-scu-log.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1037
+    ]
+  },
+  {
+    "output": "B05-dns-baidu-response.png",
+    "relative_crop_from_previous": [
+      0,
+      0,
+      1300,
+      1613
+    ]
+  },
+  {
+    "output": "B04-repeat-packets.png",
+    "crop_from_original": [
+      140,
+      250,
+      1400,
+      1130
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+PREAMBLE: 101010..107 units
+SFD1 units
+DEST ADDR:0001.96C0.A23C 6 units
+missing value
+SRC ADDR:0050.0F83.1A34 6 units
+TYPE:0x0800 2 units
+DATA (VARIABLE LENGTH)4 units
+FCS:0x00000000 4 units
+VER:4 4 units
+IHL:5 4 units
+DSCP:0x00 8 units
+TL:94 16 units
+ID:0x0003 16 units
+FLAGS:0x0 3 units
+FRAG OFFSET:0x000 13 units
+TTL:128 8 units
+PRO:0x11 8 units
+CHKSUM16 units
+SRC IP:192.168.1.199 32 units
+DST IP:192.168.1.155 32 units
+DATA (VARIABLE LENGTH)32 units
+SOURCE PORT:53 16 units
+DESTINATION PORT:1027 16 units
+LENGTH:0x004a 16 units
+CHECKSUM:0 16 units
+DATA (VARIABLE LENGTH)32 units
+Transaction ID:0xd1fe 16 units
+QR:1 1 units
+OPCODE:0x1 4 units
+AA1 units
+TC1 units
+RD1 units
+RA1 units
+Z3 units
+RCODE:0x0 4 units
+QDCOUNT:1 16 units
+ANCOUNT:1 16 units
+NSCOUNT:016 units
+ARCOUNT:0 16 units
+NAME (VARIABLE LENGTH):www.xushengkai.com 32 units
+TYPE:1 16 units
+CLASS:1 16 units
+TTL:86400 32 units
+LENGTH:0 16 units
+NAME (VARIABLE LENGTH):www.xushengkai.com 32 units
+TYPE:1 16 units
+CLASS:1 16 units
+TTL:86400 32 units
+LENGTH:4 16 units
+IP:192.168.1.200 16 units

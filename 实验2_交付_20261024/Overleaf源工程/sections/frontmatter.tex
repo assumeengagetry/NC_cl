@@ -1,0 +1,16 @@
+\TemplateHeading
+\TemplateFourRow[1.5pt]{课程名称}{计算机网络课程设计}{实验课时}{\experimenthours}{27.305mm}
+\TemplateFourRow{实验项目}{DNS服务器配置与DNS协议分析}{实验时间}{\experimentdate}{16.175mm}
+\TemplateRow{实验目的}{
+本实验为综合型实验。在局域网仿真中配置DNS服务、A记录与CNAME记录，利用直接IP和域名的ping比较连通性与名称解析，并通过地址变更排查故障。在真实macOS网络中捕获DNS查询与响应，掌握事务配对、资源记录、响应标志及TTL的含义，结合首次与重复查询分析缓存现象，明确递归查询证据的适用范围。
+}{38mm}
+\TemplateRow{实验环境}{
+MacBook Air，Apple M1，物理内存16,384 MB；macOS 26.7.1（构建25G241）。Cisco Packet Tracer 9.0.1用于A部分；Wireshark及其自带TShark/dumpcap 4.6.7用于B部分。
+\par 仿真网络采用1台PC-PT、2台Server-PT和1台Switch-PT，地址位于\code{192.168.1.0/24}。
+\par 真实抓包接口为Wi-Fi \code{en0}与Tailscale虚拟接口\code{utun4}。\code{en0}地址为\code{10.20.41.180}；ping实际系统DNS路径为\code{100.96.206.115}经\code{utun4}访问\code{100.100.100.100:53}。四种nslookup统一显式指定\code{223.5.5.5}，经\code{en0}发送。本轮未修改DNS、路由、VPN或网络服务设置。
+}{65mm}
+\TemplateRow[.75pt][1.5pt]{实验内容\\（算法、程序、步骤和方法）}{
+\subheading{一、实验安排与证据范围}
+A部分配置仿真DNS并排障；B部分实测公网DNS，比较首次/重复ping及A/CNAME查询。
+\par 本次实验日期为2026年10月24日。
+}{35mm}

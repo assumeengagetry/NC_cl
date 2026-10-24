@@ -1,0 +1,120 @@
+% Editable layout extracted from 实验报告模板.doc.
+% Compile with XeLaTeX. Fandol fonts ship with TeX Live/Overleaf.
+\documentclass[UTF8,fontset=fandol,zihao=5]{ctexart}
+\usepackage[paperwidth=184.15mm,paperheight=260.0028mm,left=20.0025mm,right=18.0093mm,top=25.4mm,bottom=10.0013mm,noheadfoot]{geometry}
+\usepackage{graphicx,array,tabularx,tikz,enumitem,xurl,hyperref}
+\hypersetup{hidelinks,pdftitle={实验2：DNS服务器配置与DNS协议分析},pdfauthor={许盛凯}}
+\pagestyle{empty}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\fontsize{10.5}{15.6}\selectfont
+\setlist[enumerate]{leftmargin=1.8em,topsep=1mm,itemsep=1mm,parsep=0pt}
+\setlist[itemize]{leftmargin=1.5em,topsep=1mm,itemsep=1mm,parsep=0pt}
+\newcommand{\studentname}{许盛凯}
+\newcommand{\studentid}{2024141460445}
+\newcommand{\majorname}{计算机科学与技术}
+\newcommand{\classname}{计算机网络课程设计星期二34节}
+\newcommand{\teachername}{陈黎}
+\newcommand{\experimentdate}{2026年10月24日}
+\newcommand{\experimenttitle}{实验2：DNS服务器配置与DNS协议分析}
+\newcommand{\experimenthours}{} % No verified duration in supplied materials.
+\newlength{\TemplateWidth}\setlength{\TemplateWidth}{146.7556mm}
+\newlength{\TemplateLabel}\setlength{\TemplateLabel}{22.0663mm}
+\newlength{\TemplatePad}\setlength{\TemplatePad}{1.905mm}
+\newlength{\bodywidth}\setlength{\bodywidth}{120.8793mm}
+\newsavebox{\TemplateBox}
+\newlength{\TemplateNatural}
+\newcommand{\BodyFont}{\songti\fontsize{10.5}{15.6}\selectfont}
+\newcommand{\subheading}[1]{\par\noindent\textbf{#1}\par\smallskip}
+\newcommand{\qa}[2]{\par\noindent\textbf{#1}\par#2\par\smallskip}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcounter{evidencefigure}
+\newcommand{\evidencefigure}[3][\linewidth]{%
+  \refstepcounter{evidencefigure}\par\noindent{\centering\includegraphics[width=#1]{#2}\par}
+  {\centering\fontsize{10.5}{15.6}\selectfont 图\arabic{evidencefigure}\quad#3\par}\smallskip}
+% The label and content are native editable text. Every row uses the original
+% 1251/7069 twip columns and 108-twip padding. Height must fit current page.
+\NewDocumentCommand{\TemplateRow}{O{.75pt} O{.75pt} m +m m}{%
+  \sbox{\TemplateBox}{\begin{minipage}[t]{\bodywidth}\BodyFont#4\end{minipage}}%
+  \setlength{\TemplateNatural}{\dimexpr\ht\TemplateBox+\dp\TemplateBox\relax}%
+  \ifdim\TemplateNatural>\dimexpr#5-2\TemplatePad\relax
+    \PackageError{template-layout}{Row content exceeds its frame}{Increase row height or continue on a new same-format page.}\fi
+  \par\nointerlineskip\noindent\makebox[\textwidth][c]{%
+  \begin{tikzpicture}[x=1mm,y=1mm]
+    \path[use as bounding box] (0,0) rectangle (146.7556,#5);
+    \draw[line width=1.5pt] (0,0)--(0,#5) (146.7556,0)--(146.7556,#5);
+    \draw[line width=#2] (0,0)--(146.7556,0);
+    \draw[line width=#1] (0,#5)--(146.7556,#5);
+    \draw[line width=.75pt] (22.0663,0)--(22.0663,#5);
+    \node[anchor=center,inner sep=0pt,text width=18.2563mm,align=center,font=\BodyFont] at (11.03315,.5*#5) {#3};
+    \node[anchor=north west,inner sep=0pt] at (23.9713,#5-1.905) {\usebox{\TemplateBox}};
+  \end{tikzpicture}}\par\nointerlineskip}
+% Exact four-column row: 1251/3660/1080/2329 twip.
+\newcommand{\TemplateFourRow}[5]{%
+  \par\nointerlineskip\noindent\makebox[\textwidth][c]{\begin{tikzpicture}[x=1mm,y=1mm]
+    \path[use as bounding box] (0,0) rectangle (146.7556,#5);
+    \draw[line width=1.5pt] (0,0)--(0,#5) (146.7556,0)--(146.7556,#5);
+    \draw[line width=.5pt] (0,0)--(146.7556,0) (0,#5)--(146.7556,#5) (86.6246,0)--(86.6246,#5) (105.6746,0)--(105.6746,#5);
+    \draw[line width=.75pt] (22.0663,0)--(22.0663,#5);
+    \node[inner sep=0pt,text width=18.2563mm,align=center,font=\BodyFont] at (11.03315,.5*#5) {#1};
+    \node[inner sep=0pt,text width=60.7483mm,align=center,font=\BodyFont] at (54.34545,.5*#5) {#2};
+    \node[inner sep=0pt,text width=15.24mm,align=center,font=\BodyFont] at (96.1496,.5*#5) {#3};
+    \node[inner sep=0pt,text width=37.27097mm,align=center,font=\BodyFont] at (126.2151,.5*#5) {#4};
+  \end{tikzpicture}}\par\nointerlineskip}
+\newcommand{\TemplateHeading}{%
+ {\centering\heiti\fontsize{15}{20}\selectfont 四\ 川\ 大\ 学\ 计\ 算\ 机\ 学\ 院、软\ 件\ 学\ 院\par}
+ \vspace{3mm}
+ {\centering\songti\fontsize{22}{28}\selectfont 实\enspace 验\enspace 报\enspace 告\par}
+ \vspace{3mm}
+ {\noindent\BodyFont 学号：\studentid\quad 姓名：\studentname\quad 专业：\majorname\par
+ \noindent 班级：\classname\hfill 第8周\par}\vspace{3mm}}
+\newcommand{\reportpage}[2]{\clearpage\TemplateRow[1.5pt][1.5pt]{#1}{#2}{224.6015mm}}
+% No new footer or page header is introduced: none exists in the original DOC.
+\newcommand{\TemplateReview}{\TemplateRow[.75pt][1.5pt]{指导老师\\评\quad 议}{\vspace*{30mm}\par\noindent \hspace*{3mm}成绩评定：\hspace{24mm}指导教师签名：\par}{45mm}}
+
+% Optional editable cover reproduces the supplied experiment-one cover,
+% including its A4 paper. Body returns to the DOC's 184.15 x 260.0028 mm.
+\newcommand{\TemplateCover}{%
+ \clearpage\newgeometry{left=20mm,right=20mm,top=20mm,bottom=20mm}%
+ \setlength{\paperwidth}{210mm}\setlength{\paperheight}{297mm}%
+ \pdfpagewidth=\paperwidth\pdfpageheight=\paperheight
+ \special{papersize=210mm,297mm}%
+ \begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north,align=center,font=\songti\fontsize{12}{18}\selectfont]
+   at ([yshift=-42mm]current page.north) {\experimenttitle};
+  \node[anchor=north] at ([yshift=-59mm]current page.north)
+   {\includegraphics[width=98mm]{assets/scu.png}};
+  \node[anchor=north] at ([yshift=-88mm]current page.north)
+   {\includegraphics[width=40mm]{assets/logo.png}};
+  \node[anchor=north,font=\songti\fontsize{12}{18}\selectfont]
+   at ([yshift=-201mm]current page.north) {\renewcommand{\arraystretch}{1.0}%
+   \begin{tabular}{@{}p{34mm}p{85mm}@{}}
+   姓\quad 名： & \underline{\makebox[85mm]{\studentname}}\\[11mm]
+   学\quad 号： & \underline{\makebox[85mm]{\studentid}}\\[11mm]
+   专\quad 业： & \underline{\makebox[85mm]{\majorname}}\\[11mm]
+   指导教师： & \underline{\makebox[85mm]{\teachername}}
+   \end{tabular}};
+  \node[anchor=north,font=\songti\fontsize{12}{18}\selectfont]
+   at ([yshift=-278mm]current page.north) {\experimentdate};
+ \end{tikzpicture}\null\clearpage
+ \setlength{\paperwidth}{184.15mm}\setlength{\paperheight}{260.0028mm}%
+ \pdfpagewidth=\paperwidth\pdfpageheight=\paperheight
+ \restoregeometry\special{papersize=184.15mm,260.0028mm}%
+}
+
+\begin{document}
+\TemplateCover
+\BodyFont
+\TemplateHeading
+\TemplateFourRow{课程名称}{计算机网络课程设计}{实验课时}{\experimenthours}{12.9646mm}
+\TemplateFourRow{实验项目}{DNS服务器配置与DNS协议分析}{实验时间}{\experimentdate}{13.6878mm}
+\TemplateRow{实验目的}{}{16.2454mm}
+\TemplateRow{实验环境}{}{16.51mm}
+\TemplateRow[.75pt][1.5pt]{实验内容\\（算法、程序、步骤和方法）}{}{110mm}
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{}
+\reportpage{数据记录\\和计算}{}
+\clearpage
+\TemplateRow{结\quad 论\\（结\quad 果）}{}{65mm}
+\TemplateRow{小\quad 结}{}{55mm}
+\TemplateReview
+\end{document}

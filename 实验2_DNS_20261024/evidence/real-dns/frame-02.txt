@@ -1,0 +1,101 @@
+Frame 2: Packet, 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface utun4, id 1
+    Section number: 1
+    Interface id: 1 (utun4)
+        Interface name: utun4
+    Encapsulation type: Raw IP (7)
+    Arrival Time: Oct 24, 2026 16:38:43.898590000 CST
+    UTC Arrival Time: Oct 24, 2026 08:38:43.898590000 UTC
+    Epoch Arrival Time: 1792831123.898590000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 39.067000 milliseconds]
+    [Time since reference or first frame: 39.067000 milliseconds]
+    Frame Number: 2
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: raw:ip:udp:dns]
+    Character encoding: ASCII (0)
+Raw packet data
+Internet Protocol Version 4, Src: 100.100.100.100, Dst: 100.96.206.115
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 102
+    Identification: 0x9500 (38144)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xe9ea [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 100.100.100.100
+    Destination Address: 100.96.206.115
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 52347
+    Source Port: 53
+    Destination Port: 52347
+    Length: 82
+    Checksum: 0xd72f [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 39.067000 milliseconds]
+        [Time since previous frame: 39.067000 milliseconds]
+    UDP payload (74 bytes)
+Domain Name System (response)
+    Transaction ID: 0xa06b
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type A, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        www.baidu.com: type CNAME, class IN, cname www.a.shifen.com
+            Name: www.baidu.com
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+            Time to live: 1001 (16 minutes, 41 seconds)
+            Data length: 15
+            CNAME: www.a.shifen.com
+        www.a.shifen.com: type A, class IN, addr 183.2.172.177
+            Name: www.a.shifen.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 606 (10 minutes, 6 seconds)
+            Data length: 4
+            Address: 183.2.172.177
+    [Request In: 1]
+    [Time: 39.067000 milliseconds]
+
+0000  45 00 00 66 95 00 00 00 40 11 e9 ea 64 64 64 64   E..f....@...dddd
+0010  64 60 ce 73 00 35 cc 7b 00 52 d7 2f a0 6b 81 80   d`.s.5.{.R./.k..
+0020  00 01 00 02 00 00 00 00 03 77 77 77 05 62 61 69   .........www.bai
+0030  64 75 03 63 6f 6d 00 00 01 00 01 c0 0c 00 05 00   du.com..........
+0040  01 00 00 03 e9 00 0f 03 77 77 77 01 61 06 73 68   ........www.a.sh
+0050  69 66 65 6e c0 16 c0 2b 00 01 00 01 00 00 02 5e   ifen...+.......^
+0060  00 04 b7 02 ac b1                                 ......
+

@@ -1,0 +1,14 @@
+Timezone: Asia/Shanghai
+Start: 2026-10-24T16:39:09.030+08:00
+$ /usr/bin/nslookup -type=CNAME www.baidu.com. 223.5.5.5
+Server:		223.5.5.5
+Address:	223.5.5.5#53
+
+Non-authoritative answer:
+www.baidu.com	canonical name = www.a.shifen.com.
+
+Authoritative answers can be found from:
+
+
+[exit=0]
+End: 2026-10-24T16:39:09.086+08:00

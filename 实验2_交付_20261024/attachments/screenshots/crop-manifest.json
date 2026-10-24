@@ -1,0 +1,356 @@
+[
+  {
+    "image": "A01-topology.png",
+    "original": "attachments/screenshots/full/A01-final-topology.png",
+    "crop_box_xyxy": [
+      390,
+      350,
+      2540,
+      1430
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A02-initial-client.png",
+    "original": "attachments/screenshots/full/A02-client-initial.png",
+    "crop_box_xyxy": [
+      980,
+      312,
+      2385,
+      960
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A03-records.png",
+    "original": "attachments/screenshots/full/A03-DNS-records.png",
+    "crop_box_xyxy": [
+      400,
+      200,
+      2900,
+      900
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A04-normal-ip.png",
+    "original": "attachments/screenshots/full/A04-normal-ip.png",
+    "crop_box_xyxy": [
+      1028,
+      985,
+      1650,
+      1250
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A05-normal-A.png",
+    "original": "attachments/screenshots/full/A05-normal-A.png",
+    "crop_box_xyxy": [
+      1028,
+      1263,
+      1650,
+      1565
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A06-normal-CNAME.png",
+    "original": "attachments/screenshots/full/A06-normal-CNAME.png",
+    "crop_box_xyxy": [
+      1028,
+      1298,
+      1650,
+      1603
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A07-A-PDU.png",
+    "original": "attachments/screenshots/full/A07-sim-A-response-RR.png",
+    "crop_box_xyxy": [
+      255,
+      390,
+      2230,
+      1910
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A08-alias-PDU.png",
+    "original": "attachments/screenshots/full/A09-sim-CNAME-response-RR.png",
+    "crop_box_xyxy": [
+      255,
+      390,
+      2230,
+      1910
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A09-fault-client.png",
+    "original": "attachments/screenshots/full/A13-fault-client-DNS.png",
+    "crop_box_xyxy": [
+      430,
+      220,
+      2940,
+      845
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A10-fault-tests.png",
+    "original": "attachments/screenshots/full/A12-fault-CNAME.png",
+    "crop_box_xyxy": [
+      482,
+      1310,
+      1400,
+      1697
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A11-restored-client.png",
+    "original": "attachments/screenshots/full/A14-restored-client-DNS.png",
+    "crop_box_xyxy": [
+      430,
+      220,
+      2940,
+      845
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A13-reopened-PC.png",
+    "original": "attachments/screenshots/full/A18-reopened-PC-config.png",
+    "crop_box_xyxy": [
+      430,
+      220,
+      2940,
+      855
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A14-reopened-records.png",
+    "original": "attachments/screenshots/full/A19-reopened-DNS-records.png",
+    "crop_box_xyxy": [
+      360,
+      200,
+      2870,
+      900
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A15-reopened-DNS-IP.png",
+    "original": "attachments/screenshots/full/A20-reopened-DNS-IP.png",
+    "crop_box_xyxy": [
+      360,
+      200,
+      2870,
+      760
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "A12-restored-tests.png",
+    "original": "attachments/screenshots/full/A17-restored-CNAME.png",
+    "crop_box_xyxy": [
+      482,
+      835,
+      1110,
+      1660
+    ],
+    "source_pixels": [
+      3360,
+      2100
+    ],
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B01-cache-log.png",
+    "display_document": "attachments/real-dns/display-excerpts/B01-cache-log.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1249
+    ],
+    "original": "attachments/screenshots/full/B01-cache-log.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B02-ping-baidu-log.png",
+    "display_document": "attachments/real-dns/display-excerpts/B02-ping-baidu-log.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1249
+    ],
+    "original": "attachments/screenshots/full/B02-ping-baidu-log.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B03-ping-scu-log.png",
+    "display_document": "attachments/real-dns/display-excerpts/B03-ping-scu-log.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1097
+    ],
+    "original": "attachments/screenshots/full/B03-ping-scu-log.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B05-dns-baidu-response.png",
+    "display_document": "attachments/real-dns/display-excerpts/B05-dns-baidu-response.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1673
+    ],
+    "original": "attachments/screenshots/full/B05-dns-baidu-response.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B06-dns-scu-response.png",
+    "display_document": "attachments/real-dns/display-excerpts/B06-dns-scu-response.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1521
+    ],
+    "original": "attachments/screenshots/full/B06-dns-scu-response.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B07-nslookup-baidu-A.png",
+    "display_document": "attachments/real-dns/display-excerpts/B07-nslookup-baidu-A.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1749
+    ],
+    "original": "attachments/screenshots/full/B07-nslookup-baidu-A.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B08-nslookup-baidu-CNAME.png",
+    "display_document": "attachments/real-dns/display-excerpts/B08-nslookup-baidu-CNAME.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1521
+    ],
+    "original": "attachments/screenshots/full/B08-nslookup-baidu-CNAME.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B09-nslookup-scu-A.png",
+    "display_document": "attachments/real-dns/display-excerpts/B09-nslookup-scu-A.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1483
+    ],
+    "original": "attachments/screenshots/full/B09-nslookup-scu-A.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B10-nslookup-scu-CNAME.png",
+    "display_document": "attachments/real-dns/display-excerpts/B10-nslookup-scu-CNAME.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged",
+    "crop_box_xyxy": [
+      140,
+      60,
+      1440,
+      1711
+    ],
+    "original": "attachments/screenshots/full/B10-nslookup-scu-CNAME.png",
+    "modification": "rectangular crop only; no field edits"
+  },
+  {
+    "image": "B04-repeat-packets.png",
+    "original": "attachments/screenshots/full/B04-repeat-packets.png",
+    "crop_box_xyxy": [
+      140,
+      298,
+      1302,
+      1130
+    ],
+    "modification": "rectangular crop only; no field edits",
+    "description": "Wireshark final capture packet list, frames 1-22, No/Time/Source/Destination/Protocol columns"
+  }
+]

@@ -1,0 +1,92 @@
+Frame 16: Packet, 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface utun4, id 1
+    Section number: 1
+    Interface id: 1 (utun4)
+        Interface name: utun4
+    Encapsulation type: Raw IP (7)
+    Arrival Time: Oct 24, 2026 16:38:53.573898000 CST
+    UTC Arrival Time: Oct 24, 2026 08:38:53.573898000 UTC
+    Epoch Arrival Time: 1792831133.573898000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 36.420000 milliseconds]
+    [Time since reference or first frame: 9.714375000 seconds]
+    Frame Number: 16
+    Frame Length: 76 bytes (608 bits)
+    Capture Length: 76 bytes (608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: raw:ip:udp:dns]
+    Character encoding: ASCII (0)
+Raw packet data
+Internet Protocol Version 4, Src: 100.100.100.100, Dst: 100.96.206.115
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 76
+    Identification: 0xdfeb (57323)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x9f19 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 100.100.100.100
+    Destination Address: 100.96.206.115
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 58581
+    Source Port: 53
+    Destination Port: 58581
+    Length: 56
+    Checksum: 0xe403 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 1]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 36.420000 milliseconds]
+        [Time since previous frame: 36.420000 milliseconds]
+    UDP payload (48 bytes)
+Domain Name System (response)
+    Transaction ID: 0x42ae
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.scu.edu.cn: type A, class IN
+            Name: www.scu.edu.cn
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        www.scu.edu.cn: type A, class IN, addr 202.115.47.167
+            Name: www.scu.edu.cn
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 606 (10 minutes, 6 seconds)
+            Data length: 4
+            Address: 202.115.47.167
+    [Request In: 15]
+    [Time: 36.420000 milliseconds]
+
+0000  45 00 00 4c df eb 00 00 40 11 9f 19 64 64 64 64   E..L....@...dddd
+0010  64 60 ce 73 00 35 e4 d5 00 38 e4 03 42 ae 81 80   d`.s.5...8..B...
+0020  00 01 00 01 00 00 00 00 03 77 77 77 03 73 63 75   .........www.scu
+0030  03 65 64 75 02 63 6e 00 00 01 00 01 c0 0c 00 01   .edu.cn.........
+0040  00 01 00 00 02 5e 00 04 ca 73 2f a7               .....^...s/.
+

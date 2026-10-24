@@ -1,0 +1,24 @@
+原始日志回显 / Saved original log replay
+非新一轮实时测量。采集日期：2026-10-24，Asia/Shanghai
+首次与重复 ping 命令原始输出
+===========================================================================
+Start: 2026-10-24T16:38:43.817+08:00
+$ /sbin/ping -n -c 3 -W 1500 -t 8 www.baidu.com
+PING www.a.shifen.com (183.2.172.177): 56 data bytes
+64 bytes from 183.2.172.177: icmp_seq=0 ttl=47 time=38.089 ms
+64 bytes from 183.2.172.177: icmp_seq=1 ttl=47 time=38.147 ms
+64 bytes from 183.2.172.177: icmp_seq=2 ttl=47 time=44.610 ms
+--- www.a.shifen.com ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 38.089/40.282/44.610/3.060 ms
+[exit=0]
+Start: 2026-10-24T16:38:48.140+08:00
+$ /sbin/ping -n -c 3 -W 1500 -t 8 www.baidu.com
+PING www.a.shifen.com (183.2.172.177): 56 data bytes
+64 bytes from 183.2.172.177: icmp_seq=0 ttl=47 time=38.297 ms
+64 bytes from 183.2.172.177: icmp_seq=1 ttl=47 time=38.399 ms
+64 bytes from 183.2.172.177: icmp_seq=2 ttl=47 time=44.943 ms
+--- www.a.shifen.com ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 38.297/40.546/44.943/3.109 ms
+[exit=0]

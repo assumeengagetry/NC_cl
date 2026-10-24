@@ -1,0 +1,13 @@
+frame.number	frame.time_epoch	frame.interface_name	ip.src	ip.dst	udp.srcport	udp.dstport	dns.id	dns.flags	dns.qry.name	dns.qry.type	dns.response_in	dns.response_to	dns.flags.authoritative	dns.flags.recdesired	dns.flags.recavail	dns.flags.rcode	dns.flags.truncated	dns.count.answers	dns.count.auth_rr	dns.count.add_rr	dns.cname	dns.a	dns.resp.ttl
+1	1792831123.859523000	utun4	100.96.206.115	100.100.100.100	52347	53	0xa06b	0x0100	www.baidu.com	1	2			True			False	0	0	0			
+2	1792831123.898590000	utun4	100.100.100.100	100.96.206.115	53	52347	0xa06b	0x8180	www.baidu.com	1		1	False	True	True	0	False	2	0	0	www.a.shifen.com	183.2.172.177	1001,606
+15	1792831133.537478000	utun4	100.96.206.115	100.100.100.100	58581	53	0x42ae	0x0100	www.scu.edu.cn	1	16			True			False	0	0	0			
+16	1792831133.573898000	utun4	100.100.100.100	100.96.206.115	53	58581	0x42ae	0x8180	www.scu.edu.cn	1		15	False	True	True	0	False	1	0	0		202.115.47.167	606
+23	1792831146.963456000	en0	10.20.41.180	223.5.5.5	54482	53	0x706e	0x0100	www.baidu.com	1	24			True			False	0	0	0			
+24	1792831146.972030000	en0	223.5.5.5	10.20.41.180	53	54482	0x706e	0x8180	www.baidu.com	1		23	False	True	True	0	False	3	0	0	www.a.shifen.com	110.242.70.57,110.242.69.21	1094,29,29
+25	1792831149.074148000	en0	10.20.41.180	223.5.5.5	54278	53	0xfe02	0x0100	www.baidu.com	5	26			True			False	0	0	0			
+26	1792831149.083135000	en0	223.5.5.5	10.20.41.180	53	54278	0xfe02	0x8180	www.baidu.com	5		25	False	True	True	0	False	1	0	0	www.a.shifen.com		1072
+27	1792831151.189450000	en0	10.20.41.180	223.5.5.5	64055	53	0x9c7e	0x0100	www.scu.edu.cn	1	28			True			False	0	0	0			
+28	1792831151.203493000	en0	223.5.5.5	10.20.41.180	53	64055	0x9c7e	0x8180	www.scu.edu.cn	1		27	False	True	True	0	False	1	0	0		202.115.47.167	600
+29	1792831153.315520000	en0	10.20.41.180	223.5.5.5	49628	53	0x010d	0x0100	www.scu.edu.cn	5	30			True			False	0	0	0			
+30	1792831153.339191000	en0	223.5.5.5	10.20.41.180	53	49628	0x010d	0x8180	www.scu.edu.cn	5		29	False	True	True	0	False	0	1	0			600

@@ -1,0 +1,3 @@
+B01-B10已全部真实截图、裁剪到work/report-stage/images，header明确原始日志回显。A01-topology已从新完整截图重新裁剪，所有个人、地址注记可见。
+报告阶段draftimages已false。路径修正attachments/real-dns与RNAME原始名补充已做。
+接下来请按b-layout-request.md执行清晰图片版式：需要时每图一页模板续表，B图片100—140mm高度。原来64/67/83mm最大高度会让截图难读。完整渲染后检查每页，交接可交付PDF和源工程。现在不要改动截图内容。根代理继续整理附件与最终打包。

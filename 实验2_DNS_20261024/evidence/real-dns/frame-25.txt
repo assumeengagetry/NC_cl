@@ -1,0 +1,88 @@
+Frame 25: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 24, 2026 16:39:09.074148000 CST
+    UTC Arrival Time: Oct 24, 2026 08:39:09.074148000 UTC
+    Epoch Arrival Time: 1792831149.074148000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 2.102118000 seconds]
+    [Time since reference or first frame: 25.214625000 seconds]
+    Frame Number: 25
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: 2a:c9:00:37:02:8a, Dst: 60:38:e0:c5:b8:c0
+    Destination: 60:38:e0:c5:b8:c0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 2a:c9:00:37:02:8a
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.20.41.180, Dst: 223.5.5.5
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0x8218 (33304)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xe0c7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.20.41.180
+    Destination Address: 223.5.5.5
+    [Stream index: 3]
+User Datagram Protocol, Src Port: 54278, Dst Port: 53
+    Source Port: 54278
+    Destination Port: 53
+    Length: 39
+    Checksum: 0x558e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 3]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0xfe02
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type CNAME, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+    [Response In: 26]
+
+0000  60 38 e0 c5 b8 c0 2a c9 00 37 02 8a 08 00 45 00   `8....*..7....E.
+0010  00 3b 82 18 00 00 40 11 e0 c7 0a 14 29 b4 df 05   .;....@.....)...
+0020  05 05 d4 06 00 35 00 27 55 8e fe 02 01 00 00 01   .....5.'U.......
+0030  00 00 00 00 00 00 03 77 77 77 05 62 61 69 64 75   .......www.baidu
+0040  03 63 6f 6d 00 00 05 00 01                        .com.....
+

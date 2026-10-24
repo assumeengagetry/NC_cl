@@ -1,0 +1,20 @@
+原始日志回显 / Saved original log replay
+非新一轮实时测量。采集日期：2026-10-24，Asia/Shanghai
+首次与重复 ping 命令原始输出
+===========================================================================
+Start: 2026-10-24T16:38:53.498+08:00
+$ /sbin/ping -n -c 3 -W 1500 -t 8 www.scu.edu.cn
+PING www.scu.edu.cn (202.115.47.167): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+--- www.scu.edu.cn ping statistics ---
+3 packets transmitted, 0 packets received, 100.0% packet loss
+[exit=2]
+Start: 2026-10-24T16:39:00.107+08:00
+$ /sbin/ping -n -c 3 -W 1500 -t 8 www.scu.edu.cn
+PING www.scu.edu.cn (202.115.47.167): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+--- www.scu.edu.cn ping statistics ---
+3 packets transmitted, 0 packets received, 100.0% packet loss
+[exit=2]

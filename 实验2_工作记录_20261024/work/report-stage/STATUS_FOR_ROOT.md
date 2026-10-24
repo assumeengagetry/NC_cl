@@ -1,0 +1,5 @@
+# Report stage status
+A/B report source integrated in this directory; all ten analysis questions included. A uses real normal/fault/restored outputs, both actual PDU fields with explicit GUI limitation, and reopened final config screenshots. B uses only the current 30-frame pcap, complete six response RR sections.
+Internal main.pdf currently 22 pages; real A screenshots, explicit missing B screenshot placeholders. Do not deliver yet. B image names are in figure-paths.tex. Root may populate those or send full screenshot names. Editable 10.5 pt Fandol Song; exact DOC paper 184.15 x260.0028 mm with A4 cover; original frame widths/border weights. Teacher/grade/signature blank; unconfirmed hours blank.
+Compile: /opt/homebrew/bin/tectonic -k -p main.tex (local XeTeX-family verification); Overleaf choose XeLaTeX.
+QA: qa/crop-manifest.json records unchanged rectangular crops. qa/render-qa.py renders every page using PyMuPDF. Current stage requires B images and fresh all-page QA before finalization.

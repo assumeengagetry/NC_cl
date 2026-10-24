@@ -1,0 +1,102 @@
+[
+  {
+    "image": "A01-topology.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A02-initial-client.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A03-records.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A04-normal-ip.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A05-normal-A.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A06-normal-CNAME.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A07-A-PDU.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A08-alias-PDU.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A09-fault-client.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A10-fault-tests.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A11-restored-client.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A13-reopened-PC.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A14-reopened-records.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A15-reopened-DNS-IP.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "A12-restored-tests.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B01-cache-log.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B02-ping-baidu-log.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B03-ping-scu-log.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B05-dns-baidu-response.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B06-dns-scu-response.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B07-nslookup-baidu-A.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B08-nslookup-baidu-CNAME.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B09-nslookup-scu-A.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B10-nslookup-scu-CNAME.png",
+    "crop_only_verified": true
+  },
+  {
+    "image": "B04-repeat-packets.png",
+    "crop_only_verified": true
+  }
+]

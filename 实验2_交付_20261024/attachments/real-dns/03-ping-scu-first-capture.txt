@@ -1,0 +1,13 @@
+Capture start: 2026-10-24T16:38:51.433+08:00
+$ /Applications/Wireshark.app/Contents/MacOS/dumpcap -q -i en0 -f '(host 223.5.5.5 and port 53) or (icmp and host 10.20.41.180)' -i utun4 -f 'host 100.100.100.100 and port 53' -w /tmp/nccl-real-dns-20261024/03-ping-scu-first-raw.pcapng
+Capturing on 'Wi-Fi: en0' and 'utun4'
+File: /tmp/nccl-real-dns-20261024/03-ping-scu-first-raw.pcapng
+Packets captured: 29
+Packets received/dropped on interface 'Wi-Fi: en0': 3/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)
+Packets received/dropped on interface 'utun4': 26/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)
+Capture end: 2026-10-24T16:38:58.973+08:00
+
+Export display filter: (dns && (dns.qry.name == "www.baidu.com" || dns.qry.name == "www.scu.edu.cn")) || (icmp && ip.addr == 202.115.47.167)
+$ /Applications/Wireshark.app/Contents/MacOS/tshark -n -r /tmp/nccl-real-dns-20261024/03-ping-scu-first-raw.pcapng -Y '(dns && (dns.qry.name == "www.baidu.com" || dns.qry.name == "www.scu.edu.cn")) || (icmp && ip.addr == 202.115.47.167)' -w '/Users/apple/Workspace/NC_cl/实验2_DNS_20261024/evidence/real-dns/03-ping-scu-first.pcapng'
+
+[exit=0]

@@ -1,0 +1,110 @@
+[
+  {
+    "image": "B01-cache-log.png",
+    "source": "attachments/screenshots/full/B01-cache-log.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B01-cache-log.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B02-ping-baidu-log.png",
+    "source": "attachments/screenshots/full/B02-ping-baidu-log.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B02-ping-baidu-log.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B03-ping-scu-log.png",
+    "source": "attachments/screenshots/full/B03-ping-scu-log.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B03-ping-scu-log.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B05-dns-baidu-response.png",
+    "source": "attachments/screenshots/full/B05-dns-baidu-response.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B05-dns-baidu-response.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B06-dns-scu-response.png",
+    "source": "attachments/screenshots/full/B06-dns-scu-response.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B06-dns-scu-response.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B07-nslookup-baidu-A.png",
+    "source": "attachments/screenshots/full/B07-nslookup-baidu-A.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B07-nslookup-baidu-A.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B08-nslookup-baidu-CNAME.png",
+    "source": "attachments/screenshots/full/B08-nslookup-baidu-CNAME.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B08-nslookup-baidu-CNAME.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B09-nslookup-scu-A.png",
+    "source": "attachments/screenshots/full/B09-nslookup-scu-A.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B09-nslookup-scu-A.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  },
+  {
+    "image": "B10-nslookup-scu-CNAME.png",
+    "source": "attachments/screenshots/full/B10-nslookup-scu-CNAME.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1980
+    ],
+    "display_document": "attachments/real-dns/display-excerpts/B10-nslookup-scu-CNAME.rtf",
+    "formatting": "TextEdit, Menlo 16 pt, original log excerpt unchanged"
+  }
+]

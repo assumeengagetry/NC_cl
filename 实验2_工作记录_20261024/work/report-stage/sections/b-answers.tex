@@ -1,0 +1,85 @@
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十二、真实DNS分析题（3—4）}
+\qa{3. DNS查询与响应的源、目的IP，传输层协议及端口是什么？}{
+6组DNS事务均为IPv4上的UDP。查询目的端口均为53；响应源端口为53，响应的IP与端口相对查询反向对应。图\ref{fig:dns-first-baidu}和图\ref{fig:ns-baidu-a}分别展示系统解析路径与显式公网解析路径。下表中的箭头为查询帧到响应帧：
+\begin{tabularx}{\linewidth}{|c|X|X|}\hline
+帧号 & 查询源IP:UDP端口 & 查询目的IP:UDP端口\\\hline
+1→2 & \code{100.96.206.115:52347} & \code{100.100.100.100:53}\\\hline
+15→16 & \code{100.96.206.115:58581} & \code{100.100.100.100:53}\\\hline
+23→24 & \code{10.20.41.180:54482} & \code{223.5.5.5:53}\\\hline
+25→26 & \code{10.20.41.180:54278} & \code{223.5.5.5:53}\\\hline
+27→28 & \code{10.20.41.180:64055} & \code{223.5.5.5:53}\\\hline
+29→30 & \code{10.20.41.180:49628} & \code{223.5.5.5:53}\\\hline
+\end{tabularx}
+\par 前两组经\code{utun4}，后四组经\code{en0}。例如帧2为\code{100.100.100.100:53}返回\code{100.96.206.115:52347}。DNS端点不能与\code{en0}上的ICMP端点混写；本次未见DNS TCP，并不代表DNS只能使用UDP。
+}
+\qa{4. 事务ID是多少，如何区分并配对请求与响应？}{
+所有查询QR=0、Flags=\code{0x0100}；所有响应QR=1、Flags=\code{0x8180}。QR区分查询与响应。各组ID、问题和响应延时如下：
+\begin{tabularx}{\linewidth}{|c|c|X|r|}\hline
+帧号 & ID & QNAME / QTYPE & 延时/ms\\\hline
+1→2 & \code{0xa06b} & \domain{www.baidu.com} / A(1) & 39.067\\\hline
+15→16 & \code{0x42ae} & \domain{www.scu.edu.cn} / A(1) & 36.420\\\hline
+23→24 & \code{0x706e} & \domain{www.baidu.com} / A(1) & 8.574\\\hline
+25→26 & \code{0xfe02} & \domain{www.baidu.com} / CNAME(5) & 8.987\\\hline
+27→28 & \code{0x9c7e} & \domain{www.scu.edu.cn} / A(1) & 14.043\\\hline
+29→30 & \code{0x010d} & \domain{www.scu.edu.cn} / CNAME(5) & 23.671\\\hline
+\end{tabularx}
+\par 配对共同核对ID、相同QNAME/QTYPE、反向IP与UDP端口以及查询先于响应的时间关系，并用\code{response\_in}/\code{response\_to}交叉核验；16位ID不是全局唯一标识。见图\ref{fig:dns-first-baidu}、图\ref{fig:dns-first-scu}、图\ref{fig:ns-scu-cname}。
+}
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十三、真实DNS分析题（5）}
+\qa{5. 返回了哪些资源记录，是否权威，ping最终使用哪个地址？}{
+资源记录CLASS均为IN(1)，TTL单位秒；AN/NS/AR分别表示Answer、Authority、Additional计数。
+\begin{tabularx}{\linewidth}{|c|X|}\hline
+响应帧 & 实际资源记录与分区计数\\\hline
+2 & Answer：\domain{www.baidu.com} CNAME \domain{www.a.shifen.com}，TTL1001；\domain{www.a.shifen.com} A \code{183.2.172.177}，TTL606。Authority、Additional均空；2/0/0。\\\hline
+16 & Answer：\domain{www.scu.edu.cn} A \code{202.115.47.167}，TTL606。Authority、Additional均空；1/0/0。\\\hline
+24 & Answer：\domain{www.baidu.com} CNAME \domain{www.a.shifen.com}，TTL1094；该规范名的A为\code{110.242.70.57}与\code{110.242.69.21}，TTL均29。Authority、Additional均空；3/0/0。\\\hline
+26 & Answer：\domain{www.baidu.com} CNAME \domain{www.a.shifen.com}，TTL1072。Authority、Additional均空；1/0/0。\\\hline
+28 & Answer：\domain{www.scu.edu.cn} A \code{202.115.47.167}，TTL600。Authority、Additional均空；1/0/0。\\\hline
+30 & Answer空；Authority：\domain{scu.edu.cn} SOA，TTL600；Additional空；0/1/0。\\\hline
+\end{tabularx}
+\par 帧30的SOA：MNAME=\domain{dart.scu.edu.cn}，RNAME报文名为\domain{root.scu.edu.cn}（解析日志显示邮件形式\code{root@scu.edu.cn}），SERIAL=2024110590，REFRESH=1200，RETRY=1200，EXPIRE=1209600，MINIMUM=600。MNAME是区域主名称服务器，不是网站的CNAME目标。见图\ref{fig:ns-scu-cname}。
+\par 6个响应均为AA=0、RD=1、RA=1、RCODE=0、TC=0，即未截断的非权威NOERROR回答；Authority含SOA不改变AA位判定（图\ref{fig:dns-first-baidu}、图\ref{fig:dns-first-scu}、图\ref{fig:ns-baidu-a}）。
+\par 百度ping使用\code{183.2.172.177}（帧3—14），川大使用\code{202.115.47.167}（帧17—22），见图\ref{fig:mac-ping-baidu}、图\ref{fig:mac-ping-scu}。百度nslookup的两个地址属于另一解析器的回答；现有证据不足以确定其差异的具体上游原因。
+}
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十四、真实DNS分析题（6—8）}
+\qa{6. 两个域名是否为别名，其规范名是什么？}{
+\domain{www.baidu.com}本次是CNAME别名：帧2、24、26均明确返回它指向\domain{www.a.shifen.com}，后者为其直接规范名。\domain{www.scu.edu.cn}在帧16、28直接返回同名A记录，未见CNAME；帧30的CNAME专门查询又返回NOERROR且Answer=0，支持其在本次DNS视图中为直接A、没有该名称CNAME记录的判断。见图\ref{fig:dns-first-baidu}、图\ref{fig:dns-first-scu}、图\ref{fig:ns-baidu-cname}、图\ref{fig:ns-scu-cname}。结论限定于2026年10月24日所用解析器及其DNS视图，不视为永久性质。
+}
+\qa{7. 客户端发出的查询属于递归查询还是迭代查询？}{
+6个查询均RD=1，表示客户端请求递归解析；6个响应均RA=1，表示解析器具备递归服务能力。客户端将完整问题交给所选解析器并收到最终回答，本次客户端与解析器之间的交互按递归查询解释。见图\ref{fig:dns-first-baidu}与图\ref{fig:ns-baidu-a}。
+\par RD是请求意愿，RA是服务能力，不能据此证明解析器本次访问了根服务器；它也可能从缓存回答或转发上游。本机抓包未呈现远端解析器的完整上游链路，未观察到客户端逐级查询根、顶级域、权威服务器的迭代过程，因此不宣称抓到了完整根/TLD/权威解析过程。
+}
+\qa{8. 首次与重复ping的DNS报文有何变化，能否判断缓存？}{
+百度首次有A查询/响应帧1、2和3组ICMP请求/响应帧3—8；重复时仅有帧9—14的3组ICMP。川大首次有A查询/响应帧15、16和3个ICMP请求帧17—19；重复时仅有3个ICMP请求帧20—22。重复窗口均未见目标域名DNS报文，仍使用首次相同的地址（图\ref{fig:dns-repeat}、图\ref{fig:mac-ping-baidu}、图\ref{fig:mac-ping-scu}）。
+\par 在首次前已成功清理本机系统缓存、重复前不清理的条件下，该现象支持有效DNS缓存被复用。百度CNAME/A的首次TTL为1001/606秒，川大A为606秒，数秒后的重复仍处于TTL内。但重复阶段没有DNS响应，不能虚构“重复响应TTL递减”；本机抓包也不能精确定位缓存所属组件。
+\par 两次缓存转储未能列出条目（图\ref{fig:mac-cache}），故没有直接的本机条目清单。代理与远端缓存未清理，结论只限于当前采集窗口和所监测路径。
+}
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十五、真实DNS分析题（9—10）}
+\qa{9. A查询与CNAME查询的实际结果有什么不同？}{
+四次nslookup统一使用\code{223.5.5.5}。A查询的QTYPE=1，请求IPv4地址；CNAME查询的QTYPE=5，请求别名指向关系。本轮结果如下：
+\begin{tabularx}{\linewidth}{|l|X|X|}\hline
+域名 & A查询 & CNAME查询\\\hline
+百度 & 帧23→24：Answer含1条CNAME及规范名的2条A & 帧25→26：Answer仅1条CNAME，未附A\\\hline
+川大 & 帧27→28：Answer为同名A & 帧29→30：Answer空，Authority含SOA\\\hline
+\end{tabularx}
+\par 详见图\ref{fig:ns-baidu-a}、图\ref{fig:ns-baidu-cname}、图\ref{fig:ns-scu-a}、图\ref{fig:ns-scu-cname}，完整资源记录及TTL已列于题5。A查询响应可以带回获得地址所需的CNAME链；CNAME查询不必同时返回最终IPv4地址。不同类型查询的剩余TTL不能替代重复ping的缓存测量。
+}
+\qa{10. 两个域名的CNAME查询得到什么结果，是否支持此前判断？}{
+百度的ID为\code{0xfe02}（帧25、26），响应Answer=1，明确返回\domain{www.baidu.com}指向\domain{www.a.shifen.com}，TTL1072秒，支持题6的别名判断（图\ref{fig:ns-baidu-cname}）。
+\par 川大的ID为\code{0x010d}（帧29、30），响应RCODE=0、Answer=0、Authority=1（SOA），属于所请求CNAME类型无数据的NOERROR/NODATA，并非RCODE=3的NXDOMAIN。帧28存在同名A记录，也说明“No answer”不能解释为域名不存在；该结果支持本次川大为直接A、没有CNAME的判断（图\ref{fig:ns-scu-cname}、图\ref{fig:ns-scu-a}）。
+\par \domain{dart.scu.edu.cn}是帧30中SOA的MNAME，不是\domain{www.scu.edu.cn}的规范名。响应AA仍为0，nslookup提示“Authoritative answers can be found from”不能替代AA位判定。
+}
+\subheading{其他实测数据与原始证据}
+百度首次与重复的丢包率均为0.0\%，往返时间min/avg/max分别为38.089/40.282/44.610 ms与38.297/40.546/44.943 ms；川大两次丢包率均为100.0\%，ping退出2。本次未收到川大Echo Reply，无法仅据此确定不回包的原因。
+\par 命令原始输出、阶段捕获记录、关键帧详情与完整截图均随附件保存，便于从最终pcapng逐项复核；筛选方法已在实验过程说明。
+}

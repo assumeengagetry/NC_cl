@@ -1,0 +1,123 @@
+{
+  "capture": "2024141460445_许盛凯_实验2_DNS.pcapng",
+  "sha256": "9d6478264dd180322bfeaa24cb43b30d5f15fa019f6ca31bd814b6eaee2c85c9",
+  "total_frames": 30,
+  "dns_frames": 12,
+  "complete_dns_pairs": 6,
+  "merged_bytes_and_timestamps_equal_phase_files": true,
+  "filtered_bytes_and_timestamps_verified_against_raw": true,
+  "raw_files_unreadable": [],
+  "phases": [
+    {
+      "phase": "01-ping-baidu-first",
+      "final_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "total": 8,
+      "dns_frames": 2,
+      "icmp_frames": 6,
+      "cache_flush": true,
+      "ping_ip": "183.2.172.177"
+    },
+    {
+      "phase": "02-ping-baidu-repeat",
+      "final_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "total": 6,
+      "dns_frames": 0,
+      "icmp_frames": 6,
+      "cache_flush": false,
+      "ping_ip": "183.2.172.177"
+    },
+    {
+      "phase": "03-ping-scu-first",
+      "final_frames": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "total": 5,
+      "dns_frames": 2,
+      "icmp_frames": 3,
+      "cache_flush": true,
+      "ping_ip": "202.115.47.167"
+    },
+    {
+      "phase": "04-ping-scu-repeat",
+      "final_frames": [
+        20,
+        21,
+        22
+      ],
+      "total": 3,
+      "dns_frames": 0,
+      "icmp_frames": 3,
+      "cache_flush": false,
+      "ping_ip": "202.115.47.167"
+    },
+    {
+      "phase": "05-nslookup-baidu-a",
+      "final_frames": [
+        23,
+        24
+      ],
+      "total": 2,
+      "dns_frames": 2,
+      "icmp_frames": 0,
+      "cache_flush": false,
+      "ping_ip": null
+    },
+    {
+      "phase": "06-nslookup-baidu-cname",
+      "final_frames": [
+        25,
+        26
+      ],
+      "total": 2,
+      "dns_frames": 2,
+      "icmp_frames": 0,
+      "cache_flush": false,
+      "ping_ip": null
+    },
+    {
+      "phase": "07-nslookup-scu-a",
+      "final_frames": [
+        27,
+        28
+      ],
+      "total": 2,
+      "dns_frames": 2,
+      "icmp_frames": 0,
+      "cache_flush": false,
+      "ping_ip": null
+    },
+    {
+      "phase": "08-nslookup-scu-cname",
+      "final_frames": [
+        29,
+        30
+      ],
+      "total": 2,
+      "dns_frames": 2,
+      "icmp_frames": 0,
+      "cache_flush": false,
+      "ping_ip": null
+    }
+  ],
+  "settings_changed": false
+}

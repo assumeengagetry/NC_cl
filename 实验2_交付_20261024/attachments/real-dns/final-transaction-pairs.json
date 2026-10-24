@@ -1,0 +1,74 @@
+[
+  {
+    "query_frame": 1,
+    "response_frame": 2,
+    "id": "0xa06b",
+    "qname": "www.baidu.com",
+    "qtype": 1,
+    "query_src": "100.96.206.115:52347",
+    "query_dst": "100.100.100.100:53",
+    "time_ms": 39.067,
+    "QR_query": 0,
+    "QR_response": 1
+  },
+  {
+    "query_frame": 15,
+    "response_frame": 16,
+    "id": "0x42ae",
+    "qname": "www.scu.edu.cn",
+    "qtype": 1,
+    "query_src": "100.96.206.115:58581",
+    "query_dst": "100.100.100.100:53",
+    "time_ms": 36.42,
+    "QR_query": 0,
+    "QR_response": 1
+  },
+  {
+    "query_frame": 23,
+    "response_frame": 24,
+    "id": "0x706e",
+    "qname": "www.baidu.com",
+    "qtype": 1,
+    "query_src": "10.20.41.180:54482",
+    "query_dst": "223.5.5.5:53",
+    "time_ms": 8.574,
+    "QR_query": 0,
+    "QR_response": 1
+  },
+  {
+    "query_frame": 25,
+    "response_frame": 26,
+    "id": "0xfe02",
+    "qname": "www.baidu.com",
+    "qtype": 5,
+    "query_src": "10.20.41.180:54278",
+    "query_dst": "223.5.5.5:53",
+    "time_ms": 8.987,
+    "QR_query": 0,
+    "QR_response": 1
+  },
+  {
+    "query_frame": 27,
+    "response_frame": 28,
+    "id": "0x9c7e",
+    "qname": "www.scu.edu.cn",
+    "qtype": 1,
+    "query_src": "10.20.41.180:64055",
+    "query_dst": "223.5.5.5:53",
+    "time_ms": 14.043,
+    "QR_query": 0,
+    "QR_response": 1
+  },
+  {
+    "query_frame": 29,
+    "response_frame": 30,
+    "id": "0x010d",
+    "qname": "www.scu.edu.cn",
+    "qtype": 5,
+    "query_src": "10.20.41.180:49628",
+    "query_dst": "223.5.5.5:53",
+    "time_ms": 23.671,
+    "QR_query": 0,
+    "QR_response": 1
+  }
+]

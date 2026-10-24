@@ -1,0 +1,111 @@
+[
+  {
+    "image": "B01-cache-log.png",
+    "source": "attachments/screenshots/full/B01-cache-log.png",
+    "box": [
+      140,
+      60,
+      1440,
+      798
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B01-cache-log.txt"
+  },
+  {
+    "image": "B07-nslookup-baidu-A.png",
+    "source": "attachments/screenshots/full/B07-nslookup-baidu-A.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1041
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B07-nslookup-baidu-A.txt"
+  },
+  {
+    "image": "B06-dns-scu-response.png",
+    "source": "attachments/screenshots/full/B06-dns-scu-response.png",
+    "box": [
+      140,
+      60,
+      1440,
+      879
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B06-dns-scu-response.txt"
+  },
+  {
+    "image": "B09-nslookup-scu-A.png",
+    "source": "attachments/screenshots/full/B09-nslookup-scu-A.png",
+    "box": [
+      140,
+      60,
+      1440,
+      879
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B09-nslookup-scu-A.txt"
+  },
+  {
+    "image": "B03-ping-scu-log.png",
+    "source": "attachments/screenshots/full/B03-ping-scu-log.png",
+    "box": [
+      140,
+      60,
+      1440,
+      690
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B03-ping-scu-log.txt"
+  },
+  {
+    "image": "B05-dns-baidu-response.png",
+    "source": "attachments/screenshots/full/B05-dns-baidu-response.png",
+    "box": [
+      140,
+      60,
+      1440,
+      960
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B05-dns-baidu-response.txt"
+  },
+  {
+    "image": "B08-nslookup-baidu-CNAME.png",
+    "source": "attachments/screenshots/full/B08-nslookup-baidu-CNAME.png",
+    "box": [
+      140,
+      60,
+      1440,
+      879
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B08-nslookup-baidu-CNAME.txt"
+  },
+  {
+    "image": "B10-nslookup-scu-CNAME.png",
+    "source": "attachments/screenshots/full/B10-nslookup-scu-CNAME.png",
+    "box": [
+      140,
+      60,
+      1440,
+      1041
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B10-nslookup-scu-CNAME.txt"
+  },
+  {
+    "image": "B02-ping-baidu-log.png",
+    "source": "attachments/screenshots/full/B02-ping-baidu-log.png",
+    "box": [
+      140,
+      60,
+      1440,
+      798
+    ],
+    "log_excerpt": "attachments/real-dns/display-excerpts/B02-ping-baidu-log.txt"
+  },
+  {
+    "image": "B04-repeat-packets.png",
+    "source": "attachments/screenshots/full/B04-repeat-packets.png",
+    "box": [
+      140,
+      124,
+      3235,
+      1130
+    ]
+  }
+]

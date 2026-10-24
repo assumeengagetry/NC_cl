@@ -1,0 +1,947 @@
+{
+  "page": {
+    "w": "10440",
+    "h": "14740"
+  },
+  "margins": {
+    "left": "1134",
+    "right": "1021",
+    "gutter": "0",
+    "header": "0",
+    "top": "1440",
+    "footer": "0",
+    "bottom": "567"
+  },
+  "table_width": {
+    "w": "8320",
+    "type": "dxa"
+  },
+  "grid": [
+    {
+      "w": "1251"
+    },
+    {
+      "w": "3660"
+    },
+    {
+      "w": "1080"
+    },
+    {
+      "w": "2329"
+    }
+  ],
+  "rows": [
+    {
+      "height": {
+        "val": "735",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "课程名称 ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "  ",
+          "width": {
+            "w": "3660",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "实验课时",
+          "width": {
+            "w": "1080",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "",
+          "width": {
+            "w": "2329",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "776",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "实验项目",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "",
+          "width": {
+            "w": "3660",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "实验时间",
+          "width": {
+            "w": "1080",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "",
+          "width": {
+            "w": "2329",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "4",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "921",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "实验目的 ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "  ",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "936",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "实验环境 ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "  ",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "6979",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "实验内容（算法、程序、步骤和方法） ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "  ",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "5124",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "（接上）实验内容（算法、程序、步骤和方法）",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "2628",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "数据记录和计算 ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "  ",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "1538",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "结  论（结 果） ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "  ",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "1224",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "小   结 ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "  ",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "height": {
+        "val": "1382",
+        "hRule": "atLeast"
+      },
+      "cells": [
+        {
+          "text": "指导老师评    议 ",
+          "width": {
+            "w": "1251",
+            "type": "dxa"
+          },
+          "span": {},
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        },
+        {
+          "text": "                                 成绩评定：                        指导教师签名：",
+          "width": {
+            "w": "7069",
+            "type": "dxa"
+          },
+          "span": {
+            "val": "3"
+          },
+          "borders": {
+            "top": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "start": {
+              "val": "single",
+              "sz": "6",
+              "space": "0",
+              "color": "000000"
+            },
+            "bottom": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            },
+            "end": {
+              "val": "single",
+              "sz": "12",
+              "space": "0",
+              "color": "000000"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

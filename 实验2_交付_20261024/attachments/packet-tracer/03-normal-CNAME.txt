@@ -1,0 +1,66 @@
+
+Cisco Packet Tracer PC Command Line 1.0
+C:\>192.168.1.200平
+Invalid Command.
+
+C:\>
+C:\>ping 192.168.1.200
+
+Pinging 192.168.1.200 with 32 bytes of data:
+
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.1.200:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>cls
+Invalid Command.
+
+C:\>ping 192.168.1.200
+
+Pinging 192.168.1.200 with 32 bytes of data:
+
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.1.200:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>ping www.xushengkai.com
+
+Pinging 192.168.1.200 with 32 bytes of data:
+
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.1.200:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>ping www1.2024141460445.com
+
+Pinging 192.168.1.200 with 32 bytes of data:
+
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.200: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.1.200:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>

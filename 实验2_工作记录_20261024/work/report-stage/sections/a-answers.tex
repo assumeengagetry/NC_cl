@@ -1,0 +1,19 @@
+\reportpage{数据记录\\和计算}{
+\subheading{八、仿真DNS分析题（1—2）}
+\qa{1. 初始三种ping结果及两次域名查询分别返回了哪些资源记录？}{
+直接IP、主域名\domain{www.xushengkai.com}、别名\domain{www1.2024141460445.com}均4发4收、0\%丢包，实际目标均\code{192.168.1.200}；初始三次RTT统计均0/0/0 ms（图\ref{fig:pt-normal-ip}—图\ref{fig:pt-normal-cname}）。
+\par 主域名响应ID=\code{0xd1fe}，Answer=1，为该名称的A记录\code{192.168.1.200}，CLASS=IN、TTL=86400秒、长度4（图\ref{fig:pt-pdu-a}）。别名响应ID=\code{0x6aa9}，Answer计数2，显示出的末端A记录owner为\domain{www.xushengkai.com}，地址\code{192.168.1.200}，CLASS=IN、TTL=86400秒、长度4（图\ref{fig:pt-pdu-cname}）。
+\par 别名映射由DNS服务配置中的CNAME及实际成功解析验证（图\ref{fig:pt-records}、图\ref{fig:pt-normal-cname}）。此版本PDU界面仅展开1个Answer块，故报告不把未显示的第2条资源记录的完整字段或TTL写成直接观测结果。两次响应的Authority和Additional计数均0。
+}
+\qa{2. 修改DNS服务器地址后出现什么问题，如何处理并验证恢复？}{
+DNS服务器改为\code{192.168.1.198}后，PC仍向旧地址\code{192.168.1.199}查询，直接IP ping维持4/4，两个域名都提示找不到主机（图\ref{fig:pt-fault-config}、图\ref{fig:pt-fault-tests}）。故障限于名称解析配置，与目标主机IP连通性不同；本轮没有缓存暂时掩盖故障。
+\par 修复PC DNS为\code{192.168.1.198}后，三种ping均恢复4/4，两个域名重新指向\code{192.168.1.200}（图\ref{fig:pt-restored-config}、图\ref{fig:pt-restored-tests}）。整个排障过程保持目标主机IP和A记录不变，不能把A记录误改成DNS服务器地址。最终工程以恢复后的配置保存。
+}
+\subheading{三阶段结果对照}
+\begin{tabularx}{\linewidth}{|l|X|X|X|}\hline
+阶段 & IP ping & 主域名ping & 别名ping\\\hline
+正常（DNS .199） & 4/4 & 4/4，目标.200 & 4/4，目标.200\\\hline
+故障（PC仍.199） & 4/4 & 找不到主机 & 找不到主机\\\hline
+修复（PC改.198） & 4/4 & 4/4，目标.200 & 4/4，目标.200\\\hline
+\end{tabularx}
+}

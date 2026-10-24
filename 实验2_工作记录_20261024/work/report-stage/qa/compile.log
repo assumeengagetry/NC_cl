@@ -1,0 +1,23 @@
+note: Running TeX ...
+warning: sections/b-evidence.tex:13: Underfull \hbox (badness 10000) in paragraph at lines 13--13
+warning: sections/b-evidence.tex:13: Underfull \hbox (badness 10000) in paragraph at lines 13--13
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 4505) in paragraph at lines 29--29
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 10000) in paragraph at lines 29--29
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4832) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4832) in paragraph at lines 85--85
+note: Rerunning TeX because "main.aux" changed ...
+warning: sections/b-evidence.tex:13: Underfull \hbox (badness 10000) in paragraph at lines 13--13
+warning: sections/b-evidence.tex:13: Underfull \hbox (badness 10000) in paragraph at lines 13--13
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 4505) in paragraph at lines 29--29
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 10000) in paragraph at lines 29--29
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4832) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4832) in paragraph at lines 85--85
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: Writing `main.pdf` (466.9111328125 KiB)
+note: Writing `main.log` (33.5517578125 KiB)
+note: Skipped writing 2 intermediate files (use --keep-intermediates to keep them)

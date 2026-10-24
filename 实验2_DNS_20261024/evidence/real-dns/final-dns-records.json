@@ -1,0 +1,473 @@
+[
+  {
+    "frame.number": "1",
+    "frame.time_epoch": "1792831123.859523000",
+    "frame.interface_name": "utun4",
+    "ip.src": "100.96.206.115",
+    "ip.dst": "100.100.100.100",
+    "udp.srcport": "52347",
+    "udp.dstport": "53",
+    "dns.id": "0xa06b",
+    "dns.flags": "0x0100",
+    "dns.qry.name": "www.baidu.com",
+    "dns.qry.type": "1",
+    "dns.response_in": "2",
+    "dns.response_to": "",
+    "id": "0xa06b",
+    "flags": "0x0100",
+    "QR": 0,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 0,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.baidu.com",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "2",
+    "frame.time_epoch": "1792831123.898590000",
+    "frame.interface_name": "utun4",
+    "ip.src": "100.100.100.100",
+    "ip.dst": "100.96.206.115",
+    "udp.srcport": "53",
+    "udp.dstport": "52347",
+    "dns.id": "0xa06b",
+    "dns.flags": "0x8180",
+    "dns.qry.name": "www.baidu.com",
+    "dns.qry.type": "1",
+    "dns.response_in": "",
+    "dns.response_to": "1",
+    "id": "0xa06b",
+    "flags": "0x8180",
+    "QR": 1,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 1,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.baidu.com",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [
+      {
+        "owner": "www.baidu.com",
+        "type": 5,
+        "class": 1,
+        "ttl": 1001,
+        "target": "www.a.shifen.com"
+      },
+      {
+        "owner": "www.a.shifen.com",
+        "type": 1,
+        "class": 1,
+        "ttl": 606,
+        "address": "183.2.172.177"
+      }
+    ],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "15",
+    "frame.time_epoch": "1792831133.537478000",
+    "frame.interface_name": "utun4",
+    "ip.src": "100.96.206.115",
+    "ip.dst": "100.100.100.100",
+    "udp.srcport": "58581",
+    "udp.dstport": "53",
+    "dns.id": "0x42ae",
+    "dns.flags": "0x0100",
+    "dns.qry.name": "www.scu.edu.cn",
+    "dns.qry.type": "1",
+    "dns.response_in": "16",
+    "dns.response_to": "",
+    "id": "0x42ae",
+    "flags": "0x0100",
+    "QR": 0,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 0,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.scu.edu.cn",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "16",
+    "frame.time_epoch": "1792831133.573898000",
+    "frame.interface_name": "utun4",
+    "ip.src": "100.100.100.100",
+    "ip.dst": "100.96.206.115",
+    "udp.srcport": "53",
+    "udp.dstport": "58581",
+    "dns.id": "0x42ae",
+    "dns.flags": "0x8180",
+    "dns.qry.name": "www.scu.edu.cn",
+    "dns.qry.type": "1",
+    "dns.response_in": "",
+    "dns.response_to": "15",
+    "id": "0x42ae",
+    "flags": "0x8180",
+    "QR": 1,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 1,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.scu.edu.cn",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [
+      {
+        "owner": "www.scu.edu.cn",
+        "type": 1,
+        "class": 1,
+        "ttl": 606,
+        "address": "202.115.47.167"
+      }
+    ],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "23",
+    "frame.time_epoch": "1792831146.963456000",
+    "frame.interface_name": "en0",
+    "ip.src": "10.20.41.180",
+    "ip.dst": "223.5.5.5",
+    "udp.srcport": "54482",
+    "udp.dstport": "53",
+    "dns.id": "0x706e",
+    "dns.flags": "0x0100",
+    "dns.qry.name": "www.baidu.com",
+    "dns.qry.type": "1",
+    "dns.response_in": "24",
+    "dns.response_to": "",
+    "id": "0x706e",
+    "flags": "0x0100",
+    "QR": 0,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 0,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.baidu.com",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "24",
+    "frame.time_epoch": "1792831146.972030000",
+    "frame.interface_name": "en0",
+    "ip.src": "223.5.5.5",
+    "ip.dst": "10.20.41.180",
+    "udp.srcport": "53",
+    "udp.dstport": "54482",
+    "dns.id": "0x706e",
+    "dns.flags": "0x8180",
+    "dns.qry.name": "www.baidu.com",
+    "dns.qry.type": "1",
+    "dns.response_in": "",
+    "dns.response_to": "23",
+    "id": "0x706e",
+    "flags": "0x8180",
+    "QR": 1,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 1,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.baidu.com",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [
+      {
+        "owner": "www.baidu.com",
+        "type": 5,
+        "class": 1,
+        "ttl": 1094,
+        "target": "www.a.shifen.com"
+      },
+      {
+        "owner": "www.a.shifen.com",
+        "type": 1,
+        "class": 1,
+        "ttl": 29,
+        "address": "110.242.70.57"
+      },
+      {
+        "owner": "www.a.shifen.com",
+        "type": 1,
+        "class": 1,
+        "ttl": 29,
+        "address": "110.242.69.21"
+      }
+    ],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "25",
+    "frame.time_epoch": "1792831149.074148000",
+    "frame.interface_name": "en0",
+    "ip.src": "10.20.41.180",
+    "ip.dst": "223.5.5.5",
+    "udp.srcport": "54278",
+    "udp.dstport": "53",
+    "dns.id": "0xfe02",
+    "dns.flags": "0x0100",
+    "dns.qry.name": "www.baidu.com",
+    "dns.qry.type": "5",
+    "dns.response_in": "26",
+    "dns.response_to": "",
+    "id": "0xfe02",
+    "flags": "0x0100",
+    "QR": 0,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 0,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.baidu.com",
+        "type": 5,
+        "class": 1
+      }
+    ],
+    "Answer": [],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "26",
+    "frame.time_epoch": "1792831149.083135000",
+    "frame.interface_name": "en0",
+    "ip.src": "223.5.5.5",
+    "ip.dst": "10.20.41.180",
+    "udp.srcport": "53",
+    "udp.dstport": "54278",
+    "dns.id": "0xfe02",
+    "dns.flags": "0x8180",
+    "dns.qry.name": "www.baidu.com",
+    "dns.qry.type": "5",
+    "dns.response_in": "",
+    "dns.response_to": "25",
+    "id": "0xfe02",
+    "flags": "0x8180",
+    "QR": 1,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 1,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.baidu.com",
+        "type": 5,
+        "class": 1
+      }
+    ],
+    "Answer": [
+      {
+        "owner": "www.baidu.com",
+        "type": 5,
+        "class": 1,
+        "ttl": 1072,
+        "target": "www.a.shifen.com"
+      }
+    ],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "27",
+    "frame.time_epoch": "1792831151.189450000",
+    "frame.interface_name": "en0",
+    "ip.src": "10.20.41.180",
+    "ip.dst": "223.5.5.5",
+    "udp.srcport": "64055",
+    "udp.dstport": "53",
+    "dns.id": "0x9c7e",
+    "dns.flags": "0x0100",
+    "dns.qry.name": "www.scu.edu.cn",
+    "dns.qry.type": "1",
+    "dns.response_in": "28",
+    "dns.response_to": "",
+    "id": "0x9c7e",
+    "flags": "0x0100",
+    "QR": 0,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 0,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.scu.edu.cn",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "28",
+    "frame.time_epoch": "1792831151.203493000",
+    "frame.interface_name": "en0",
+    "ip.src": "223.5.5.5",
+    "ip.dst": "10.20.41.180",
+    "udp.srcport": "53",
+    "udp.dstport": "64055",
+    "dns.id": "0x9c7e",
+    "dns.flags": "0x8180",
+    "dns.qry.name": "www.scu.edu.cn",
+    "dns.qry.type": "1",
+    "dns.response_in": "",
+    "dns.response_to": "27",
+    "id": "0x9c7e",
+    "flags": "0x8180",
+    "QR": 1,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 1,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.scu.edu.cn",
+        "type": 1,
+        "class": 1
+      }
+    ],
+    "Answer": [
+      {
+        "owner": "www.scu.edu.cn",
+        "type": 1,
+        "class": 1,
+        "ttl": 600,
+        "address": "202.115.47.167"
+      }
+    ],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "29",
+    "frame.time_epoch": "1792831153.315520000",
+    "frame.interface_name": "en0",
+    "ip.src": "10.20.41.180",
+    "ip.dst": "223.5.5.5",
+    "udp.srcport": "49628",
+    "udp.dstport": "53",
+    "dns.id": "0x010d",
+    "dns.flags": "0x0100",
+    "dns.qry.name": "www.scu.edu.cn",
+    "dns.qry.type": "5",
+    "dns.response_in": "30",
+    "dns.response_to": "",
+    "id": "0x010d",
+    "flags": "0x0100",
+    "QR": 0,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 0,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.scu.edu.cn",
+        "type": 5,
+        "class": 1
+      }
+    ],
+    "Answer": [],
+    "Authority": [],
+    "Additional": []
+  },
+  {
+    "frame.number": "30",
+    "frame.time_epoch": "1792831153.339191000",
+    "frame.interface_name": "en0",
+    "ip.src": "223.5.5.5",
+    "ip.dst": "10.20.41.180",
+    "udp.srcport": "53",
+    "udp.dstport": "49628",
+    "dns.id": "0x010d",
+    "dns.flags": "0x8180",
+    "dns.qry.name": "www.scu.edu.cn",
+    "dns.qry.type": "5",
+    "dns.response_in": "",
+    "dns.response_to": "29",
+    "id": "0x010d",
+    "flags": "0x8180",
+    "QR": 1,
+    "AA": 0,
+    "TC": 0,
+    "RD": 1,
+    "RA": 1,
+    "RCODE": 0,
+    "questions": [
+      {
+        "name": "www.scu.edu.cn",
+        "type": 5,
+        "class": 1
+      }
+    ],
+    "Answer": [],
+    "Authority": [
+      {
+        "owner": "scu.edu.cn",
+        "type": 6,
+        "class": 1,
+        "ttl": 600,
+        "mname": "dart.scu.edu.cn",
+        "rname": "root@scu.edu.cn",
+        "serial": 2024110590,
+        "refresh": 1200,
+        "retry": 1200,
+        "expire": 1209600,
+        "minimum": 600
+      }
+    ],
+    "Additional": []
+  }
+]

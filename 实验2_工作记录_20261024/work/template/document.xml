@@ -1,0 +1,2122 @@
+<w:document xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" mc:Ignorable="w14 wp14 w15">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:jc w:val="center"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="黑体;SimHei" w:hAnsi="黑体;SimHei" w:hint="eastAsia" w:eastAsia="黑体;SimHei"/>
+          <w:sz w:val="30"/>
+        </w:rPr>
+        <w:t>四 川 大 学 计 算 机 学 院、软 件 学 院</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:before="0" w:after="0"/>
+        <w:jc w:val="center"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="方正大标宋简体;黑体" w:hAnsi="方正大标宋简体;黑体" w:hint="eastAsia" w:eastAsia="方正大标宋简体;黑体"/>
+          <w:sz w:val="44"/>
+        </w:rPr>
+        <w:t>实</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="方正大标宋简体;黑体" w:hAnsi="方正大标宋简体;黑体" w:eastAsia="方正大标宋简体;黑体"/>
+          <w:sz w:val="44"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  验  报  告 </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="0" w:after="0"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>学号：</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">___________ </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>姓名：＿＿＿＿</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">专业：＿＿＿＿＿＿  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>班级：＿＿＿＿</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">第 </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  周 </w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="8320" w:type="dxa"/>
+        <w:jc w:val="center"/>
+        <w:tblInd w:w="0" w:type="dxa"/>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblCellMar>
+          <w:top w:w="0" w:type="dxa"/>
+          <w:start w:w="108" w:type="dxa"/>
+          <w:bottom w:w="0" w:type="dxa"/>
+          <w:end w:w="108" w:type="dxa"/>
+        </w:tblCellMar>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1251"/>
+        <w:gridCol w:w="3660"/>
+        <w:gridCol w:w="1080"/>
+        <w:gridCol w:w="2329"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="735" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>课程名称</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3660" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">  </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1080" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>实验课时</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2329" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:snapToGrid w:val="false"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="776" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>实验项目</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3660" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:snapToGrid w:val="false"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1080" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>实验时间</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2329" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:snapToGrid w:val="false"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="921" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>实验目的</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="280"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr/>
+              <w:t> </w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="936" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>实验环境</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="280"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr/>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="6979" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="both"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>实验内容（算法、程序、步骤和方法）</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:snapToGrid w:val="false"/>
+              <w:spacing w:before="0" w:after="280"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr/>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="5124" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>（接上）</w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>实验内容（算法、程序、步骤和方法）</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:snapToGrid w:val="false"/>
+              <w:spacing w:before="0" w:after="280"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="2628" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>数据记录</w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>和计</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">算 </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="280"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr/>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="1538" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>结  论</w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>（结 果）</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="280"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr/>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="1224" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>小</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">   结 </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="280"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr/>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:trPr>
+          <w:trHeight w:val="1382" w:hRule="atLeast"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1251" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="280" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>指导老师评    议</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="7069" w:type="dxa"/>
+            <w:gridSpan w:val="3"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:start w:val="single" w:sz="6" w:space="0" w:color="000000"/>
+              <w:bottom w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+              <w:end w:val="single" w:sz="12" w:space="0" w:color="000000"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr/>
+              <w:t> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="0"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">                            </w:t>
+            </w:r>
+          </w:p>
+          <w:p>
+            <w:pPr>
+              <w:pStyle w:val="Style15"/>
+              <w:spacing w:before="0" w:after="156"/>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">   </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="21"/>
+              </w:rPr>
+              <w:t>成绩评定：                        指导教师签名：</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:widowControl/>
+        <w:spacing w:before="280" w:after="280"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:ascii="宋体;SimSun" w:hAnsi="宋体;SimSun" w:cs="宋体;SimSun"/>
+          <w:kern w:val="0"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" w:eastAsia="黑体;SimHei"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>实验报告说明</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:eastAsia="黑体;SimHei"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:spacing w:before="280" w:after="280"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" w:eastAsia="仿宋_GB2312"/>
+        </w:rPr>
+        <w:t>专业</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>实验中心</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="90" w:after="75"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">实验名称  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>要用最简练的语言反映实验的内容。如验证某程序、定律、算法，可写成“验证</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>×××”</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>；分析</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>×××</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="90" w:after="75"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>实验目的</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  目的要明确，要抓住重点，可以从理论和实践两个方面考虑。在理论上，验证定理、公式、算法，并使实验者获得深刻和系统的理解，在实践上，掌握使用实验设备的技能技巧和程序的调试方法。一般需说明是验证型实验还是设计型实验，是创新型实验还是综合型实验。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="90" w:after="75"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>实验环境</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  实验用的软硬件环境（配置）。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="90" w:after="75"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>实验内容（算法、程序、步骤和方法）</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  这是实验报告极其重要的内容。这部分要写明依据何种原理、定律算法、或操作方法进行实验，要写明经过哪</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>几</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>个步骤。还应该画出流程图（实验装置的结构示意图），再配以相应的文字说明，这样既可以节省许多文字说明，又能使实验报告简明扼要，清楚明白。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="90" w:after="75"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>数据记录和计算</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  指从实验中测</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>出</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>的数据以及计算结果。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="90" w:after="75"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>结论（结果）</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">  即根据实验过程中所见到的现象和测得的数据，作出结论。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="90" w:after="75"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">小结  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>对本次实验的体会、思考和建议。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>备注或说明</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr/>
+        <w:t xml:space="preserve">  </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>可写上实验成功或失败的原因，实验后的心得体会、建议等。</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr/>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="0" w:after="0"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:kern w:val="2"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman" w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:kern w:val="2"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>注意：</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="1"/>
+        </w:numPr>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="0" w:after="0"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman" w:hint="eastAsia"/>
+          <w:kern w:val="2"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>实验报告将记入实验成绩；</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr/>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Style15"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="1"/>
+        </w:numPr>
+        <w:spacing w:lineRule="auto" w:line="360" w:before="0" w:after="0"/>
+        <w:rPr/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman" w:hint="eastAsia"/>
+          <w:kern w:val="2"/>
+          <w:sz w:val="21"/>
+        </w:rPr>
+        <w:t>每次实验开始时，交上一次的实验报告，否则将扣除此次实验成绩。</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr/>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:r>
+    </w:p>
+    <w:sectPr>
+      <w:type w:val="nextPage"/>
+      <w:pgSz w:w="10440" w:h="14740"/>
+      <w:pgMar w:left="1134" w:right="1021" w:gutter="0" w:header="0" w:top="1440" w:footer="0" w:bottom="567"/>
+      <w:pgNumType w:fmt="decimal"/>
+      <w:formProt w:val="false"/>
+      <w:textDirection w:val="lrTb"/>
+      <w:docGrid w:type="lines" w:linePitch="312" w:charSpace="0"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
