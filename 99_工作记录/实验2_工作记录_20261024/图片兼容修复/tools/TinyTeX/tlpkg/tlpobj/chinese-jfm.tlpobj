@@ -1,0 +1,24 @@
+name chinese-jfm
+category Package
+revision 57758
+shortdesc Luatexja-jfm files for Chinese typesetting
+longdesc ChineseJFM is a series of luatexja-jfm files for better Chinese
+longdesc typesetting, providing quanjiao, banjiao, and kaiming three
+longdesc styles and other fancy features. It can be used for both
+longdesc horizontal and vertical writing mode in Simplified/Traditional
+longdesc Chinese or Japanese fonts.
+containersize 2492
+containerchecksum 28dc8b70bf5e97a4e31defe09a16805a57054a019fa7908f6dda7ecededd8a37bff3f782d04a7c2fb72ec17ee1695d5a5a68daf3a159092080e5a7d667b4c9e1
+doccontainersize 116496
+doccontainerchecksum 6b0b2e65ba4bb79a6c6eb5e4075a1611b2bc752cefe1aae5b220e663b33fde685184433c397ac4957e4f2a6716129aeff5c40ff2082b2a3bcfc13d591e06897a
+runfiles size=8
+ texmf-dist/tex/luatex/chinese-jfm/jfm-ja_JP.lua
+ texmf-dist/tex/luatex/chinese-jfm/jfm-zh_CN.lua
+ texmf-dist/tex/luatex/chinese-jfm/jfm-zh_TW.lua
+catalogue-also luatexja
+catalogue-contact-bugs https://github.com/tanukihee/ChineseJFM/issues
+catalogue-contact-repository https://github.com/tanukihee/ChineseJFM
+catalogue-ctan /macros/luatex/generic/chinese-jfm
+catalogue-license mit
+catalogue-topics chinese luatex macro-gen
+catalogue-version 1.1.1

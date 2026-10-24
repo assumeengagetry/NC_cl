@@ -1,0 +1,17 @@
+{
+  "week": 8,
+  "pages": 11,
+  "evidence_figures": 8,
+  "edit_scope": "教学周和对应说明；原实验日期、数据、正文、截图和pcapng不变",
+  "pdf_text_change_only_week": true,
+  "all_11_pages_rendered_and_visually_checked": true,
+  "native_compiler": "XeLaTeX, TeX Live 2026, xdvipdfmx 20260317",
+  "passes": 2,
+  "independent_zip_compile_passes": 2,
+  "independent_pdf_byte_identical": true,
+  "no_direct_png_inputs": true,
+  "teacher_review_grade_signature_blank": true,
+  "pdf_sha256": "4ed41005755d620c40dfb51f007916626099345c33bbec183bc9e172d5337b27",
+  "zip_sha256": "7b13d03a0b644cc1bd0aeb6239fe5f1f2bb3fc65045ab369cab2081f7a9cbdf7",
+  "overleaf_cloud_compiled": false
+}

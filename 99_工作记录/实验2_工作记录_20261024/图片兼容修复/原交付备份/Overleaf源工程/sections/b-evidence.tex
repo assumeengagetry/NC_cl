@@ -1,0 +1,37 @@
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{九、系统DNS响应：百度首次ping}
+本节所有帧号均指最终文件\capturefile。关键帧图为该文件的原始TShark解析日志节选在文本查看器中的回显，非新一轮实时测量；完整逐帧文本随附件保存。
+\Evidence{fig:dns-first-baidu}{\imgFirstBaidu}{最终文件帧2原始解析日志回显：百度系统DNS响应、CNAME和A记录}{165mm}
+\par 帧1、2经\code{utun4}配对：事务ID为\code{0xa06b}，问题类型A。响应给出\domain{www.a.shifen.com}（TTL1001秒）及地址\code{183.2.172.177}（TTL606秒），与首次、重复ping实际地址一致。
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{九、系统DNS响应：川大首次ping（续）}
+\Evidence{fig:dns-first-scu}{\imgFirstScu}{最终文件帧16原始解析日志回显：川大系统DNS响应及直接A记录}{165mm}
+\par 查询帧15与响应帧16的ID为\code{0x42ae}，问题为\domain{www.scu.edu.cn}、类型A。响应Answer仅含地址\code{202.115.47.167}，TTL606秒，Authority与Additional均为空。该地址与两次ping一致，后续ICMP无应答不改变已成功取得DNS回答的事实。
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十、显式解析器：百度A查询}
+四种nslookup均使用\code{223.5.5.5}，经\code{en0}发送。此处查询帧23与响应帧24按ID、问题、反向端点和时间顺序配对。
+\Evidence{fig:ns-baidu-a}{\imgNsBaiduA}{最终文件帧24原始解析日志回显：百度A查询返回CNAME及两条A记录}{165mm}
+\par CNAME为\domain{www.a.shifen.com}，TTL1094秒；其两条A记录为\code{110.242.70.57}、\code{110.242.69.21}，TTL均29秒。它们属于显式解析器本次回答，不是此前系统ping使用的地址。
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十、显式解析器：百度CNAME查询（续）}
+\Evidence{fig:ns-baidu-cname}{\imgNsBaiduCname}{最终文件帧26原始解析日志回显：百度CNAME查询仅返回规范名}{165mm}
+\par 查询帧25与响应帧26的ID为\code{0xfe02}，QTYPE为CNAME。Answer仅返回\domain{www.baidu.com}指向\domain{www.a.shifen.com}，TTL1072秒；未附最终A地址。该结果支持此前百度为别名的判断。
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十一、显式解析器：川大A查询}
+\Evidence{fig:ns-scu-a}{\imgNsScuA}{最终文件帧28原始解析日志回显：川大A查询返回202.115.47.167}{165mm}
+\par 查询帧27与响应帧28的ID为\code{0x9c7e}，QTYPE为A。Answer直接返回\domain{www.scu.edu.cn}的地址\code{202.115.47.167}，TTL600秒，没有CNAME。Authority与Additional均为空。
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{
+\subheading{十一、显式解析器：川大CNAME查询（续）}
+\Evidence{fig:ns-scu-cname}{\imgNsScuCname}{最终文件帧30原始解析日志回显：NOERROR、空Answer与Authority中的SOA}{165mm}
+\par 帧29、30的ID为\code{0x010d}。响应RCODE=0（NOERROR），Answer=0、Authority=1、Additional=0，属于本次CNAME类型无数据的回答。SOA属于\domain{scu.edu.cn}，其中\domain{dart.scu.edu.cn}为主名称服务器，不是网站的CNAME；不能写成NXDOMAIN。
+}

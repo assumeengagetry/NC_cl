@@ -1,0 +1,42 @@
+name xecjk
+category Package
+revision 80059
+shortdesc Typeset CJK in XeLaTeX
+longdesc xeCJK is a package for typesetting documents in Chinese,
+longdesc Japanese or Korean with XeLaTeX. It provides CJK-specific
+longdesc automatic glue between CJK and non-CJK characters, full control
+longdesc over CJK punctuation compression, separate font families for
+longdesc CJK and Latin scripts, and a number of fine-grained typographic
+longdesc refinements for the CJK script.
+depend ctex
+depend fontspec
+depend l3kernel
+depend l3packages
+containersize 245112
+containerchecksum 40e4c9c5f2195021cde4859da7b137de0cdf0c96b83f7ddbf724c682e1dd07276cb83bf4004b2b7cb5f90b6033da54940b3c58aeb2ca231b9ce449ee32d3a3d8
+doccontainersize 1789380
+doccontainerchecksum bd810a93bcb3849456c28a28456db65e75a74921412d93f22564c8f87342f4dab8edfbd531a530374a678ad3624bc593736116736b387b5d43960e8143af4a73
+srccontainersize 138556
+srccontainerchecksum a5b6c34b1266016a5b88f05becead7093638f693c07fe9259d56ff93f35d301513f77f064dc5a3dac5924852530a458a687cb38225304073a5fd7a6ab01cbb0b
+runfiles size=214
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-simp.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-simp.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-trad.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-trad.tec
+ texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+ texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+ texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+ texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+ texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
+ texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
+catalogue-contact-development https://github.com/CTeX-org
+catalogue-contact-repository https://github.com/CTeX-org/ctex-kit
+catalogue-contact-support https://github.com/CTeX-org/ctex-kit/issues
+catalogue-ctan /macros/xetex/latex/xecjk
+catalogue-license lppl1.3c
+catalogue-topics chinese japanese korean tagged-pdf-unsupported xetex
+catalogue-version 3.10.6

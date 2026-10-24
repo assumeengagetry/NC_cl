@@ -1,0 +1,51 @@
+name l3kernel-dev
+category Package
+revision 80220
+shortdesc Development pre-release of l3kernel
+longdesc This is a pre-release version of the l3kernel package. It
+longdesc accompanies the pre-testing kernel code (latex-base-dev), and
+longdesc is intended for testing by knowledgeable users. Important:
+longdesc l3backend-dev is now integrated in l3kernel-dev!
+depend lua-uni-algos
+containersize 205272
+containerchecksum b86785f966bd2b289de9a12848dcce0544903c02b064207ee6c0890b3ba0fa05b84066c2b6eb84bdecc368adeec702f7c540120195635b164574e2d2180683ef
+doccontainersize 12233848
+doccontainerchecksum cdfd73dcaef62acbd4fdd36b7e773828f59d64fc36a994a28aa1dbd4d9204136e084065c79b1e7cc68c24290b1a9c55d71db6a5ae39666606ff848aa28f82328
+srccontainersize 688588
+srccontainerchecksum 99ec0083de9b268a4e16a72452438047a91253cb35632f69cdeb82b86640040bb1ee40cf996b2231fc4e975b20a5d5a2783693370fb8f707a2fcc96724195e17
+runfiles size=448
+ texmf-dist/tex/latex-dev/l3kernel/expl3-code.tex
+ texmf-dist/tex/latex-dev/l3kernel/expl3-generic.tex
+ texmf-dist/tex/latex-dev/l3kernel/expl3.ltx
+ texmf-dist/tex/latex-dev/l3kernel/expl3.lua
+ texmf-dist/tex/latex-dev/l3kernel/expl3.sty
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-dvipdfmx.def
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-dvips.def
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-dvisvgm.def
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-hitex.def
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-luatex.def
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-luatex.lua
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-pdftex.def
+ texmf-dist/tex/latex-dev/l3kernel/l3backend-xetex.def
+ texmf-dist/tex/latex-dev/l3kernel/l3debug.def
+ texmf-dist/tex/latex-dev/l3kernel/l3doc.cls
+ texmf-dist/tex/latex-dev/l3kernel/l3docstrip.tex
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88591.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso885910.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso885911.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso885913.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso885914.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso885915.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso885916.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88592.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88593.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88594.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88595.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88596.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88597.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88598.def
+ texmf-dist/tex/latex-dev/l3kernel/l3str-enc-iso88599.def
+catalogue-alias l3backend-dev
+catalogue-ctan /macros/latex-dev/required/l3kernel
+catalogue-license lppl1.3c
+catalogue-topics format latex3 pre-release

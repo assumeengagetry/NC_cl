@@ -1,0 +1,147 @@
+%%
+%% This is file `latex-firstaid-pkg-cleveref.ltx',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% latex2e-first-aid-for-external-files.dtx  (with options: `cleveref')
+%% 
+%% The source is maintained by the LaTeX Project team and bug
+%% reports for it can be opened at https://latex-project.org/bugs/
+%% (but please observe conditions on bug reports sent to that address!)
+%% 
+%% 
+%% Copyright (C) 2020-2026
+%% The LaTeX Project and any individual authors listed elsewhere
+%% in this file.
+%% 
+%% This file was generated from file(s) of the Standard LaTeX `First Aid Bundle'.
+%% ------------------------------------------------------------------------------
+%% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3c
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    https://www.latex-project.org/lppl.txt
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%% 
+%% This file may only be distributed together with a copy of the LaTeX
+%% `First Aid Bundle'. You may however distribute the LaTeX `First Aid Bundle'
+%% without such generated files.
+%% 
+%% File: latex2e-first-aid-for-external-files.dtx (C) Copyright 2020-2026
+%%
+%% The LaTeX Project and any individual authors listed elsewhere
+%% in this file.
+\FirstAidNeededT{cleveref}{sty}{2018/03/27 v0.21.4 Intelligent cross-referencing}{%
+  \def\cref@getref#1#2{%
+    \expandafter\let\expandafter#2\csname r@#1@cref\endcsname%
+    \expandafter\expandafter\expandafter\def%
+      \expandafter\expandafter\expandafter#2%
+      \expandafter\expandafter\expandafter{%
+        \expandafter\@firstoffive#2}}% <-------- five
+  \def\cpageref@getref#1#2{%
+    \expandafter\let\expandafter#2\csname r@#1@cref\endcsname%
+    \expandafter\expandafter\expandafter\def%
+      \expandafter\expandafter\expandafter#2%
+      \expandafter\expandafter\expandafter{%
+        \expandafter\@secondoffive#2}}% <----------- five
+  \AddToHook{begindocument}[cleveref]{%
+     \def\label@noarg#1{%
+      \cref@old@label{#1}%
+      \@bsphack%
+      \protected@edef\@tempa{{page}{\the\c@page}}%   <--- should be protected
+      \setcounter{page}{1}%
+      \protected@edef\@tempb{\thepage}%              <--- should be protected
+      \expandafter\setcounter\@tempa%
+      \cref@constructprefix{page}{\cref@result}%
+      \protected@write\@auxout{}%
+        {\string\newlabel{#1@cref}{{\cref@currentlabel}%
+        {[\@tempb][\arabic{page}][\cref@result]\thepage}{}{}{}}}% <----- five
+      \@esphack}%
+    \def\label@optarg[#1]#2{%
+      \cref@old@label{#2}%
+      \@bsphack%
+      \protected@edef\@tempa{{page}{\the\c@page}}%    <--- should be protected
+      \setcounter{page}{1}%
+      \protected@edef\@tempb{\thepage}%               <--- should be protected
+      \expandafter\setcounter\@tempa%
+      \cref@constructprefix{page}{\cref@result}%
+      \protected@edef\cref@currentlabel{%
+        \expandafter\cref@override@label@type%
+          \cref@currentlabel\@nil{#1}}%
+      \protected@write\@auxout{}%
+        {\string\newlabel{#2@cref}{{\cref@currentlabel}%
+        {[\@tempb][\arabic{page}][\cref@result]\thepage}{}{}{}}}% <------- five
+      \@esphack}%
+      }
+  \newcommand\firstaid@cref@smugglelabel{\let\cref@currentlabel\cref@gcurrentlabel@temp}
+  \newcommand\firstaid@cref@updatelabeldata[1]{%
+   \cref@constructprefix{#1}{\cref@result}%
+    \@ifundefined{cref@#1@alias}%
+      {\def\@tempa{#1}}%
+      {\def\@tempa{\csname cref@#1@alias\endcsname}}%
+    \protected@xdef\cref@gcurrentlabel@temp{%
+      [\@tempa][\arabic{#1}][\cref@result]%
+      \csname p@#1\expandafter\endcsname\csname the#1\endcsname}%
+    \aftergroup\firstaid@cref@smugglelabel
+      }
+  \newif\iftag@
+  \AddToHook{label}[firstaid/cleveref]
+    {\ifx
+      \@currentcounter\@empty
+     \else
+      \iftag@\else
+      \firstaid@cref@updatelabeldata{\@currentcounter}%
+      \fi
+     \fi}
+  \AddToHook{begindocument}[cleveref]
+    {
+     \IfPackageAtLeastT{amsmath}{2025-05-18}
+       {
+         \def\ltx@label#1{\cref@label{#1}}
+         \def\label@in@display@noarg#1{\cref@old@label@in@display{#1}}
+         \def\label@in@mmeasure@noarg#1{%
+           \begingroup
+            \measuring@false%
+            \cref@old@label@in@display{#1}%
+           \endgroup}%
+       }
+    }
+  \def\cref@isinresetlist#1#2{%
+    \begingroup%
+    %%%%% begin change
+      \@ifundefined{alias@ctr@#1}
+       {\def\@counter{#1}}
+       {\edef\@counter{\csname alias@ctr@#1\endcsname}}%
+    %%%%% end change
+      \def\@elt##1{##1,}%
+      \expandafter\ifx\csname cl@#2\endcsname\relax%
+        \def\cref@resetstack{,\@nil}%
+      \else%
+        \edef\cref@resetstack{\csname cl@#2\endcsname\noexpand\@nil}%
+      \fi%
+      \let\@nextcounter\relax%
+      \cref@isstackfull{\cref@resetstack}%
+      \@whilesw\if@cref@stackfull\fi{%
+        \edef\@nextcounter{\cref@stack@top{\cref@resetstack}}%
+        \ifx\@nextcounter\@counter%
+          \@cref@stackfullfalse%
+        \else%
+          \let\@nextcounter\relax%
+          \cref@stack@pop{\cref@resetstack}%
+          \cref@isstackfull{\cref@resetstack}%
+        \fi}%
+      \ifx\@nextcounter\relax%
+        \def\@next{\@cref@inresetlistfalse}%
+      \else%
+        \def\@next{\@cref@inresetlisttrue}%
+      \fi%
+    \expandafter%
+    \endgroup%
+    \@next}%
+  }
+\endinput
+%%
+%% End of file `latex-firstaid-pkg-cleveref.ltx'.

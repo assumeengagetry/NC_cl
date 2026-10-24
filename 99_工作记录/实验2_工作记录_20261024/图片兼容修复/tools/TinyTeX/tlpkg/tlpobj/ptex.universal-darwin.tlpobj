@@ -1,0 +1,19 @@
+name ptex.universal-darwin
+category Package
+revision 78048
+shortdesc universal-darwin files of ptex
+containersize 1905044
+containerchecksum 77a1e3e7a0f8260ce75daf5e750da3570b5905de16a5a4fc37a9a422f98ffcc1273f3470b082c3e0c74e962569d7efb370cd6f7c9b3c8274b7d4aac7ce87ab6d
+binfiles arch=universal-darwin size=1603
+ bin/universal-darwin/eptex
+ bin/universal-darwin/makejvf
+ bin/universal-darwin/mendex
+ bin/universal-darwin/pbibtex
+ bin/universal-darwin/pdvitomp
+ bin/universal-darwin/pdvitype
+ bin/universal-darwin/pmpost
+ bin/universal-darwin/ppltotf
+ bin/universal-darwin/ptekf
+ bin/universal-darwin/ptex
+ bin/universal-darwin/ptftopl
+ bin/universal-darwin/r-pmpost

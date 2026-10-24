@@ -1,0 +1,9 @@
+name platex.universal-darwin
+category Package
+revision 67315
+shortdesc universal-darwin files of platex
+containersize 344
+containerchecksum adaebe1a9fed26cf8227610cfc1ca4cdb9e63f173d86dfccd3ab575f1d32dcc2bd580128625624b90abc260c1c8997849d30c367a8d131d64eb124006f7086dc
+binfiles arch=universal-darwin size=2
+ bin/universal-darwin/platex
+ bin/universal-darwin/platex-dev

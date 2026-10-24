@@ -1,0 +1,11 @@
+name ttfutils.universal-darwin
+category TLCore
+revision 77928
+shortdesc universal-darwin files of ttfutils
+containersize 833780
+containerchecksum 001afa9f5465ccea471f772b7f5f1be0a25cabd793f02714d982fcc6d953fcae79e651ce819155826f32c1f80766f3a2282d87d73df82bcf0581c36d6e267640
+binfiles arch=universal-darwin size=1031
+ bin/universal-darwin/ttf2afm
+ bin/universal-darwin/ttf2pk
+ bin/universal-darwin/ttf2tfm
+ bin/universal-darwin/ttfdump

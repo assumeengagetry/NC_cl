@@ -1,0 +1,31 @@
+{
+  "independent_review_date": "2026-10-24",
+  "source_pcap": "2024141460445_许盛凯_实验2_DNS.pcapng",
+  "sha256_verified": true,
+  "dns_frames_checked_against_fresh_tshark": [
+    1,
+    2,
+    15,
+    16,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "complete_pairs_independently_verified": 6,
+  "rr_sections_counts_ttls_verified": true,
+  "cache_flush_commands_both_stages_exit_zero": true,
+  "cache_dump_failure_preserved": true,
+  "upstream_cache_not_claimed_empty": true,
+  "no_data_modified": true,
+  "observations": [
+    "System ping DNS: utun4 100.96.206.115 -> 100.100.100.100; nslookup: en0 10.20.41.180 -> 223.5.5.5.",
+    "Repeat ping phases have no target DNS packets; ICMP remains.",
+    "SCU CNAME: NOERROR/NODATA with SOA, not NXDOMAIN.",
+    "All six responses AA=0,RD=1,RA=1,TC=0,RCODE=0."
+  ]
+}

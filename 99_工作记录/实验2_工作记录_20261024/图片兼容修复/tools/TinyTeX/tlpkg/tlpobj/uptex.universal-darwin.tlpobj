@@ -1,0 +1,17 @@
+name uptex.universal-darwin
+category Package
+revision 78048
+shortdesc universal-darwin files of uptex
+containersize 2734056
+containerchecksum c881d0edbf0d60294557469ee638f6aaf1932e672faf08e043f0f8a01164f771135b48a7ffde895d6448fc12d570a2a4327fac62efcf67bd094a1835e7996516
+binfiles arch=universal-darwin size=2402
+ bin/universal-darwin/euptex
+ bin/universal-darwin/r-upmpost
+ bin/universal-darwin/upbibtex
+ bin/universal-darwin/updvitomp
+ bin/universal-darwin/updvitype
+ bin/universal-darwin/upmpost
+ bin/universal-darwin/uppltotf
+ bin/universal-darwin/uptex
+ bin/universal-darwin/uptftopl
+ bin/universal-darwin/wovp2ovf

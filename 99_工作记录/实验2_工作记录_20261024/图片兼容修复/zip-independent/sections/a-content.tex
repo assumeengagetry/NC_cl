@@ -1,0 +1,70 @@
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{二、A部分：拓扑、地址与连线}
+在Cisco Packet Tracer 9.0.1内放置1台PC-PT、2台Server-PT和1台Switch-PT，分别命名为\domain{PC-2024141460445}、\domain{DNS-2024141460445}、\domain{HOST-2024141460445}和\domain{SW-2024141460445}。三台终端用铜质直通线连到同一交换机，链路均为绿色。
+\par 初始地址为PC \code{192.168.1.155}、DNS服务器\code{192.168.1.199}、目标服务器\code{192.168.1.200}，掩码均为\code{255.255.255.0}。同一子网不配置默认网关；界面\code{0.0.0.0}表示未配置。
+\Evidence{fig:pt-topology}{images/A01-topology.pdf}{Packet Tracer实际拓扑；最终DNS地址已修复为192.168.1.198}{95mm}
+\begin{tabularx}{\linewidth}{|l|X|}\hline
+设备端口 & 交换机端口（铜质直通线）\\\hline
+PC FastEthernet0 & SW FastEthernet0/1\\\hline
+DNS FastEthernet0 & SW FastEthernet1/1\\\hline
+HOST FastEthernet0 & SW FastEthernet2/1\\\hline
+\end{tabularx}
+}
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{二、A部分（续）：客户端与DNS服务}
+初始客户端DNS设为\code{192.168.1.199}（图\ref{fig:pt-initial-client}）。在DNS服务器Services→DNS中置为On，添加下列记录；个人实验域名只在仿真内部使用。
+\Evidence{fig:pt-initial-client}{images/A02-initial-client.pdf}{初始PC的IPv4、掩码与DNS配置}{57mm}
+\Evidence{fig:pt-records}{images/A03-records.pdf}{DNS服务开启与实际A、CNAME配置记录}{49mm}
+\begin{tabularx}{\linewidth}{|l|X|}\hline
+记录类型 & 名称与指向\\\hline
+A & \domain{www.xushengkai.com} → \code{192.168.1.200}\\\hline
+CNAME & \domain{www1.2024141460445.com} → \domain{www.xushengkai.com}\\\hline
+\end{tabularx}
+\par A记录始终指向目标服务器\code{192.168.1.200}，不指向DNS服务器本身。
+}
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{三、A部分：正常状态的三种ping}
+在PC实际依次执行以下三种ping，均4/4成功。截图为真实输出局部，完整截图与原始日志另附。
+\Evidence{fig:pt-normal-ip}{images/A04-normal-ip.pdf}{正常阶段：ping 192.168.1.200，4/4成功}{49mm}
+\Evidence{fig:pt-normal-a}{images/A05-normal-A.pdf}{正常阶段：主域名ping，4/4成功}{54mm}
+\Evidence{fig:pt-normal-cname}{images/A06-normal-CNAME.pdf}{正常阶段：别名ping，4/4成功}{54mm}
+\par 初始三次均显示TTL=128、time<1 ms，统计最小/最大/平均均0 ms；本次首次直接IP测试也没有发生首包丢失，不虚构ARP导致的首包超时。
+}
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{三、A部分（续）：主域名DNS响应PDU}
+切换Simulation并推进事件，打开主域名解析的实际入站响应PDU（图\ref{fig:pt-pdu-a}）。源/目的IP为\code{192.168.1.199}→\code{192.168.1.155}，UDP端口为53→1027。
+\Evidence{fig:pt-pdu-a}{images/A07-A-PDU.pdf}{主域名响应PDU的IP、UDP、DNS头、问题及实际A资源记录}{105mm}
+\par 事务ID=\code{0xd1fe}、QR=1；问题为\domain{www.xushengkai.com}，QTYPE=1。QD/AN/NS/AR为1/1/0/0。Answer中owner为\domain{www.xushengkai.com}，TYPE=A(1)、CLASS=IN(1)、TTL=86400秒、RDLENGTH=4、地址\code{192.168.1.200}。
+\par 图中的仿真软件字段按原样保留，包括其显示的OPCODE=\code{0x1}；不把这一界面值替换成真实公网DNS的操作码分析。
+}
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{三、A部分（续）：别名DNS响应PDU}
+别名查询的问题为\domain{www1.2024141460445.com}，QTYPE=1；响应IP同前，UDP端口53→1028，ID=\code{0x6aa9}、QR=1，QD/AN/NS/AR为1/2/0/0。
+\Evidence{fig:pt-pdu-cname}{images/A08-alias-PDU.pdf}{别名响应：ANCOUNT=2；该版本界面仅展开末端A记录块}{105mm}
+\par 图\ref{fig:pt-pdu-cname}实际显示的Answer块为\domain{www.xushengkai.com}的A记录：\code{192.168.1.200}，CLASS=1、TTL=86400秒、RDLENGTH=4。头部表明有2条Answer，但Packet Tracer 9.0.1此处只展开上述一个A块；不能声称从该界面逐字段读到了第二条CNAME资源记录或其TTL。
+\par 图\ref{fig:pt-records}的CNAME配置及图\ref{fig:pt-normal-cname}的实际成功解析，共同验证别名映射。Simulation额外ping中主名出现一次33 ms、别名为4 ms，与初始正常测量分开保留。
+}
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{四、A部分：DNS地址变更与故障观察}
+只把DNS服务器IPv4由\code{192.168.1.199}改成\code{192.168.1.198}；PC的DNS仍为旧地址\code{192.168.1.199}，PC与目标主机IP、掩码、A/CNAME记录均保持原值。
+\Evidence{fig:pt-fault-config}{images/A09-fault-client.pdf}{故障客户端仍指向旧DNS .199（故障后回看配置，与测试时相同）}{36mm}
+\Evidence{fig:pt-fault-tests}{images/A10-fault-tests.pdf}{故障三项测试：直接IP 4/4；主域名和别名均提示找不到主机}{53mm}
+\par 实际直接IP访问仍4/4成功，说明目标主机与局域网转发仍可用；两种域名均出现“Ping request could not find host … Please check the name and try again.”。解析失败时没有发出以域名目标为地址的正常ICMP测试，不能把它写成4个ICMP超时。
+\par 本轮未出现缓存造成域名暂时成功的现象。DNS超时等待通过Packet Tracer原生Fast Forward Time推进，没有伪造失败或替换回显；故障配置的原生XML与命令累计日志均保留。
+}
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{四、A部分（续）：修复与复测}
+将PC DNS修正为\code{192.168.1.198}，三项复测均4/4，域名目标恢复为\code{192.168.1.200}。
+\Evidence{fig:pt-restored-config}{images/A11-restored-client.pdf}{修复后的客户端：DNS为192.168.1.198}{32mm}
+\Evidence{fig:pt-restored-tests}{images/A12-restored-tests.pdf}{修复后三项实际复测：三种ping均4/4成功}{137mm}
+\par 修复后直接IP首个回包19 ms，统计min/max/avg为0/19/4 ms；主域名与别名统计均0/0/0 ms。该差异按实际回显保留，不将各阶段时延混写。
+}
+
+\reportpage{（接上）\\实验内容\\（算法、程序、步骤和方法）}{
+\subheading{四、A部分（续）：最终工程重新打开验收}
+将恢复后的网络保存为\textnormal{2024141460445\_许盛凯\_实验2.pkt}，关闭并重新打开，核对拓扑、三条连线、PC DNS、服务器IP以及DNS服务记录。工程无需临时脚本或插件即可使用，重开时没有脚本权限弹窗。
+\Evidence{fig:pt-reopened-pc}{images/A13-reopened-PC.pdf}{重新打开工程后：PC IP .155，DNS .198}{36mm}
+\Evidence{fig:pt-reopened-records}{images/A14-reopened-records.pdf}{重新打开工程后：DNS On，A与CNAME记录保留正确}{42mm}
+\Evidence{fig:pt-reopened-dns}{images/A15-reopened-DNS-IP.pdf}{重新打开工程后：DNS服务器IP为192.168.1.198/24}{36mm}
+\par 临时自动化脚本已删除，Packet Tracer脚本权限清零并置为Disabled。目标主机仍为\code{192.168.1.200}，三种测试的结果见图\ref{fig:pt-restored-tests}。
+}

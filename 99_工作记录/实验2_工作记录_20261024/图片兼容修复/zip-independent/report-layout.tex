@@ -1,0 +1,32 @@
+% Helpers and experiment-two metadata. Page frame and typography come from report-template.sty.
+\usepackage{report-template}
+\newcommand{\studentname}{许盛凯}
+\newcommand{\studentid}{2024141460445}
+\newcommand{\majorname}{计算机科学与技术}
+\newcommand{\classname}{周二34节} % Compact display of the supplied course class in the template's single identity row.
+\newcommand{\classfullname}{计算机网络课程设计星期二34节}
+\newcommand{\teachername}{陈黎}
+\newcommand{\teachingweek}{8}
+\newcommand{\experimentdate}{2026年10月24日}
+\newcommand{\experimenttitle}{实验2：DNS服务器配置与DNS协议分析}
+\newcommand{\experimenthours}{} % Not verified in supplied materials.
+\newcommand{\BodyFont}{\reportfont}
+\newcommand{\domain}[1]{\nolinkurl{#1}}
+\newcommand{\capturefile}{\textnormal{2024141460445\_\allowbreak 许盛凯\_\allowbreak 实验2\_\allowbreak DNS.pcapng}}
+% Compatibility wrappers keep the existing editable experiment text and data intact.
+\NewDocumentCommand{\TemplateRow}{O{.75pt} O{.75pt} m +m m}{%
+ \pgfmathsetmacro{\rowheightmm}{#5/1mm}%
+ \templaterow{#3}{\rowheightmm}{#4}}
+\newcommand{\TemplateFourRow}[6][.5pt]{%
+ \pgfmathsetmacro{\rowheightmm}{#6/1mm}%
+ \templatefourrow{\rowheightmm}{#2}{#3}{#4}{#5}}
+\newcommand{\TemplateHeading}{\startreportpage{61.36}\templateheading}
+\newcommand{\TemplateReview}{\templaterow{指导老师\\评\quad 议}{45}{\vspace*{30mm}\par\noindent 成绩评定：\hspace{22mm}指导教师签名：\par}}
+\newcounter{evidencefigure}
+% As in the supplied compatibility project, all compiled pictures are single-image PDFs.
+\newcommand{\Evidence}[4]{%
+ \refstepcounter{evidencefigure}\label{#1}%
+ \par\noindent{\centering
+ \IfFileExists{#2}{\includegraphics[width=\linewidth,height=#4,keepaspectratio]{#2}}{%
+ \PackageError{evidence}{Missing required picture #2}{Upload the entire ZIP.}}\par}%
+ {\centering\fontsize{9}{11.5}\selectfont 图\arabic{evidencefigure}\quad#3\par}\vspace{1.5mm}}

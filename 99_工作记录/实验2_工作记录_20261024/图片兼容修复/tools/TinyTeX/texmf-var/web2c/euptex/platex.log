@@ -1,0 +1,2 @@
+# actual command line used during this run
+# euptex -ini   -jobname=platex -progname=platex -kanji-internal=euc *platex.ini </dev/null

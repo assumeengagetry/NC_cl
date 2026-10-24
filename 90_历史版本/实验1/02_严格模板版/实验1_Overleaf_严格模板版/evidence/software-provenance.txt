@@ -1,0 +1,44 @@
+Experiment software acquired from Arch official package repository; each package verified using gpgv and /etc/pacman.d/gnupg/pubring.gpg.
+Acquired and tested: 2026-10-13
+
+Package: apache-2.4.69-1-x86_64.pkg.tar.zst
+Source: https://geo.mirror.pkgbuild.com/extra/os/x86_64/apache-2.4.69-1-x86_64.pkg.tar.zst
+SHA256: e2ee1933cfa1502a996caad6818c7b35184d2a9668d91538f3e2402ce8d597b4
+gpgv: Signature made Thu 01 Oct 2026 03:33:58 PM EDT
+gpgv:                using EDDSA key 0429897DE5F3BDAC537A30696D42BDD116E0068F
+gpgv: Good signature from "Christian Hesse <eworm@archlinux.org>"
+
+Package: apr-1.7.6-1-x86_64.pkg.tar.zst
+Source: https://geo.mirror.pkgbuild.com/extra/os/x86_64/apr-1.7.6-1-x86_64.pkg.tar.zst
+SHA256: d865433b4e2d5a447347225e21d8f0d7e6557c7f3f5d81fb4684db35b9a50195
+gpgv: Signature made Sat 17 May 2025 07:30:21 AM EDT
+gpgv:                using EDDSA key EB3D764FF5D87E0818A3E0E5F05E8C12131AEB5E
+gpgv: Good signature from "Carl Smedstad <carsme@archlinux.org>"
+
+Package: apr-util-1.6.5-1-x86_64.pkg.tar.zst
+Source: https://geo.mirror.pkgbuild.com/extra/os/x86_64/apr-util-1.6.5-1-x86_64.pkg.tar.zst
+SHA256: bddd402c6484af1b4d88098aebbdc32931b71ec901c66eb21e30cb2fe7536bae
+gpgv: Signature made Tue 11 Aug 2026 04:53:51 PM EDT
+gpgv:                using EDDSA key 0429897DE5F3BDAC537A30696D42BDD116E0068F
+gpgv: Good signature from "Christian Hesse <eworm@archlinux.org>"
+
+Package: tectonic-0.17.0-1-x86_64.pkg.tar.zst
+Source: https://geo.mirror.pkgbuild.com/extra/os/x86_64/tectonic-0.17.0-1-x86_64.pkg.tar.zst
+SHA256: 8f118c4cc3253f8fca284b9a3d88f6c8bd58b49362a02eba55cf5236725ce2c5
+gpgv: Signature made Mon 27 Jul 2026 04:29:12 AM EDT
+gpgv:                using EDDSA key 05C7775A9E8B977407FE08E69D4C5AA15426DA0A
+gpgv: Good signature from "Frederik Schwan <frederik@tty42.de>"
+gpgv:                 aka "Frederik Schwan <frederik.schwan@linux.com>"
+gpgv:                 aka "Frederik Schwan <frederik.schwan@mailbox.org>"
+gpgv:                 aka "Frederik Schwan <frederik@schw4n.de>"
+gpgv:                 aka "Frederik Schwan <frederik@schwan.it>"
+gpgv:                 aka "Frederik Schwan <freswa@archlinux.org>"
+
+Package: xorg-server-xvfb-21.1.25-1-x86_64.pkg.tar.zst
+Source: https://geo.mirror.pkgbuild.com/extra/os/x86_64/xorg-server-xvfb-21.1.25-1-x86_64.pkg.tar.zst
+SHA256: c6bfb4dff25df8eabab71e64b2fb4a16348c3a786cce8305f1af2602478e2813
+gpgv: Signature made Wed 07 Oct 2026 01:07:10 AM EDT
+gpgv:                using RSA key ADC8A1FCC15E01D45310419E94657AB20F2A092B
+gpgv: Good signature from "Andreas Radke <andyrtr@archlinux.org>"
+gpgv:                 aka "Andreas Radke <andreas.radke@mailbox.org>"
+gpgv:                 aka "Andreas Radke <andyrtr@mailbox.org>"

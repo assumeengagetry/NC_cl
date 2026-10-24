@@ -1,0 +1,676 @@
+[Sat Oct 24 19:20:44 2026] running mktexlsr
+[Sat Oct 24 19:20:46 2026] success, output:
+
+--end of output of mktexlsr.
+
+[Sat Oct 24 19:22:45 2026] running mktexlsr
+[Sat Oct 24 19:22:45 2026] success, output:
+
+--end of output of mktexlsr.
+
+[Sat Oct 24 19:22:45 2026] running updmap-sys
+[Sat Oct 24 19:22:46 2026] success, output:
+updmap will read the following updmap.cfg files (in precedence order):
+  /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg
+updmap may write changes to the following updmap.cfg file:
+  /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-config/web2c/updmap.cfg
+dvips output dir: "/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/fonts/map/dvips/updmap"
+pdftex output dir: "/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap"
+dvipdfmx output dir: "/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap"
+updmap [WARNING]: generated map ptex-haranoaji-04.map (from ptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+updmap [WARNING]: generated map uptex-tc-arphic.map (from uptex-tc-@tcEmbed@.map) does not exist, not activating it!
+updmap [WARNING]: generated map uptex-haranoaji-04.map (from uptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+updmap [WARNING]: generated map uptex-sc-arphic.map (from uptex-sc-@scEmbed@.map) does not exist, not activating it!
+updmap [WARNING]: generated map uptex-ko-baekmuk.map (from uptex-ko-@koEmbed@.map) does not exist, not activating it!
+
+updmap is creating new map files
+using the following configuration:
+  LW35 font names                  : URWkb (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  prefer outlines                  : true (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  texhash enabled                  : true
+  download standard fonts (dvips)  : true (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  download standard fonts (pdftex) : true (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  jaEmbed replacement string       : haranoaji (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  jaVariant replacement string     : -04 (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  scEmbed replacement string       : arphic (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  tcEmbed replacement string       : arphic (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  koEmbed replacement string       : baekmuk (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/updmap.cfg)
+  create a mapfile for pxdvi       : false (default)
+
+Scanning for LW35 support files  [  3 files]
+Scanning for MixedMap entries    [  7 files]
+Scanning for KanjiMap entries    [  0 files]
+Scanning for Map entries         [ 30 files]
+
+Generating output for dvipdfmx...
+Generating output for ps2pk...
+Generating output for dvips...
+Generating output for pdftex...
+
+Files generated:
+  /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/fonts/map/dvips/updmap:
+       15932 2026-10-24 19:22:46 builtin35.map
+       21405 2026-10-24 19:22:46 download35.map
+      121924 2026-10-24 19:22:46 psfonts_pk.map
+      128090 2026-10-24 19:22:46 psfonts_t1.map
+      128085 2026-10-24 19:22:46 ps2pk.map
+      128090 2026-10-24 19:22:46 psfonts.map = psfonts_t1.map
+  /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap:
+      128092 2026-10-24 19:22:46 pdftex_dl14.map
+      126427 2026-10-24 19:22:46 pdftex_ndl14.map
+      128092 2026-10-24 19:22:46 pdftex.map = pdftex_dl14.map
+  /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap:
+         455 2026-10-24 19:22:46 kanjix.map
+
+Transcript written on: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/updmap.log
+updmap: updating ls-R files.
+updmap [WARNING]: please check warnings above.
+--end of output of updmap-sys.
+
+[Sat Oct 24 19:22:46 2026] running fmtutil-sys --byengine euptex --byfmt mptopdf --no-error-if-no-engine=luametatex,luajithbtex,luajittex,mfluajit,xetex --status-file=/var/folders/2m/lk45c8cd48z1_n4dv7x1jbb40000gn/T/NcEVDrLn7p/v4edcS02Uz
+[Sat Oct 24 19:22:47 2026]   OK: euptex.fmt/euptex
+[Sat Oct 24 19:22:47 2026]   ERROR: platex.fmt/euptex
+[Sat Oct 24 19:22:47 2026]   OK: uptex.fmt/euptex
+[Sat Oct 24 19:22:47 2026]   ERROR: ptex.fmt/euptex
+[Sat Oct 24 19:22:47 2026]   ERROR: platex-dev.fmt/euptex
+[Sat Oct 24 19:22:47 2026]   ERROR: eptex.fmt/euptex
+[Sat Oct 24 19:22:55 2026]   OK: mptopdf.fmt/pdftex
+[Sat Oct 24 19:22:55 2026]   OK: uplatex.fmt/euptex
+[Sat Oct 24 19:22:55 2026]   OK: uplatex-dev.fmt/euptex
+[Sat Oct 24 19:22:55 2026] error, status: 4, output:
+fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+fmtutil:   /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/fmtutil.cnf
+fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+fmtutil:   /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-config/web2c/fmtutil.cnf
+fmtutil [INFO]: writing formats under /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c
+fmtutil [INFO]: building up to 8 formats in parallel
+fmtutil [INFO]: --- remaking euptex with euptex
+fmtutil: running `euptex -ini   -jobname=euptex -progname=euptex *euptex.ini' ...
+fmtutil [INFO]: --- output of euptex with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uptex/uptex-base/euptex.ini (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uptex/uptex-base/euptex.src (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uptex/uptex-base/uptex.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/plain/base/plain.tex Preloading the plain format: codes, registers, parameters, fonts, more fonts, macros, math definitions, output routines, hyphenation (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex [skipping from \patterns to end-of-file...])) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uptex/uptex-base/ukinsoku.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/ptex/ptex-base/eptexdefs.lib Skipping module "grouptypes"; Loading module "interactionmodes"; Skipping module "nodetypes"; Skipping module "iftypes";) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/tex/generic/config/language.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex)) Augmenting the Plain TeX definitions: \tracingall; Adding new e-TeX definitions: \eTeX, \epTeX, \eupTeX,  \loggingall, \tracingnone, register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue, \b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf, \et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt, \p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined), \forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn, \et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \epTeX, \eupTeX, \etexhdrchk, \etexstatus, \module, \uselanguage, \r@tain, \r@cycle, ) )
+Beginning to dump on file euptex.fmt
+ (preloaded format=euptex 2026.10.24)
+2569 strings of total length 39143
+8020 memory locations dumped; current usage is 228&7321
+1242 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+\font\tenmin=upjisr-h
+\font\sevenmin=upjisr-h at 7.0pt
+\font\fivemin=upjisr-h at 5.0pt
+\font\tengt=upjisg-h
+\font\sevengt=upjisg-h at 7.0pt
+\font\fivegt=upjisg-h at 5.0pt
+\font\tentmin=upjisr-v
+\font\seventmin=upjisr-v at 7.0pt
+\font\fivetmin=upjisr-v at 5.0pt
+\font\tentgt=upjisg-v
+\font\seventgt=upjisg-v at 7.0pt
+\font\fivetgt=upjisg-v at 5.0pt
+16509 words of font info for 62 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 17723 has 181 ops out of 35111
+  181 for language 0
+No pages of output.
+Transcript written on euptex.log.
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/euptex.log
+fmtutil [INFO]: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/euptex.fmt installed.
+fmtutil [INFO]: --- remaking platex-dev with euptex
+fmtutil: running `euptex -ini   -jobname=platex-dev -progname=platex-dev -kanji-internal=euc *platex.ini' ...
+fmtutil [INFO]: --- remaking mptopdf with pdftex
+fmtutil: running `pdftex -ini   -jobname=mptopdf -progname=context -translate-file=cp227.tcx mptopdf.tex' ...
+fmtutil [INFO]: --- remaking uplatex with euptex
+fmtutil: running `euptex -ini   -jobname=uplatex -progname=uplatex *uplatex.ini' ...
+fmtutil [INFO]: --- remaking uptex with euptex
+fmtutil: running `euptex -ini   -jobname=uptex -progname=uptex uptex.ini' ...
+fmtutil [INFO]: --- remaking uplatex-dev with euptex
+fmtutil: running `euptex -ini   -jobname=uplatex-dev -progname=uplatex-dev *uplatex.ini' ...
+fmtutil [INFO]: --- remaking platex with euptex
+fmtutil: running `euptex -ini   -jobname=platex -progname=platex -kanji-internal=euc *platex.ini' ...
+fmtutil [INFO]: --- remaking ptex with euptex
+fmtutil: running `euptex -ini   -jobname=ptex -progname=ptex -kanji-internal=euc ptex.ini' ...
+fmtutil [INFO]: --- remaking eptex with euptex
+fmtutil: running `euptex -ini   -jobname=eptex -progname=eptex -kanji-internal=euc *eptex.ini' ...
+fmtutil [INFO]: --- output of platex with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.euc) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/platex.log
+fmtutil [INFO]: --- output of uptex with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uptex/uptex-base/uptex.ini (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uptex/uptex-base/uptex.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/plain/base/plain.tex Preloading the plain format: codes, registers, parameters, fonts, more fonts, macros, math definitions, output routines, hyphenation (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uptex/uptex-base/ukinsoku.tex)) )
+Beginning to dump on file uptex.fmt
+ (preloaded format=uptex 2026.10.24)
+2431 strings of total length 36555
+5065 memory locations dumped; current usage is 132&4912
+1020 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+\font\tenmin=upjisr-h
+\font\sevenmin=upjisr-h at 7.0pt
+\font\fivemin=upjisr-h at 5.0pt
+\font\tengt=upjisg-h
+\font\sevengt=upjisg-h at 7.0pt
+\font\fivegt=upjisg-h at 5.0pt
+\font\tentmin=upjisr-v
+\font\seventmin=upjisr-v at 7.0pt
+\font\fivetmin=upjisr-v at 5.0pt
+\font\tentgt=upjisg-v
+\font\seventgt=upjisg-v at 7.0pt
+\font\fivetgt=upjisg-v at 5.0pt
+16509 words of font info for 62 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 17723 has 181 ops out of 35111
+  181 for language 0
+No pages of output.
+Transcript written on uptex.log.
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/uptex.log
+fmtutil [INFO]: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/uptex.fmt installed.
+fmtutil [INFO]: --- output of ptex with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.euc) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/ptex.log
+fmtutil [INFO]: --- output of platex-dev with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.euc) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+(f-dist/tex/platex/config/platex.ini
+<<< making "platex with Babel" format >>>
+
+(f-dist/tex/platex/base/platex.ltx
+(guessed encoding #3: ASCII = utf8)(guessed encoding #5: ASCII = utf8)
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/platex-dev.log
+fmtutil [INFO]: --- output of eptex with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.euc) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/eptex.log
+fmtutil [INFO]: --- output of mptopdf with pdftex
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+ (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/web2c/cp227.tcx)
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/context/base/mkii/syst-tex.mkii (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/plain/base/plain.tex Preloading the plain format: codes, registers, parameters, fonts,
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+more fonts,
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping scaled \font in plain
+skipping scaled \font in plain
+skipping scaled \font in plain
+skipping \font in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \textfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+macros, math definitions,
+skipping used \tenex in plain
+output routines, hyphenation
+skipping \input in plain
+skipping \tenrm in plain
+)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/context/base/mkii/supp-mis.mkii
+loading : ConTeXt Support Macros / Miscellaneous (2004.10.26)
+) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+loading : ConTeXt Support Macros / PDF
+) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/context/base/mkii/supp-mpe.mkii
+loading : ConTeXt Support Macros / MPS extensions
+) )
+Beginning to dump on file mptopdf.fmt
+ (preloaded format=mptopdf 2026.10.24)
+3326 strings of total length 50648
+13894 memory locations dumped; current usage is 116&13747
+1676 multiletter control sequences
+\font\nullfont=nullfont
+0 words of font info for 0 preloaded fonts
+0 hyphenation exceptions
+Hyphenation trie of length 256 has 0 ops out of 35111
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on mptopdf.log.
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/pdftex/mptopdf.log
+fmtutil [INFO]: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/pdftex/mptopdf.fmt installed.
+fmtutil [INFO]: --- output of uplatex with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/config/uplatex.ini
+<<< making "uplatex with Babel" format >>>
+
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/uplatex.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/latex.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, parameters,
+LaTeX2e <2026-06-01>
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex)) hacks, document commands, templates, control, par, spacing, files, font encodings, lengths, NFSS base, NFSS axes, NFSS tracing, NFSS declarative interface, NFSS initialization,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/fonttext.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/omlenc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/omsenc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ot1enc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/t1enc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/t1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ot1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/t1cmss.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ot1cmss.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ot1cmtt.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ts1cmss.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ts1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/fontmath.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/omlcmm.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/omscmsy.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/omxcmex.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/preload.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref, environments, center, verbatim, math definitions, boxes, title, sectioning, contents, floats, footnotes, index, bibliography, output,
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/babel/hyphen.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/dumyhyph.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/zerohyph.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/utf8.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/omsenc.dfu) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ot1enc.dfu) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/t1enc.dfu) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/firstaid/latex2e-first-aid-for-external-files.ltx)
+)
+**************************
+*
+* making upLaTeX format
+*
+**************************
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/platex/base/plcore.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/platex/base/plexpl3.ltx)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/uplcore.ltx) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/upldefs.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jy2mc.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jy2gt.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jt2mc.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jt2gt.fd) Loading kinsoku patterns for japanese. (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/ukinsoku.tex)) ) )
+Beginning to dump on file uplatex.fmt
+ (preloaded format=uplatex 2026.10.24)
+30786 strings of total length 797442
+430576 memory locations dumped; current usage is 333&399751
+29361 multiletter control sequences
+\font\nullfont=nullfont
+\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+\font\c_initex_cctab=cmr10 at 0.00005pt
+\font\c_other_cctab=cmr10 at 0.00006pt
+\font\c_str_cctab=cmr10 at 0.00008pt
+\font\g_tmpa_cctab=cmr10 at 0.00009pt
+\font\g_tmpb_cctab=cmr10 at 0.0001pt
+\font\g__regex_state_active_intarray=cmr10 at 0.00012pt
+\font\g__regex_thread_info_intarray=cmr10 at 0.00014pt
+\font\g__regex_submatch_prev_intarray=cmr10 at 0.00015pt
+\font\g__regex_submatch_begin_intarray=cmr10 at 0.00017pt
+\font\g__regex_submatch_end_intarray=cmr10 at 0.00018pt
+\font\g__regex_submatch_case_intarray=cmr10 at 0.0002pt
+\font\g__regex_balance_intarray=cmr10 at 0.00021pt
+\font\g__codepoint_category_index_intarray=cmr10 at 0.00023pt
+\font\g__codepoint_grapheme_index_intarray=cmr10 at 0.00024pt
+\font\g__codepoint_lowercase_index_intarray=cmr10 at 0.00026pt
+\font\g__codepoint_uppercase_index_intarray=cmr10 at 0.00027pt
+\font\g__codepoint_wordbreak_index_intarray=cmr10 at 0.00029pt
+\font\g__codepoint_category_blocks_intarray=cmr10 at 0.0003pt
+\font\g__codepoint_grapheme_blocks_intarray=cmr10 at 0.00032pt
+\font\g__codepoint_lowercase_blocks_intarray=cmr10 at 0.00034pt
+\font\g__codepoint_uppercase_blocks_intarray=cmr10 at 0.00035pt
+\font\g__codepoint_wordbreak_blocks_intarray=cmr10 at 0.00037pt
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+\font\c_code_cctab=cmr10 at 0.00038pt
+\font\c_document_cctab=cmr10 at 0.0004pt
+\font\tenmin=upjisr-h at 9.62216pt
+\font\@bannerfont=cmtt9
+\font\JT2/mc/m/n/10=upjisr-v at 9.6222pt
+\font\JY2/mc/m/n/10=upjisr-h at 9.6222pt
+\font\JY2/mc/m/n/5=upjisr-h at 4.8111pt
+\font\JY2/mc/m/n/7=upjisr-h at 6.73553pt
+\font\JY2/mc/m/n/12=upjisr-h at 11.54663pt
+\font\JY2/gt/m/n/5=upjisg-h at 4.8111pt
+\font\JY2/gt/m/n/7=upjisg-h at 6.73553pt
+\font\JY2/gt/m/n/10=upjisg-h at 9.6222pt
+\font\JY2/gt/m/n/12=upjisg-h at 11.54663pt
+\font\JT2/mc/m/n/5=upjisr-v at 4.8111pt
+\font\JT2/mc/m/n/7=upjisr-v at 6.73553pt
+\font\JT2/mc/m/n/12=upjisr-v at 11.54663pt
+\font\JT2/gt/m/n/5=upjisg-v at 4.8111pt
+\font\JT2/gt/m/n/7=upjisg-v at 6.73553pt
+\font\JT2/gt/m/n/10=upjisg-v at 9.6222pt
+\font\JT2/gt/m/n/12=upjisg-v at 11.54663pt
+631123 words of font info for 58 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 17729 has 183 ops out of 35111
+  2 for language 1
+  181 for language 0
+No pages of output.
+Transcript written on uplatex.log.
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/uplatex.log
+fmtutil [INFO]: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/uplatex.fmt installed.
+fmtutil [INFO]: --- output of uplatex-dev with euptex
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/config/uplatex.ini
+<<< making "uplatex with Babel" format >>>
+
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/uplatex.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/latex.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, parameters,
+LaTeX2e <2026-11-01> pre-release-3 (develop 2026-10-24 branch)
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/l3kernel/expl3.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/l3kernel/expl3-code.tex)) hacks, document commands, templates, control, par, spacing, files, font encodings, lengths, NFSS base, NFSS axes, NFSS tracing, NFSS declarative interface, NFSS initialization,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/fonttext.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/omlenc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/omsenc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ot1enc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/t1enc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ts1enc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ts1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/t1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ts1cmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/t1cmss.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/t1cmtt.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmss.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmtt.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ts1cmss.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ts1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/fontmath.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/omlcmm.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/omscmsy.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/omxcmex.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/preload.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/preload.ltx)) page nos., x-ref, environments, center, verbatim, math definitions, boxes, title, sectioning, contents, floats, footnotes, index, bibliography, output,
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/babel/hyphen.cfg (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/dumyhyph.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/hyphen/zerohyph.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/utf8.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/omsenc.dfu) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ot1enc.dfu) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/t1enc.dfu) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/base/ts1enc.dfu)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex-dev/firstaid/latex2e-first-aid-for-external-files.ltx)
+)
+**************************
+*
+* making upLaTeX format
+*
+**************************
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/platex/base/plcore.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/platex/base/plexpl3.ltx)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/uplcore.ltx) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/upldefs.ltx (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jy2mc.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jy2gt.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jt2mc.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/jt2gt.fd) Loading kinsoku patterns for japanese. (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/uplatex/base/ukinsoku.tex)) ) )
+Beginning to dump on file uplatex-dev.fmt
+ (preloaded format=uplatex-dev 2026.10.24)
+30869 strings of total length 800581
+430634 memory locations dumped; current usage is 333&402457
+29444 multiletter control sequences
+\font\nullfont=nullfont
+\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+\font\c_initex_cctab=cmr10 at 0.00005pt
+\font\c_other_cctab=cmr10 at 0.00006pt
+\font\c_str_cctab=cmr10 at 0.00008pt
+\font\g_tmpa_cctab=cmr10 at 0.00009pt
+\font\g_tmpb_cctab=cmr10 at 0.0001pt
+\font\g__regex_state_active_intarray=cmr10 at 0.00012pt
+\font\g__regex_thread_info_intarray=cmr10 at 0.00014pt
+\font\g__regex_submatch_prev_intarray=cmr10 at 0.00015pt
+\font\g__regex_submatch_begin_intarray=cmr10 at 0.00017pt
+\font\g__regex_submatch_end_intarray=cmr10 at 0.00018pt
+\font\g__regex_submatch_case_intarray=cmr10 at 0.0002pt
+\font\g__regex_balance_intarray=cmr10 at 0.00021pt
+\font\g__codepoint_category_index_intarray=cmr10 at 0.00023pt
+\font\g__codepoint_grapheme_index_intarray=cmr10 at 0.00024pt
+\font\g__codepoint_lowercase_index_intarray=cmr10 at 0.00026pt
+\font\g__codepoint_uppercase_index_intarray=cmr10 at 0.00027pt
+\font\g__codepoint_wordbreak_index_intarray=cmr10 at 0.00029pt
+\font\g__codepoint_category_blocks_intarray=cmr10 at 0.0003pt
+\font\g__codepoint_grapheme_blocks_intarray=cmr10 at 0.00032pt
+\font\g__codepoint_lowercase_blocks_intarray=cmr10 at 0.00034pt
+\font\g__codepoint_uppercase_blocks_intarray=cmr10 at 0.00035pt
+\font\g__codepoint_wordbreak_blocks_intarray=cmr10 at 0.00037pt
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+\font\c_code_cctab=cmr10 at 0.00038pt
+\font\c_document_cctab=cmr10 at 0.0004pt
+\font\tenmin=upjisr-h at 9.62216pt
+\font\@bannerfont=cmtt9
+\font\JT2/mc/m/n/10=upjisr-v at 9.6222pt
+\font\JY2/mc/m/n/10=upjisr-h at 9.6222pt
+\font\JY2/mc/m/n/5=upjisr-h at 4.8111pt
+\font\JY2/mc/m/n/7=upjisr-h at 6.73553pt
+\font\JY2/mc/m/n/12=upjisr-h at 11.54663pt
+\font\JY2/gt/m/n/5=upjisg-h at 4.8111pt
+\font\JY2/gt/m/n/7=upjisg-h at 6.73553pt
+\font\JY2/gt/m/n/10=upjisg-h at 9.6222pt
+\font\JY2/gt/m/n/12=upjisg-h at 11.54663pt
+\font\JT2/mc/m/n/5=upjisr-v at 4.8111pt
+\font\JT2/mc/m/n/7=upjisr-v at 6.73553pt
+\font\JT2/mc/m/n/12=upjisr-v at 11.54663pt
+\font\JT2/gt/m/n/5=upjisg-v at 4.8111pt
+\font\JT2/gt/m/n/7=upjisg-v at 6.73553pt
+\font\JT2/gt/m/n/10=upjisg-v at 9.6222pt
+\font\JT2/gt/m/n/12=upjisg-v at 11.54663pt
+631123 words of font info for 58 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 17729 has 183 ops out of 35111
+  2 for language 1
+  181 for language 0
+No pages of output.
+Transcript written on uplatex-dev.log.
+fmtutil [INFO]: log file copied to: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/uplatex-dev.log
+fmtutil [INFO]: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-var/web2c/euptex/uplatex-dev.fmt installed.
+fmtutil [ERROR]: running `euptex -ini   -jobname=platex -progname=platex -kanji-internal=euc *platex.ini </dev/null' return status: 0.0234375
+fmtutil [ERROR]: returning error due to option --strict
+fmtutil [ERROR]: running `euptex -ini   -jobname=ptex -progname=ptex -kanji-internal=euc ptex.ini </dev/null' return status: 0.0234375
+fmtutil [ERROR]: returning error due to option --strict
+fmtutil [ERROR]: running `euptex -ini   -jobname=platex-dev -progname=platex-dev -kanji-internal=euc *platex.ini </dev/null' return status: 0.0234375
+fmtutil [ERROR]: returning error due to option --strict
+fmtutil [ERROR]: running `euptex -ini   -jobname=eptex -progname=eptex -kanji-internal=euc *eptex.ini </dev/null' return status: 0.0234375
+fmtutil [ERROR]: returning error due to option --strict
+fmtutil [INFO]: successfully rebuilt formats: 5
+fmtutil [INFO]: not selected formats: 14
+fmtutil [INFO]: failed to build: 4 (platex/euptex ptex/euptex platex-dev/euptex eptex/euptex)
+fmtutil [INFO]: total formats: 23
+fmtutil [INFO]: executable location: /Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/bin/universal-darwin/fmtutil
+fmtutil [INFO]: exiting with status 4
+--end of output of fmtutil-sys --byengine euptex --byfmt mptopdf --no-error-if-no-engine=luametatex,luajithbtex,luajittex,mfluajit,xetex --status-file=/var/folders/2m/lk45c8cd48z1_n4dv7x1jbb40000gn/T/NcEVDrLn7p/v4edcS02Uz.
+

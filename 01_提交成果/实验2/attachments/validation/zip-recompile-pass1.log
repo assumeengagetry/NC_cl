@@ -1,0 +1,285 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+entering extended mode
+(./main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-09-09>
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/ctexart.cls (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/l3kernel/l3backend-xetex.def))
+Document Class: ctexart 2026/08/11 v2.6.5 Chinese adapter for class article (CTEX)
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/ctexhook.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/ctexpatch.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/config/ctexopts.cfg) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/size10.clo)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/xelatex/xecjk/xeCJK.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/zhnumber/zhnumber.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/ctex-c5size.clo) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/ctex/config/ctex.cfg) (./report-layout.tex (./report-template.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/tools/array.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/xurl/xurl.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/url/url.sty)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex))) (./figure-paths.tex)
+No file main.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(./sections/frontmatter.tex (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd) (/Users/apple/Workspace/NC_cl/实验2_工作记录_20261024/图片兼容修复/tools/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd)
+TEMPLATECELL page=1 height=68.4828pt limit=97.30894pt
+TEMPLATECELL page=1 height=130.67918pt limit=174.13182pt
+TEMPLATECELL page=1 height=60.56291pt limit=156.99452pt
+) (./sections/a-content.tex [1]
+TEMPLATECELL page=2 height=386.4415pt limit=628.20839pt
+[2]
+
+LaTeX Warning: Reference `fig:pt-initial-client' on page 3 undefined on input line 24.
+
+TEMPLATECELL page=3 height=426.65337pt limit=628.20839pt
+[3]
+TEMPLATECELL page=4 height=590.61107pt limit=628.20839pt
+[4]
+
+LaTeX Warning: Reference `fig:pt-pdu-a' on page 5 undefined on input line 39.
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 39--39
+\TU/lmr/m/n/10.53937 TYPE=A(1)\TU/FandolSong-Regular(1)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 CLASS=IN(1)\TU/FandolSong-Regular(1)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 TTL=86400 \TU/FandolSong-Regular(1)/m/n/10.53937 秒、| \TU/lmr/m/n/10.53937 RDLENGTH=4\TU/FandolSong-Regular(1)/m/n/10.53937 、|  地 址
+TEMPLATECELL page=5 height=436.37608pt limit=628.20839pt
+[5]
+
+LaTeX Warning: Reference `fig:pt-pdu-cname' on page 6 undefined on input line 46.
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 46--46
+[]\TU/FandolSong-Regular(1)/m/n/10.53937 图[]实 际 显 示 的 \TU/lmr/m/n/10.53937 Answer \TU/FandolSong-Regular(1)/m/n/10.53937 块 为$[] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [][]$ 的 \TU/lmr/m/n/10.53937 A \TU/FandolSong-Regular(1)/m/n/10.53937 记 录：|
+
+LaTeX Warning: Reference `fig:pt-records' on page 6 undefined on input line 46.
+
+
+LaTeX Warning: Reference `fig:pt-normal-cname' on page 6 undefined on input line 46.
+
+TEMPLATECELL page=6 height=452.8486pt limit=628.20839pt
+[6]
+TEMPLATECELL page=7 height=440.42084pt limit=628.20839pt
+[7]
+TEMPLATECELL page=8 height=595.38968pt limit=628.20839pt
+[8]
+
+LaTeX Warning: Reference `fig:pt-restored-tests' on page 9 undefined on input line 70.
+
+TEMPLATECELL page=9 height=417.53049pt limit=628.20839pt
+) (./sections/b-procedure.tex [9]
+TEMPLATECELL page=10 height=522.2385pt limit=628.20839pt
+[10]
+TEMPLATECELL page=11 height=441.7154pt limit=628.20839pt
+[11]
+TEMPLATECELL page=12 height=415.82355pt limit=628.20839pt
+[12]
+TEMPLATECELL page=13 height=513.03694pt limit=628.20839pt
+) (./sections/a-answers.tex [13]
+
+LaTeX Warning: Reference `fig:pt-normal-ip' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-normal-cname' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-pdu-a' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-pdu-cname' on page 14 undefined on input line 19.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 主 域 名 响 应 \TU/lmr/m/n/10.53937 ID=\TU/lmtt/m/n/10.53937 0xd1fe\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 Answer=1\TU/FandolSong-Regular(0)/m/n/10.53937 ，|  为 该 名 称 的 \TU/lmr/m/n/10.53937 A \TU/FandolSong-Regular(0)/m/n/10.53937 记 录
+
+Underfull \hbox (badness 7685) in paragraph at lines 19--19
+\TU/lmtt/m/n/10.53937 192.168.1.200\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 CLASS=IN\TU/FandolSong-Regular(0)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 TTL=86400 \TU/FandolSong-Regular(0)/m/n/10.53937 秒、|  长 度 \TU/lmr/m/n/10.53937 4 |\TU/FandolSong-Regular(0)/m/n/10.53937 （图[]） 。|  别
+
+Underfull \hbox (badness 1178) in paragraph at lines 19--19
+\TU/FandolSong-Regular(0)/m/n/10.53937 名 响 应 \TU/lmr/m/n/10.53937 ID=\TU/lmtt/m/n/10.53937 0x6aa9\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 Answer \TU/FandolSong-Regular(0)/m/n/10.53937 计 数 \TU/lmr/m/n/10.53937 2\TU/FandolSong-Regular(0)/m/n/10.53937 ，|  显 示 出 的 末 端 \TU/lmr/m/n/10.53937 A \TU/FandolSong-Regular(0)/m/n/10.53937 记 录 \TU/lmr/m/n/10.53937 owner
+
+Underfull \hbox (badness 7558) in paragraph at lines 19--19
+\TU/FandolSong-Regular(0)/m/n/10.53937 为$[] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [][]$，|  地 址 \TU/lmtt/m/n/10.53937 192.168.1.200\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 CLASS=IN\TU/FandolSong-Regular(0)/m/n/10.53937 、|
+
+LaTeX Warning: Reference `fig:pt-records' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-normal-cname' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-fault-config' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-fault-tests' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-restored-config' on page 14 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:pt-restored-tests' on page 14 undefined on input line 19.
+
+TEMPLATECELL page=14 height=447.1632pt limit=628.20839pt
+) (./sections/b-evidence.tex [14]
+Underfull \hbox (badness 7759) in paragraph at lines 6--6
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 本 节 所 有 帧 号 均 指 最 终 文 件 \TU/lmr/m/n/10.53937 2024141460445_\TU/FandolSong-Regular(0)/m/n/10.53937 许 盛 凯 \TU/lmr/m/n/10.53937 _\TU/FandolSong-Regular(0)/m/n/10.53937 实 验 \TU/lmr/m/n/10.53937 2_
+TEMPLATECELL page=15 height=553.98715pt limit=628.20839pt
+[15]
+TEMPLATECELL page=16 height=482.74832pt limit=628.20839pt
+[16]
+Underfull \hbox (badness 1527) in paragraph at lines 19--19
+[]\TU/lmr/m/n/10.53937 CNAME \TU/FandolSong-Regular(0)/m/n/10.53937 为$[] [] [] [] [] [] [] [] [] [] [] [] [] [] [][]$，| \TU/lmr/m/n/10.53937 TTL1094 \TU/FandolSong-Regular(0)/m/n/10.53937 秒；|  其 两 条 \TU/lmr/m/n/10.53937 A \TU/FandolSong-Regular(0)/m/n/10.53937 记 录 为
+TEMPLATECELL page=17 height=559.4451pt limit=628.20839pt
+[17]
+TEMPLATECELL page=18 height=468.27827pt limit=628.20839pt
+[18]
+TEMPLATECELL page=19 height=457.70828pt limit=628.20839pt
+[19]
+Underfull \hbox (badness 1325) in paragraph at lines 37--37
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 帧 \TU/lmr/m/n/10.53937 29\TU/FandolSong-Regular(0)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 30 \TU/FandolSong-Regular(0)/m/n/10.53937 的 \TU/lmr/m/n/10.53937 ID \TU/FandolSong-Regular(0)/m/n/10.53937 为 \TU/lmtt/m/n/10.53937 0x010d\TU/FandolSong-Regular(0)/m/n/10.53937 。|  响 应 \TU/lmr/m/n/10.53937 RCODE=0 |\TU/FandolSong-Regular(0)/m/n/10.53937 （\TU/lmr/m/n/10.53937 NOERROR\TU/FandolSong-Regular(0)/m/n/10.53937 ） ，| \TU/lmr/m/n/10.53937 An-
+TEMPLATECELL page=20 height=544.5163pt limit=628.20839pt
+) (./sections/b-answers.tex [20]
+
+LaTeX Warning: Reference `fig:dns-first-baidu' on page 21 undefined on input line 29.
+
+
+LaTeX Warning: Reference `fig:ns-baidu-a' on page 21 undefined on input line 29.
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 29--29
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 所 有 查 询 \TU/lmr/m/n/10.53937 QR=0\TU/FandolSong-Regular(0)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 Flags=\TU/lmtt/m/n/10.53937 0x0100\TU/FandolSong-Regular(0)/m/n/10.53937 ；|  所 有 响 应 \TU/lmr/m/n/10.53937 QR=1\TU/FandolSong-Regular(0)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 Flags=\TU/lmtt/m/n/10.53937 0x8180\TU/FandolSong-Regular(0)/m/n/10.53937 。|
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\TU/lmr/m/n/10.53937 QR \TU/FandolSong-Regular(0)/m/n/10.53937 区 分 查 询 与 响 应。|  各 组 \TU/lmr/m/n/10.53937 ID\TU/FandolSong-Regular(0)/m/n/10.53937 、|  问 题 和 响 应 延 时 如 下：|
+
+LaTeX Warning: Reference `fig:dns-first-baidu' on page 21 undefined on input line 29.
+
+
+LaTeX Warning: Reference `fig:dns-first-scu' on page 21 undefined on input line 29.
+
+
+LaTeX Warning: Reference `fig:ns-scu-cname' on page 21 undefined on input line 29.
+
+TEMPLATECELL page=21 height=460.3005pt limit=628.20839pt
+[21]
+Underfull \hbox (badness 6675) in paragraph at lines 48--48
+[]|\TU/lmr/m/n/10.53937 Answer\TU/FandolSong-Regular(0)/m/n/10.53937 ：| $[] [] [] [] [] [] [] [] [] [] [] [] []$ \TU/lmr/m/n/10.53937 CNAME $[] [] [] [] [] [] [] [] [] [] [] []
+
+Underfull \hbox (badness 6893) in paragraph at lines 48--48
+[] [] [][]$\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 TTL1094\TU/FandolSong-Regular(0)/m/n/10.53937 ；|  该 规 范 名 的 \TU/lmr/m/n/10.53937 A \TU/FandolSong-Regular(0)/m/n/10.53937 为 \TU/lmtt/m/n/10.53937 110.242.70.57 \TU/FandolSong-Regular(0)/m/n/10.53937 与
+
+Underfull \hbox (badness 2376) in paragraph at lines 48--48
+\TU/lmtt/m/n/10.53937 110.242.69.21\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 TTL \TU/FandolSong-Regular(0)/m/n/10.53937 均 \TU/lmr/m/n/10.53937 29\TU/FandolSong-Regular(0)/m/n/10.53937 。| \TU/lmr/m/n/10.53937 Authority\TU/FandolSong-Regular(0)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 Additional \TU/FandolSong-Regular(0)/m/n/10.53937 均 空；|
+
+Underfull \hbox (badness 1418) in paragraph at lines 48--48
+[]|\TU/lmr/m/n/10.53937 Answer \TU/FandolSong-Regular(0)/m/n/10.53937 空；| \TU/lmr/m/n/10.53937 Authority\TU/FandolSong-Regular(0)/m/n/10.53937 ：| $[] [] [] [] [] [] [] [] [][]$ \TU/lmr/m/n/10.53937 SOA\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 TTL600\TU/FandolSong-Regular(0)/m/n/10.53937 ；| \TU/lmr/m/n/10.53937 Addi-
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 资 源 记 录 \TU/lmr/m/n/10.53937 CLASS \TU/FandolSong-Regular(0)/m/n/10.53937 均 为 \TU/lmr/m/n/10.53937 IN(1)\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 TTL \TU/FandolSong-Regular(0)/m/n/10.53937 单 位 秒；| \TU/lmr/m/n/10.53937 AN/NS/AR
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\TU/FandolSong-Regular(0)/m/n/10.53937 分 别 表 示 \TU/lmr/m/n/10.53937 Answer\TU/FandolSong-Regular(0)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 Authority\TU/FandolSong-Regular(0)/m/n/10.53937 、| \TU/lmr/m/n/10.53937 Additional \TU/FandolSong-Regular(0)/m/n/10.53937 计 数。|
+
+LaTeX Warning: Reference `fig:ns-scu-cname' on page 22 undefined on input line 48.
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 48--48
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 帧 \TU/lmr/m/n/10.53937 30 \TU/FandolSong-Regular(0)/m/n/10.53937 的 \TU/lmr/m/n/10.53937 SOA\TU/FandolSong-Regular(0)/m/n/10.53937 ：| \TU/lmr/m/n/10.53937 MNAME=$[] [] [] [] [] [] [] [] [] [] [] [] [] [] []$\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 RNAME \TU/FandolSong-Regular(0)/m/n/10.53937 报 文 名
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\TU/lmr/m/n/10.53937 SERIAL=2024110590\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 REFRESH=1200\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 RETRY=1200\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 EX-
+
+Underfull \hbox (badness 5548) in paragraph at lines 48--48
+\TU/lmr/m/n/10.53937 PIRE=1209600\TU/FandolSong-Regular(0)/m/n/10.53937 ，| \TU/lmr/m/n/10.53937 MINIMUM=600\TU/FandolSong-Regular(0)/m/n/10.53937 。| \TU/lmr/m/n/10.53937 MNAME \TU/FandolSong-Regular(0)/m/n/10.53937 是 区 域 主 名 称 服 务 器，|
+
+LaTeX Warning: Reference `fig:dns-first-baidu' on page 22 undefined on input line 48.
+
+
+LaTeX Warning: Reference `fig:dns-first-scu' on page 22 undefined on input line 48.
+
+
+LaTeX Warning: Reference `fig:ns-baidu-a' on page 22 undefined on input line 48.
+
+
+LaTeX Warning: Reference `fig:mac-ping-baidu' on page 22 undefined on input line 48.
+
+
+LaTeX Warning: Reference `fig:mac-ping-scu' on page 22 undefined on input line 48.
+
+TEMPLATECELL page=22 height=481.14772pt limit=628.20839pt
+[22]
+
+LaTeX Warning: Reference `fig:dns-first-baidu' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:dns-first-scu' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:ns-baidu-cname' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:ns-scu-cname' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:dns-first-baidu' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:ns-baidu-a' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:dns-repeat' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:mac-ping-baidu' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:mac-ping-scu' on page 23 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:mac-cache' on page 23 undefined on input line 64.
+
+TEMPLATECELL page=23 height=450.77269pt limit=628.20839pt
+[23]
+Underfull \hbox (badness 4242) in paragraph at lines 85--85
+[]|\TU/FandolSong-Regular(0)/m/n/10.53937 帧 \TU/lmr/m/n/10.53937 23→24\TU/FandolSong-Regular(0)/m/n/10.53937 ：| \TU/lmr/m/n/10.53937 Answer \TU/FandolSong-Regular(0)/m/n/10.53937 含 \TU/lmr/m/n/10.53937 1 \TU/FandolSong-Regular(0)/m/n/10.53937 条
+
+Underfull \hbox (badness 4242) in paragraph at lines 85--85
+[]|\TU/FandolSong-Regular(0)/m/n/10.53937 帧 \TU/lmr/m/n/10.53937 25→26\TU/FandolSong-Regular(0)/m/n/10.53937 ：| \TU/lmr/m/n/10.53937 Answer \TU/FandolSong-Regular(0)/m/n/10.53937 仅 \TU/lmr/m/n/10.53937 1 \TU/FandolSong-Regular(0)/m/n/10.53937 条
+
+LaTeX Warning: Reference `fig:ns-baidu-a' on page 24 undefined on input line 85.
+
+
+LaTeX Warning: Reference `fig:ns-baidu-cname' on page 24 undefined on input line 85.
+
+
+LaTeX Warning: Reference `fig:ns-scu-a' on page 24 undefined on input line 85.
+
+
+LaTeX Warning: Reference `fig:ns-scu-cname' on page 24 undefined on input line 85.
+
+
+LaTeX Warning: Reference `fig:ns-baidu-cname' on page 24 undefined on input line 85.
+
+
+LaTeX Warning: Reference `fig:ns-scu-cname' on page 24 undefined on input line 85.
+
+
+LaTeX Warning: Reference `fig:ns-scu-a' on page 24 undefined on input line 85.
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 85--85
+\TU/lmr/m/n/10.53937 Authority=1 |\TU/FandolSong-Regular(0)/m/n/10.53937 （\TU/lmr/m/n/10.53937 SOA\TU/FandolSong-Regular(0)/m/n/10.53937 ） ，|  属 于 所 请 求 \TU/lmr/m/n/10.53937 CNAME \TU/FandolSong-Regular(0)/m/n/10.53937 类 型 无 数 据 的 \TU/lmr/m/n/10.53937 NOER-
+TEMPLATECELL page=24 height=501.70016pt limit=628.20839pt
+) (./sections/closing.tex [24]
+TEMPLATECELL page=25 height=188.41185pt limit=256.6452pt
+TEMPLATECELL page=25 height=145.23357pt limit=225.34705pt
+TEMPLATECELL page=25 height=95.39172pt limit=117.22536pt
+) [25] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on main.pdf (25 pages).
+Transcript written on main.log.

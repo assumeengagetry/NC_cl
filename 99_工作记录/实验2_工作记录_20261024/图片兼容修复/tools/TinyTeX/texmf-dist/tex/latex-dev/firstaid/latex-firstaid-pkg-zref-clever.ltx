@@ -1,0 +1,57 @@
+%%
+%% This is file `latex-firstaid-pkg-zref-clever.ltx',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% latex2e-first-aid-for-external-files.dtx  (with options: `zref-clever')
+%% 
+%% The source is maintained by the LaTeX Project team and bug
+%% reports for it can be opened at https://latex-project.org/bugs/
+%% (but please observe conditions on bug reports sent to that address!)
+%% 
+%% 
+%% Copyright (C) 2020-2026
+%% The LaTeX Project and any individual authors listed elsewhere
+%% in this file.
+%% 
+%% This file was generated from file(s) of the Standard LaTeX `First Aid Bundle'.
+%% ------------------------------------------------------------------------------
+%% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3c
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    https://www.latex-project.org/lppl.txt
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%% 
+%% This file may only be distributed together with a copy of the LaTeX
+%% `First Aid Bundle'. You may however distribute the LaTeX `First Aid Bundle'
+%% without such generated files.
+%% 
+%% File: latex2e-first-aid-for-external-files.dtx (C) Copyright 2020-2026
+%%
+%% The LaTeX Project and any individual authors listed elsewhere
+%% in this file.
+\ExplSyntaxOn
+\FirstAidNeededT{zref-clever}{sty}{2024-11-28~v0.5.1~Clever~LaTeX~cross-references~based~on~zref}
+  {
+    \let\Z@E@zc@enclval\relax % so \zref@newprop below doesn't error
+    \zref@newprop { zc@enclval }
+      {
+        \cs_if_exist:cTF { alias@ctr@\l__zrefclever_current_counter_tl }
+          {
+            \__zrefclever_get_enclosing_counters_value:e
+              { \use:c { alias@ctr@\l__zrefclever_current_counter_tl } }
+          }
+          {
+            \__zrefclever_get_enclosing_counters_value:e
+              { \l__zrefclever_current_counter_tl }
+          }
+      }
+  }
+\ExplSyntaxOff
+\endinput
+%%
+%% End of file `latex-firstaid-pkg-zref-clever.ltx'.

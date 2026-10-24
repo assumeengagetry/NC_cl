@@ -1,0 +1,302 @@
+[
+  {
+    "source": "images/A01-topology.png",
+    "pdf": "images/A01-topology.pdf",
+    "pixels": [
+      2150,
+      1080
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "bffe07e27bc8a08ad3486d64c9638f642cd9de0812dffcce22a3ac3713c046f0",
+    "pdf_sha256": "7ca6d7105aa51ef6ff495aad7eadaf474f47286bcec4be1bc55afdf09c0ad1f7"
+  },
+  {
+    "source": "images/A02-initial-client.png",
+    "pdf": "images/A02-initial-client.pdf",
+    "pixels": [
+      1405,
+      648
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "ba119686ed3b52a96aa2935ad5b717cf85236d572679140a99f954e5cac587f7",
+    "pdf_sha256": "4c8ceaf57145fcf8b70a3f8dc4b3a84548a83ce70cf9b819364348cf3ea22264"
+  },
+  {
+    "source": "images/A03-records.png",
+    "pdf": "images/A03-records.pdf",
+    "pixels": [
+      2500,
+      700
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "f950a062769d796949d4a3de3e92de8a5664d64d77e8093c82145be51b29d348",
+    "pdf_sha256": "fee324a1621b8becfc6d9235f82a7fe073d19d81431d4e5b7f86be77c6f4c423"
+  },
+  {
+    "source": "images/A04-normal-ip.png",
+    "pdf": "images/A04-normal-ip.pdf",
+    "pixels": [
+      622,
+      265
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "9772a4078ca7628114d79566726da3b671f57b9609fa6661759e0005b8a22ccc",
+    "pdf_sha256": "ccd0c8783aa403d6f44b6aa26a326fdd368d2faae8e1c8018e104f2f3a4eba19"
+  },
+  {
+    "source": "images/A05-normal-A.png",
+    "pdf": "images/A05-normal-A.pdf",
+    "pixels": [
+      622,
+      302
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "8d5b5588c25d5bd82f7bd1948fc9a9870276588c585aad49de0f1accadda87a6",
+    "pdf_sha256": "1884186db51744e3191e0ffe63a8c493dc15101f8253b6484c13941ae113f169"
+  },
+  {
+    "source": "images/A06-normal-CNAME.png",
+    "pdf": "images/A06-normal-CNAME.pdf",
+    "pixels": [
+      622,
+      305
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "a7521a87e47b8a2271be3cad760b43d23456cd025b8e27c68c17dc21c1e9d312",
+    "pdf_sha256": "07cf7cb7c6a80bba508d4bbad370fbdad6e18264d9113076ce19672575a65054"
+  },
+  {
+    "source": "images/A07-A-PDU.png",
+    "pdf": "images/A07-A-PDU.pdf",
+    "pixels": [
+      1975,
+      1520
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "14fe93fd960917af22fcd479cc2d1802a8982ed0ffcb0ad80ddd570b30a46cb5",
+    "pdf_sha256": "f9edc7a859d23b0da5ef8b2514e1f9293f79ac4b28cbd87388775853e72b71ff"
+  },
+  {
+    "source": "images/A08-alias-PDU.png",
+    "pdf": "images/A08-alias-PDU.pdf",
+    "pixels": [
+      1975,
+      1520
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "8d16f31cb93746b86faaaae7e8264c26d39af38e6d67418ce40cd539ebe4b5af",
+    "pdf_sha256": "d8e2a6a256ca340b9fa31053ef4120993abef41bb725bd86664bf059de163259"
+  },
+  {
+    "source": "images/A09-fault-client.png",
+    "pdf": "images/A09-fault-client.pdf",
+    "pixels": [
+      2510,
+      625
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "52541c4f1150351ebb0907f482857a540d00079efbe64ac7bcf84e49b8fe7fae",
+    "pdf_sha256": "3cac5f99630ff03b4bc01c52b26f85df28803067b9918ff54d8d00f642f23dae"
+  },
+  {
+    "source": "images/A10-fault-tests.png",
+    "pdf": "images/A10-fault-tests.pdf",
+    "pixels": [
+      918,
+      387
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "1bfbc7e66c3df9a11232c2c58027c411584ade60d086c02055a9a27177be4326",
+    "pdf_sha256": "02cdfc45e13dad277adf56e5f91d04f4f15d154c30faf3097ffdc852032cbb62"
+  },
+  {
+    "source": "images/A11-restored-client.png",
+    "pdf": "images/A11-restored-client.pdf",
+    "pixels": [
+      2510,
+      625
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "a90db22f33df1a3df20c921925c1c9932998aab7f0b27e5622ef01e9e2fff1c5",
+    "pdf_sha256": "45c55aca069304198803d292fa51285cfc2373dc98b9984eda30ea4ca1469446"
+  },
+  {
+    "source": "images/A12-restored-tests.png",
+    "pdf": "images/A12-restored-tests.pdf",
+    "pixels": [
+      628,
+      825
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "936ea7bb976bced9fa9c2793ba5b2dd0183f5811968b50fc77ef98fbf5b86164",
+    "pdf_sha256": "055ee1ca945cf447034b8f69a5b235b9a722506348168312751c6e9ec6cac22d"
+  },
+  {
+    "source": "images/A13-reopened-PC.png",
+    "pdf": "images/A13-reopened-PC.pdf",
+    "pixels": [
+      2510,
+      635
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "f3763b6fcb47d153650d6e2e037b9357c55fa86c44de4c7b6547a30d26a6adf8",
+    "pdf_sha256": "b1748adec20797fc15b051aa92bedb8748e55ee2b03b371510cc2d783bc57f4f"
+  },
+  {
+    "source": "images/A14-reopened-records.png",
+    "pdf": "images/A14-reopened-records.pdf",
+    "pixels": [
+      2510,
+      700
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "3c3745fd38c09c002e434e72d161f6b5401c0a54405056d6862920b761ea17c9",
+    "pdf_sha256": "2be0067e6bd90e1bf910163746355f27e5d47ed22637e38b0bfc88f52521fec8"
+  },
+  {
+    "source": "images/A15-reopened-DNS-IP.png",
+    "pdf": "images/A15-reopened-DNS-IP.pdf",
+    "pixels": [
+      2510,
+      560
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "830e3a086596f820e769830f9540fdc285c18c92a58aa1c8c9c83dd8310f744a",
+    "pdf_sha256": "bc498f00adf34ee2f3f2c02a11bf88cc7c8cf3335317c46b4adbefaed4f49dd3"
+  },
+  {
+    "source": "images/B01-cache-log.png",
+    "pdf": "images/B01-cache-log.pdf",
+    "pixels": [
+      1300,
+      1189
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "abffc9d2ac71ce9513972387456a9a08026b9bc31f914a7e8022d34e7356a803",
+    "pdf_sha256": "cec308fc451c796546a7d34d1f5617bba07c18c9bbdf5684767b9f669e11d9cd"
+  },
+  {
+    "source": "images/B02-ping-baidu-log.png",
+    "pdf": "images/B02-ping-baidu-log.pdf",
+    "pixels": [
+      1300,
+      1189
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "5b78f6eec15dc259a6b2db14ff683cc138ce394acd2c631b1a074547c374f59d",
+    "pdf_sha256": "60d3544db7f6fcdbdbe31df08f6a22cbaa4f80e27d60763eb2402c867ee4ade2"
+  },
+  {
+    "source": "images/B03-ping-scu-log.png",
+    "pdf": "images/B03-ping-scu-log.pdf",
+    "pixels": [
+      1300,
+      1037
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "774d3b96be9f70842f5561812d31c25525d95b998537fc52ef0f95a8dafe3e09",
+    "pdf_sha256": "7b77810cfa383147f97008d13b89404fd3d2042f66c43ec18ba88ae8ba3c3f7d"
+  },
+  {
+    "source": "images/B04-repeat-packets.png",
+    "pdf": "images/B04-repeat-packets.pdf",
+    "pixels": [
+      1162,
+      832
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "1f82d1912952900cbd5393cf8e7cbdee6b917a4a7cfbaa3fac3898a900c3c27d",
+    "pdf_sha256": "3b330161d1a0ebaeb5078d9ab8370f8502d35867f7630c0e6255f3b6351d8814"
+  },
+  {
+    "source": "images/B05-dns-baidu-response.png",
+    "pdf": "images/B05-dns-baidu-response.pdf",
+    "pixels": [
+      1300,
+      1613
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "d062ab4a081523734d6b1db5836281d57ad3667304419a4a4d327f158378622c",
+    "pdf_sha256": "0cb1017c098153524b3317f1f5fcd8ef8deae7252401fc5407949a7b2a0f3428"
+  },
+  {
+    "source": "images/B06-dns-scu-response.png",
+    "pdf": "images/B06-dns-scu-response.pdf",
+    "pixels": [
+      1300,
+      1461
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "b794b501283e3058f94b4078d2be8c36e20766640ba18b3470d9d0be3bb6aa4c",
+    "pdf_sha256": "835111d636d1d33d8676a56c05f4f40ccff8a634368075ad6baa9490577d5e9d"
+  },
+  {
+    "source": "images/B07-nslookup-baidu-A.png",
+    "pdf": "images/B07-nslookup-baidu-A.pdf",
+    "pixels": [
+      1300,
+      1689
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "70a6a368129d6c2beefd7e040e5aec26b1dad35b4ed0bd2d559c2daef58bc8dd",
+    "pdf_sha256": "82e277f8cd9948933d96557ecfc1ca3b44227da0958f85bddd06b54ebfb63cf4"
+  },
+  {
+    "source": "images/B08-nslookup-baidu-CNAME.png",
+    "pdf": "images/B08-nslookup-baidu-CNAME.pdf",
+    "pixels": [
+      1300,
+      1461
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "f1f9c504aba26f80811d0753c9bd4e155ef4fb49f6fe129f5ce276a6e884c032",
+    "pdf_sha256": "dd959beaefabc8c187e2edc825210a29856162664b35501da68cbad7fdf1917a"
+  },
+  {
+    "source": "images/B09-nslookup-scu-A.png",
+    "pdf": "images/B09-nslookup-scu-A.pdf",
+    "pixels": [
+      1300,
+      1423
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "0ed64673ee4b7554fe6fabd8da6c5d2c08bd72f91e4a986178620ca74c5db964",
+    "pdf_sha256": "6c9be748bb578370e0a7562082391f4af1d8122faeb304ef184d3a0906f1dd16"
+  },
+  {
+    "source": "images/B10-nslookup-scu-CNAME.png",
+    "pdf": "images/B10-nslookup-scu-CNAME.pdf",
+    "pixels": [
+      1300,
+      1651
+    ],
+    "single_page_single_image": true,
+    "decoded_pixels_identical": true,
+    "png_sha256": "4aa58695ce40d6af01105b2ce9a24a05e6f1c828d54f0eea432a9563d032258d",
+    "pdf_sha256": "5ed0f982ec6f0d89f490598804cde52a3e6772c3cbfe5bd4841e175eab726745"
+  }
+]

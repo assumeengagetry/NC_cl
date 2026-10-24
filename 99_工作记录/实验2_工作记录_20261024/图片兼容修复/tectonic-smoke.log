@@ -1,0 +1,153 @@
+note: Running TeX ...
+note: downloading amsmath.sty
+note: downloading amsopn.sty
+note: downloading amstext.sty
+note: downloading amsgen.sty
+note: downloading amsbsy.sty
+note: downloading lmodern.sty
+note: downloading pgflibraryarrows.meta.code.tex
+note: downloading tikzlibrarypositioning.code.tex
+note: downloading lmroman12-bold.otf
+note: downloading ot1lmr.fd
+note: downloading rm-lmr10.tfm
+note: downloading rm-lmr7.tfm
+note: downloading rm-lmr5.tfm
+note: downloading omllmm.fd
+note: downloading lmmi10.tfm
+note: downloading lmmi7.tfm
+note: downloading lmmi5.tfm
+note: downloading omslmsy.fd
+note: downloading lmsy10.tfm
+note: downloading lmsy7.tfm
+note: downloading lmsy5.tfm
+note: downloading omxlmex.fd
+note: downloading lmex10.tfm
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+note: downloading lmroman9-regular.otf
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/a-content.tex:39: Underfull \hbox (badness 2894) in paragraph at lines 39--39
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/a-content.tex:46: Underfull \hbox (badness 1092) in paragraph at lines 46--46
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 7685) in paragraph at lines 19--19
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 1178) in paragraph at lines 19--19
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sections/b-evidence.tex:6: Underfull \hbox (badness 7759) in paragraph at lines 6--6
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/b-evidence.tex:19: Underfull \hbox (badness 1527) in paragraph at lines 19--19
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/b-evidence.tex:37: Underfull \hbox (badness 1721) in paragraph at lines 37--37
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 1817) in paragraph at lines 29--29
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 10000) in paragraph at lines 29--29
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 2376) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 1418) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 2846) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 5548) in paragraph at lines 48--48
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4242) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4242) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 1270) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 2189) in paragraph at lines 85--85
+note: Rerunning TeX because "main.aux" changed ...
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/a-content.tex:39: Underfull \hbox (badness 2894) in paragraph at lines 39--39
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/a-content.tex:46: Underfull \hbox (badness 1571) in paragraph at lines 46--46
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 1178) in paragraph at lines 19--19
+warning: sections/a-answers.tex:19: Underfull \hbox (badness 10000) in paragraph at lines 19--19
+warning: sections/b-evidence.tex:6: Underfull \hbox (badness 7759) in paragraph at lines 6--6
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/b-evidence.tex:19: Underfull \hbox (badness 1527) in paragraph at lines 19--19
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: sections/b-evidence.tex:37: Underfull \hbox (badness 1721) in paragraph at lines 37--37
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 1817) in paragraph at lines 29--29
+warning: sections/b-answers.tex:29: Underfull \hbox (badness 10000) in paragraph at lines 29--29
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 2376) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 1418) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 2846) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 10000) in paragraph at lines 48--48
+warning: sections/b-answers.tex:48: Underfull \hbox (badness 5548) in paragraph at lines 48--48
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4242) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 4242) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 1270) in paragraph at lines 85--85
+warning: sections/b-answers.tex:85: Underfull \hbox (badness 2189) in paragraph at lines 85--85
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+warning: Trying to include PDF file with version (1.7), which is newer than current output PDF setting (1.5).
+note: Writing `main.pdf` (3.625227928161621 MiB)
+note: Writing `main.log` (42.728515625 KiB)
+note: Writing `main.aux` (4.5595703125 KiB)
+note: Not writing `main.out`: it would be empty.

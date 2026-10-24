@@ -1,0 +1,200 @@
+{
+  "pages": 25,
+  "figures": 25,
+  "questions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "image_inputs": [
+    "./images/A01-topology.pdf",
+    "./images/A02-initial-client.pdf",
+    "./images/A03-records.pdf",
+    "./images/A04-normal-ip.pdf",
+    "./images/A05-normal-A.pdf",
+    "./images/A06-normal-CNAME.pdf",
+    "./images/A07-A-PDU.pdf",
+    "./images/A08-alias-PDU.pdf",
+    "./images/A09-fault-client.pdf",
+    "./images/A10-fault-tests.pdf",
+    "./images/A11-restored-client.pdf",
+    "./images/A12-restored-tests.pdf",
+    "./images/A13-reopened-PC.pdf",
+    "./images/A14-reopened-records.pdf",
+    "./images/A15-reopened-DNS-IP.pdf",
+    "./images/B01-cache-log.pdf",
+    "./images/B02-ping-baidu-log.pdf",
+    "./images/B03-ping-scu-log.pdf",
+    "./images/B04-repeat-packets.pdf",
+    "./images/B05-dns-baidu-response.pdf",
+    "./images/B06-dns-scu-response.pdf",
+    "./images/B07-nslookup-baidu-A.pdf",
+    "./images/B08-nslookup-baidu-CNAME.pdf",
+    "./images/B09-nslookup-scu-A.pdf",
+    "./images/B10-nslookup-scu-CNAME.pdf"
+  ],
+  "direct_raster_or_ttf_inputs": 0,
+  "all_25_png_unchanged": true,
+  "experiment_content_unchanged": true,
+  "native_compile_errors_or_missing_images": false,
+  "all_25_pages_visually_reviewed": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 3,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 2
+    },
+    {
+      "page": 4,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 3
+    },
+    {
+      "page": 5,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 6,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 7,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 2
+    },
+    {
+      "page": 8,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 2
+    },
+    {
+      "page": 9,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 3
+    },
+    {
+      "page": 10,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 11,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 12,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 13,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 14,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 16,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 17,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 18,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 19,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 20,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 21,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 25,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    }
+  ]
+}

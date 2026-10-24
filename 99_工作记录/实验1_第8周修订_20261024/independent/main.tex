@@ -1,0 +1,213 @@
+% !TeX program = xelatex
+% Overleaf: XeLaTeX; root document: main.tex. No shell escape is needed.
+\documentclass[UTF8,fontset=fandol,zihao=5,linespread=1]{ctexart}
+\usepackage{report-template}
+
+\newcommand{\studentname}{许盛凯}
+\newcommand{\studentid}{2024141460445}
+\newcommand{\majorname}{计算机科学与技术}
+\newcommand{\experimentdate}{2026年10月13日}
+
+\begin{document}
+
+% The supplied template starts with the report itself, not a separate cover.
+\startreportpage{61.36}
+\templateheading
+\templatefourrow{12.965}{课程名称}{计算机网络课程设计}{实验课时}{第3—4节}
+\templatefourrow{13.688}{实验项目}{Web服务器搭建与\\HTTP协议分析}{实验时间}{\experimentdate}
+\templaterow{实验目的}{31}{%
+\noindent 本实验为综合型实验，具体目的如下：
+\par\noindent 1. 配置 Apache，理解根目录、默认文档和监听端口。
+\par\noindent 2. 通过 HTTP 访问首页，掌握 URL 与文件的对应关系。
+\par\noindent 3. 分析实际 HTTP 请求、响应、状态码和各类首部。
+\par\noindent 4. 比较首次访问与普通刷新，理解条件 GET 和缓存验证。
+}
+\templaterow{实验环境}{43}{%
+\noindent 系统：Arch Linux，内核7.2.9-arch1-1，x86\_64。
+\par\noindent 硬件：Intel Core i9-13900HX；内存31,775 MiB。
+\par\noindent 服务器：Apache HTTP Server 2.4.69（Unix）。
+\par\noindent 浏览器：Chromium 153.0.8010.52，语言 zh-CN。
+\par\noindent 抓包：Wireshark/TShark 4.7.4，dumpcap，接口 any。
+\par\noindent 本地站点：\url{http://127.0.0.1:8086/}。
+\par\noindent 实验站点：\code{gaia.cs.umass.edu}，TCP 80端口。
+}
+\templaterow{\experimentlabel}{87.977}{%
+\subheading{一、任务1：Apache 的获取、配置与验证}
+\begin{enumerate}
+\item \textbf{选择 Apache。}本机为 Arch Linux，选择 Apache 而非 IIS。原 \code{win32} 压缩包不适用于 Linux，改从 Arch 官方 extra 仓库获取 Apache 2.4.69、APR 和 APR-util。
+\item \textbf{验证并隔离运行。}用 Arch 公钥环核验各包独立签名，均有效，再解包到独立目录；\code{LD\_LIBRARY\_PATH} 指向对应依赖，不启用系统服务。来源、哈希和签名记录见 \path{evidence/software-provenance.txt}。
+\item \textbf{创建默认首页。}制作 UTF-8 的 \code{index.html}，标题为“计算机网络课程设计——实验1”，写明姓名、学号、班级及实验内容。\path{experiment/httpd.conf} 设置根目录与默认文档。
+\item \textbf{检查与访问。}运行 \code{httpd -f <配置路径> -t}，输出 \code{Syntax OK}，再前台启动。\code{ss -ltn} 确认监听 \code{127.0.0.1:8086}，GET 根路径得到200，浏览器显示自建首页。
+\end{enumerate}
+}
+
+\reportpage{\continuedlabel}{%
+\subheading{二、服务器配置与自建首页的实际结果}
+\shot{apache-config-crop.pdf}{1}{Apache 版本、关键配置、语法检查与监听状态}
+\par \code{Listen 127.0.0.1:8086} 仅在本机回环地址监听；\code{DocumentRoot} 确定网站根目录，\code{DirectoryIndex index.html} 选择默认首页。\code{Require all granted} 授权访问指定目录；\code{Options -Indexes} 禁止目录索引，\code{AllowOverride None} 禁止 .htaccess 覆盖。
+\shot[0.84\linewidth]{apache-browser.pdf}{2}{真实浏览器访问本次站点，地址栏及个人信息可见}
+\par 实际根目录为原实验工程的 实验1\path{_Overleaf/experiment/www}；\code{/} 映射到该目录，再返回 \code{index.html}，不是双击文件或通过 \code{file://} 打开。HTTP 默认端口为80，本次使用8086，故 URL 必须含 \code{:8086}；地址栏、Apache 响应标识和200访问日志相互印证。
+\par\vspace{1mm}\noindent\begin{tikzpicture}[>=Latex,node distance=3mm,every node/.style={font=\fontsize{9}{11}\selectfont,align=center}]
+\node[draw,text width=27mm,minimum height=10mm] (b) {Chromium\\GET /};
+\node[draw,text width=34mm,minimum height=10mm,right=of b] (s) {Apache\\127.0.0.1:8086};
+\node[draw,text width=33mm,minimum height=10mm,right=of s] (f) {DocumentRoot\\index.html};
+\draw[->] (b)--(s);\draw[->] (s)--(f);
+\end{tikzpicture}
+}
+
+\reportpage{\continuedlabel}{%
+\subheading{三、任务2：基本 HTTP 抓包过程与证据}
+\par 在隔离浏览器中清除实验资源缓存，先启动 dumpcap，再明确以 HTTP 访问指导书指定页面：
+\par\noindent\url{http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html}
+\par 捕获过滤器为 \code{host 128.119.245.12 and tcp port 80}；显示过滤器为 \code{http}。抓包共38帧，10帧识别为 HTTP；帧8与帧12构成目标页的完整请求和响应，不把 \code{favicon.ico} 的交换当作目标页。
+\shot{http-file1-request-crop.pdf}{3}{file1 的 GET 请求，帧8}
+\shot{http-file1-response-crop.pdf}{4}{file1 的200 OK响应，帧12}
+\par 图3给出请求行、语言、编码与响应关联；图4给出版本、状态码、类型、长度和最后修改时间。帧8和12属于 \code{tcp.stream == 0}。完整截图与原始 \path{evidence/http-experiment.pcapng} 均随工程保存。
+\par 图3—8均来自同一次真实抓包；裁剪图只去除无关窗格和空白，未改写字段，未以示例数据替代本机记录。
+}
+
+\reportpage{\continuedlabel}{%
+\subheading{四、任务3：清除缓存后的首次访问}
+\par\noindent\url{http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html}
+\par 首次访问前通过浏览器的缓存清除接口清空缓存，再正常导航到上述原始 URL；未添加查询参数，也未手工注入验证器。首次请求为帧20，响应为帧23。
+\shot{http-file2-first-request-crop.pdf}{5}{file2 首次 GET，帧20，无缓存验证字段}
+\shot{http-file2-first-response-crop.pdf}{6}{首次响应，帧23，200 OK及371字节实体}
+\par 图5的完整请求没有 \code{If-Modified-Since} 或 \code{If-None-Match}。图6的响应给出 \code{Last-Modified} 和 \code{ETag}，供下一次缓存验证使用。
+\par 该连接的 TCP 四元组为客户端 \code{10.20.41.171:57438} 与服务器 \code{128.119.245.12:80}，属于 \code{tcp.stream == 1}。
+}
+
+\reportpage{\continuedlabel}{%
+\subheading{五、任务3：紧接普通刷新后的缓存验证}
+\par 首次页面加载后立即对同一 URL 普通刷新，不强制刷新、不再次清空缓存。浏览器自动加入验证器；帧28为第二次 GET，帧29为响应，仍属于 \code{tcp.stream == 1}。
+\shot{http-file2-conditional-request-crop.pdf}{7}{第二次 GET，帧28，自动携带条件首部}
+\shot{http-file2-304-response-crop.pdf}{8}{第二次响应，帧29，304 Not Modified且无正文}
+\par 帧28包含 \code{If-None-Match}、\code{If-Modified-Since} 和 \code{Cache-Control: max-age=0}；两项验证器与帧23的实际响应值一致。它证明第二次确实发出了网络请求，而非完全依赖本地缓存。
+\par 帧29没有实体正文，也没有 \code{Content-Length}、\code{Content-Type} 或 \code{File Data} 项。浏览器仍显示首次取得的页面，是复用缓存正文的结果，不能据此认定服务器又发送了完整 HTML。
+}
+
+\reportpage{\continuedlabel}{%
+\subheading{六、资料查阅与实际排障}
+\qa{1. 抓包接口不可用：权限问题}{%
+\textbf{现象：}执行 \code{tshark -D} 仅列出远程捕获插件，并提示 \code{Couldn't run dumpcap in child process: Permission denied}。
+\par\textbf{排查依据：}\path{/usr/bin/dumpcap} 属于 \code{wireshark} 组，权限为 \code{rwxr-xr--}，并具有相应网络捕获能力，但当前会话不属于该组；不是需要以 root 运行整个 Wireshark GUI。
+\par\textbf{处理方法：}把当前账户加入 \code{wireshark} 组，在新组会话中运行捕获程序。
+\par\textbf{验证结果：}重新枚举能看到 \code{wlo1}、\code{any}、\code{lo} 等本机接口，随后成功生成包含38帧的 pcapng。}
+\qa{2. 页面完整显示，不代表第二次又返回200}{%
+\textbf{现象：}file2 刷新后正文不变，高层页面对象仍呈现成功加载结果。
+\par\textbf{排查依据：}Wireshark 帧29明确显示 \code{HTTP/1.1 304 Not Modified}，帧28验证器与帧23一致，且帧29不含实体。
+\par\textbf{处理与验证：}以网络抓包判定服务器实际响应，区分缓存合并后的页面展示。本次结论是“条件 GET 验证成功，304后复用缓存”，不是“没有请求”或“再次200并传输完整正文”。}
+\subheading{自主查阅的资料及其帮助}
+\par\noindent\textbf{（1）ArchWiki：Apache HTTP Server。}核对 Linux 包名和配置，理解监听、根目录和目录授权，据此不用 Windows 压缩包，采用独立回环监听实例。
+\par\noindent\url{https://wiki.archlinux.org/title/Apache_HTTP_Server}
+\par\noindent\textbf{（2）Apache 2.4 官方 httpd 文档。}核对 \code{-f}、\code{-t} 和 \code{-DFOREGROUND}，用于指定配置、语法检查和前台启动。
+\par\noindent\url{https://httpd.apache.org/docs/2.4/programs/httpd.html}
+\par\noindent\textbf{（3）Wireshark 官方权限与 dumpcap 文档。}帮助定位捕获权限，确认应授权 dumpcap 而非整个 GUI。
+\par\noindent\url{https://www.wireshark.org/docs/wsdg_html_chunked/ChSrcBinary.html}
+\par\noindent\url{https://www.wireshark.org/docs/wsug_html_chunked/AppToolsdumpcap.html}
+\par\noindent\textbf{（4）RFC 9110，第8.8、13和15.4.5节。}用于区分验证器、条件请求和304无正文的语义，不把 ETag 误当作必然的内容哈希。
+\par\noindent\url{https://www.rfc-editor.org/rfc/rfc9110}
+}
+
+\reportpage{数据记录\\和计算}{%
+\subheading{七、实际报文与关键数据汇总}
+\par 帧号对应原始 \path{evidence/http-experiment.pcapng}。帧长度包含链路层等开销，不等于 HTTP 实体长度。
+\par\noindent\begin{tabularx}{\linewidth}{|c|X|c|c|c|}\hline
+帧号 & 角色 & TCP流 & 帧长度/B & 方法/状态\\\hline
+8 & file1 请求 & 0 & 521 & GET\\\hline
+12 & file1 响应 & 0 & 557 & 200 OK\\\hline
+20 & file2 首次请求 & 1 & 521 & GET\\\hline
+23 & file2 首次响应 & 1 & 801 & 200 OK\\\hline
+28 & file2 第二次请求 & 1 & 633 & GET\\\hline
+29 & file2 第二次响应 & 1 & 378 & 304\\\hline
+\end{tabularx}
+\par\vspace{1mm}\noindent\begin{tabularx}{\linewidth}{|p{31mm}|X|}\hline
+客户端 & \code{10.20.41.171}；file1 端口57426，file2 两次均57438。\\\hline
+服务器 & \code{128.119.245.12:80}。\\\hline
+HTTP 版本 & 三组目标交换的请求与响应均为 HTTP/1.1。\\\hline
+语言及可接受编码 & \code{zh-CN}；\code{gzip, deflate}。\\\hline
+file1 类型、长度 & \code{text/html; charset=UTF-8}；实体128字节。\\\hline
+两页最后修改时间 & \code{Tue, 28 Oct 2025 05:59:01 GMT}。\\\hline
+file1 ETag & \code{"80-64231b6717e87"}。\\\hline
+file2 首次长度 & \code{Content-Length: 371}，导出实体为371字节。\\\hline
+file2 ETag & \code{"173-64231b67176b7"}。\\\hline
+第二次请求验证器 & \code{If-Modified-Since} 与首次 \code{Last-Modified} 相同；\code{If-None-Match} 与首次 \code{ETag} 相同。\\\hline
+第二次响应实体 & 无实体；未出现 \code{Content-Length}，不补写缺失首部。\\\hline
+\end{tabularx}
+\subheading{缓存验证的传输影响}
+\par 第二次304没有重新传输371字节 HTML，节省的\textbf{实体传输量}为
+\[371-0=371\ \text{字节。}\]
+\par 请求及响应首部仍需传输，不能说网络通信完全省去。两份响应帧长度差为 \code{801-378=423} 字节，包含首部差异，不等于实体节省量。
+\par 响应 \code{Date} 记录 file1 为 \code{2026-10-13 13:04:53 GMT}，file2 两次分别为 \code{13:05:12}、\code{13:05:13 GMT}；终端本地时区与 GMT 不混用。
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{%
+\subheading{八、任务2分析题（1—5）}
+\qa{1. 请求方法、请求资源与 HTTP 版本是什么？}{%
+图3帧8的完整请求行为：
+\par\noindent\code{GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1}
+\par\noindent 方法为 GET，资源为指定目录的 \code{HTTP-wireshark-file1.html}，请求版本为 HTTP/1.1。\code{Host: gaia.cs.umass.edu} 与路径共同确定站点和资源。}
+\qa{2. 响应版本、状态码与状态短语是什么？}{%
+图4帧12的状态行为 \code{HTTP/1.1 200 OK}，所以响应版本为 HTTP/1.1，状态码为200，状态短语为 OK。它表示本次 GET 成功取得服务器返回的表示，但仍须结合资源路径和正文确认是否为目标页，不能仅凭200判断。}
+\qa{3. 双方 IP 地址和 TCP 端口分别是什么？}{%
+帧8的源地址为 \code{10.20.41.171}、目的地址为 \code{128.119.245.12}；TCP 源端口57426，目的端口80。帧12反向使用同一四元组，从 \code{128.119.245.12:80} 返回 \code{10.20.41.171:57426}。57426是该次连接的客户端临时端口，不是固定 HTTP 服务端口。}
+\qa{4. Accept-Language 包含什么语言，反映什么偏好？}{%
+帧8实际只有 \code{Accept-Language: zh-CN}，表示偏好中国大陆地区使用的简体中文；没有列出英语等其他语言，也没有显式质量权重。该首部影响语言协商，但不保证服务器必然返回中文；本次实验浏览器设置为 zh-CN，目标页实际仍为英文。}
+\qa{5. Accept-Encoding 与实际采用的内容编码如何区分？}{%
+帧8的 \code{Accept-Encoding: gzip, deflate} 是浏览器愿意接收的内容编码，并非服务器必然采用的编码。判断实际编码应检查\textbf{响应}的 \code{Content-Encoding}。
+\par 图4帧12没有 \code{Content-Encoding}，正文直接为可读 HTML，表示未施加该首部声明的内容压缩，可按 identity 理解。\code{charset=UTF-8} 是字符集，不是 gzip 一类的压缩；不能补写抓包中不存在的 br 或 zstd。}
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{%
+\subheading{九、任务2分析题（6—10）}
+\qa{6. Accept 与 Content-Type 的含义和区别是什么？}{%
+帧8的 Accept 列出 \code{text/html}、\code{application/xhtml+xml}、\code{application/xml;q=0.9}、\code{image/avif}、\code{image/webp}、\code{image/apng}、\code{*/*;q=0.8} 和 \code{application/signed-exchange;v=b3;q=0.7}，表达可接受媒体类型和偏好；未写 q 的项默认权重为1。
+\par 帧12的 \code{Content-Type: text/html; charset=UTF-8} 描述\textbf{实际返回}的 HTML 及 UTF-8 字符集。Accept 是请求侧可接受的集合，Content-Type 是本次响应表示的类型。}
+\qa{7. 资源最后修改时间是什么，从哪个首部获得？}{%
+图4的 \code{Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT} 给出资源最后修改时间，即2025年10月28日05:59:01 GMT。它不是响应生成时间；\code{Date: Tue, 13 Oct 2026 13:04:53 GMT} 对应本次访问，两者用途不同。}
+\qa{8. 内容长度是多少，是报文总长还是实体长度？}{%
+帧12的 \code{Content-Length: 128} 指响应实体128字节；\code{File Data: 128 bytes} 与导出的128字节 HTML 互相印证。它不含状态行和 HTTP 首部，也不是 TCP/IP 或链路层帧的总长度；该响应的完整捕获帧长度为557字节。}
+\qa{9. 如何确认响应对应目标页而不是其他资源？}{%
+帧8的目标路径为 \code{/wireshark-labs/HTTP-wireshark-file1.html}；帧12的 \code{Request in frame: 8} 和 Full request URI 与之关联。正文含 \code{Congratulations. You've downloaded the file} 及目标页完整 URL，类型为 HTML、实体128字节，因此路径、关联和正文一致。
+\par 帧14请求 \code{/favicon.ico}，帧15返回301并重定向到 HTTPS 图标。这不是目标 HTML 页，应排除，不能用该301替代目标页的200。}
+\qa{10. 是否允许持久连接，能否仅凭一组交换证明复用？}{%
+双方采用 HTTP/1.1；帧8有 \code{Connection: keep-alive}，帧12有 \code{Connection: Keep-Alive} 和 \code{Keep-Alive: timeout=5, max=100}，说明允许保持连接。\textbf{仅凭帧8/12不能证明已复用}，还要观察同一 TCP 流中的后续请求与响应，并确认不是新建连接。
+\par 本次帧14/15与8/12同属流0，帧20/23及28/29同属流1，说明确有连接复用。favicon 的交换可作为复用证据，但不能替代目标页面的内容分析。}
+}
+
+\reportpage{（接上）\\数据记录\\和计算}{%
+\subheading{十、任务3：Conditional GET 分析题（1—4）}
+\qa{1. 第一次 GET 是否包含缓存验证字段？}{%
+图5帧20的完整请求没有 \code{If-Modified-Since} 或 \code{If-None-Match}。访问前已清除实验浏览器缓存，没有相应缓存副本与验证器可发送，因此发出普通 GET；帧23返回200和完整371字节 HTML。结论依据实际完整首部，而非推测第一次请求必然如此。}
+\qa{2. 第一次响应有哪些验证字段，分别提供什么信息？}{%
+图6帧23给出 \code{Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT} 和 \code{ETag: "173-64231b67176b7"}。前者记录资源修改时间，供 \code{If-Modified-Since} 使用；后者是不透明的实体标签，用于标识选中表示的版本，供 \code{If-None-Match} 比较。
+\par ETag 不必是内容哈希，不能从字符串推断其算法；Last-Modified 也不是浏览器访问时间。浏览器保存响应提供的实际值，作为后续验证条件。}
+\qa{3. 第二次是否发出 GET，验证器与首次响应有什么关系？}{%
+图7帧28仍为 \code{GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1}，证明第二次发出了网络请求。它携带 \code{Cache-Control: max-age=0}、\code{If-Modified-Since: Tue, 28 Oct 2025 05:59:01 GMT} 和 \code{If-None-Match: "173-64231b67176b7"}，两项验证器分别与帧23的 Last-Modified、ETag 完全一致。
+\par 首部由普通刷新时浏览器自动加入，未手动构造。本次保留已有副本并检查有效性，不是清空缓存或强制刷新后重新下载。}
+\qa{4. 为什么第二次得到304，是否验证缓存，怎样影响传输？}{%
+图8帧29实际返回 \code{304 Not Modified}，与帧28关联，返回的验证器仍与首次响应一致。条件检查表明缓存表示可继续使用，服务器不再次传输实体。\textbf{发生了缓存验证，不是没有访问网络}；两项条件同时适用时，以 \code{If-None-Match} 为优先。
+\par 304没有正文；本次未出现 Content-Length 或 Content-Type，不能补成 \code{Content-Length: 0}。浏览器使用缓存的371字节正文，节省重复实体传输，但仍有第二次请求和304首部的开销。资源改变时可能返回200及新表示，新鲜缓存也可能不请求网络，但本次证据明确不是这两种情况。}
+\par 补充：测试页正文出现不规范的 \code{IN-MODIFIED-SINCE} 拼写，分析以真实首部的标准名称 \code{If-Modified-Since} 为准；页面加载成功也不能取代抓包中的304状态行。
+}
+
+\startreportpage{25.4}
+\templaterow{结\quad 论\\（结\ 果）}{78}{%
+\qa{1. Web 服务器搭建结果。}{%
+在 Arch Linux 上运行 Apache HTTP Server 2.4.69，完成根目录、默认文档、目录授权与回环地址8086端口配置。语法检查、监听状态、浏览器地址栏和200日志相互印证，自建首页实际显示了姓名、学号、班级和实验名称。}
+\qa{2. 基本 HTTP 分析结果。}{%
+file1 的帧8/12是一组 GET 与200响应，双方采用 HTTP/1.1；路径、首部及正文证明响应为指定页面，实体128字节，未声明内容压缩。请求偏好与响应实际类型、编码和长度必须区分。}
+\qa{3. 缓存验证结果。}{%
+file2 的帧20/23先取得200和371字节实体，普通刷新时帧28自动发送验证器，帧29返回304且无正文，浏览器复用缓存。实际报文验证了条件 GET、缓存验证和连接复用，页面不变不等于没有网络通信。}
+}
+\templaterow{小\quad 结}{80}{%
+\qa{问题1：依据哪项证据修正或确认了原有判断？}{%
+仅从刷新后仍显示完整页面，容易误判为再次返回200；帧28的条件首部和帧29的304状态行修正了这一判断。Content-Length、File Data 与整帧长度的对照说明正文大小不能用帧长代替。同样，连接复用应以同一 TCP 流的后续交换证明，不能只看 keep-alive。}
+\qa{问题2：若供他人使用，重点核验什么，资料查阅有何帮助？}{%
+应核验监听地址、网络连通性、防火墙、目录权限及最小化暴露，公网使用还需考虑 TLS、日志和安全更新。ArchWiki 与 Apache 文档帮助区别系统默认目录与本次实际配置，Wireshark 文档帮助定位 dumpcap 组权限。关键是把平台版本和本机输出对应起来，而不是照抄 Windows 步骤。}
+}
+\templaterow{指导老师\\评\quad 议}{55}{%
+\vspace*{39mm}
+\noindent 成绩评定：\hspace{22mm}指导教师签名：
+}
+
+\end{document}

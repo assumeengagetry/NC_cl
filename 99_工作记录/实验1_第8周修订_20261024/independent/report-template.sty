@@ -1,0 +1,115 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{report-template}[2026/10/24 Supplied SCU report template]
+% Dimensions are copied from 实验报告模板.doc, not from an A4 preset.
+% Word: page 10440 x 14740 twips; margins L1134 R1021 T1440 B567.
+\RequirePackage[paperwidth=184.15mm,paperheight=259.997222mm,
+  left=20.0025mm,right=18.009306mm,top=25.4mm,bottom=10.00125mm,
+  noheadfoot]{geometry}
+\RequirePackage{graphicx,array,tabularx,tikz,enumitem,xurl,hyperref,amsmath,lmodern}
+\usetikzlibrary{arrows.meta,positioning}
+\hypersetup{hidelinks,pdftitle={实验1：Web服务器搭建与HTTP协议分析}}
+\pagestyle{empty}
+% Keep punctuation inside cells instead of hanging half a glyph into borders.
+\xeCJKsetup{PunctStyle=plain}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{2pt}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.16}
+\setlist[enumerate]{leftmargin=1.6em,itemsep=2pt,topsep=2pt,parsep=0pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=1pt,topsep=2pt,parsep=0pt}
+\urlstyle{tt}
+\setlength{\emergencystretch}{1em}
+
+% Original table: 8320 twips = 146.755556 mm.
+% Columns: 1251 / 3660 / 1080 / 2329 twips; cell padding: 108 twips.
+\newcommand{\frameleft}{19.72}
+\newcommand{\framewidth}{146.755556}
+\newcommand{\reportlabelwidth}{22.06625}
+\newcommand{\cellpadding}{1.905}
+\newlength{\reportbodywidth}
+\setlength{\reportbodywidth}{120.879306mm}
+\newsavebox{\reportcellbox}
+\newlength{\reportcellheight}
+\newlength{\reportcelllimit}
+\newcommand{\currenttop}{25.4}
+
+% Word points are 1/72 inch (TeX bp), not the slightly smaller TeX pt.
+\newcommand{\reportfont}{\songti\fontsize{10.5bp}{14.5bp}\selectfont}
+\newcommand{\subheading}[1]{\par\noindent\textbf{#1}\par\vspace{1mm}}
+\newcommand{\qa}[2]{\par\noindent\textbf{#1}\par #2\par\vspace{1.4mm}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\shot}[4][\linewidth]{%
+  \par\noindent{\centering\includegraphics[width=#1]{assets/#2}\par}%
+  {\centering\fontsize{9}{11.5}\selectfont 图 #3\quad #4\par}\vspace{1.5mm}}
+\newcommand{\experimentlabel}{实验内容（算法、程序、步骤和方法）}
+\newcommand{\continuedlabel}{（接上）\\实验内容（算法、程序、步骤和方法）}
+
+\newcommand{\startreportpage}[1]{%
+  \clearpage\thispagestyle{empty}\gdef\currenttop{#1}%
+  \begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm]
+    \coordinate (origin) at (current page.north west);
+    \draw[line width=1.5bp] ([xshift=\frameleft mm,yshift=-#1mm]origin)
+      -- ++(\framewidth,0);
+  \end{tikzpicture}\null}
+
+% The guard measures the complete cell before drawing it. It never scales or
+% clips text to conceal an overflow: an oversized cell is a compilation error.
+\newcommand{\templaterow}[3]{%
+  \sbox{\reportcellbox}{\begin{minipage}[t]{\reportbodywidth}
+    \reportfont\setlength{\parskip}{2pt}%
+    \setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}%
+    #3\par\end{minipage}}%
+  \setlength{\reportcellheight}{\dimexpr\ht\reportcellbox+\dp\reportcellbox\relax}%
+  \setlength{\reportcelllimit}{\dimexpr#2mm-3.8mm\relax}%
+  \typeout{TEMPLATECELL page=\thepage\space height=\the\reportcellheight\space limit=\the\reportcelllimit}%
+  \ifdim\reportcellheight>\reportcelllimit
+    \PackageError{report-template}{Cell overflows on page \thepage}{Split the content into another continuation page.}
+  \fi
+  \begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm]
+    \coordinate (o) at ([xshift=\frameleft mm,yshift=-\currenttop mm]current page.north west);
+    \draw[line width=1.5bp] (o)--++(0,#2);
+    \draw[line width=1.5bp] ([xshift=\framewidth mm]o)--++(0,#2);
+    \draw[line width=.75bp] ([xshift=\reportlabelwidth mm]o)--++(0,#2);
+    \draw[line width=.75bp] ([yshift=-#2mm]o)--++(\framewidth,0);
+    \node[inner sep=0pt,outer sep=0pt,align=center,font=\reportfont,
+      text width=18.25625mm] at ([xshift=11.033125mm,yshift=-#2mm/2]o) {#1};
+    \node[anchor=north west,inner sep=0pt,outer sep=0pt]
+      at ([xshift=23.97125mm,yshift=-1.8mm]o) {\usebox{\reportcellbox}};
+  \end{tikzpicture}%
+  \pgfmathparse{\currenttop+#2}\xdef\currenttop{\pgfmathresult}}
+
+\newcommand{\templatefourrow}[5]{%
+  \begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm]
+    \coordinate (o) at ([xshift=\frameleft mm,yshift=-\currenttop mm]current page.north west);
+    \draw[line width=1.5bp] (o)--++(0,#1);
+    \draw[line width=1.5bp] ([xshift=\framewidth mm]o)--++(0,#1);
+    \foreach \x in {22.06625,86.623,105.673} {
+      \draw[line width=.5bp] ([xshift=\x mm]o)--++(0,#1);}
+    \draw[line width=.75bp] ([yshift=-#1mm]o)--++(\framewidth,0);
+    \node[inner sep=0pt,font=\reportfont,align=center,text width=18.25mm]
+      at ([xshift=11.033125mm,yshift=-#1mm/2]o) {#2};
+    \node[inner sep=0pt,font=\reportfont,align=center,text width=60.74675mm]
+      at ([xshift=54.344625mm,yshift=-#1mm/2]o) {#3};
+    \node[inner sep=0pt,font=\reportfont,align=center,text width=15.24mm]
+      at ([xshift=96.148mm,yshift=-#1mm/2]o) {#4};
+    \node[inner sep=0pt,font=\reportfont,align=center,text width=37.272556mm]
+      at ([xshift=126.214278mm,yshift=-#1mm/2]o) {#5};
+  \end{tikzpicture}%
+  \pgfmathparse{\currenttop+#1}\xdef\currenttop{\pgfmathresult}}
+
+\newcommand{\templateheading}{%
+  \begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm]
+    \coordinate (o) at (current page.north west);
+    \node[anchor=north,inner sep=0pt,font=\CJKspace\heiti\fontsize{15bp}{18bp}\selectfont]
+      at ([xshift=93.097778mm,yshift=-27mm]o)
+      {四 川 大 学 计 算 机 学 院、软 件 学 院};
+    \node[anchor=north,inner sep=0pt,font=\songti\bfseries\fontsize{22bp}{26bp}\selectfont]
+      at ([xshift=93.097778mm,yshift=-39mm]o) {实\enspace 验\enspace 报\enspace 告};
+    \node[anchor=north west,inner sep=0pt,font=\reportfont]
+      at ([xshift=20.0025mm,yshift=-53mm]o) {\makebox[146.138194mm][s]{%
+        学号：\underline{\studentid}\hfill
+        姓名：\underline{\studentname}\hfill
+        专业：\underline{\majorname}\hfill
+        班级：\underline{周二34节}\hfill 第8周}};
+  \end{tikzpicture}}
+\newcommand{\reportpage}[2]{\startreportpage{25.4}\templaterow{#1}{224.59}{#2}}

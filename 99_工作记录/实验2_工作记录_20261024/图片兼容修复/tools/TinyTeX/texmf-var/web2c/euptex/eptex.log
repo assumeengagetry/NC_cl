@@ -1,0 +1,2 @@
+# actual command line used during this run
+# euptex -ini   -jobname=eptex -progname=eptex -kanji-internal=euc *eptex.ini </dev/null

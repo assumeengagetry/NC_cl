@@ -1,0 +1,8 @@
+name mptopdf.universal-darwin
+category Package
+revision 57908
+shortdesc universal-darwin files of mptopdf
+containersize 348
+containerchecksum e1db87239f7a3bb48c7c65646f4a0da75c369c402a29ba28441eb35610a0a150c8bb2606a9f9273023870838480e6ac1c1469b5d3cf9436f3f2b00704f995453
+binfiles arch=universal-darwin size=1
+ bin/universal-darwin/mptopdf

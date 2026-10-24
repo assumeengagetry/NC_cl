@@ -1,0 +1,9 @@
+name uplatex.universal-darwin
+category Package
+revision 57908
+shortdesc universal-darwin files of uplatex
+containersize 336
+containerchecksum 210ca820ffd57aff397a96b99fa60870136f0261865f037de5d8522410343ba0a224fc5f3e2f149393f8941ff1aa2e522e49c9b82c26d14460b17e8935cafbba
+binfiles arch=universal-darwin size=2
+ bin/universal-darwin/uplatex
+ bin/universal-darwin/uplatex-dev

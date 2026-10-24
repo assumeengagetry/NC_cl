@@ -1,0 +1,12 @@
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.euc) (TeX Live 2026) (INITEX)  24 OCT 2026 19:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+***platex.ini
+(f-dist/tex/platex/config/platex.ini
+<<< making "platex with Babel" format >>>
+
+(f-dist/tex/platex/base/platex.ltx# error output of the engine during this run
+(guessed encoding #3: ASCII = utf8)(guessed encoding #5: ASCII = utf8)
+# actual command line used during this run
+# euptex -ini   -jobname=platex-dev -progname=platex-dev -kanji-internal=euc *platex.ini </dev/null
