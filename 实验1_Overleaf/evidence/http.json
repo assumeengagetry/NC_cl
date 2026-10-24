@@ -1,0 +1,1757 @@
+[
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:04:53.599899304Z",
+          "frame.time_utc": "2026-10-13T13:04:53.599899304Z",
+          "frame.time_epoch": "2026-10-13T13:04:53.599899304Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000165227",
+          "frame.time_relative": "0.303752323",
+          "frame.number": "8",
+          "frame.len": "521",
+          "frame.cap_len": "521",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "4",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "58:1c:f8:d5:9f:67",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "505",
+          "ip.id": "0x338c",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x5c30",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "57426",
+          "tcp.dstport": "80",
+          "tcp.port": "57426",
+          "tcp.port": "80",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "4",
+          "tcp.completeness": "7",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "0",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "···ASS"
+          },
+          "tcp.len": "453",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1495134853",
+          "tcp.nxtseq": "454",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3417864440",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "63",
+          "tcp.window_size": "64512",
+          "tcp.window_size_scalefactor": "1024",
+          "tcp.checksum": "0xab2e",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:cb:59:73:d4:fe:fe:52:1a",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:cb:59:73:d4:fe:fe:52:1a",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "3411637204",
+              "tcp.options.timestamp.tsecr": "4278080026"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.303752323",
+            "tcp.time_delta": "0.000303055"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.303449268",
+            "tcp.analysis.bytes_in_flight": "453",
+            "tcp.analysis.push_bytes_sent": "453"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:55:70:67:72:61:64:65:2d:49:6e:73:65:63:75:72:65:2d:52:65:71:75:65:73:74:73:3a:20:31:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:58:31:31:3b:20:4c:69:6e:75:78:20:78:38:36:5f:36:34:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:74:65:78:74:2f:68:74:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:68:74:6d:6c:2b:78:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:6d:6c:3b:71:3d:30:2e:39:2c:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:2a:2f:2a:3b:71:3d:30:2e:38:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:73:69:67:6e:65:64:2d:65:78:63:68:61:6e:67:65:3b:76:3d:62:33:3b:71:3d:30:2e:37:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/wireshark-labs/HTTP-wireshark-file1.html",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.request.line": "Upgrade-Insecure-Requests: 1\r\n",
+          "http.user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "http.request.line": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:04:53.907022261Z",
+          "frame.time_utc": "2026-10-13T13:04:53.907022261Z",
+          "frame.time_epoch": "2026-10-13T13:04:53.907022261Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000000388",
+          "frame.time_delta_displayed": "0.307122957",
+          "frame.time_relative": "0.610875280",
+          "frame.number": "12",
+          "frame.len": "557",
+          "frame.cap_len": "557",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http:data-text-lines",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "0",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "60:38:e0:c5:b8:c0",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "541",
+          "ip.id": "0x23ae",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "26",
+          "ip.proto": "6",
+          "ip.checksum": "0x91ea",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "57426",
+          "tcp.port": "80",
+          "tcp.port": "57426",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "6",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "489",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3417864440",
+          "tcp.nxtseq": "490",
+          "tcp.ack": "454",
+          "tcp.ack_raw": "1495135306",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "506",
+          "tcp.window_size": "64768",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0xe83f",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:fe:fe:53:4b:cb:59:73:d4",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:fe:fe:53:4b:cb:59:73:d4",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "4278080331",
+              "tcp.options.timestamp.tsecr": "3411637204"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.610875280",
+            "tcp.time_delta": "0.000000388"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.303449268",
+            "tcp.analysis.bytes_in_flight": "489",
+            "tcp.analysis.push_bytes_sent": "489"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:32:30:30:20:4f:4b:0d:0a:44:61:74:65:3a:20:54:75:65:2c:20:31:33:20:4f:63:74:20:32:30:32:36:20:31:33:3a:30:34:3a:35:33:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:61:73:74:2d:4d:6f:64:69:66:69:65:64:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:45:54:61:67:3a:20:22:38:30:2d:36:34:32:33:31:62:36:37:31:37:65:38:37:22:0d:0a:41:63:63:65:70:74:2d:52:61:6e:67:65:73:3a:20:62:79:74:65:73:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:31:32:38:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:31:30:30:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:55:54:46:2d:38:0d:0a:0d:0a:3c:68:74:6d:6c:3e:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:2e:20:20:59:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:0a:68:74:74:70:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:21:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "http": {
+          "HTTP/1.1 200 OK\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "200",
+            "http.response.code.desc": "OK",
+            "http.response.phrase": "OK"
+          },
+          "http.date": "Tue, 13 Oct 2026 13:04:53 GMT",
+          "http.response.line": "Date: Tue, 13 Oct 2026 13:04:53 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.last_modified": "Tue, 28 Oct 2025 05:59:01 GMT",
+          "http.response.line": "Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "http.response.line": "ETag: \"80-64231b6717e87\"\r\n",
+          "http.response.line": "Accept-Ranges: bytes\r\n",
+          "http.content_length_header": "128",
+          "http.content_length_header_tree": {
+            "http.content_length": "128"
+          },
+          "http.response.line": "Content-Length: 128\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=100\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=UTF-8",
+          "http.response.line": "Content-Type: text/html; charset=UTF-8\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "8",
+          "http.time": "0.307122957",
+          "http.request.uri": "/wireshark-labs/HTTP-wireshark-file1.html",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html",
+          "http.file_data": "3c:68:74:6d:6c:3e:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:2e:20:20:59:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:0a:68:74:74:70:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:21:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "data-text-lines": {
+          "<html>\\n": "",
+          "Congratulations.  You've downloaded the file \\n": "",
+          "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html!\\n": "",
+          "<\/html>\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:04:53.935020322Z",
+          "frame.time_utc": "2026-10-13T13:04:53.935020322Z",
+          "frame.time_epoch": "2026-10-13T13:04:53.935020322Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.027940026",
+          "frame.time_delta_displayed": "0.027998061",
+          "frame.time_relative": "0.638873341",
+          "frame.number": "14",
+          "frame.len": "467",
+          "frame.cap_len": "467",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "4",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "58:1c:f8:d5:9f:67",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "451",
+          "ip.id": "0x338e",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x5c64",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "57426",
+          "tcp.dstport": "80",
+          "tcp.port": "57426",
+          "tcp.port": "80",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "8",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "399",
+          "tcp.seq": "454",
+          "tcp.seq_raw": "1495135306",
+          "tcp.nxtseq": "853",
+          "tcp.ack": "490",
+          "tcp.ack_raw": "3417864929",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "63",
+          "tcp.window_size": "64512",
+          "tcp.window_size_scalefactor": "1024",
+          "tcp.checksum": "0xaaf8",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:cb:59:75:23:fe:fe:53:4b",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:cb:59:75:23:fe:fe:53:4b",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "3411637539",
+              "tcp.options.timestamp.tsecr": "4278080331"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.638873341",
+            "tcp.time_delta": "0.027940026"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.303449268",
+            "tcp.analysis.bytes_in_flight": "399",
+            "tcp.analysis.push_bytes_sent": "399"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:58:31:31:3b:20:4c:69:6e:75:78:20:78:38:36:5f:36:34:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:69:6d:61:67:65:2f:73:76:67:2b:78:6d:6c:2c:69:6d:61:67:65:2f:2a:2c:2a:2f:2a:3b:71:3d:30:2e:38:0d:0a:52:65:66:65:72:65:72:3a:20:68:74:74:70:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /favicon.ico HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/favicon.ico",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+          "http.request.line": "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n",
+          "http.referer": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html",
+          "http.request.line": "Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/favicon.ico"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:04:54.239821504Z",
+          "frame.time_utc": "2026-10-13T13:04:54.239821504Z",
+          "frame.time_epoch": "2026-10-13T13:04:54.239821504Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.304801182",
+          "frame.time_delta_displayed": "0.304801182",
+          "frame.time_relative": "0.943674523",
+          "frame.number": "15",
+          "frame.len": "650",
+          "frame.cap_len": "650",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http:data-text-lines",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "0",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "60:38:e0:c5:b8:c0",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "634",
+          "ip.id": "0x23af",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "26",
+          "ip.proto": "6",
+          "ip.checksum": "0x918c",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "57426",
+          "tcp.port": "80",
+          "tcp.port": "57426",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "9",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "582",
+          "tcp.seq": "490",
+          "tcp.seq_raw": "3417864929",
+          "tcp.nxtseq": "1072",
+          "tcp.ack": "853",
+          "tcp.ack_raw": "1495135705",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "503",
+          "tcp.window_size": "64384",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0x4b32",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:fe:fe:54:9a:cb:59:75:23",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:fe:fe:54:9a:cb:59:75:23",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "4278080666",
+              "tcp.options.timestamp.tsecr": "3411637539"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.943674523",
+            "tcp.time_delta": "0.304801182"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "14",
+            "tcp.analysis.ack_rtt": "0.304801182",
+            "tcp.analysis.initial_rtt": "0.303449268",
+            "tcp.analysis.bytes_in_flight": "582",
+            "tcp.analysis.push_bytes_sent": "582"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:0d:0a:44:61:74:65:3a:20:54:75:65:2c:20:31:33:20:4f:63:74:20:32:30:32:36:20:31:33:3a:30:34:3a:35:34:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:6f:63:61:74:69:6f:6e:3a:20:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:32:34:36:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:39:39:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:69:73:6f:2d:38:38:35:39:2d:31:0d:0a:0d:0a:3c:21:44:4f:43:54:59:50:45:20:48:54:4d:4c:20:50:55:42:4c:49:43:20:22:2d:2f:2f:49:45:54:46:2f:2f:44:54:44:20:48:54:4d:4c:20:32:2e:30:2f:2f:45:4e:22:3e:0a:3c:68:74:6d:6c:3e:3c:68:65:61:64:3e:0a:3c:74:69:74:6c:65:3e:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:74:69:74:6c:65:3e:0a:3c:2f:68:65:61:64:3e:3c:62:6f:64:79:3e:0a:3c:68:31:3e:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:68:31:3e:0a:3c:70:3e:54:68:65:20:64:6f:63:75:6d:65:6e:74:20:68:61:73:20:6d:6f:76:65:64:20:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:22:3e:68:65:72:65:3c:2f:61:3e:2e:3c:2f:70:3e:0a:3c:2f:62:6f:64:79:3e:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "http": {
+          "HTTP/1.1 301 Moved Permanently\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "301",
+            "http.response.code.desc": "Moved Permanently",
+            "http.response.phrase": "Moved Permanently"
+          },
+          "http.date": "Tue, 13 Oct 2026 13:04:54 GMT",
+          "http.response.line": "Date: Tue, 13 Oct 2026 13:04:54 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.location": "https://gaia.cs.umass.edu//favicon.ico",
+          "http.response.line": "Location: https://gaia.cs.umass.edu//favicon.ico\r\n",
+          "http.content_length_header": "246",
+          "http.content_length_header_tree": {
+            "http.content_length": "246"
+          },
+          "http.response.line": "Content-Length: 246\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=99\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=iso-8859-1",
+          "http.response.line": "Content-Type: text/html; charset=iso-8859-1\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "14",
+          "http.time": "0.304801182",
+          "http.request.uri": "/favicon.ico",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/favicon.ico",
+          "http.file_data": "3c:21:44:4f:43:54:59:50:45:20:48:54:4d:4c:20:50:55:42:4c:49:43:20:22:2d:2f:2f:49:45:54:46:2f:2f:44:54:44:20:48:54:4d:4c:20:32:2e:30:2f:2f:45:4e:22:3e:0a:3c:68:74:6d:6c:3e:3c:68:65:61:64:3e:0a:3c:74:69:74:6c:65:3e:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:74:69:74:6c:65:3e:0a:3c:2f:68:65:61:64:3e:3c:62:6f:64:79:3e:0a:3c:68:31:3e:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:68:31:3e:0a:3c:70:3e:54:68:65:20:64:6f:63:75:6d:65:6e:74:20:68:61:73:20:6d:6f:76:65:64:20:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:22:3e:68:65:72:65:3c:2f:61:3e:2e:3c:2f:70:3e:0a:3c:2f:62:6f:64:79:3e:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "data-text-lines": {
+          "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\\n": "",
+          "<html><head>\\n": "",
+          "<title>301 Moved Permanently<\/title>\\n": "",
+          "<\/head><body>\\n": "",
+          "<h1>Moved Permanently<\/h1>\\n": "",
+          "<p>The document has moved <a href=\"https://gaia.cs.umass.edu//favicon.ico\">here<\/a>.<\/p>\\n": "",
+          "<\/body><\/html>\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:05:12.310440928Z",
+          "frame.time_utc": "2026-10-13T13:05:12.310440928Z",
+          "frame.time_epoch": "2026-10-13T13:05:12.310440928Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.003525172",
+          "frame.time_delta_displayed": "18.070619424",
+          "frame.time_relative": "19.014293947",
+          "frame.number": "20",
+          "frame.len": "521",
+          "frame.cap_len": "521",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "4",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "58:1c:f8:d5:9f:67",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "505",
+          "ip.id": "0x6429",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x2b93",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "57438",
+          "tcp.dstport": "80",
+          "tcp.port": "57438",
+          "tcp.port": "80",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "4",
+          "tcp.completeness": "7",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "0",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "···ASS"
+          },
+          "tcp.len": "453",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2689393375",
+          "tcp.nxtseq": "454",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "4185554110",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "63",
+          "tcp.window_size": "64512",
+          "tcp.window_size_scalefactor": "1024",
+          "tcp.checksum": "0xab2e",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:ae:91:6c:74:fe:fe:52:1b",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:ae:91:6c:74:fe:fe:52:1b",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "2928766068",
+              "tcp.options.timestamp.tsecr": "4278080027"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "19.014074255",
+            "tcp.time_delta": "18.710706851"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.303367404",
+            "tcp.analysis.bytes_in_flight": "453",
+            "tcp.analysis.push_bytes_sent": "453"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:32:2e:68:74:6d:6c:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:55:70:67:72:61:64:65:2d:49:6e:73:65:63:75:72:65:2d:52:65:71:75:65:73:74:73:3a:20:31:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:58:31:31:3b:20:4c:69:6e:75:78:20:78:38:36:5f:36:34:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:74:65:78:74:2f:68:74:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:68:74:6d:6c:2b:78:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:6d:6c:3b:71:3d:30:2e:39:2c:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:2a:2f:2a:3b:71:3d:30:2e:38:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:73:69:67:6e:65:64:2d:65:78:63:68:61:6e:67:65:3b:76:3d:62:33:3b:71:3d:30:2e:37:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.request.line": "Upgrade-Insecure-Requests: 1\r\n",
+          "http.user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "http.request.line": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:05:12.614879828Z",
+          "frame.time_utc": "2026-10-13T13:05:12.614879828Z",
+          "frame.time_epoch": "2026-10-13T13:05:12.614879828Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000000031",
+          "frame.time_delta_displayed": "0.304438900",
+          "frame.time_relative": "19.318732847",
+          "frame.number": "23",
+          "frame.len": "801",
+          "frame.cap_len": "801",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http:data-text-lines",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "0",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "60:38:e0:c5:b8:c0",
+          "sll.unused": "08:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "785",
+          "ip.id": "0xebf5",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "25",
+          "ip.proto": "6",
+          "ip.checksum": "0xc9ae",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "57438",
+          "tcp.port": "80",
+          "tcp.port": "57438",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "6",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "733",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "4185554110",
+          "tcp.nxtseq": "734",
+          "tcp.ack": "454",
+          "tcp.ack_raw": "2689393828",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "506",
+          "tcp.window_size": "64768",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0x1b92",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:fe:fe:9c:62:ae:91:6c:74",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:fe:fe:9c:62:ae:91:6c:74",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "4278099042",
+              "tcp.options.timestamp.tsecr": "2928766068"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "19.318513155",
+            "tcp.time_delta": "0.000000031"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.303367404",
+            "tcp.analysis.bytes_in_flight": "733",
+            "tcp.analysis.push_bytes_sent": "733"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:32:30:30:20:4f:4b:0d:0a:44:61:74:65:3a:20:54:75:65:2c:20:31:33:20:4f:63:74:20:32:30:32:36:20:31:33:3a:30:35:3a:31:32:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:61:73:74:2d:4d:6f:64:69:66:69:65:64:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:45:54:61:67:3a:20:22:31:37:33:2d:36:34:32:33:31:62:36:37:31:37:36:62:37:22:0d:0a:41:63:63:65:70:74:2d:52:61:6e:67:65:73:3a:20:62:79:74:65:73:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:33:37:31:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:31:30:30:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:55:54:46:2d:38:0d:0a:0d:0a:0a:3c:68:74:6d:6c:3e:0a:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:20:61:67:61:69:6e:21:20:20:4e:6f:77:20:79:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:6c:61:62:32:2d:32:2e:68:74:6d:6c:2e:20:3c:62:72:3e:0a:54:68:69:73:20:66:69:6c:65:27:73:20:6c:61:73:74:20:6d:6f:64:69:66:69:63:61:74:69:6f:6e:20:64:61:74:65:20:77:69:6c:6c:20:6e:6f:74:20:63:68:61:6e:67:65:2e:20:20:3c:70:3e:0a:54:68:75:73:20:20:69:66:20:79:6f:75:20:64:6f:77:6e:6c:6f:61:64:20:74:68:69:73:20:6d:75:6c:74:69:70:6c:65:20:74:69:6d:65:73:20:6f:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:2c:20:61:20:63:6f:6d:70:6c:65:74:65:20:63:6f:70:79:20:3c:62:72:3e:0a:77:69:6c:6c:20:6f:6e:6c:79:20:62:65:20:73:65:6e:74:20:6f:6e:63:65:20:62:79:20:74:68:65:20:73:65:72:76:65:72:20:64:75:65:20:74:6f:20:74:68:65:20:69:6e:63:6c:75:73:69:6f:6e:20:6f:66:20:74:68:65:20:49:4e:2d:4d:4f:44:49:46:49:45:44:2d:53:49:4e:43:45:3c:62:72:3e:0a:66:69:65:6c:64:20:69:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:27:73:20:48:54:54:50:20:47:45:54:20:72:65:71:75:65:73:74:20:74:6f:20:74:68:65:20:73:65:72:76:65:72:2e:0a:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "http": {
+          "HTTP/1.1 200 OK\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "200",
+            "http.response.code.desc": "OK",
+            "http.response.phrase": "OK"
+          },
+          "http.date": "Tue, 13 Oct 2026 13:05:12 GMT",
+          "http.response.line": "Date: Tue, 13 Oct 2026 13:05:12 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.last_modified": "Tue, 28 Oct 2025 05:59:01 GMT",
+          "http.response.line": "Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "http.response.line": "ETag: \"173-64231b67176b7\"\r\n",
+          "http.response.line": "Accept-Ranges: bytes\r\n",
+          "http.content_length_header": "371",
+          "http.content_length_header_tree": {
+            "http.content_length": "371"
+          },
+          "http.response.line": "Content-Length: 371\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=100\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=UTF-8",
+          "http.response.line": "Content-Type: text/html; charset=UTF-8\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "20",
+          "http.time": "0.304438900",
+          "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html",
+          "http.file_data": "0a:3c:68:74:6d:6c:3e:0a:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:20:61:67:61:69:6e:21:20:20:4e:6f:77:20:79:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:6c:61:62:32:2d:32:2e:68:74:6d:6c:2e:20:3c:62:72:3e:0a:54:68:69:73:20:66:69:6c:65:27:73:20:6c:61:73:74:20:6d:6f:64:69:66:69:63:61:74:69:6f:6e:20:64:61:74:65:20:77:69:6c:6c:20:6e:6f:74:20:63:68:61:6e:67:65:2e:20:20:3c:70:3e:0a:54:68:75:73:20:20:69:66:20:79:6f:75:20:64:6f:77:6e:6c:6f:61:64:20:74:68:69:73:20:6d:75:6c:74:69:70:6c:65:20:74:69:6d:65:73:20:6f:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:2c:20:61:20:63:6f:6d:70:6c:65:74:65:20:63:6f:70:79:20:3c:62:72:3e:0a:77:69:6c:6c:20:6f:6e:6c:79:20:62:65:20:73:65:6e:74:20:6f:6e:63:65:20:62:79:20:74:68:65:20:73:65:72:76:65:72:20:64:75:65:20:74:6f:20:74:68:65:20:69:6e:63:6c:75:73:69:6f:6e:20:6f:66:20:74:68:65:20:49:4e:2d:4d:4f:44:49:46:49:45:44:2d:53:49:4e:43:45:3c:62:72:3e:0a:66:69:65:6c:64:20:69:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:27:73:20:48:54:54:50:20:47:45:54:20:72:65:71:75:65:73:74:20:74:6f:20:74:68:65:20:73:65:72:76:65:72:2e:0a:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "data-text-lines": {
+          "\\n": "",
+          "<html>\\n": "",
+          "\\n": "",
+          "Congratulations again!  Now you've downloaded the file lab2-2.html. <br>\\n": "",
+          "This file's last modification date will not change.  <p>\\n": "",
+          "Thus  if you download this multiple times on your browser, a complete copy <br>\\n": "",
+          "will only be sent once by the server due to the inclusion of the IN-MODIFIED-SINCE<br>\\n": "",
+          "field in your browser's HTTP GET request to the server.\\n": "",
+          "\\n": "",
+          "<\/html>\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:05:12.627209389Z",
+          "frame.time_utc": "2026-10-13T13:05:12.627209389Z",
+          "frame.time_epoch": "2026-10-13T13:05:12.627209389Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.012309206",
+          "frame.time_delta_displayed": "0.012329561",
+          "frame.time_relative": "19.331062408",
+          "frame.number": "25",
+          "frame.len": "467",
+          "frame.cap_len": "467",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "4",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "58:1c:f8:d5:9f:67",
+          "sll.unused": "0d:0a",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "451",
+          "ip.id": "0x642b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x2bc7",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "57438",
+          "tcp.dstport": "80",
+          "tcp.port": "57438",
+          "tcp.port": "80",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "8",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "399",
+          "tcp.seq": "454",
+          "tcp.seq_raw": "2689393828",
+          "tcp.nxtseq": "853",
+          "tcp.ack": "734",
+          "tcp.ack_raw": "4185554843",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "63",
+          "tcp.window_size": "64512",
+          "tcp.window_size_scalefactor": "1024",
+          "tcp.checksum": "0xaaf8",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:ae:91:6d:b0:fe:fe:9c:62",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:ae:91:6d:b0:fe:fe:9c:62",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "2928766384",
+              "tcp.options.timestamp.tsecr": "4278099042"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "19.330842716",
+            "tcp.time_delta": "0.012309206"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.303367404",
+            "tcp.analysis.bytes_in_flight": "399",
+            "tcp.analysis.push_bytes_sent": "399"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:58:31:31:3b:20:4c:69:6e:75:78:20:78:38:36:5f:36:34:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:69:6d:61:67:65:2f:73:76:67:2b:78:6d:6c:2c:69:6d:61:67:65:2f:2a:2c:2a:2f:2a:3b:71:3d:30:2e:38:0d:0a:52:65:66:65:72:65:72:3a:20:68:74:74:70:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:32:2e:68:74:6d:6c:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /favicon.ico HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/favicon.ico",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+          "http.request.line": "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n",
+          "http.referer": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html",
+          "http.request.line": "Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/favicon.ico"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:05:12.932651513Z",
+          "frame.time_utc": "2026-10-13T13:05:12.932651513Z",
+          "frame.time_epoch": "2026-10-13T13:05:12.932651513Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.305442124",
+          "frame.time_delta_displayed": "0.305442124",
+          "frame.time_relative": "19.636504532",
+          "frame.number": "26",
+          "frame.len": "650",
+          "frame.cap_len": "650",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http:data-text-lines",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "0",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "60:38:e0:c5:b8:c0",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "634",
+          "ip.id": "0xebf6",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "25",
+          "ip.proto": "6",
+          "ip.checksum": "0xca44",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "57438",
+          "tcp.port": "80",
+          "tcp.port": "57438",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "9",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "582",
+          "tcp.seq": "734",
+          "tcp.seq_raw": "4185554843",
+          "tcp.nxtseq": "1316",
+          "tcp.ack": "853",
+          "tcp.ack_raw": "2689394227",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "503",
+          "tcp.window_size": "64384",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0xbe5a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:fe:fe:9d:9e:ae:91:6d:b0",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:fe:fe:9d:9e:ae:91:6d:b0",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "4278099358",
+              "tcp.options.timestamp.tsecr": "2928766384"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "19.636284840",
+            "tcp.time_delta": "0.305442124"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "25",
+            "tcp.analysis.ack_rtt": "0.305442124",
+            "tcp.analysis.initial_rtt": "0.303367404",
+            "tcp.analysis.bytes_in_flight": "582",
+            "tcp.analysis.push_bytes_sent": "582"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:0d:0a:44:61:74:65:3a:20:54:75:65:2c:20:31:33:20:4f:63:74:20:32:30:32:36:20:31:33:3a:30:35:3a:31:32:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:6f:63:61:74:69:6f:6e:3a:20:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:32:34:36:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:39:39:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:69:73:6f:2d:38:38:35:39:2d:31:0d:0a:0d:0a:3c:21:44:4f:43:54:59:50:45:20:48:54:4d:4c:20:50:55:42:4c:49:43:20:22:2d:2f:2f:49:45:54:46:2f:2f:44:54:44:20:48:54:4d:4c:20:32:2e:30:2f:2f:45:4e:22:3e:0a:3c:68:74:6d:6c:3e:3c:68:65:61:64:3e:0a:3c:74:69:74:6c:65:3e:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:74:69:74:6c:65:3e:0a:3c:2f:68:65:61:64:3e:3c:62:6f:64:79:3e:0a:3c:68:31:3e:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:68:31:3e:0a:3c:70:3e:54:68:65:20:64:6f:63:75:6d:65:6e:74:20:68:61:73:20:6d:6f:76:65:64:20:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:22:3e:68:65:72:65:3c:2f:61:3e:2e:3c:2f:70:3e:0a:3c:2f:62:6f:64:79:3e:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "http": {
+          "HTTP/1.1 301 Moved Permanently\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "301",
+            "http.response.code.desc": "Moved Permanently",
+            "http.response.phrase": "Moved Permanently"
+          },
+          "http.date": "Tue, 13 Oct 2026 13:05:12 GMT",
+          "http.response.line": "Date: Tue, 13 Oct 2026 13:05:12 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.location": "https://gaia.cs.umass.edu//favicon.ico",
+          "http.response.line": "Location: https://gaia.cs.umass.edu//favicon.ico\r\n",
+          "http.content_length_header": "246",
+          "http.content_length_header_tree": {
+            "http.content_length": "246"
+          },
+          "http.response.line": "Content-Length: 246\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=99\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=iso-8859-1",
+          "http.response.line": "Content-Type: text/html; charset=iso-8859-1\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "25",
+          "http.time": "0.305442124",
+          "http.request.uri": "/favicon.ico",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/favicon.ico",
+          "http.file_data": "3c:21:44:4f:43:54:59:50:45:20:48:54:4d:4c:20:50:55:42:4c:49:43:20:22:2d:2f:2f:49:45:54:46:2f:2f:44:54:44:20:48:54:4d:4c:20:32:2e:30:2f:2f:45:4e:22:3e:0a:3c:68:74:6d:6c:3e:3c:68:65:61:64:3e:0a:3c:74:69:74:6c:65:3e:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:74:69:74:6c:65:3e:0a:3c:2f:68:65:61:64:3e:3c:62:6f:64:79:3e:0a:3c:68:31:3e:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:68:31:3e:0a:3c:70:3e:54:68:65:20:64:6f:63:75:6d:65:6e:74:20:68:61:73:20:6d:6f:76:65:64:20:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:22:3e:68:65:72:65:3c:2f:61:3e:2e:3c:2f:70:3e:0a:3c:2f:62:6f:64:79:3e:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "data-text-lines": {
+          "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\\n": "",
+          "<html><head>\\n": "",
+          "<title>301 Moved Permanently<\/title>\\n": "",
+          "<\/head><body>\\n": "",
+          "<h1>Moved Permanently<\/h1>\\n": "",
+          "<p>The document has moved <a href=\"https://gaia.cs.umass.edu//favicon.ico\">here<\/a>.<\/p>\\n": "",
+          "<\/body><\/html>\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:05:13.151717935Z",
+          "frame.time_utc": "2026-10-13T13:05:13.151717935Z",
+          "frame.time_epoch": "2026-10-13T13:05:13.151717935Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.177299761",
+          "frame.time_delta_displayed": "0.219066422",
+          "frame.time_relative": "19.855570954",
+          "frame.number": "28",
+          "frame.len": "633",
+          "frame.cap_len": "633",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "4",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "58:1c:f8:d5:9f:67",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "617",
+          "ip.id": "0x642d",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x2b1f",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "57438",
+          "tcp.dstport": "80",
+          "tcp.port": "57438",
+          "tcp.port": "80",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "11",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "565",
+          "tcp.seq": "853",
+          "tcp.seq_raw": "2689394227",
+          "tcp.nxtseq": "1418",
+          "tcp.ack": "1316",
+          "tcp.ack_raw": "4185555425",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "63",
+          "tcp.window_size": "64512",
+          "tcp.window_size_scalefactor": "1024",
+          "tcp.checksum": "0xab9e",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:ae:91:6f:bd:fe:fe:9d:9e",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:ae:91:6f:bd:fe:fe:9d:9e",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "2928766909",
+              "tcp.options.timestamp.tsecr": "4278099358"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "19.855351262",
+            "tcp.time_delta": "0.177299761"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.303367404",
+            "tcp.analysis.bytes_in_flight": "565",
+            "tcp.analysis.push_bytes_sent": "565"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:32:2e:68:74:6d:6c:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:43:61:63:68:65:2d:43:6f:6e:74:72:6f:6c:3a:20:6d:61:78:2d:61:67:65:3d:30:0d:0a:55:70:67:72:61:64:65:2d:49:6e:73:65:63:75:72:65:2d:52:65:71:75:65:73:74:73:3a:20:31:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:58:31:31:3b:20:4c:69:6e:75:78:20:78:38:36:5f:36:34:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:74:65:78:74:2f:68:74:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:68:74:6d:6c:2b:78:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:6d:6c:3b:71:3d:30:2e:39:2c:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:2a:2f:2a:3b:71:3d:30:2e:38:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:73:69:67:6e:65:64:2d:65:78:63:68:61:6e:67:65:3b:76:3d:62:33:3b:71:3d:30:2e:37:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:49:66:2d:4e:6f:6e:65:2d:4d:61:74:63:68:3a:20:22:31:37:33:2d:36:34:32:33:31:62:36:37:31:37:36:62:37:22:0d:0a:49:66:2d:4d:6f:64:69:66:69:65:64:2d:53:69:6e:63:65:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.cache_control": "max-age=0",
+          "http.request.line": "Cache-Control: max-age=0\r\n",
+          "http.request.line": "Upgrade-Insecure-Requests: 1\r\n",
+          "http.user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "http.request.line": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "http.request.line": "If-None-Match: \"173-64231b67176b7\"\r\n",
+          "http.request.line": "If-Modified-Since: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-13",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "any"
+          },
+          "frame.encap_type": "25",
+          "frame.time": "2026-10-13T13:05:13.460641918Z",
+          "frame.time_utc": "2026-10-13T13:05:13.460641918Z",
+          "frame.time_epoch": "2026-10-13T13:05:13.460641918Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.308923983",
+          "frame.time_delta_displayed": "0.308923983",
+          "frame.time_relative": "20.164494937",
+          "frame.number": "29",
+          "frame.len": "378",
+          "frame.cap_len": "378",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "sll:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "sll": {
+          "sll.pkttype": "0",
+          "sll.hatype": "1",
+          "sll.halen": "6",
+          "sll.src.eth": "60:38:e0:c5:b8:c0",
+          "sll.unused": "00:00",
+          "sll.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "362",
+          "ip.id": "0xebf7",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "25",
+          "ip.proto": "6",
+          "ip.checksum": "0xcb53",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.20.41.171",
+          "ip.addr": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.host": "10.20.41.171",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "57438",
+          "tcp.port": "80",
+          "tcp.port": "57438",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "12",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "310",
+          "tcp.seq": "1316",
+          "tcp.seq_raw": "4185555425",
+          "tcp.nxtseq": "1626",
+          "tcp.ack": "1418",
+          "tcp.ack_raw": "2689394792",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "499",
+          "tcp.window_size": "63872",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0xb57d",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:fe:fe:9f:ab:ae:91:6f:bd",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:fe:fe:9f:ab:ae:91:6f:bd",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "4278099883",
+              "tcp.options.timestamp.tsecr": "2928766909"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "20.164275245",
+            "tcp.time_delta": "0.308923983"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "28",
+            "tcp.analysis.ack_rtt": "0.308923983",
+            "tcp.analysis.initial_rtt": "0.303367404",
+            "tcp.analysis.bytes_in_flight": "310",
+            "tcp.analysis.push_bytes_sent": "310"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:33:30:34:20:4e:6f:74:20:4d:6f:64:69:66:69:65:64:0d:0a:44:61:74:65:3a:20:54:75:65:2c:20:31:33:20:4f:63:74:20:32:30:32:36:20:31:33:3a:30:35:3a:31:33:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:61:73:74:2d:4d:6f:64:69:66:69:65:64:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:45:54:61:67:3a:20:22:31:37:33:2d:36:34:32:33:31:62:36:37:31:37:36:62:37:22:0d:0a:41:63:63:65:70:74:2d:52:61:6e:67:65:73:3a:20:62:79:74:65:73:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:39:38:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "HTTP/1.1 304 Not Modified\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "304",
+            "http.response.code.desc": "Not Modified",
+            "http.response.phrase": "Not Modified"
+          },
+          "http.date": "Tue, 13 Oct 2026 13:05:13 GMT",
+          "http.response.line": "Date: Tue, 13 Oct 2026 13:05:13 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.last_modified": "Tue, 28 Oct 2025 05:59:01 GMT",
+          "http.response.line": "Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "http.response.line": "ETag: \"173-64231b67176b7\"\r\n",
+          "http.response.line": "Accept-Ranges: bytes\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=98\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "28",
+          "http.time": "0.308923983",
+          "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html"
+        }
+      }
+    }
+  }
+]

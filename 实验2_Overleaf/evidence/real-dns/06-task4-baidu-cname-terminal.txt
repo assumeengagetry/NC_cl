@@ -1,0 +1,15 @@
+Experiment date: 2026-10-20
+Phase: 06-task4-baidu-cname
+Start UTC: 2026-10-20T08:48:39.656624+00:00
+Cache note: no successful local cache flush; no configuration or service changes.
+$ nslookup -type=CNAME www.baidu.com. 223.5.5.5
+Server:		223.5.5.5
+Address:	223.5.5.5#53
+
+Non-authoritative answer:
+www.baidu.com	canonical name = www.a.shifen.com.
+
+Authoritative answers can be found from:
+
+[exit=0]
+End UTC: 2026-10-20T08:48:39.678758+00:00

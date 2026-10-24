@@ -1,0 +1,4 @@
+$ resolvectl flush-caches
+Failed to connect to /run/systemd/resolve/io.systemd.Resolve.Monitor: No such file or directory
+[exit=1]
+This failure is not a successful cache flush; this phase is only the first measured ping.

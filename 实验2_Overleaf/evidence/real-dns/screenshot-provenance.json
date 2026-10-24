@@ -1,0 +1,93 @@
+[
+  {
+    "file": "screenshot-01-wireshark-baidu-first-A.png",
+    "sha256": "017251664ce46525c9824a6f45986050d0e0d72e63eb316fe5b242eab39c19ea",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-02-wireshark-baidu-repeat-A.png",
+    "sha256": "6fff9a17c7a6a68cc181ee88fe64eec29a8b19488737ab7ac230d378ae456484",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-03-wireshark-scu-first-A.png",
+    "sha256": "404d20a80320e4366f61f44e60edc24d872f299048c2f5fa03ffdb2c21e49498",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-04-wireshark-scu-repeat-A.png",
+    "sha256": "697c7317ba578df739384ce2944728d7da92ef31bc4b48ce55557ee70459ac95",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-05-wireshark-nslookup-baidu-A.png",
+    "sha256": "8a0abce98ab7b717de8253bb944ea14f32d71da9cc85af5640abc565d3509471",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-06-wireshark-nslookup-baidu-CNAME.png",
+    "sha256": "5657fce1914b96fe0be4c6152f97120c30822b46c6c8846b98349856d3c0f716",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-07-wireshark-nslookup-scu-A.png",
+    "sha256": "f93be22b283ee75f8bd22b6a92739d6f14c72f2abebd538889b59a96c08f6416",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-08-wireshark-nslookup-scu-CNAME.png",
+    "sha256": "f54b95591bdc1ae173ea99d26543e10e7f114375fdda6a8b05cc4cdcc3b43d64",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Wireshark GUI on isolated Xvfb :89"
+  },
+  {
+    "file": "screenshot-09-terminal-ping-baidu-replay.png",
+    "sha256": "ba4e7b1bcf1fd7a08429866ce71e268e38ed630febdcc9aa6f344e0dbad13fe1",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Konsole displaying saved real logs verbatim on isolated Xvfb :89; explicitly marked replay"
+  },
+  {
+    "file": "screenshot-10-terminal-ping-scu-replay.png",
+    "sha256": "85b53f0e7aae397d25ab0e8d8a2c2834d882984634216c878e41963a2f6b0847",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Konsole displaying saved real logs verbatim on isolated Xvfb :89; explicitly marked replay"
+  },
+  {
+    "file": "screenshot-11-terminal-nslookup-baidu-replay.png",
+    "sha256": "23e4b05963f1700138a4d354041b5ac116f5e87a2f6ba79155089bef092e992d",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Konsole displaying saved real logs verbatim on isolated Xvfb :89; explicitly marked replay"
+  },
+  {
+    "file": "screenshot-12-terminal-nslookup-scu-replay.png",
+    "sha256": "cb5df921e0b17060a18850904584fa64fc3e47de3b06927170282cdb43dd97a9",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Konsole displaying saved real logs verbatim on isolated Xvfb :89; explicitly marked replay"
+  },
+  {
+    "file": "screenshot-13-terminal-cache-flush-failure-replay.png",
+    "sha256": "5de4c8f0f30c135c943836af22122b84f97d038886b8b4b38368711a754b0572",
+    "width": 1600,
+    "height": 1200,
+    "source": "native Konsole displaying saved real logs verbatim on isolated Xvfb :89; explicitly marked replay"
+  }
+]

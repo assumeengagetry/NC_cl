@@ -1,0 +1,44 @@
+{
+  "xvfb": 411462,
+  "children": [
+    411754,
+    414422,
+    414725,
+    414773,
+    414816,
+    414859
+  ],
+  "xvfb_state_after": "exited",
+  "children_cleanup": [
+    {
+      "pid": 411754,
+      "sent": "SIGTERM",
+      "state_after": "exited"
+    },
+    {
+      "pid": 414422,
+      "sent": "SIGTERM",
+      "state_after": "exited"
+    },
+    {
+      "pid": 414725,
+      "sent": "SIGTERM",
+      "state_after": "exited"
+    },
+    {
+      "pid": 414773,
+      "sent": "SIGTERM",
+      "state_after": "exited"
+    },
+    {
+      "pid": 414816,
+      "sent": "SIGTERM",
+      "state_after": "exited"
+    },
+    {
+      "pid": 414859,
+      "sent": "SIGTERM",
+      "state_after": "exited"
+    }
+  ]
+}

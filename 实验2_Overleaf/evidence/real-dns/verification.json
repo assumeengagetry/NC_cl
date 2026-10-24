@@ -1,0 +1,82 @@
+[
+  {
+    "pcapng": "01-task3-baidu-first.pcapng",
+    "sha256": "26e040e66bc90c112d43e71f2728143ce82f1d2e1fcf7a3a4956a51598e41c19",
+    "unfiltered_working_capture_sha256": "8d480ab44ec76e51114e2bf0e0f6dfae863d43be231f02818ea444009a0bdd18",
+    "unfiltered_packet_count": 15,
+    "delivered_packet_count": 10,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 2
+  },
+  {
+    "pcapng": "02-task3-baidu-repeat.pcapng",
+    "sha256": "09c01b7470f7f4e259cb4af5a8ec8890e42cec9e050b64f465c2144290ac2d85",
+    "unfiltered_working_capture_sha256": "9ab5d168e2523ae21f3ca69cac8dd69d0e96a155c8d9a44ca7869f85de41635f",
+    "unfiltered_packet_count": 10,
+    "delivered_packet_count": 10,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 2
+  },
+  {
+    "pcapng": "03-task3-scu-first.pcapng",
+    "sha256": "d98c61ca4cdd123470470324a7d39c18bdf8d8c2e243ffc3e8294bd55aa5c3f0",
+    "unfiltered_working_capture_sha256": "ced05e6a526b5ee1f98288129f630f3fd54f7bbc69185bdec5008bda46516480",
+    "unfiltered_packet_count": 15,
+    "delivered_packet_count": 7,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 2
+  },
+  {
+    "pcapng": "04-task3-scu-repeat.pcapng",
+    "sha256": "0d7d2aaf34ee77870a592c7e64cbe222fc662bee8991f50aad201c0e270bf1c0",
+    "unfiltered_working_capture_sha256": "724c4587b3c3df1b21d6a41deb146d3ce5083c91203b58b91b608e312be4eb4c",
+    "unfiltered_packet_count": 30,
+    "delivered_packet_count": 7,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 2
+  },
+  {
+    "pcapng": "05-task4-baidu-a.pcapng",
+    "sha256": "858ad8564afaaf5281976c3b13fb1027c4ebbd3178b73712f636011d6903a66c",
+    "unfiltered_working_capture_sha256": "a7e766371e3828e875670a0affcbb48a1dc810b179a3c473d25f80ea4838931f",
+    "unfiltered_packet_count": 2,
+    "delivered_packet_count": 2,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 1
+  },
+  {
+    "pcapng": "06-task4-baidu-cname.pcapng",
+    "sha256": "90d60a18dcc1c751cf1406a079a9fb6e5f063f0383ba0a7a0d9de9dec5a28655",
+    "unfiltered_working_capture_sha256": "f58c08f5d6981e48f2104585433f833e90d978bae1f348f40cc68a59d5d64d81",
+    "unfiltered_packet_count": 2,
+    "delivered_packet_count": 2,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 1
+  },
+  {
+    "pcapng": "07-task4-scu-a.pcapng",
+    "sha256": "1e9c82463c8e2d561effe87fe99253d1d43ae38250050a2f3bbd13ed8bec4c40",
+    "unfiltered_working_capture_sha256": "c5afd8218d356155bef69bf87c7fda58b340eb50539febacb0fc250227e7489e",
+    "unfiltered_packet_count": 2,
+    "delivered_packet_count": 2,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 1
+  },
+  {
+    "pcapng": "08-task4-scu-cname.pcapng",
+    "sha256": "51dcc960771d13872e0b25ba8cce5ed3b3c9df147214264a6be6febfd096a296",
+    "unfiltered_working_capture_sha256": "924a99ca94f96d5a4da2ff5928c5609a3f278f74ac40bcd57cab6fc61abb7d75",
+    "unfiltered_packet_count": 2,
+    "delivered_packet_count": 2,
+    "packet_bytes_and_timestamps_preserved": true,
+    "only_experiment_packets": true,
+    "transactions_matched_by_id_question_reversed_endpoints_and_tshark_links": 1
+  }
+]

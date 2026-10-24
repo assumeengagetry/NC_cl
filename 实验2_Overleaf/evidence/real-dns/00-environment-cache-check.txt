@@ -1,0 +1,144 @@
+$ date --iso-8601=seconds
+2026-10-20T04:47:02-04:00
+[exit=0]
+
+$ uname -sr
+Linux 7.2.9-arch1-1
+[exit=0]
+
+$ tshark --version
+TShark (Wireshark) 4.7.4.
+
+Copyright 1998-2026 Gerald Combs <gerald@wireshark.org> and contributors.
+Licensed under the terms of the GNU General Public License (version 2 or later).
+This is free software; see the file named COPYING in the distribution. There is
+NO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compile-time info:
+ Bit width: 64-bit
+  Compiler: GCC 16.2.1 20260810
+      GLib: 2.90.1
+ With:
+  +brotli
+  +Gcrypt 1.12.4
+  +GnuTLS 3.8.13 and PKCS#11
+  +Kerberos (MIT)
+  +libnl 3
+  +libpcap (including remote capture support)
+  +libxml2 2.15.4
+  +Lua 5.4.9
+  +LZ4 1.10.0
+  +MaxMind 
+  +nghttp2 1.70.0
+  +nghttp3 1.18.0
+  +PCRE2 10.49 2026-09-28
+  +POSIX capabilities (Linux)
+  +Snappy 1.2.2
+  +xxhash 0.8.4
+  +zlib-ng 2.3.3
+  +Zstandard 1.5.7
+ Without:
+  -libsmi  -zlib
+
+Runtime info:
+      OS: Linux 7.2.9-arch1-1
+     CPU: 13th Gen Intel(R) Core(TM) i9-13900HX (with SSE4.2)
+  Memory: 31775 MB of physical memory
+    GLib: 2.90.1
+  Locale: LC_TYPE=en_US.UTF-8
+ Plugins: supported, 0 loaded
+ With:
+  +brotli 1.2.0
+  +c-ares 1.34.8
+  +Gcrypt 1.12.4
+  +GnuTLS 3.8.13
+  +libpcap 1.11.0 (64-bit time_t, with TPACKET_V3)
+  +LZ4 1.10.0
+  +nghttp2 1.70.0
+  +nghttp3 1.18.0
+  +PCRE2 10.49 2026-09-28
+  +xxhash 804
+  +Zstandard 1.5.7
+[exit=0]
+
+$ nslookup -version
+nslookup 9.20.29
+[exit=0]
+
+$ ping -V
+ping from iputils 20250605
+libcap: yes, IDN: yes, NLS: yes, error.h: yes, getrandom(): yes, __fpending(): yes
+[exit=0]
+
+$ systemctl is-active systemd-resolved dnsmasq nscd
+inactive
+inactive
+inactive
+[exit=3]
+
+$ resolvectl status
+Failed to connect to service /run/systemd/resolve/io.systemd.Resolve: No such file or directory
+[exit=1]
+
+$ resolvectl flush-caches
+Failed to connect to /run/systemd/resolve/io.systemd.Resolve.Monitor: No such file or directory
+[exit=1]
+
+$ tailscale dns --help
+Diagnose the internal DNS forwarder
+
+USAGE
+  tailscale dns status [--all] [--json]
+  tailscale dns query [--json] <name> [type]
+
+The 'tailscale dns' subcommand provides tools for diagnosing the internal DNS
+forwarder (100.100.100.100).
+
+For more information about the DNS functionality built into Tailscale, refer to
+https://tailscale.com/kb/1054/dns.
+
+SUBCOMMANDS
+  status  Print the current DNS status and configuration
+  query   Perform a DNS query
+[exit=0]
+
+$ ip -4 route get 223.5.5.5
+223.5.5.5 via 10.20.41.1 dev wlo1 src 10.20.41.171 uid 1000 
+    cache 
+[exit=0]
+
+$ ip -4 route get 100.100.100.100
+100.100.100.100 dev tailscale0 table 52 src 100.102.60.66 uid 1000 
+    cache 
+[exit=0]
+
+$ getent group wireshark (membership names withheld)
+wireshark group exists
+[exit=0]
+
+## DNS nameservers: selected public configuration only
+nameserver 100.100.100.100
+nameserver fd7a:115c:a1e0::53
+## NSS hosts order: selected public configuration only
+hosts: mymachines resolve [!UNAVAIL=return] files myhostname dns
+
+## hosts-file check (only the two experiment names)
+Neither experiment name occurs in /etc/hosts.
+
+## Additional cache-inspection probes (no private DNS cache contents were returned)
+$ resolvectl show-cache
+Failed to connect to query monitoring service /run/systemd/resolve/io.systemd.Resolve.Monitor: No such file or directory
+[exit=1]
+
+$ resolvectl statistics
+Failed to connect to query monitoring service /run/systemd/resolve/io.systemd.Resolve.Monitor: No such file or directory
+[exit=1]
+
+$ systemctl is-active tailscaled
+active
+[exit=0]
+
+Executable ipconfig: not installed
+Executable resolvectl: /usr/bin/resolvectl
+Executable nscd: not installed
+Executable dnsmasq: /usr/bin/dnsmasq

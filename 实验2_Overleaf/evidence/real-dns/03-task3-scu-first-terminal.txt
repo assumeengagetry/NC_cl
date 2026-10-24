@@ -1,0 +1,12 @@
+Experiment date: 2026-10-20
+Phase: 03-task3-scu-first
+Start UTC: 2026-10-20T08:48:24.442081+00:00
+Cache note: no successful local cache flush; no configuration or service changes.
+$ ping -4 -n -c 3 -W 2 www.scu.edu.cn
+PING www.scu.edu.cn (202.115.47.167) 56(84) bytes of data.
+
+--- www.scu.edu.cn ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2086ms
+
+[exit=1]
+End UTC: 2026-10-20T08:48:28.547421+00:00

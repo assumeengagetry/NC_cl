@@ -1,0 +1,3 @@
+frame	interface	ip.src	ip.dst	udp.srcport	udp.dstport	dns.id	QR	qname	qtype	AA	RD	RA	rcode	ANCOUNT	NSCOUNT	RR.name	RR.type	RR.ttl	CNAME	A	SOA.mname	SOA.minimum	icmp.type
+1	wlo1	10.20.41.171	223.5.5.5	59091	53	0xfe71	False	www.scu.edu.cn	1		True			0	0								
+2	wlo1	223.5.5.5	10.20.41.171	53	59091	0xfe71	True	www.scu.edu.cn	1	False	True	True	0	1	0	www.scu.edu.cn	1	38		202.115.47.167			

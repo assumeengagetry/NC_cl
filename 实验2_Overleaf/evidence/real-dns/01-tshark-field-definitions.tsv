@@ -1,0 +1,20 @@
+F	Response	dns.flags.response	FT_BOOLEAN	dns	16	0x8000	Is the message a response?
+F	Authoritative	dns.flags.authoritative	FT_BOOLEAN	dns	16	0x400	Is the server is an authority for the domain?
+F	Recursion desired	dns.flags.recdesired	FT_BOOLEAN	dns	16	0x100	Do query recursively?
+F	Recursion available	dns.flags.recavail	FT_BOOLEAN	dns	16	0x80	Can the server do recursive queries?
+F	Reply code	dns.flags.rcode	FT_UINT16	dns	BASE_DEC	0xf	
+F	Transaction ID	dns.id	FT_UINT16	dns	BASE_HEX	0x0	Identification of transaction
+F	Type	dns.qry.type	FT_UINT16	dns	BASE_DEC	0x0	Query Type
+F	Name	dns.qry.name	FT_STRING	dns		0x0	Query Name
+F	Type	dns.resp.type	FT_UINT16	dns	BASE_DEC	0x0	Response Type
+F	Name	dns.resp.name	FT_STRING	dns		0x0	Response Name
+F	Time to live	dns.resp.ttl	FT_UINT32	dns	BASE_DEC	0x0	Response TTL
+F	Address	dns.a	FT_IPv4	dns		0x0	Response IPv4 Address
+F	AAAA Address	dns.aaaa	FT_IPv6	dns		0x0	AAAA Response Address
+F	CNAME	dns.cname	FT_STRING	dns		0x0	Response Primary Name
+F	Primary name server	dns.soa.mname	FT_STRING	dns		0x0	
+F	Minimum TTL	dns.soa.minimum_ttl	FT_UINT32	dns	BASE_DEC	0x0	
+F	Answer RRs	dns.count.answers	FT_UINT16	dns	BASE_DEC	0x0	Number of answers in packet
+F	Authority RRs	dns.count.auth_rr	FT_UINT16	dns	BASE_DEC	0x0	Number of authoritative records in packet
+F	Response In	dns.response_in	FT_FRAMENUM	dns		0x0	The response to this DNS query is in this frame
+F	Request In	dns.response_to	FT_FRAMENUM	dns		0x0	This is a response to the DNS query in this frame

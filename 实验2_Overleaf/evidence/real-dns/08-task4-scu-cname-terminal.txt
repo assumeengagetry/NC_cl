@@ -1,0 +1,23 @@
+Experiment date: 2026-10-20
+Phase: 08-task4-scu-cname
+Start UTC: 2026-10-20T08:48:43.923999+00:00
+Cache note: no successful local cache flush; no configuration or service changes.
+$ nslookup -type=CNAME www.scu.edu.cn. 223.5.5.5
+Server:		223.5.5.5
+Address:	223.5.5.5#53
+
+Non-authoritative answer:
+*** Can't find www.scu.edu.cn.: No answer
+
+Authoritative answers can be found from:
+scu.edu.cn
+	origin = dart.scu.edu.cn
+	mail addr = root\@scu.edu.cn
+	serial = 2024110585
+	refresh = 1200
+	retry = 1200
+	expire = 1209600
+	minimum = 600
+
+[exit=0]
+End UTC: 2026-10-20T08:48:43.950683+00:00

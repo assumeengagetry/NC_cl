@@ -1,0 +1,11 @@
+frame	interface	ip.src	ip.dst	udp.srcport	udp.dstport	dns.id	QR	qname	qtype	AA	RD	RA	rcode	ANCOUNT	NSCOUNT	RR.name	RR.type	RR.ttl	CNAME	A	SOA.mname	SOA.minimum	icmp.type
+1	tailscale0	100.102.60.66	100.100.100.100	58834	53	0x98fc	False	www.baidu.com	1		True			0	0								
+2	tailscale0	100.102.60.66	100.100.100.100	58834	53	0x93fd	False	www.baidu.com	28		True			0	0								
+3	tailscale0	100.100.100.100	100.102.60.66	53	58834	0x98fc	True	www.baidu.com	1	False	True	True	0	3	0	www.baidu.com,www.a.shifen.com,www.a.shifen.com	5,1,1	864,79,79	www.a.shifen.com	110.242.70.57,110.242.69.21			
+4	tailscale0	100.100.100.100	100.102.60.66	53	58834	0x93fd	True	www.baidu.com	28	False	True	True	0	3	0	www.baidu.com,www.a.shifen.com,www.a.shifen.com	5,28,28	864,422,422	www.a.shifen.com				
+5	wlo1	10.20.41.171	110.242.70.57																				8
+6	wlo1	110.242.70.57	10.20.41.171																				0
+7	wlo1	10.20.41.171	110.242.70.57																				8
+8	wlo1	110.242.70.57	10.20.41.171																				0
+9	wlo1	10.20.41.171	110.242.70.57																				8
+10	wlo1	110.242.70.57	10.20.41.171																				0

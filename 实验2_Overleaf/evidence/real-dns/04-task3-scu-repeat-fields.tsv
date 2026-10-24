@@ -1,0 +1,8 @@
+frame	interface	ip.src	ip.dst	udp.srcport	udp.dstport	dns.id	QR	qname	qtype	AA	RD	RA	rcode	ANCOUNT	NSCOUNT	RR.name	RR.type	RR.ttl	CNAME	A	SOA.mname	SOA.minimum	icmp.type
+1	tailscale0	100.102.60.66	100.100.100.100	49997	53	0xa351	False	www.scu.edu.cn	1		True			0	0								
+2	tailscale0	100.102.60.66	100.100.100.100	49997	53	0x22ac	False	www.scu.edu.cn	28		True			0	0								
+3	tailscale0	100.100.100.100	100.102.60.66	53	49997	0xa351	True	www.scu.edu.cn	1	False	True	True	0	1	0	www.scu.edu.cn	1	233		202.115.47.167			
+4	tailscale0	100.100.100.100	100.102.60.66	53	49997	0x22ac	True	www.scu.edu.cn	28	False	True	True	0	0	1	scu.edu.cn	6	210			dart.scu.edu.cn	600	
+5	wlo1	10.20.41.171	202.115.47.167																				8
+6	wlo1	10.20.41.171	202.115.47.167																				8
+7	wlo1	10.20.41.171	202.115.47.167																				8

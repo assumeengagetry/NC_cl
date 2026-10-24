@@ -1,0 +1,195 @@
+$ capinfos -c -E -I 01-task3-baidu-first.pcapng
+File name:           01-task3-baidu-first.pcapng
+File encapsulation:  Per packet
+Encapsulation in use by packets (# of pkts):
+                     Ethernet (6)
+                     Raw IP (4)
+Number of packets:   10
+Number of interfaces in file: 2
+Interface #0 info:
+                     Name = tailscale0
+                     Description = Tunnel
+                     Encapsulation = Raw IP (7 - rawip)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and (host 100.100.100.100 or host fd7a:115c:a1e0::53)
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 4
+Interface #1 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = icmp and host 10.20.41.171
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 6
+
+$ capinfos -c -E -I 02-task3-baidu-repeat.pcapng
+File name:           02-task3-baidu-repeat.pcapng
+File encapsulation:  Per packet
+Encapsulation in use by packets (# of pkts):
+                     Ethernet (6)
+                     Raw IP (4)
+Number of packets:   10
+Number of interfaces in file: 2
+Interface #0 info:
+                     Name = tailscale0
+                     Description = Tunnel
+                     Encapsulation = Raw IP (7 - rawip)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and (host 100.100.100.100 or host fd7a:115c:a1e0::53)
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 4
+Interface #1 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = icmp and host 10.20.41.171
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 6
+
+$ capinfos -c -E -I 03-task3-scu-first.pcapng
+File name:           03-task3-scu-first.pcapng
+File encapsulation:  Per packet
+Encapsulation in use by packets (# of pkts):
+                     Ethernet (3)
+                     Raw IP (4)
+Number of packets:   7
+Number of interfaces in file: 2
+Interface #0 info:
+                     Name = tailscale0
+                     Description = Tunnel
+                     Encapsulation = Raw IP (7 - rawip)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and (host 100.100.100.100 or host fd7a:115c:a1e0::53)
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 4
+Interface #1 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = icmp and host 10.20.41.171
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 3
+
+$ capinfos -c -E -I 04-task3-scu-repeat.pcapng
+File name:           04-task3-scu-repeat.pcapng
+File encapsulation:  Per packet
+Encapsulation in use by packets (# of pkts):
+                     Ethernet (3)
+                     Raw IP (4)
+Number of packets:   7
+Number of interfaces in file: 2
+Interface #0 info:
+                     Name = tailscale0
+                     Description = Tunnel
+                     Encapsulation = Raw IP (7 - rawip)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and (host 100.100.100.100 or host fd7a:115c:a1e0::53)
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 4
+Interface #1 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = icmp and host 10.20.41.171
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 3
+
+$ capinfos -c -E -I 05-task4-baidu-a.pcapng
+File name:           05-task4-baidu-a.pcapng
+File encapsulation:  Ethernet
+Number of packets:   2
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and host 223.5.5.5
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 2
+
+$ capinfos -c -E -I 06-task4-baidu-cname.pcapng
+File name:           06-task4-baidu-cname.pcapng
+File encapsulation:  Ethernet
+Number of packets:   2
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and host 223.5.5.5
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 2
+
+$ capinfos -c -E -I 07-task4-scu-a.pcapng
+File name:           07-task4-scu-a.pcapng
+File encapsulation:  Ethernet
+Number of packets:   2
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and host 223.5.5.5
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 2
+
+$ capinfos -c -E -I 08-task4-scu-cname.pcapng
+File name:           08-task4-scu-cname.pcapng
+File encapsulation:  Ethernet
+Number of packets:   2
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = wlo1
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = (udp port 53 or tcp port 53) and host 223.5.5.5
+                     Operating system = Linux 7.2.9-arch1-1
+                     Number of stat entries = 0
+                     Number of packets = 2

@@ -1,0 +1,281 @@
+[
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:41.803204231Z",
+          "frame.time_utc": "2026-10-20T08:48:41.803204231Z",
+          "frame.time_epoch": "2026-10-20T08:48:41.803204231Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "60:38:e0:c5:b8:c0",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "60:38:e0:c5:b8:c0",
+            "eth.dst.oui": "6306016",
+            "eth.dst.oui_resolved": "Belkin International Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "58:1c:f8:d5:9f:67",
+          "eth.src_tree": {
+            "eth.src_resolved": "58:1c:f8:d5:9f:67",
+            "eth.src.oui": "5774584",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0xfeed",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x63fa",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "223.5.5.5",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "223.5.5.5",
+          "ip.dst": "223.5.5.5",
+          "ip.dst_host": "223.5.5.5",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "59091",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "40",
+          "udp.checksum": "0x1803",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "fe:71:01:00:00:01:00:00:00:00:00:00:03:77:77:77:03:73:63:75:03:65:64:75:02:63:6e:00:00:01:00:01"
+        },
+        "dns": {
+          "dns.id": "0xfe71",
+          "dns.flags": "0x0100",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "www.scu.edu.cn: type A, class IN": {
+              "dns.qry.name": "www.scu.edu.cn",
+              "dns.qry.name.len": "14",
+              "dns.count.labels": "4",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "dns.response_in": "2"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:41.812869821Z",
+          "frame.time_utc": "2026-10-20T08:48:41.812869821Z",
+          "frame.time_epoch": "2026-10-20T08:48:41.812869821Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.009665590",
+          "frame.time_delta_displayed": "0.009665590",
+          "frame.time_relative": "0.009665590",
+          "frame.number": "2",
+          "frame.len": "90",
+          "frame.cap_len": "90",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "58:1c:f8:d5:9f:67",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "58:1c:f8:d5:9f:67",
+            "eth.dst.oui": "5774584",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "60:38:e0:c5:b8:c0",
+          "eth.src_tree": {
+            "eth.src_resolved": "60:38:e0:c5:b8:c0",
+            "eth.src.oui": "6306016",
+            "eth.src.oui_resolved": "Belkin International Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "76",
+          "ip.id": "0xfeed",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "109",
+          "ip.proto": "17",
+          "ip.checksum": "0x36ea",
+          "ip.checksum.status": "2",
+          "ip.src": "223.5.5.5",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "223.5.5.5",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "59091",
+          "udp.port": "59091",
+          "udp.length": "56",
+          "udp.checksum": "0x0000",
+          "udp.checksum_tree": {
+            "udp.checksum.status": "3"
+          },
+          "udp.stream": "0",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.009665590",
+            "udp.time_delta": "0.009665590"
+          },
+          "udp.payload": "fe:71:81:80:00:01:00:01:00:00:00:00:03:77:77:77:03:73:63:75:03:65:64:75:02:63:6e:00:00:01:00:01:c0:0c:00:01:00:01:00:00:00:26:00:04:ca:73:2f:a7"
+        },
+        "dns": {
+          "dns.id": "0xfe71",
+          "dns.flags": "0x8180",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "0",
+            "dns.flags.authoritative": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.recavail": "1",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "1",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "www.scu.edu.cn: type A, class IN": {
+              "dns.qry.name": "www.scu.edu.cn",
+              "dns.qry.name.len": "14",
+              "dns.count.labels": "4",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Answers": {
+            "www.scu.edu.cn: type A, class IN, addr 202.115.47.167": {
+              "dns.resp.name": "www.scu.edu.cn",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "38",
+              "dns.resp.len": "4",
+              "dns.a": "202.115.47.167"
+            }
+          },
+          "dns.response_to": "1",
+          "dns.time": "0.009665590"
+        }
+      }
+    }
+  }
+]

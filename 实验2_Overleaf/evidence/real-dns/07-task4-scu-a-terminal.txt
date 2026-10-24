@@ -1,0 +1,14 @@
+Experiment date: 2026-10-20
+Phase: 07-task4-scu-a
+Start UTC: 2026-10-20T08:48:41.795198+00:00
+Cache note: no successful local cache flush; no configuration or service changes.
+$ nslookup -type=A www.scu.edu.cn. 223.5.5.5
+Server:		223.5.5.5
+Address:	223.5.5.5#53
+
+Non-authoritative answer:
+Name:	www.scu.edu.cn
+Address: 202.115.47.167
+
+[exit=0]
+End UTC: 2026-10-20T08:48:41.814411+00:00

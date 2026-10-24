@@ -1,0 +1,431 @@
+Frame 1: Packet, 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface tailscale0, id 0
+    Section number: 1
+    Interface id: 0 (tailscale0)
+        Interface name: tailscale0
+        Interface description: Tunnel
+    Encapsulation type: Raw IP (7)
+    Arrival Time: Oct 20, 2026 04:48:15.381502700 EDT
+    UTC Arrival Time: Oct 20, 2026 08:48:15.381502700 UTC
+    Epoch Arrival Time: 1792486095.381502700
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 59 bytes (472 bits)
+    Capture Length: 59 bytes (472 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: raw:ip:udp:dns]
+    Character encoding: ASCII (0)
+Raw packet data
+Internet Protocol Version 4, Src: 100.102.60.66, Dst: 100.100.100.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0x74ce (29902)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x5c73 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 100.102.60.66
+    Destination Address: 100.100.100.100
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 40546, Dst Port: 53
+    Source Port: 40546
+    Destination Port: 53
+    Length: 39
+    Checksum: 0x69a9 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0x8af4
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type A, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    [Response In: 3]
+
+Frame 2: Packet, 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface tailscale0, id 0
+    Section number: 1
+    Interface id: 0 (tailscale0)
+        Interface name: tailscale0
+        Interface description: Tunnel
+    Encapsulation type: Raw IP (7)
+    Arrival Time: Oct 20, 2026 04:48:15.381514526 EDT
+    UTC Arrival Time: Oct 20, 2026 08:48:15.381514526 UTC
+    Epoch Arrival Time: 1792486095.381514526
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 11.826 microseconds]
+    [Time delta from previous displayed frame: 11.826 microseconds]
+    [Time since reference or first frame: 11.826 microseconds]
+    Frame Number: 2
+    Frame Length: 59 bytes (472 bits)
+    Capture Length: 59 bytes (472 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: raw:ip:udp:dns]
+    Character encoding: ASCII (0)
+Raw packet data
+Internet Protocol Version 4, Src: 100.102.60.66, Dst: 100.100.100.100
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0x74cf (29903)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x5c72 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 100.102.60.66
+    Destination Address: 100.100.100.100
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 40546, Dst Port: 53
+    Source Port: 40546
+    Destination Port: 53
+    Length: 39
+    Checksum: 0x69a9 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 11.826 microseconds]
+        [Time since previous frame: 11.826 microseconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0x55f6
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type AAAA, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+    [Response In: 4]
+
+Frame 3: Packet, 326 bytes on wire (2608 bits), 326 bytes captured (2608 bits) on interface tailscale0, id 0
+    Section number: 1
+    Interface id: 0 (tailscale0)
+        Interface name: tailscale0
+        Interface description: Tunnel
+    Encapsulation type: Raw IP (7)
+    Arrival Time: Oct 20, 2026 04:48:15.389354021 EDT
+    UTC Arrival Time: Oct 20, 2026 08:48:15.389354021 UTC
+    Epoch Arrival Time: 1792486095.389354021
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 7.839495 milliseconds]
+    [Time delta from previous displayed frame: 7.839495 milliseconds]
+    [Time since reference or first frame: 7.851321 milliseconds]
+    Frame Number: 3
+    Frame Length: 326 bytes (2608 bits)
+    Capture Length: 326 bytes (2608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: raw:ip:udp:dns]
+    Character encoding: ASCII (0)
+Raw packet data
+Internet Protocol Version 4, Src: 100.100.100.100, Dst: 100.102.60.66
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 326
+    Identification: 0xe493 (58515)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x2ba3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 100.100.100.100
+    Destination Address: 100.102.60.66
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 40546
+    Source Port: 53
+    Destination Port: 40546
+    Length: 306
+    Checksum: 0x4779 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 3]
+    [Timestamps]
+        [Time since first frame: 7.851321 milliseconds]
+        [Time since previous frame: 7.839495 milliseconds]
+    UDP payload (298 bytes)
+Domain Name System (response)
+    Transaction ID: 0x8af4
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 4
+    Additional RRs: 7
+    Queries
+        www.baidu.com: type A, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        www.baidu.com: type CNAME, class IN, cname www.a.shifen.com
+            Name: www.baidu.com
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+            Time to live: 868 (14 minutes, 28 seconds)
+            Data length: 15
+            CNAME: www.a.shifen.com
+        www.a.shifen.com: type A, class IN, addr 110.242.70.57
+            Name: www.a.shifen.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 83 (1 minute, 23 seconds)
+            Data length: 4
+            Address: 110.242.70.57
+        www.a.shifen.com: type A, class IN, addr 110.242.69.21
+            Name: www.a.shifen.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 83 (1 minute, 23 seconds)
+            Data length: 4
+            Address: 110.242.69.21
+    Authoritative nameservers
+        shifen.com: type NS, class IN, ns ns3.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 43150 (11 hours, 59 minutes, 10 seconds)
+            Data length: 6
+            Name Server: ns3.baidu.com
+        shifen.com: type NS, class IN, ns ns2.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 43150 (11 hours, 59 minutes, 10 seconds)
+            Data length: 6
+            Name Server: ns2.baidu.com
+        shifen.com: type NS, class IN, ns ns4.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 43150 (11 hours, 59 minutes, 10 seconds)
+            Data length: 6
+            Name Server: ns4.baidu.com
+        shifen.com: type NS, class IN, ns dns.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 43150 (11 hours, 59 minutes, 10 seconds)
+            Data length: 6
+            Name Server: dns.baidu.com
+    Additional records
+        dns.baidu.com: type AAAA, class IN, addr 240e:bf:b801:1002:0:ff:b024:26de
+            Name: dns.baidu.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 65441 (18 hours, 10 minutes, 41 seconds)
+            Data length: 16
+            AAAA Address: 240e:bf:b801:1002:0:ff:b024:26de
+        ns2.baidu.com: type A, class IN, addr 220.181.33.31
+            Name: ns2.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 142991 (1 day, 15 hours, 43 minutes, 11 seconds)
+            Data length: 4
+            Address: 220.181.33.31
+        ns2.baidu.com: type AAAA, class IN, addr 240e:940:603:4:0:ff:b01b:589a
+            Name: ns2.baidu.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 141960 (1 day, 15 hours, 26 minutes)
+            Data length: 16
+            AAAA Address: 240e:940:603:4:0:ff:b01b:589a
+        ns3.baidu.com: type A, class IN, addr 153.3.238.93
+            Name: ns3.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 43661 (12 hours, 7 minutes, 41 seconds)
+            Data length: 4
+            Address: 153.3.238.93
+        ns3.baidu.com: type A, class IN, addr 36.155.132.78
+            Name: ns3.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 43661 (12 hours, 7 minutes, 41 seconds)
+            Data length: 4
+            Address: 36.155.132.78
+        ns4.baidu.com: type A, class IN, addr 111.45.3.226
+            Name: ns4.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 43721 (12 hours, 8 minutes, 41 seconds)
+            Data length: 4
+            Address: 111.45.3.226
+        ns4.baidu.com: type A, class IN, addr 14.215.178.80
+            Name: ns4.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 43721 (12 hours, 8 minutes, 41 seconds)
+            Data length: 4
+            Address: 14.215.178.80
+    [Request In: 1]
+    [Time: 7.851321 milliseconds]
+
+Frame 4: Packet, 142 bytes on wire (1136 bits), 142 bytes captured (1136 bits) on interface tailscale0, id 0
+    Section number: 1
+    Interface id: 0 (tailscale0)
+        Interface name: tailscale0
+        Interface description: Tunnel
+    Encapsulation type: Raw IP (7)
+    Arrival Time: Oct 20, 2026 04:48:15.395232432 EDT
+    UTC Arrival Time: Oct 20, 2026 08:48:15.395232432 UTC
+    Epoch Arrival Time: 1792486095.395232432
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 5.878411 milliseconds]
+    [Time delta from previous displayed frame: 5.878411 milliseconds]
+    [Time since reference or first frame: 13.729732 milliseconds]
+    Frame Number: 4
+    Frame Length: 142 bytes (1136 bits)
+    Capture Length: 142 bytes (1136 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: raw:ip:udp:dns]
+    Character encoding: ASCII (0)
+Raw packet data
+Internet Protocol Version 4, Src: 100.100.100.100, Dst: 100.102.60.66
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 142
+    Identification: 0x1f61 (8033)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xf18d [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 100.100.100.100
+    Destination Address: 100.102.60.66
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 40546
+    Source Port: 53
+    Destination Port: 40546
+    Length: 122
+    Checksum: 0x0093 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 4]
+    [Timestamps]
+        [Time since first frame: 13.729732 milliseconds]
+        [Time since previous frame: 5.878411 milliseconds]
+    UDP payload (114 bytes)
+Domain Name System (response)
+    Transaction ID: 0x55f6
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type AAAA, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+    Answers
+        www.baidu.com: type CNAME, class IN, cname www.a.shifen.com
+            Name: www.baidu.com
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+            Time to live: 868 (14 minutes, 28 seconds)
+            Data length: 15
+            CNAME: www.a.shifen.com
+        www.a.shifen.com: type AAAA, class IN, addr 2408:871a:2100:1b23:0:ff:b07a:7ebc
+            Name: www.a.shifen.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 426 (7 minutes, 6 seconds)
+            Data length: 16
+            AAAA Address: 2408:871a:2100:1b23:0:ff:b07a:7ebc
+        www.a.shifen.com: type AAAA, class IN, addr 2408:871a:2100:186c:0:ff:b07e:3fbc
+            Name: www.a.shifen.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 426 (7 minutes, 6 seconds)
+            Data length: 16
+            AAAA Address: 2408:871a:2100:186c:0:ff:b07e:3fbc
+    [Request In: 2]
+    [Time: 13.717906 milliseconds]
+

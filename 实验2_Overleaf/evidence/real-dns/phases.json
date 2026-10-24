@@ -1,0 +1,162 @@
+[
+  {
+    "phase": "01-task3-baidu-first",
+    "task": 3,
+    "command": [
+      "ping",
+      "-4",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "2",
+      "www.baidu.com"
+    ],
+    "start_utc": "2026-10-20T08:48:15.379021+00:00",
+    "end_utc": "2026-10-20T08:48:17.432865+00:00",
+    "exit": 0,
+    "ping_target": "110.242.70.57",
+    "pcapng": "01-task3-baidu-first.pcapng",
+    "terminal": "01-task3-baidu-first-terminal.txt",
+    "capture_log": "01-task3-baidu-first-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\") || (icmp && ip.addr == 110.242.70.57)"
+  },
+  {
+    "phase": "02-task3-baidu-repeat",
+    "task": 3,
+    "command": [
+      "ping",
+      "-4",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "2",
+      "www.baidu.com"
+    ],
+    "start_utc": "2026-10-20T08:48:19.944512+00:00",
+    "end_utc": "2026-10-20T08:48:22.004163+00:00",
+    "exit": 0,
+    "ping_target": "110.242.70.57",
+    "pcapng": "02-task3-baidu-repeat.pcapng",
+    "terminal": "02-task3-baidu-repeat-terminal.txt",
+    "capture_log": "02-task3-baidu-repeat-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\") || (icmp && ip.addr == 110.242.70.57)"
+  },
+  {
+    "phase": "03-task3-scu-first",
+    "task": 3,
+    "command": [
+      "ping",
+      "-4",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "2",
+      "www.scu.edu.cn"
+    ],
+    "start_utc": "2026-10-20T08:48:24.442081+00:00",
+    "end_utc": "2026-10-20T08:48:28.547421+00:00",
+    "exit": 1,
+    "ping_target": "202.115.47.167",
+    "pcapng": "03-task3-scu-first.pcapng",
+    "terminal": "03-task3-scu-first-terminal.txt",
+    "capture_log": "03-task3-scu-first-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\") || (icmp && ip.addr == 202.115.47.167)"
+  },
+  {
+    "phase": "04-task3-scu-repeat",
+    "task": 3,
+    "command": [
+      "ping",
+      "-4",
+      "-n",
+      "-c",
+      "3",
+      "-W",
+      "2",
+      "www.scu.edu.cn"
+    ],
+    "start_utc": "2026-10-20T08:48:30.998023+00:00",
+    "end_utc": "2026-10-20T08:48:35.138977+00:00",
+    "exit": 1,
+    "ping_target": "202.115.47.167",
+    "pcapng": "04-task3-scu-repeat.pcapng",
+    "terminal": "04-task3-scu-repeat-terminal.txt",
+    "capture_log": "04-task3-scu-repeat-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\") || (icmp && ip.addr == 202.115.47.167)"
+  },
+  {
+    "phase": "05-task4-baidu-a",
+    "task": 4,
+    "command": [
+      "nslookup",
+      "-type=A",
+      "www.baidu.com.",
+      "223.5.5.5"
+    ],
+    "start_utc": "2026-10-20T08:48:37.546064+00:00",
+    "end_utc": "2026-10-20T08:48:37.572770+00:00",
+    "exit": 0,
+    "ping_target": null,
+    "pcapng": "05-task4-baidu-a.pcapng",
+    "terminal": "05-task4-baidu-a-terminal.txt",
+    "capture_log": "05-task4-baidu-a-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")"
+  },
+  {
+    "phase": "06-task4-baidu-cname",
+    "task": 4,
+    "command": [
+      "nslookup",
+      "-type=CNAME",
+      "www.baidu.com.",
+      "223.5.5.5"
+    ],
+    "start_utc": "2026-10-20T08:48:39.656624+00:00",
+    "end_utc": "2026-10-20T08:48:39.678758+00:00",
+    "exit": 0,
+    "ping_target": null,
+    "pcapng": "06-task4-baidu-cname.pcapng",
+    "terminal": "06-task4-baidu-cname-terminal.txt",
+    "capture_log": "06-task4-baidu-cname-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")"
+  },
+  {
+    "phase": "07-task4-scu-a",
+    "task": 4,
+    "command": [
+      "nslookup",
+      "-type=A",
+      "www.scu.edu.cn.",
+      "223.5.5.5"
+    ],
+    "start_utc": "2026-10-20T08:48:41.795198+00:00",
+    "end_utc": "2026-10-20T08:48:41.814411+00:00",
+    "exit": 0,
+    "ping_target": null,
+    "pcapng": "07-task4-scu-a.pcapng",
+    "terminal": "07-task4-scu-a-terminal.txt",
+    "capture_log": "07-task4-scu-a-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")"
+  },
+  {
+    "phase": "08-task4-scu-cname",
+    "task": 4,
+    "command": [
+      "nslookup",
+      "-type=CNAME",
+      "www.scu.edu.cn.",
+      "223.5.5.5"
+    ],
+    "start_utc": "2026-10-20T08:48:43.923999+00:00",
+    "end_utc": "2026-10-20T08:48:43.950683+00:00",
+    "exit": 0,
+    "ping_target": null,
+    "pcapng": "08-task4-scu-cname.pcapng",
+    "terminal": "08-task4-scu-cname-terminal.txt",
+    "capture_log": "08-task4-scu-cname-capture.txt",
+    "export_display_filter": "dns && (dns.qry.name == \"www.baidu.com\" || dns.qry.name == \"www.scu.edu.cn\")"
+  }
+]

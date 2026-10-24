@@ -1,0 +1,8 @@
+frame	interface	ip.src	ip.dst	udp.srcport	udp.dstport	dns.id	QR	qname	qtype	AA	RD	RA	rcode	ANCOUNT	NSCOUNT	RR.name	RR.type	RR.ttl	CNAME	A	SOA.mname	SOA.minimum	icmp.type
+1	tailscale0	100.102.60.66	100.100.100.100	57380	53	0x5a37	False	www.scu.edu.cn	1		True			0	0								
+2	tailscale0	100.102.60.66	100.100.100.100	57380	53	0x5c34	False	www.scu.edu.cn	28		True			0	0								
+3	tailscale0	100.100.100.100	100.102.60.66	53	57380	0x5a37	True	www.scu.edu.cn	1	False	True	True	0	1	6	www.scu.edu.cn,edu.cn,edu.cn,edu.cn,edu.cn,edu.cn,edu.cn,dns.edu.cn,ns2.cernet.net,ns4.cernet.net,ns4.cernet.net,ns5.cernet.net,ns5.cernet.net,dns2.edu.cn,dns3.edu.cn	1,2,2,2,2,2,2,1,1,1,1,1,1,1,1	239,118043,118043,118043,118043,118043,118043,118043,2960,4594,4594,3118,3118,52152,118043		202.115.47.167,202.38.109.35,103.137.60.203,101.4.62.203,193.174.75.78,137.189.6.21,166.111.8.30,202.112.0.13,101.4.62.35			
+4	tailscale0	100.100.100.100	100.102.60.66	53	57380	0x5c34	True	www.scu.edu.cn	28	False	True	True	0	0	1	scu.edu.cn	6	216			dart.scu.edu.cn	600	
+5	wlo1	10.20.41.171	202.115.47.167																				8
+6	wlo1	10.20.41.171	202.115.47.167																				8
+7	wlo1	10.20.41.171	202.115.47.167																				8

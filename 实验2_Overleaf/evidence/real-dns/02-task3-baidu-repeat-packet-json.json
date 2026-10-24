@@ -1,0 +1,1139 @@
+[
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "tailscale0",
+            "frame.interface_description": "Tunnel"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "2026-10-20T08:48:19.946514137Z",
+          "frame.time_utc": "2026-10-20T08:48:19.946514137Z",
+          "frame.time_epoch": "2026-10-20T08:48:19.946514137Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "59",
+          "frame.cap_len": "59",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:udp:dns",
+          "frame.encoding": "0"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "59",
+          "ip.id": "0x8200",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x4f41",
+          "ip.checksum.status": "2",
+          "ip.src": "100.102.60.66",
+          "ip.addr": "100.100.100.100",
+          "ip.src_host": "100.102.60.66",
+          "ip.host": "100.100.100.100",
+          "ip.dst": "100.100.100.100",
+          "ip.dst_host": "100.100.100.100",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "58834",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "39",
+          "udp.checksum": "0x69a9",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "98:fc:01:00:00:01:00:00:00:00:00:00:03:77:77:77:05:62:61:69:64:75:03:63:6f:6d:00:00:01:00:01"
+        },
+        "dns": {
+          "dns.id": "0x98fc",
+          "dns.flags": "0x0100",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "www.baidu.com: type A, class IN": {
+              "dns.qry.name": "www.baidu.com",
+              "dns.qry.name.len": "13",
+              "dns.count.labels": "3",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "dns.response_in": "3"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "tailscale0",
+            "frame.interface_description": "Tunnel"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "2026-10-20T08:48:19.946522172Z",
+          "frame.time_utc": "2026-10-20T08:48:19.946522172Z",
+          "frame.time_epoch": "2026-10-20T08:48:19.946522172Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000008035",
+          "frame.time_delta_displayed": "0.000008035",
+          "frame.time_relative": "0.000008035",
+          "frame.number": "2",
+          "frame.len": "59",
+          "frame.cap_len": "59",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:udp:dns",
+          "frame.encoding": "0"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "59",
+          "ip.id": "0x8201",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x4f40",
+          "ip.checksum.status": "2",
+          "ip.src": "100.102.60.66",
+          "ip.addr": "100.100.100.100",
+          "ip.src_host": "100.102.60.66",
+          "ip.host": "100.100.100.100",
+          "ip.dst": "100.100.100.100",
+          "ip.dst_host": "100.100.100.100",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "58834",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "39",
+          "udp.checksum": "0x69a9",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000008035",
+            "udp.time_delta": "0.000008035"
+          },
+          "udp.payload": "93:fd:01:00:00:01:00:00:00:00:00:00:03:77:77:77:05:62:61:69:64:75:03:63:6f:6d:00:00:1c:00:01"
+        },
+        "dns": {
+          "dns.id": "0x93fd",
+          "dns.flags": "0x0100",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "www.baidu.com: type AAAA, class IN": {
+              "dns.qry.name": "www.baidu.com",
+              "dns.qry.name.len": "13",
+              "dns.count.labels": "3",
+              "dns.qry.type": "28",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "dns.response_in": "4"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "tailscale0",
+            "frame.interface_description": "Tunnel"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "2026-10-20T08:48:19.949236215Z",
+          "frame.time_utc": "2026-10-20T08:48:19.949236215Z",
+          "frame.time_epoch": "2026-10-20T08:48:19.949236215Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.002714043",
+          "frame.time_delta_displayed": "0.002714043",
+          "frame.time_relative": "0.002722078",
+          "frame.number": "3",
+          "frame.len": "121",
+          "frame.cap_len": "121",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:udp:dns",
+          "frame.encoding": "0"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "121",
+          "ip.id": "0xf90f",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x17f4",
+          "ip.checksum.status": "2",
+          "ip.src": "100.100.100.100",
+          "ip.addr": "100.102.60.66",
+          "ip.src_host": "100.100.100.100",
+          "ip.host": "100.102.60.66",
+          "ip.dst": "100.102.60.66",
+          "ip.dst_host": "100.102.60.66",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "58834",
+          "udp.port": "58834",
+          "udp.length": "101",
+          "udp.checksum": "0x1bed",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.002722078",
+            "udp.time_delta": "0.002714043"
+          },
+          "udp.payload": "98:fc:81:80:00:01:00:03:00:00:00:00:03:77:77:77:05:62:61:69:64:75:03:63:6f:6d:00:00:01:00:01:c0:0c:00:05:00:01:00:00:03:60:00:12:03:77:77:77:01:61:06:73:68:69:66:65:6e:03:63:6f:6d:00:c0:2b:00:01:00:01:00:00:00:4f:00:04:6e:f2:46:39:c0:2b:00:01:00:01:00:00:00:4f:00:04:6e:f2:45:15"
+        },
+        "dns": {
+          "dns.id": "0x98fc",
+          "dns.flags": "0x8180",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "0",
+            "dns.flags.authoritative": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.recavail": "1",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "3",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "www.baidu.com: type A, class IN": {
+              "dns.qry.name": "www.baidu.com",
+              "dns.qry.name.len": "13",
+              "dns.count.labels": "3",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Answers": {
+            "www.baidu.com: type CNAME, class IN, cname www.a.shifen.com": {
+              "dns.resp.name": "www.baidu.com",
+              "dns.resp.type": "5",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "864",
+              "dns.resp.len": "18",
+              "dns.cname": "www.a.shifen.com"
+            },
+            "www.a.shifen.com: type A, class IN, addr 110.242.70.57": {
+              "dns.resp.name": "www.a.shifen.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "79",
+              "dns.resp.len": "4",
+              "dns.a": "110.242.70.57"
+            },
+            "www.a.shifen.com: type A, class IN, addr 110.242.69.21": {
+              "dns.resp.name": "www.a.shifen.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "79",
+              "dns.resp.len": "4",
+              "dns.a": "110.242.69.21"
+            }
+          },
+          "dns.response_to": "1",
+          "dns.time": "0.002722078"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "tailscale0",
+            "frame.interface_description": "Tunnel"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "2026-10-20T08:48:19.965067402Z",
+          "frame.time_utc": "2026-10-20T08:48:19.965067402Z",
+          "frame.time_epoch": "2026-10-20T08:48:19.965067402Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.015831187",
+          "frame.time_delta_displayed": "0.015831187",
+          "frame.time_relative": "0.018553265",
+          "frame.number": "4",
+          "frame.len": "145",
+          "frame.cap_len": "145",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:udp:dns",
+          "frame.encoding": "0"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "145",
+          "ip.id": "0xe7ac",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x293f",
+          "ip.checksum.status": "2",
+          "ip.src": "100.100.100.100",
+          "ip.addr": "100.102.60.66",
+          "ip.src_host": "100.100.100.100",
+          "ip.host": "100.102.60.66",
+          "ip.dst": "100.102.60.66",
+          "ip.dst_host": "100.102.60.66",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "58834",
+          "udp.port": "58834",
+          "udp.length": "125",
+          "udp.checksum": "0xf834",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "4",
+          "Timestamps": {
+            "udp.time_relative": "0.018553265",
+            "udp.time_delta": "0.015831187"
+          },
+          "udp.payload": "93:fd:81:80:00:01:00:03:00:00:00:00:03:77:77:77:05:62:61:69:64:75:03:63:6f:6d:00:00:1c:00:01:c0:0c:00:05:00:01:00:00:03:60:00:12:03:77:77:77:01:61:06:73:68:69:66:65:6e:03:63:6f:6d:00:c0:2b:00:1c:00:01:00:00:01:a6:00:10:24:08:87:1a:21:00:1b:23:00:00:00:ff:b0:7a:7e:bc:c0:2b:00:1c:00:01:00:00:01:a6:00:10:24:08:87:1a:21:00:18:6c:00:00:00:ff:b0:7e:3f:bc"
+        },
+        "dns": {
+          "dns.id": "0x93fd",
+          "dns.flags": "0x8180",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "0",
+            "dns.flags.authoritative": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.recavail": "1",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "3",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "www.baidu.com: type AAAA, class IN": {
+              "dns.qry.name": "www.baidu.com",
+              "dns.qry.name.len": "13",
+              "dns.count.labels": "3",
+              "dns.qry.type": "28",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Answers": {
+            "www.baidu.com: type CNAME, class IN, cname www.a.shifen.com": {
+              "dns.resp.name": "www.baidu.com",
+              "dns.resp.type": "5",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "864",
+              "dns.resp.len": "18",
+              "dns.cname": "www.a.shifen.com"
+            },
+            "www.a.shifen.com: type AAAA, class IN, addr 2408:871a:2100:1b23:0:ff:b07a:7ebc": {
+              "dns.resp.name": "www.a.shifen.com",
+              "dns.resp.type": "28",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "422",
+              "dns.resp.len": "16",
+              "dns.aaaa": "2408:871a:2100:1b23:0:ff:b07a:7ebc"
+            },
+            "www.a.shifen.com: type AAAA, class IN, addr 2408:871a:2100:186c:0:ff:b07e:3fbc": {
+              "dns.resp.name": "www.a.shifen.com",
+              "dns.resp.type": "28",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "422",
+              "dns.resp.len": "16",
+              "dns.aaaa": "2408:871a:2100:186c:0:ff:b07e:3fbc"
+            }
+          },
+          "dns.response_to": "2",
+          "dns.time": "0.018545230"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "1",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:19.965333763Z",
+          "frame.time_utc": "2026-10-20T08:48:19.965333763Z",
+          "frame.time_epoch": "2026-10-20T08:48:19.965333763Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000266361",
+          "frame.time_delta_displayed": "0.000266361",
+          "frame.time_relative": "0.018819626",
+          "frame.number": "5",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "60:38:e0:c5:b8:c0",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "60:38:e0:c5:b8:c0",
+            "eth.dst.oui": "6306016",
+            "eth.dst.oui_resolved": "Belkin International Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "58:1c:f8:d5:9f:67",
+          "eth.src_tree": {
+            "eth.src_resolved": "58:1c:f8:d5:9f:67",
+            "eth.src.oui": "5774584",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xd68f",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "1",
+          "ip.checksum": "0x7b2f",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "110.242.70.57",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "110.242.70.57",
+          "ip.dst": "110.242.70.57",
+          "ip.dst_host": "110.242.70.57",
+          "ip.stream": "1"
+        },
+        "icmp": {
+          "icmp.type": "8",
+          "icmp.code": "0",
+          "icmp.checksum": "0xbdac",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "63790",
+          "icmp.ident_le": "12025",
+          "icmp.seq": "1",
+          "icmp.seq_le": "256",
+          "icmp.resp_in": "6",
+          "icmp.data": "d3:2a:d7:6a:00:00:00:00:c9:ba:0e:00:00:00:00:00:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+          "icmp.data_tree": {
+            "icmp.data_time": "2026-10-20T08:48:19.965321000Z",
+            "icmp.data_time_relative": "0.000012763",
+            "data": {
+              "data.data": "10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+              "data.len": "40"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "1",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:20.000598251Z",
+          "frame.time_utc": "2026-10-20T08:48:20.000598251Z",
+          "frame.time_epoch": "2026-10-20T08:48:20.000598251Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.035264488",
+          "frame.time_delta_displayed": "0.035264488",
+          "frame.time_relative": "0.054084114",
+          "frame.number": "6",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "58:1c:f8:d5:9f:67",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "58:1c:f8:d5:9f:67",
+            "eth.dst.oui": "5774584",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "60:38:e0:c5:b8:c0",
+          "eth.src_tree": {
+            "eth.src_resolved": "60:38:e0:c5:b8:c0",
+            "eth.src.oui": "6306016",
+            "eth.src.oui_resolved": "Belkin International Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xd68f",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "48",
+          "ip.proto": "1",
+          "ip.checksum": "0x8b2f",
+          "ip.checksum.status": "2",
+          "ip.src": "110.242.70.57",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "110.242.70.57",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.stream": "1"
+        },
+        "icmp": {
+          "icmp.type": "0",
+          "icmp.code": "0",
+          "icmp.checksum": "0xc5ac",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "63790",
+          "icmp.ident_le": "12025",
+          "icmp.seq": "1",
+          "icmp.seq_le": "256",
+          "icmp.resp_to": "5",
+          "icmp.resptime": "35.264488",
+          "icmp.data": "d3:2a:d7:6a:00:00:00:00:c9:ba:0e:00:00:00:00:00:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+          "icmp.data_tree": {
+            "icmp.data_time": "2026-10-20T08:48:19.965321000Z",
+            "icmp.data_time_relative": "0.035277251",
+            "data": {
+              "data.data": "10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+              "data.len": "40"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "1",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:20.966861109Z",
+          "frame.time_utc": "2026-10-20T08:48:20.966861109Z",
+          "frame.time_epoch": "2026-10-20T08:48:20.966861109Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.966262858",
+          "frame.time_delta_displayed": "0.966262858",
+          "frame.time_relative": "1.020346972",
+          "frame.number": "7",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "60:38:e0:c5:b8:c0",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "60:38:e0:c5:b8:c0",
+            "eth.dst.oui": "6306016",
+            "eth.dst.oui_resolved": "Belkin International Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "58:1c:f8:d5:9f:67",
+          "eth.src_tree": {
+            "eth.src_resolved": "58:1c:f8:d5:9f:67",
+            "eth.src.oui": "5774584",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xd69b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "1",
+          "ip.checksum": "0x7b23",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "110.242.70.57",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "110.242.70.57",
+          "ip.dst": "110.242.70.57",
+          "ip.dst_host": "110.242.70.57",
+          "ip.stream": "1"
+        },
+        "icmp": {
+          "icmp.type": "8",
+          "icmp.code": "0",
+          "icmp.checksum": "0xe4a5",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "63790",
+          "icmp.ident_le": "12025",
+          "icmp.seq": "2",
+          "icmp.seq_le": "512",
+          "icmp.resp_in": "8",
+          "icmp.data": "d4:2a:d7:6a:00:00:00:00:a1:c0:0e:00:00:00:00:00:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+          "icmp.data_tree": {
+            "icmp.data_time": "2026-10-20T08:48:20.966817000Z",
+            "icmp.data_time_relative": "0.000044109",
+            "data": {
+              "data.data": "10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+              "data.len": "40"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "1",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:21.045016147Z",
+          "frame.time_utc": "2026-10-20T08:48:21.045016147Z",
+          "frame.time_epoch": "2026-10-20T08:48:21.045016147Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.078155038",
+          "frame.time_delta_displayed": "0.078155038",
+          "frame.time_relative": "1.098502010",
+          "frame.number": "8",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "58:1c:f8:d5:9f:67",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "58:1c:f8:d5:9f:67",
+            "eth.dst.oui": "5774584",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "60:38:e0:c5:b8:c0",
+          "eth.src_tree": {
+            "eth.src_resolved": "60:38:e0:c5:b8:c0",
+            "eth.src.oui": "6306016",
+            "eth.src.oui_resolved": "Belkin International Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xd69b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "48",
+          "ip.proto": "1",
+          "ip.checksum": "0x8b23",
+          "ip.checksum.status": "2",
+          "ip.src": "110.242.70.57",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "110.242.70.57",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.stream": "1"
+        },
+        "icmp": {
+          "icmp.type": "0",
+          "icmp.code": "0",
+          "icmp.checksum": "0xeca5",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "63790",
+          "icmp.ident_le": "12025",
+          "icmp.seq": "2",
+          "icmp.seq_le": "512",
+          "icmp.resp_to": "7",
+          "icmp.resptime": "78.155038",
+          "icmp.data": "d4:2a:d7:6a:00:00:00:00:a1:c0:0e:00:00:00:00:00:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+          "icmp.data_tree": {
+            "icmp.data_time": "2026-10-20T08:48:20.966817000Z",
+            "icmp.data_time_relative": "0.078199147",
+            "data": {
+              "data.data": "10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+              "data.len": "40"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "1",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:21.967472615Z",
+          "frame.time_utc": "2026-10-20T08:48:21.967472615Z",
+          "frame.time_epoch": "2026-10-20T08:48:21.967472615Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.922456468",
+          "frame.time_delta_displayed": "0.922456468",
+          "frame.time_relative": "2.020958478",
+          "frame.number": "9",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "60:38:e0:c5:b8:c0",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "60:38:e0:c5:b8:c0",
+            "eth.dst.oui": "6306016",
+            "eth.dst.oui_resolved": "Belkin International Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "58:1c:f8:d5:9f:67",
+          "eth.src_tree": {
+            "eth.src_resolved": "58:1c:f8:d5:9f:67",
+            "eth.src.oui": "5774584",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xd6db",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "1",
+          "ip.checksum": "0x7ae3",
+          "ip.checksum.status": "2",
+          "ip.src": "10.20.41.171",
+          "ip.addr": "110.242.70.57",
+          "ip.src_host": "10.20.41.171",
+          "ip.host": "110.242.70.57",
+          "ip.dst": "110.242.70.57",
+          "ip.dst_host": "110.242.70.57",
+          "ip.stream": "1"
+        },
+        "icmp": {
+          "icmp.type": "8",
+          "icmp.code": "0",
+          "icmp.checksum": "0x7aa2",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "63790",
+          "icmp.ident_le": "12025",
+          "icmp.seq": "3",
+          "icmp.seq_le": "768",
+          "icmp.resp_in": "10",
+          "icmp.data": "d5:2a:d7:6a:00:00:00:00:0a:c3:0e:00:00:00:00:00:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+          "icmp.data_tree": {
+            "icmp.data_time": "2026-10-20T08:48:21.967434000Z",
+            "icmp.data_time_relative": "0.000038615",
+            "data": {
+              "data.data": "10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+              "data.len": "40"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-20",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "1",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "wlo1"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-20T08:48:22.002874533Z",
+          "frame.time_utc": "2026-10-20T08:48:22.002874533Z",
+          "frame.time_epoch": "2026-10-20T08:48:22.002874533Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.035401918",
+          "frame.time_delta_displayed": "0.035401918",
+          "frame.time_relative": "2.056360396",
+          "frame.number": "10",
+          "frame.len": "98",
+          "frame.cap_len": "98",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:data",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "58:1c:f8:d5:9f:67",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "58:1c:f8:d5:9f:67",
+            "eth.dst.oui": "5774584",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "58:1c:f8:d5:9f:67",
+            "eth.addr_resolved": "58:1c:f8:d5:9f:67",
+            "eth.addr.oui": "5774584",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "60:38:e0:c5:b8:c0",
+          "eth.src_tree": {
+            "eth.src_resolved": "60:38:e0:c5:b8:c0",
+            "eth.src.oui": "6306016",
+            "eth.src.oui_resolved": "Belkin International Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "60:38:e0:c5:b8:c0",
+            "eth.addr_resolved": "60:38:e0:c5:b8:c0",
+            "eth.addr.oui": "6306016",
+            "eth.addr.oui_resolved": "Belkin International Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0xd6db",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "48",
+          "ip.proto": "1",
+          "ip.checksum": "0x8ae3",
+          "ip.checksum.status": "2",
+          "ip.src": "110.242.70.57",
+          "ip.addr": "10.20.41.171",
+          "ip.src_host": "110.242.70.57",
+          "ip.host": "10.20.41.171",
+          "ip.dst": "10.20.41.171",
+          "ip.dst_host": "10.20.41.171",
+          "ip.stream": "1"
+        },
+        "icmp": {
+          "icmp.type": "0",
+          "icmp.code": "0",
+          "icmp.checksum": "0x82a2",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "63790",
+          "icmp.ident_le": "12025",
+          "icmp.seq": "3",
+          "icmp.seq_le": "768",
+          "icmp.resp_to": "9",
+          "icmp.resptime": "35.401918",
+          "icmp.data": "d5:2a:d7:6a:00:00:00:00:0a:c3:0e:00:00:00:00:00:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+          "icmp.data_tree": {
+            "icmp.data_time": "2026-10-20T08:48:21.967434000Z",
+            "icmp.data_time_relative": "0.035440533",
+            "data": {
+              "data.data": "10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+              "data.len": "40"
+            }
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "captures": 8,
+  "total_frames": 42,
+  "dns_queries": 12,
+  "dns_responses": 12,
+  "matched_dns_transactions": 12,
+  "icmp_echo_requests": 12,
+  "icmp_echo_replies": 6,
+  "malformed_packets": 0,
+  "capture_processes_exit_zero": 8,
+  "native_GUI_screenshots_checked": 13,
+  "cache_flush_succeeded": false,
+  "cold_cache_claim_permitted": false,
+  "all_capture_packets_byte_and_timestamp_identical_to_original_subset": true,
+  "unrelated_DNS_not_in_delivered_files": true,
+  "gui_processes_stopped": true
+}
