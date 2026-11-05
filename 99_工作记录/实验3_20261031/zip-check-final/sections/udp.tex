@@ -1,0 +1,54 @@
+\reportpage{\dataheading}{
+\subheading{三、UDP数据记录与计算（题1—10）}
+本节均引用\udpfile。请求为帧1，响应为帧2，使用DNS作为实际UDP应用；以下长度均为字节。
+\ev{fig:udp-header}{udp-header}{UDP请求首部与31字节负载（帧1）}
+\ev{fig:udp-bytes}{udp-bytes}{请求帧的原始字节与帧内偏移（帧1）}
+\qa{1. UDP首部字段、长度与实际十六进制值}{
+\figref{fig:udp-header}给出四个字段，\figref{fig:udp-bytes}给出线上字节。Ethernet首部14字节、IPv4首部20字节后，UDP首部从帧偏移\code{0x22}开始，到\code{0x29}结束，共8字节。
+\par\noindent\begin{tabularx}{\linewidth}{|X|c|c|l|}\hline
+字段 & 字节数 & 帧内偏移 & 网络序十六进制\\\hline
+Source Port &2&\code{22--23}&\code{d7 5a}（55130）\\\hline
+Destination Port &2&\code{24--25}&\code{00 35}（53）\\\hline
+Length &2&\code{26--27}&\code{00 27}（39）\\\hline
+Checksum &2&\code{28--29}&\code{00 95}\\\hline
+\end{tabularx}\par
+表中偏移以十六进制表示；字段顺序与原始8字节\code{d7 5a 00 35 00 27 00 95}一致。各字段均为16位。
+}
+\qa{2. UDP Length的含义及验证}{
+Length包含UDP首部和UDP数据，不包括外层IP首部。\figref{fig:udp-header}中Length为39，Wireshark同时列出UDP payload为31，因此$39=8+31$。8字节首部后的31字节是完整DNS查询消息。
+}
+}
+
+\reportpage{\datacontinued}{
+\ev{fig:udp-ip}{udp-ip}{请求帧外层IPv4首部（帧1）}
+\qa{3. 外层IPv4长度与UDP长度的关系}{
+\figref{fig:udp-ip}显示IPv4 Total Length为59，Header Length为20；结合\figref{fig:udp-header}中的UDP Length 39，有$59=20+39=20+8+31$。分片偏移为0，Flags为\code{0x0}（MF=0），该请求未分片。帧长73为14字节Ethernet首部加59字节IPv4数据报，不能将73误作UDP长度。
+}
+\qa{4. 仅由UDP长度字段决定的最大数据长度}{
+由\figref{fig:udp-bytes}中Length占2字节可知其为16位，最大值为$2^{16}-1=65535$。减去固定8字节首部，UDP数据理论最大长度为$65535-8=65527$字节。此题仅以UDP字段为界；若同时要求装入普通IPv4且IP首部为20字节，还须受IP总长限制，数据上限为$65535-20-8=65507$，两种条件不能混用。
+}
+\qa{5. UDP源端口号的最大值}{
+\figref{fig:udp-bytes}中的源端口字段为16位无符号整数，可表示0至65535，故最大值为65535。本次请求源端口\code{0xd75a}=55130；“最大端口号”与可供普通应用使用的端口范围不是同一问题。
+}
+\qa{6. IPv4 Protocol字段的名称、数值和原始字节}{
+\figref{fig:udp-ip}显示Protocol为UDP（17）。\figref{fig:udp-bytes}在行\code{0010}的第8个字节（从0计数为7）为\code{11}，即十六进制\code{0x11}=17；它位于IPv4首部偏移9、整个Ethernet帧偏移\code{0x17}。因此IP把负载交给UDP处理。
+}
+}
+
+\reportpage{\datacontinued}{
+\ev{fig:udp-response}{udp-response}{UDP响应首部与77字节负载（帧2）}
+\qa{7. 请求与响应的IP、端口及配对依据}{
+请求帧1为\code{10.135.133.233:55130}$\to$\code{223.5.5.5:53}；响应帧2完全反向。端口见\figref{fig:udp-header}、\figref{fig:udp-response}，地址见\figref{fig:udp-ip}。两帧DNS Transaction ID同为\code{0xf6ff}，问题同为\code{www.baidu.com/A}，QR分别为0/1，响应晚于请求9.014毫秒。反向端点、应用问题、事务ID、标志及时间共同支持配对，不能只凭端口53认定。
+}
+\qa{8. 校验和为什么使用伪首部}{
+伪首部把IPv4源地址（4）、目的地址（4）、全零（1）、协议号（1）和UDP长度（2）一并纳入校验，长度共12字节，有助于检测报文被交付到错误IP端点或协议的情况。其后与UDP首部、数据一起按16位反码和计算；奇数字节时仅在计算中补零。伪首部不是额外传输的UDP首部。
+
+本请求伪首部字节为\code{0a 87 85 e9 df 05 05 05 00 11 00 27}。将Checksum字段清零重新计算得\code{0x0095}，与\figref{fig:udp-header}一致；开启\code{udp.check\_checksum:TRUE}后TShark验证为Good。GUI默认显示Unverified表示尚未验证。\figref{fig:udp-response}的\code{0x0000}表示IPv4 UDP未使用校验和，不是校验失败。
+}
+\qa{9. 请求与响应时间差及含义}{
+帧1时间戳为1793458259.843704，帧2为1793458259.852718，相减得0.009014秒，即9.014毫秒；实际双向报文见\figref{fig:udp-header}、\figref{fig:udp-response}。它包含本机协议栈、网络往返及解析器处理时间，不能当作单程传播时延。
+}
+\qa{10. 请求、响应的UDP长度和数据长度比较}{
+\figref{fig:udp-header}请求Length为39、数据31；\figref{fig:udp-response}响应Length为85、数据77。两者各相差46字节；响应包含DNS答案，应用内容增多，UDP长度相应增大，而首部都为8字节。响应外层IPv4总长105，满足$105=20+85$。
+}
+}

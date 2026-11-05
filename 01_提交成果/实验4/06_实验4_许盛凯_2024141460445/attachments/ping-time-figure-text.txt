@@ -1,0 +1,15 @@
+Start (+08:00): 2026-11-04T18:43:48.166370+08:00
+$ /sbin/ping -n -c 5 -W 1000 202.115.32.43
+PING 202.115.32.43 (202.115.32.43): 56 data bytes
+64 bytes from 202.115.32.43: icmp_seq=0 ttl=61 time=5.759 ms
+64 bytes from 202.115.32.43: icmp_seq=1 ttl=61 time=5.572 ms
+64 bytes from 202.115.32.43: icmp_seq=2 ttl=61 time=5.182 ms
+64 bytes from 202.115.32.43: icmp_seq=3 ttl=61 time=5.036 ms
+64 bytes from 202.115.32.43: icmp_seq=4 ttl=61 time=5.086 ms
+
+--- 202.115.32.43 ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.036/5.327/5.759/0.287 ms
+
+Exit code: 0
+End (+08:00): 2026-11-04T18:43:52.193645+08:00

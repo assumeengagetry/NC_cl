@@ -1,0 +1,37 @@
+\TemplateHeading
+\templatefourrow{12.965}{课程名称}{计算机网络课程设计}{实验课时}{\experimenthours}
+\templatefourrow{13.688}{实验项目}{UDP协议分析与TCP连接管理}{实验时间}{2026.10.31}
+\templaterow{实验目的}{25}{
+理解UDP首部各字段、长度与校验和；结合实际报文分析UDP请求与响应。通过公开文件上传，观察同一条TCP连接的建立、数据传输和释放，掌握序号、确认号、MSS、窗口缩放与RTT的读法。
+}
+\templaterow{实验环境}{51}{
+MacBook Air M1，macOS 26.7.1（25G241）；Wireshark、TShark和dumpcap均为4.6.7；Chrome 156.0.8078.74。抓包接口为Wi-Fi \code{en0}，本机IPv4为\code{10.135.133.233/21}，接口MTU 1500。
+
+UDP使用\code{nslookup}向\code{223.5.5.5:53}查询。TCP上传到教学服务器\code{128.119.245.12:80}（\domain{gaia.cs.umass.edu}）。为观察明文HTTP，用独立临时Chrome配置直接连接；系统原有代理和DNS设置均未改动。指导教师：陈黎；班级全称：\classfullname。教学周：第10周。
+}
+\templaterow{\experimentlabel}{85.576}{
+\subheading{一、操作过程与取证方法}
+1. 阅读指导书；确认实际联网接口及抓包权限。在\code{en0}上用Wireshark随附的dumpcap采集，Wireshark GUI打开保存文件检查字段与字节。
+
+2. UDP捕获过滤器为\code{udp port 53 and host 223.5.5.5}，执行有限的一次查询：\par
+\noindent\code{nslookup -type=A www.baidu.com. 223.5.5.5}
+
+3. 保留请求、响应两帧；核对无IPv4分片，展开UDP、IPv4首部，并读取Packet Bytes中的实际十六进制字节。另用TShark开启校验和验证。
+
+4. 下载教学站点的公开\code{alice.txt}（152138字节），在开始TCP抓包后，用浏览器选择该文件并点击上传。捕获过滤器为\code{host 128.119.245.12 and tcp port 80}。任务2—4均分析这一次成功上传连接。
+}
+
+\reportpage{\continuedlabel}{
+\subheading{二、TCP上传、筛选和结果核验}
+上传表单来自\domain{http://gaia.cs.umass.edu/wireshark-labs/TCP-wireshark-file1.html}。浏览器初始自动升级HTTPS，故用同一服务器IPv4打开HTTP表单；表单仍向\domain{gaia.cs.umass.edu/wireshark-labs/lab3-1-reply.htm}提交。独立浏览器以\code{--no-proxy-server --disable-quic}启动，实际数据在\code{en0}上以IPv4/TCP/80可见。
+
+5. 页面显示成功后继续观察至双方FIN及最终ACK，再停止采集。上传连接从2026年10月31日23:06:11.589180至23:06:19.056149，历时7.466969秒（北京时间）。
+\ev{fig:success}{upload-success}{实际上传成功页面（浏览器缩放后裁剪）}
+
+6. 原成功抓包\code{tcp-upload-03.pcapng}共210帧；以\code{tcp.stream == 1}导出上传流为\tcpfile，共190帧。最终文件的流号变为\code{tcp.stream == 0}。本文所有TCP帧号均取自最终文件。UDP文件为\udpfile，共2帧。
+
+7. 在Wireshark逐帧展开握手选项、数据段、ACK分析和关闭报文，并Follow TCP Stream。TShark导出字段、完整详情及字节。将上传的multipart文件数据重组后，与本地\code{alice.txt}逐字节比较完全相同，页面结果见\figref{fig:success}。
+
+\subheading{实际问题及处理}
+传输中出现重复ACK、重传，以及服务器响应数据晚于FIN被捕获的序号缺口。保留原顺序，以Seq、Ack、SACK和重组内容解释，未以理想四次挥手图替代实际结果。HTTP 200、文件字节一致及最终FIN/ACK共同验证完成；详细记录见题20。
+}

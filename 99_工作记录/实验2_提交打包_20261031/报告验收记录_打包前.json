@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-24",
+  "pdf_pages": 25,
+  "figures": 25,
+  "questions_completed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "local_compiler": "Native XeLaTeX, TeX Live 2026, XeTeX 0.999998, xdvipdfmx 20260317; SOURCE_DATE_EPOCH=1792831154",
+  "overleaf_compiler": "XeLaTeX",
+  "zip_extracted_to_new_directory_and_recompiled": true,
+  "rebuilt_pdf_sha256_equals_delivered_pdf": true,
+  "pdf_sha256": "50d95a2dfede19db4da27b207026a6f4d78de9140f4a01dc0bf38cb3d8453238",
+  "packet_tracer_sha256": "72eca96d9cf60db38ffdfc3a50301294a1e6ca7e3cb9b2b62e32a8c7a1653318",
+  "pcapng_sha256": "9d6478264dd180322bfeaa24cb43b30d5f15fa019f6ca31bd814b6eaee2c85c9",
+  "pcapng_frames": 30,
+  "dns_frames": 12,
+  "complete_dns_transactions": 6,
+  "icmp_frames": 18,
+  "all_25_images_verified_as_crops_of_original_screenshots": true,
+  "word_template_metrics_checked": true,
+  "body_paper_mm": [
+    184.15,
+    259.997222
+  ],
+  "no_missing_images_or_undefined_references_or_report_frame_overflow": true,
+  "teacher_review_grade_signature_blank": true,
+  "unverified_course_hours_blank": true,
+  "packet_tracer_reopened_with_restored_dns_198_and_records_verified": true,
+  "packet_tracer_requires_temporary_script_or_plugin": false,
+  "system_dns_network_vpn_modified": false,
+  "ink_boundary_checks": [
+    {
+      "page": 1,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 3,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 2
+    },
+    {
+      "page": 4,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 3
+    },
+    {
+      "page": 5,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 6,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 7,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 2
+    },
+    {
+      "page": 8,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 2
+    },
+    {
+      "page": 9,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 3
+    },
+    {
+      "page": 10,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 11,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 12,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 13,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 14,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 16,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 17,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 18,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 19,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 20,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 1
+    },
+    {
+      "page": 21,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    },
+    {
+      "page": 25,
+      "horizontal_text_bbox_violations": [],
+      "dark_pixels_outside_outer_vertical_borders": 0,
+      "images": 0
+    }
+  ],
+  "limitations": [
+    "Original commercial Chinese fonts absent; Fandol Song/Hei of same sizes substituted.",
+    "Packet Tracer 9.0.1 alias PDU counts two answers but displays only the terminal A record block; second RR fields are not claimed observed.",
+    "Course lab duration unavailable in supplied materials; blank."
+  ],
+  "external_overleaf_website_compile_performed": false,
+  "visual_review_note": "All 25 native XeLaTeX pages inspected as rendered contact sheets; front page, PDU, packet list, RR/endpoint tables and final blank teacher cell also inspected individually. Text bounds, outside-frame raster ink, all 25 image wrappers and independent ZIP output checked.",
+  "cleanup": {
+    "capture_processes_stopped": true,
+    "system_dns_still_original_114.114.114.114": true,
+    "network_route_still_en0": true,
+    "original_clipboard_restored": true,
+    "original_input_source_restored": "com.apple.inputmethod.SCIM.ITABC",
+    "internal_work_archived_outside_delivery_directory": true
+  },
+  "revision": "按实验1_Overleaf_图片兼容修复版迁移；原生XeLaTeX图片与模板修复",
+  "compile_passes": 2,
+  "zip_compile_passes": 2,
+  "zip_sha256": "d5cb955d5de932b095dfd87b25299503bd06a8dbc82b640fa62e0a1d686dbfec",
+  "all_25_pages_rendered_and_visually_checked_against_reference_template": true,
+  "body_font_bp": 10.5,
+  "body_baseline_bp": 14.5,
+  "independent_cover": false,
+  "template_reference": "实验1_Overleaf_图片兼容修复版/report-template.sty",
+  "image_pdf_wrappers": 25,
+  "direct_png_or_jpg_compiler_inputs": 0,
+  "all_25_image_wrappers_preserve_decoded_pixels_and_aspect": true,
+  "experiment_evidence_and_five_content_sections_unchanged": true,
+  "source_images_png_unchanged": true,
+  "compiler_warnings_note": "No missing characters/images, undefined references, Overfull boxes or template-cell overflow in final native logs. Underfull spacing notices occur in narrow long-field tables.",
+  "prior_delivery_backup": "旧版已备份到交付目录之外的实验2_工作记录_20261024/图片兼容修复/原交付备份。"
+}

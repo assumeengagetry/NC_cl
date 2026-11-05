@@ -1,0 +1,8 @@
+理论核对资料（2026-11-04）
+RFC 792 https://www.rfc-editor.org/rfc/rfc792.html
+RFC 791 https://www.rfc-editor.org/rfc/rfc791.html
+RFC 1812 https://www.rfc-editor.org/rfc/rfc1812.html
+RFC 4732 https://www.rfc-editor.org/rfc/rfc4732.html
+Apple ping.c https://github.com/apple-oss-distributions/network_cmds/blob/main/ping.tproj/ping.c
+Apple traceroute.c https://github.com/apple-oss-distributions/network_cmds/blob/main/traceroute.tproj/traceroute.c
+CVE-1999-0128 https://www.cve.org/CVERecord?id=CVE-1999-0128

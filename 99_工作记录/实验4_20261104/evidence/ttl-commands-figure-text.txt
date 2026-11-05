@@ -1,0 +1,22 @@
+$ /sbin/ping -n -c 5 -W 1000 -m 2 202.115.32.43
+5 packets transmitted, 0 packets received, 100.0% packet loss
+
+$ /sbin/ping -n -c 5 -W 1000 -m 1 202.115.32.43
+5 packets transmitted, 0 packets received, 100.0% packet loss
+
+$ /sbin/ping -n -c 5 -W 1000 -m 3 202.115.32.43
+36 bytes from 202.115.39.102: Time to live exceeded
+36 bytes from 202.115.39.102: Time to live exceeded
+36 bytes from 202.115.39.102: Time to live exceeded
+36 bytes from 202.115.39.102: Time to live exceeded
+36 bytes from 202.115.39.102: Time to live exceeded
+5 packets transmitted, 0 packets received, 100.0% packet loss
+
+$ /sbin/ping -n -c 5 -W 1000 -m 4 202.115.32.43
+64 bytes from 202.115.32.43: icmp_seq=0 ttl=61 time=3.870 ms
+64 bytes from 202.115.32.43: icmp_seq=1 ttl=61 time=4.955 ms
+64 bytes from 202.115.32.43: icmp_seq=2 ttl=61 time=4.558 ms
+64 bytes from 202.115.32.43: icmp_seq=3 ttl=61 time=5.521 ms
+64 bytes from 202.115.32.43: icmp_seq=4 ttl=61 time=4.980 ms
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.870/4.777/5.521/0.547 ms

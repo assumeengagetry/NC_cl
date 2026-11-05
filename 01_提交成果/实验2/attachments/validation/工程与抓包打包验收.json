@@ -1,0 +1,26 @@
+{
+  "packaging_date": "2026-10-31",
+  "archive_filename": "06_实验2_许盛凯_2024141460445.zip",
+  "archive_purpose": "工程文件与原始抓包课程提交包",
+  "archive_sha256": "23c14627eb655d3e5732f557bd1562847abf035eb89bc088bdb4a4272ab220b4",
+  "archive_crc_check_passed": true,
+  "archive_contains_only_pkt_and_pcapng": true,
+  "members": [
+    {
+      "filename": "2024141460445_许盛凯_实验2.pkt",
+      "bytes": 72433,
+      "sha256": "72eca96d9cf60db38ffdfc3a50301294a1e6ca7e3cb9b2b62e32a8c7a1653318",
+      "zipped_bytes_equal_original": true
+    },
+    {
+      "filename": "2024141460445_许盛凯_实验2_DNS.pcapng",
+      "bytes": 5128,
+      "sha256": "9d6478264dd180322bfeaa24cb43b30d5f15fa019f6ca31bd814b6eaee2c85c9",
+      "zipped_bytes_equal_original": true
+    }
+  ],
+  "overleaf_archive_filename": "06_实验2_许盛凯_2024141460445_Overleaf.zip",
+  "overleaf_archive_bytes_unchanged": true,
+  "report_pdf_bytes_unchanged": true,
+  "report_pdf_sha256": "50d95a2dfede19db4da27b207026a6f4d78de9140f4a01dc0bf38cb3d8453238"
+}

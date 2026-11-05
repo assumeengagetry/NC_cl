@@ -1,0 +1,37 @@
+Frame 2: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface en0, id 0
+Arrival Time: Nov  4, 2026 18:44:12.365473000 CST
+Epoch Arrival Time: 1793789052.365473000
+Frame Number: 2
+Frame Length: 70 bytes (560 bits)
+Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 202.115.39.102, Dst: 10.135.133.108
+.... 0101 = Header Length: 20 bytes (5)
+Total Length: 56
+Identification: 0x014c (332)
+.0.. .... = Don't fragment: Not set
+..0. .... = More fragments: Not set
+...0 0000 0000 0000 = Fragment Offset: 0
+Time to Live: 253
+Protocol: ICMP (1)
+Header Checksum: 0x39ec [validation disabled]
+Internet Control Message Protocol
+Type: Time-to-live exceeded (11)
+Code: 0 (Time to live exceeded in transit)
+Checksum: 0xac85 [correct]
+Unused: 00000000
+Internet Protocol Version 4, Src: 10.135.133.108, Dst: 202.115.32.43
+.... 0101 = Header Length: 20 bytes (5)
+Total Length: 84
+Identification: 0xe0fe (57598)
+.0.. .... = Don't fragment: Not set
+..0. .... = More fragments: Not set
+...0 0000 0000 0000 = Fragment Offset: 0
+Time to Live: 1
+Protocol: ICMP (1)
+Header Checksum: 0x5d59 [validation disabled]
+Internet Control Message Protocol
+Type: Echo (ping) request (8)
+Code: 0
+Checksum: 0x2f85 [unverified] [in ICMP error packet]
+Identifier (BE): 4341 (0x10f5)
+Sequence Number (BE): 0 (0x0000)

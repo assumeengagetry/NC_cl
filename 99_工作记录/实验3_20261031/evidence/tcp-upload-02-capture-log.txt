@@ -1,0 +1,4 @@
+Capturing on 'Wi-Fi: en0'
+File: 99_工作记录/实验3_20261031/evidence/tcp-upload-02.pcapng
+Packets captured: 0
+Packets received/dropped on interface 'Wi-Fi: en0': 0/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (0.0%)

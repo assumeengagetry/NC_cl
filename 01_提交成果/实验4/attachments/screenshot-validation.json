@@ -1,0 +1,227 @@
+{
+  "gui_screenshots_complete": true,
+  "figures": 20,
+  "screenshots": [
+    {
+      "label": "fig:ping-request",
+      "asset": "ping-request",
+      "screenshot": "screenshots/ping-request.png",
+      "pdf_asset": "assets/ping-request.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1125,
+      "png_sha256": "5f30cb1b9076f9d0064fc29498737fd5e9a3f05a7948532df1993a587c181b40",
+      "pdf_sha256": "57b0d2909ec15214c1719fa4ad976c371241be57c20fb6183982272eb422299f"
+    },
+    {
+      "label": "fig:ping-reply",
+      "asset": "ping-reply",
+      "screenshot": "screenshots/ping-reply.png",
+      "pdf_asset": "assets/ping-reply.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1160,
+      "png_sha256": "f238223deebdefa010430bcf1566fcdbf74fe62964a60574cc46477f164418a7",
+      "pdf_sha256": "e187cbc7359970d68ec87d908e819f29b3d12a71662f1cbaee256b458e233394"
+    },
+    {
+      "label": "fig:ping-time",
+      "asset": "ping-time",
+      "screenshot": "screenshots/ping-time.png",
+      "pdf_asset": "assets/ping-time.pdf",
+      "passed": true,
+      "width": 1180,
+      "height": 620,
+      "png_sha256": "c63080ba777c536982d57137e56afd98984e4b4ff484bf0a91c6e966df155d35",
+      "pdf_sha256": "30a83e11e2a2a4229373b15e6a752591fa9a9ffdbccb4dc9dd087377534310f7"
+    },
+    {
+      "label": "fig:large-command",
+      "asset": "large-command",
+      "screenshot": "screenshots/large-command.png",
+      "pdf_asset": "assets/large-command.pdf",
+      "passed": true,
+      "width": 1180,
+      "height": 595,
+      "png_sha256": "b0f1f1c1e12b0648d0e75871bc68773d6b5ad5dc61084a4b3b2e2dc8f002784a",
+      "pdf_sha256": "5685351f16a2c78d4f192ff3b9f7e96ecdc86b5315e457289af88dd10f3b09f5"
+    },
+    {
+      "label": "fig:large-first",
+      "asset": "large-first",
+      "screenshot": "screenshots/large-first.png",
+      "pdf_asset": "assets/large-first.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 800,
+      "png_sha256": "d0f85caec2e59fb2e343e891c33711500ad48a2c4d895e039187b2c573d1cb6f",
+      "pdf_sha256": "50f912e7a21f6a177392d189fdd447f3099b5fbea1871373aaa044a96886eb92"
+    },
+    {
+      "label": "fig:large-reassembly",
+      "asset": "large-reassembly",
+      "screenshot": "screenshots/large-reassembly.png",
+      "pdf_asset": "assets/large-reassembly.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1335,
+      "png_sha256": "ed13a3cd1a63acfea0649d1406d11cdf762e4e7148151826e1c678cd26fb7c4d",
+      "pdf_sha256": "f60fe2a955656029211c71c7983ab181a7e129111b205bcfc63c58caf788b578"
+    },
+    {
+      "label": "fig:ttl3-request",
+      "asset": "ttl3-request",
+      "screenshot": "screenshots/ttl3-request.png",
+      "pdf_asset": "assets/ttl3-request.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1015,
+      "png_sha256": "a2146896ff607011012f60f50fbab25a70caeac5861c045ba10a3a84a2075e08",
+      "pdf_sha256": "58781269487eee23408eac1f32d04722678dec65482ef3890a45ebd28daa4dbb"
+    },
+    {
+      "label": "fig:ttl3-outer",
+      "asset": "ttl3-outer",
+      "screenshot": "screenshots/ttl3-outer.png",
+      "pdf_asset": "assets/ttl3-outer.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 870,
+      "png_sha256": "8c2bbbc43df51f8a92034b2d3a8d24c758c5b6aa942e11e75795f2d4a21b22fc",
+      "pdf_sha256": "ca4c5733a54f59b63f7a066f376d18cf8079b8120fa4912075a6f6a469bde3a2"
+    },
+    {
+      "label": "fig:ttl3",
+      "asset": "ttl3",
+      "screenshot": "screenshots/ttl3.png",
+      "pdf_asset": "assets/ttl3.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1195,
+      "png_sha256": "bf46bf2f71604ae887dc9d80140d8e5ea9700e5b8657c8c73159a1ed49482301",
+      "pdf_sha256": "654edd09145e79201f2bedbbb57a6c85380a684a35cfbda4de7f5790685443c4"
+    },
+    {
+      "label": "fig:ttl-commands",
+      "asset": "ttl-commands",
+      "screenshot": "screenshots/ttl-commands.png",
+      "pdf_asset": "assets/ttl-commands.pdf",
+      "passed": true,
+      "width": 1180,
+      "height": 1060,
+      "png_sha256": "532f0664c1aa707991bb05d539330162c2699c01d6666e3b904de9593c48883d",
+      "pdf_sha256": "daaa2614082354b33315d68b470d6a454f08fe8fdb9f0aeaf14885453ec6ed56"
+    },
+    {
+      "label": "fig:ttl34-commands",
+      "asset": "ttl34-commands",
+      "screenshot": "screenshots/ttl34-commands.png",
+      "pdf_asset": "assets/ttl34-commands.pdf",
+      "passed": true,
+      "width": 1180,
+      "height": 1165,
+      "png_sha256": "65598314ccd66681e813359a4078ea1b75fd47696828e54193e082fcc9f972fc",
+      "pdf_sha256": "e80ffbba834ee3f9129c0825a5dbcc283a7479748f633824ae4810d7beb1ef87"
+    },
+    {
+      "label": "fig:ttl4-request",
+      "asset": "ttl4-request",
+      "screenshot": "screenshots/ttl4-request.png",
+      "pdf_asset": "assets/ttl4-request.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 540,
+      "png_sha256": "554b9f8dd850826269b7984106f99dbb52510617cc5a38b6ba7c6c43408cb63f",
+      "pdf_sha256": "1f8a585d92cb1c103e36c4bc65d11e09c3b1e3281d9e0d6dd9bfdd3c6f6773ad"
+    },
+    {
+      "label": "fig:ttl4-reply",
+      "asset": "ttl4-reply",
+      "screenshot": "screenshots/ttl4-reply.png",
+      "pdf_asset": "assets/ttl4-reply.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1035,
+      "png_sha256": "3f46fc9c0e96b415d3f7cdca6534943e87015c1965a4cc28273da66ebf477283",
+      "pdf_sha256": "75b7f90600bc292fb64bdfb47952482164b5ffd6af05a16dae835ed3043b7465"
+    },
+    {
+      "label": "fig:trace-command",
+      "asset": "trace-command",
+      "screenshot": "screenshots/trace-command.png",
+      "pdf_asset": "assets/trace-command.pdf",
+      "passed": true,
+      "width": 1180,
+      "height": 450,
+      "png_sha256": "cca40eb039dfd54986881a3d7ff3da019e6d88f487c2eb71f6c4a539204b93c8",
+      "pdf_sha256": "cc3b551d9fba8755405b9a65103c89aea6b7fb238c6883f47b3405687d51e4e2"
+    },
+    {
+      "label": "fig:trace-probe",
+      "asset": "trace-probe",
+      "screenshot": "screenshots/trace-probe.png",
+      "pdf_asset": "assets/trace-probe.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1085,
+      "png_sha256": "f8ee705b695772e5621b473c56b942473b646ccf51dad83aab052834426fbc23",
+      "pdf_sha256": "034a27b2f2b4d6a9e595bd4489aa135abfbce4dcaf18b117b89593f3e4503d76"
+    },
+    {
+      "label": "fig:trace-list",
+      "asset": "trace-list",
+      "screenshot": "screenshots/trace-list.png",
+      "pdf_asset": "assets/trace-list.pdf",
+      "passed": true,
+      "width": 2510,
+      "height": 730,
+      "png_sha256": "8a8a95a61b30ed8c9acddf65c3d1c6aebaf00f29cb37d6338cc7cd8606fcad53",
+      "pdf_sha256": "edaa2b127d43411ced3ccabf5297927e67603eca82721ec65f0fb2591efadbc7"
+    },
+    {
+      "label": "fig:trace-third-probe",
+      "asset": "trace-third-probe",
+      "screenshot": "screenshots/trace-third-probe.png",
+      "pdf_asset": "assets/trace-third-probe.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1085,
+      "png_sha256": "ec70f5ad5e03f7b0f5ffec8b0e88a4467ab7d531acf3f23ed6c402c199c25dda",
+      "pdf_sha256": "77dc9cd3ed6467cb607b9ea2b05ddfcdc885e66d2fc2bbbbb7fa7312534678de"
+    },
+    {
+      "label": "fig:trace-error-outer",
+      "asset": "trace-error-outer",
+      "screenshot": "screenshots/trace-error-outer.png",
+      "pdf_asset": "assets/trace-error-outer.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 870,
+      "png_sha256": "f7d4c246ec445ad65bcce9adb062a04ffd02213b775028c3edf89eb118f4652d",
+      "pdf_sha256": "f242cac53a232c7aa86545e570583399bf1a1f8a5c73506f31f0f5f32d40853e"
+    },
+    {
+      "label": "fig:trace-error",
+      "asset": "trace-error",
+      "screenshot": "screenshots/trace-error.png",
+      "pdf_asset": "assets/trace-error.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1300,
+      "png_sha256": "70d6471aa89e05f585eb11b791ad29fea3a609ed94ab13c6aa6f742a758db8e6",
+      "pdf_sha256": "02caa51bbab64656f3867b3ff31b003d73d9ffe22abf3fbb942bd62c31e341f6"
+    },
+    {
+      "label": "fig:trace-final",
+      "asset": "trace-final",
+      "screenshot": "screenshots/trace-final.png",
+      "pdf_asset": "assets/trace-final.pdf",
+      "passed": true,
+      "width": 1260,
+      "height": 1055,
+      "png_sha256": "12a326880405c40ae646726afe408ac64db6ec3d29d364957eea86912317d9e5",
+      "pdf_sha256": "c9641aee3f307f43750c98969c4ce2ac872be0a8039ba1e0dd8381260ea087c3"
+    }
+  ],
+  "method": "Each referenced figure PDF contains the exact RGB pixels of its saved screenshot PNG."
+}

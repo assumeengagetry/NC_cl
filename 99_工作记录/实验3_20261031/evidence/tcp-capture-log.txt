@@ -1,0 +1,4 @@
+Capturing on 'Wi-Fi: en0'
+File: 99_工作记录/实验3_20261031/evidence/tcp-browser-capture.pcapng
+Packets: 1 Packets: 4 Packets: 10 Packets: 12 Packets: 14 Packets: 18 Packets: 19 Packets: 23 Packets: 24 Packets: 26 Packets: 27 Packets: 28 Packets: 30 Packets: 31 Packets: 32 Packets: 34 Packets: 36 Packets: 37 Packets: 38 Packets captured: 38
+Packets received/dropped on interface 'Wi-Fi: en0': 38/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)

@@ -1,0 +1,4 @@
+$pdf_mode = 5;
+$ENV{'SOURCE_DATE_EPOCH'} = 1793789069;
+$ENV{'FORCE_SOURCE_DATE'} = 1;
+$xelatex = 'xelatex -interaction=nonstopmode -file-line-error %O %S';

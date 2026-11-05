@@ -26,11 +26,11 @@ depend container_split_src_files/1
 depend frozen/0
 depend minrelease/2016
 depend release/2026
-depend revision/80761
+depend revision/80861
 
 name 00texlive.image
 category TLCore
-revision 80762
+revision 80861
 shortdesc TeX Live files only in the source repository
 longdesc The files here are not copied by the installer and containers
 longdesc are not built for them; they exist only in the source
@@ -40,7 +40,7 @@ longdesc IgnorePatterns in the check_files routine in tlmgr.pl augment
 longdesc this list. Those are not included in the source/ tarball. For
 longdesc information on the 00texlive prefix see
 longdesc 00texlive.installation(.tlpsrc)
-runfiles size=15376
+runfiles size=15378
  .mkisofsrc
  autorun.inf
  texmf-dist/README
@@ -463,6 +463,7 @@ runfiles size=15376
  tlpkg/tlpsrc/algolrevived.tlpsrc
  tlpkg/tlpsrc/algorithm2e.tlpsrc
  tlpkg/tlpsrc/algorithmicx.tlpsrc
+ tlpkg/tlpsrc/algorithmlite.tlpsrc
  tlpkg/tlpsrc/algorithms.tlpsrc
  tlpkg/tlpsrc/algpseudocodex.tlpsrc
  tlpkg/tlpsrc/algxpar.tlpsrc
@@ -948,6 +949,7 @@ runfiles size=15376
  tlpkg/tlpsrc/bondgraphs.tlpsrc
  tlpkg/tlpsrc/bonum-otf.tlpsrc
  tlpkg/tlpsrc/book-of-common-prayer.tlpsrc
+ tlpkg/tlpsrc/bookbangla.tlpsrc
  tlpkg/tlpsrc/bookcover.tlpsrc
  tlpkg/tlpsrc/bookdb.tlpsrc
  tlpkg/tlpsrc/bookest.tlpsrc
@@ -960,6 +962,7 @@ runfiles size=15376
  tlpkg/tlpsrc/booktabs-fr.tlpsrc
  tlpkg/tlpsrc/booktabs.tlpsrc
  tlpkg/tlpsrc/booktabstabular.tlpsrc
+ tlpkg/tlpsrc/boolalg.tlpsrc
  tlpkg/tlpsrc/boolexpr.tlpsrc
  tlpkg/tlpsrc/boondox.tlpsrc
  tlpkg/tlpsrc/bootstrapicons.tlpsrc
@@ -1238,6 +1241,7 @@ runfiles size=15376
  tlpkg/tlpsrc/codedescribe.tlpsrc
  tlpkg/tlpsrc/codedoc.tlpsrc
  tlpkg/tlpsrc/codehigh.tlpsrc
+ tlpkg/tlpsrc/codemwe.tlpsrc
  tlpkg/tlpsrc/codepage.tlpsrc
  tlpkg/tlpsrc/codesection.tlpsrc
  tlpkg/tlpsrc/codicefiscaleitaliano.tlpsrc
@@ -1307,6 +1311,8 @@ runfiles size=15376
  tlpkg/tlpsrc/colorweb.tlpsrc
  tlpkg/tlpsrc/colourchange.tlpsrc
  tlpkg/tlpsrc/combelow.tlpsrc
+ tlpkg/tlpsrc/combgames-symbols.tlpsrc
+ tlpkg/tlpsrc/combgames-tikz.tlpsrc
  tlpkg/tlpsrc/combine.tlpsrc
  tlpkg/tlpsrc/combinedgraphics.tlpsrc
  tlpkg/tlpsrc/combofont.tlpsrc
@@ -1607,6 +1613,7 @@ runfiles size=15376
  tlpkg/tlpsrc/doclicense.tlpsrc
  tlpkg/tlpsrc/docmfp.tlpsrc
  tlpkg/tlpsrc/docmute.tlpsrc
+ tlpkg/tlpsrc/docref.tlpsrc
  tlpkg/tlpsrc/docshots.tlpsrc
  tlpkg/tlpsrc/docsurvey.tlpsrc
  tlpkg/tlpsrc/doctools.tlpsrc
@@ -1617,6 +1624,7 @@ runfiles size=15376
  tlpkg/tlpsrc/doipubmed.tlpsrc
  tlpkg/tlpsrc/domaincoloring.tlpsrc
  tlpkg/tlpsrc/domitian.tlpsrc
+ tlpkg/tlpsrc/doodle-icons.tlpsrc
  tlpkg/tlpsrc/dosepsbin.tlpsrc
  tlpkg/tlpsrc/dot2texi.tlpsrc
  tlpkg/tlpsrc/dotarrow.tlpsrc
@@ -2322,6 +2330,7 @@ runfiles size=15376
  tlpkg/tlpsrc/guitlogo.tlpsrc
  tlpkg/tlpsrc/gustlib.tlpsrc
  tlpkg/tlpsrc/gustprog.tlpsrc
+ tlpkg/tlpsrc/gyoudori.tlpsrc
  tlpkg/tlpsrc/gzt.tlpsrc
  tlpkg/tlpsrc/h2020proposal.tlpsrc
  tlpkg/tlpsrc/ha-prosper.tlpsrc
@@ -2676,6 +2685,7 @@ runfiles size=15376
  tlpkg/tlpsrc/jsonresume.tlpsrc
  tlpkg/tlpsrc/juliamono.tlpsrc
  tlpkg/tlpsrc/jumplines.tlpsrc
+ tlpkg/tlpsrc/juniamaroc-beamer.tlpsrc
  tlpkg/tlpsrc/junicode.tlpsrc
  tlpkg/tlpsrc/junicodevf.tlpsrc
  tlpkg/tlpsrc/jupynotex.tlpsrc
@@ -3160,6 +3170,7 @@ runfiles size=15376
  tlpkg/tlpsrc/matc3.tlpsrc
  tlpkg/tlpsrc/matc3mem.tlpsrc
  tlpkg/tlpsrc/match_parens.tlpsrc
+ tlpkg/tlpsrc/matchedsplit.tlpsrc
  tlpkg/tlpsrc/math-into-latex-4.tlpsrc
  tlpkg/tlpsrc/math-operator.tlpsrc
  tlpkg/tlpsrc/math-shorthandz.tlpsrc
@@ -3582,6 +3593,7 @@ runfiles size=15376
  tlpkg/tlpsrc/opcit.tlpsrc
  tlpkg/tlpsrc/open-everyday-symbols.tlpsrc
  tlpkg/tlpsrc/opencolor.tlpsrc
+ tlpkg/tlpsrc/openglyph.tlpsrc
  tlpkg/tlpsrc/openmoji.tlpsrc
  tlpkg/tlpsrc/opensans.tlpsrc
  tlpkg/tlpsrc/oplotsymbl.tlpsrc
@@ -4198,6 +4210,7 @@ runfiles size=15376
  tlpkg/tlpsrc/revtex4-1.tlpsrc
  tlpkg/tlpsrc/revtex4.tlpsrc
  tlpkg/tlpsrc/rgltxdoc.tlpsrc
+ tlpkg/tlpsrc/rhode-island-thesis.tlpsrc
  tlpkg/tlpsrc/ribbonproofs.tlpsrc
  tlpkg/tlpsrc/rigidnotation.tlpsrc
  tlpkg/tlpsrc/rit-fonts.tlpsrc
@@ -4390,6 +4403,7 @@ runfiles size=15376
  tlpkg/tlpsrc/showcharinbox.tlpsrc
  tlpkg/tlpsrc/showdim.tlpsrc
  tlpkg/tlpsrc/showexpl.tlpsrc
+ tlpkg/tlpsrc/showhanmengrid.tlpsrc
  tlpkg/tlpsrc/showhyphenation.tlpsrc
  tlpkg/tlpsrc/showkerning.tlpsrc
  tlpkg/tlpsrc/showlabels.tlpsrc
@@ -4552,6 +4566,7 @@ runfiles size=15376
  tlpkg/tlpsrc/suai-report.tlpsrc
  tlpkg/tlpsrc/suanpan-l3.tlpsrc
  tlpkg/tlpsrc/suanpan.tlpsrc
+ tlpkg/tlpsrc/subcaptionlite.tlpsrc
  tlpkg/tlpsrc/subdepth.tlpsrc
  tlpkg/tlpsrc/subdocs.tlpsrc
  tlpkg/tlpsrc/subeqn.tlpsrc
@@ -4640,6 +4655,7 @@ runfiles size=15376
  tlpkg/tlpsrc/talos.tlpsrc
  tlpkg/tlpsrc/tamefloats.tlpsrc
  tlpkg/tlpsrc/tamethebeast.tlpsrc
+ tlpkg/tlpsrc/tamu-talk.tlpsrc
  tlpkg/tlpsrc/tango.tlpsrc
  tlpkg/tlpsrc/tangocolors.tlpsrc
  tlpkg/tlpsrc/tangramtikz.tlpsrc
@@ -4647,6 +4663,7 @@ runfiles size=15376
  tlpkg/tlpsrc/tapir.tlpsrc
  tlpkg/tlpsrc/tasks.tlpsrc
  tlpkg/tlpsrc/tblr-extras.tlpsrc
+ tlpkg/tlpsrc/tcbpagefootnote.tlpsrc
  tlpkg/tlpsrc/tcldoc.tlpsrc
  tlpkg/tlpsrc/tcolorbox.tlpsrc
  tlpkg/tlpsrc/tdclock.tlpsrc
@@ -4746,6 +4763,7 @@ runfiles size=15376
  tlpkg/tlpsrc/texsurgery.tlpsrc
  tlpkg/tlpsrc/textcase.tlpsrc
  tlpkg/tlpsrc/textcsc.tlpsrc
+ tlpkg/tlpsrc/textdate.tlpsrc
  tlpkg/tlpsrc/textfit.tlpsrc
  tlpkg/tlpsrc/textglos.tlpsrc
  tlpkg/tlpsrc/textgreek.tlpsrc
@@ -5033,6 +5051,7 @@ runfiles size=15376
  tlpkg/tlpsrc/uebungsblatt.tlpsrc
  tlpkg/tlpsrc/uestcthesis.tlpsrc
  tlpkg/tlpsrc/ufrgscca.tlpsrc
+ tlpkg/tlpsrc/ugentdocs.tlpsrc
  tlpkg/tlpsrc/uhc.tlpsrc
  tlpkg/tlpsrc/uhhassignment.tlpsrc
  tlpkg/tlpsrc/uhrzeit.tlpsrc
@@ -5423,7 +5442,7 @@ depend setting_available_architectures:aarch64-linux amd64-freebsd amd64-netbsd 
 
 name 00texlive.installer
 category TLCore
-revision 80761
+revision 80860
 shortdesc TeX Live standalone installer package
 longdesc This package defines the files to go into the installer
 longdesc archives (install-tl-unx.tar.gz, install-tl.zip) built by the
@@ -7993,7 +8012,7 @@ catalogue-version 1.9.7
 
 name abntex2-ufv
 category Package
-revision 80649
+revision 80815
 shortdesc Undergraduate thesis class for UFV (Brazil), based on abnTeX2
 relocated 1
 longdesc abntex2-ufv is a LaTeX class, built on top of the abnTeX2
@@ -8013,11 +8032,11 @@ longdesc top of abntex2 is deprecated since version 1.5 and will be
 longdesc discontinued in version 2.0. The documentation (in Portuguese)
 longdesc contains a complete example thesis, and an empty template is
 longdesc included.
-containersize 9068
-containerchecksum d44e96cbddb44aab3bee57096679ce64a8262d6c825bb53cbeaa7e71ac79969095cd3fed5ae039235f5a30ce668fa3c13c1f1673a3d949f2d9ac0dae1ddf2b7e
-doccontainersize 509320
-doccontainerchecksum 6e9006a92fb23496883eb91158af7644196d19dca04c40fca81ab1c76d29ab2bfa2bdbf5213dd0ff961c3743015b11aa88eb2d48e91ab9461471a2cb7295ed4d
-docfiles size=194
+containersize 10200
+containerchecksum e050330156f16feadc2948306dd6aff3e10b9d9b39d6cb8848691bb44f1f253dfd40b6cfc4dd678db29a23dd595dbd14ce79105023d226403ee3807d3bcfbc07
+doccontainersize 517816
+doccontainerchecksum b4d90b55f243098ca534c6fd19dadbda98e1ae924a6f2ce63c4edd7e2223389c010de4c18a024f849f6b166a3cc44f3d76d843bc8f4e1fa532ed82595872c814
+docfiles size=198
  RELOC/doc/latex/abntex2-ufv/CHANGES.md
  RELOC/doc/latex/abntex2-ufv/README.md details="Readme"
  RELOC/doc/latex/abntex2-ufv/abntex2-ufv.pdf details="Package documentation"
@@ -8051,7 +8070,7 @@ docfiles size=194
  RELOC/doc/latex/abntex2-ufv/template/latexmkrc
  RELOC/doc/latex/abntex2-ufv/template/referencias.bib
  RELOC/doc/latex/abntex2-ufv/template/template.tex
-runfiles size=7
+runfiles size=8
  RELOC/tex/latex/abntex2-ufv/abntex2-ufv.cls
  RELOC/tex/latex/abntex2-ufv/abntex2-ufv.sty
 catalogue-also abntex2
@@ -8061,7 +8080,7 @@ catalogue-contact-repository https://github.com/Smarzaro/abntex2-ufv
 catalogue-ctan /macros/latex/contrib/abntex2-ufv
 catalogue-license lppl1.3c
 catalogue-topics class dissertation doc-templ portuguese-br
-catalogue-version 1.6.1
+catalogue-version 1.7
 
 name abntexto
 category Package
@@ -16424,6 +16443,51 @@ catalogue-ctan /macros/latex/contrib/algorithmicx
 catalogue-license lppl
 catalogue-topics pseudocode listing tagged-pdf-partially
 
+name algorithmlite
+category Package
+revision 80842
+shortdesc A lightweight algorithm float without the float package
+relocated 1
+longdesc The algorithms package defines its float with the float
+longdesc package, which redefines \caption for every float of the
+longdesc document. This package defines the environments algorithm and
+longdesc algorithm* in the same way as the standard classes define
+longdesc figure and table, with the float mechanism of the LaTeX kernel,
+longdesc without loading the float package. It provides the counter
+longdesc (reset at every chapter if there are chapters), \algorithmname,
+longdesc \listofalgorithms (Japanese names with pTeX/upTeX and
+longdesc LuaTeX-ja), a float type that does not clash with those of
+longdesc float, floatrow, newfloat and memoir, and a minimal placement
+longdesc [H] when the float package is not loaded. The content of an
+longdesc algorithm is set with algorithmic, algpseudocode, or any other
+longdesc package. Supported formats/engines: pdflatex, xelatex,
+longdesc lualatex, platex, uplatex (with dvipdfmx).
+containersize 4040
+containerchecksum b21513f7cebf1de79b63d58962503637288bd4317c701b53a29a014b0566e6a3d77c99bec1c98223cf9abaff9a3d876564bc3e3aea8b5efe2ce43bca2717c5d2
+doccontainersize 193840
+doccontainerchecksum beb228f81b020ff1b592b6564f54309105e3fe7708353c83f86c9aa49e5a8ffab38700ce2b45452df3a75e0a89c8803fecb2c69060015cd5dd0b9e878a0cdd1b
+docfiles size=65
+ RELOC/doc/latex/algorithmlite/LICENSE
+ RELOC/doc/latex/algorithmlite/README.md details="Readme"
+ RELOC/doc/latex/algorithmlite/algorithmlite.pdf details="Package documentation"
+ RELOC/doc/latex/algorithmlite/algorithmlite.tex
+ RELOC/doc/latex/algorithmlite/test-basic.tex
+ RELOC/doc/latex/algorithmlite/test-common.tex
+ RELOC/doc/latex/algorithmlite/test-compat.tex
+ RELOC/doc/latex/algorithmlite/test-errors.tex
+ RELOC/doc/latex/algorithmlite/test-hyperref.tex
+ RELOC/doc/latex/algorithmlite/test-tagging.tex
+ RELOC/doc/latex/algorithmlite/test-twocolumn.tex
+runfiles size=3
+ RELOC/tex/latex/algorithmlite/algorithmlite.sty
+catalogue-also algorithms
+catalogue-contact-bugs https://github.com/munepi/algorithmlite/issues
+catalogue-contact-repository https://github.com/munepi/algorithmlite
+catalogue-ctan /macros/latex/contrib/algorithmlite
+catalogue-license lppl1.3c
+catalogue-topics float pseudocode
+catalogue-version 1.1
+
 name algorithms
 category Package
 revision 78101
@@ -17368,23 +17432,24 @@ catalogue-version 2.6
 
 name alterqcm
 category Package
-revision 59265
+revision 80831
 shortdesc Multiple choice questionnaires in two column tables
 relocated 1
-longdesc The alterqcm package is a LaTeX2e package, for making multiple
+longdesc The alterqcm package is a LaTeX2e package for making multiple
 longdesc choices questionnaires in a table with two columns. The aim is
-longdesc to provide some useful macros to build QCM in tables. These
-longdesc macros may be used by only LaTeX TeX users. The package works
-longdesc with utf8, pdfLaTeX, LuaLaTeX and XeLaTeX (with some
-longdesc languages). The documentation is in English.
-containersize 6916
-containerchecksum 6af82517cdbc64453b7e546afe4886ba6816d44492ca4fce9cec98035166b45bc432503db0c09c44e2e41f3bf8cf18c33a37199025a6f09dce6fdd2849973fcd
-doccontainersize 1078332
-doccontainerchecksum f16c2591c79aa8d9f98f36c613617b3068495f814db73bc330d11f6a52b4a6b394a663040de328e6251f16d21acf683adb6cc80a5ce6524c09fac8397439f8b9
-docfiles size=343
+longdesc to provide some useful macros to build QCM in tables. The
+longdesc package works with utf8, pdfLaTeX, LuaLaTeX and XeLaTeX (with
+longdesc some languages). The documentation is in English.
+containersize 6444
+containerchecksum 67ce94e37bbe2e4f855511f935cc7df4cf3844a547d7589ac407dc9f21f83744849cedc69f749155a90c9a0eba985a07e183bf7ede8d8e6ad985b3e67412fae7
+doccontainersize 1053420
+doccontainerchecksum c64c1d8343f5f547bdb7a3624e915cae43969558429a7d7b45a1eb988412d52017aee313e5bd6e938dcba3d013708dddee857a99e431add005dd0fe156e51762
+docfiles size=327
+ RELOC/doc/latex/alterqcm/CHANGELOG.md
+ RELOC/doc/latex/alterqcm/LICENSE
  RELOC/doc/latex/alterqcm/README.md details="Readme" language="en"
+ RELOC/doc/latex/alterqcm/alterqcm-doc.pdf details="Package documentation"
  RELOC/doc/latex/alterqcm/article_post.pdf
- RELOC/doc/latex/alterqcm/doc-aq-main.pdf details="Package documentation"
  RELOC/doc/latex/alterqcm/examples/iut/qcm-1.tex
  RELOC/doc/latex/alterqcm/examples/iut/qcm-10.tex
  RELOC/doc/latex/alterqcm/examples/iut/qcm-2.tex
@@ -17395,21 +17460,6 @@ docfiles size=343
  RELOC/doc/latex/alterqcm/examples/iut/qcm-7.tex
  RELOC/doc/latex/alterqcm/examples/iut/qcm-8.tex
  RELOC/doc/latex/alterqcm/examples/iut/qcm-9.tex
- RELOC/doc/latex/alterqcm/examples/latex/AntillesESjuin2006.tex
- RELOC/doc/latex/alterqcm/examples/latex/alea.tex
- RELOC/doc/latex/alterqcm/examples/latex/annexe.tex
- RELOC/doc/latex/alterqcm/examples/latex/correct.tex
- RELOC/doc/latex/alterqcm/examples/latex/example_2.tex
- RELOC/doc/latex/alterqcm/examples/latex/example_3.tex
- RELOC/doc/latex/alterqcm/examples/latex/lang_chinese.tex
- RELOC/doc/latex/alterqcm/examples/latex/lang_german.tex
- RELOC/doc/latex/alterqcm/examples/latex/language.tex
- RELOC/doc/latex/alterqcm/examples/latex/points.tex
- RELOC/doc/latex/alterqcm/examples/latex/sep.tex
- RELOC/doc/latex/alterqcm/examples/latex/test_language.tex
- RELOC/doc/latex/alterqcm/examples/latex/transparent-final.tex
- RELOC/doc/latex/alterqcm/examples/latex/transparent-init.tex
- RELOC/doc/latex/alterqcm/examples/latex/verb.tex
  RELOC/doc/latex/alterqcm/latex/180px-Gustave_Moreau_007.jpg
  RELOC/doc/latex/alterqcm/latex/240px-Mort_du_fossoyeur.jpg
  RELOC/doc/latex/alterqcm/latex/The_Wounded_Angel_-_Hugo_Simberg.jpg
@@ -17424,12 +17474,13 @@ docfiles size=343
  RELOC/doc/latex/alterqcm/latex/doc-aq-mc.tex
  RELOC/doc/latex/alterqcm/latex/doc-aq-points.tex
  RELOC/doc/latex/alterqcm/latex/doc-aq-problem.tex
-runfiles size=7
+ RELOC/doc/latex/alterqcm/lppl-1-3c.txt
+runfiles size=5
  RELOC/tex/latex/alterqcm/alterqcm.sty
 catalogue-ctan /macros/latex/contrib/alterqcm
-catalogue-license lppl1.3
+catalogue-license lppl1.3c
 catalogue-topics exam
-catalogue-version 4.42c
+catalogue-version 5.00c
 
 name altfont
 category Package
@@ -20328,16 +20379,16 @@ catalogue-version 1.01
 
 name aomart
 category Package
-revision 79963
+revision 80841
 shortdesc Typeset articles for the Annals of Mathematics
 longdesc The package provides a class for typesetting articles for The
 longdesc Annals of Mathematics.
 depend aomart.ARCH
-containersize 21504
-containerchecksum f396e11060b75311da5ffe6692139f0653ebd3403e5c761cc1fe7cbe76f190e42cc053e27cf0c1bedeb7d10a4c69635efbce930c7b3d47b470efc4fe4078beea
-doccontainersize 1270004
-doccontainerchecksum f3b3918ee966b813d56b032e25b9072ea6efb25b47c4dcf8b046083115925f9f702dc3cd8bf277b08711a206a5ecd8a06c1cda0c8432b1b3c2c63e3ede7740be
-docfiles size=478
+containersize 21600
+containerchecksum 1efc9b7fbfbfe50f57ef859ee7d8109f4abe1f115b4fd12a9b435e7614500fdb9a285fcebab8a9d303892558c6cdd35e2a201566f7709b3d1fce6e382af4b61c
+doccontainersize 1403580
+doccontainerchecksum b8a9715038aeb3dcfaa142bed30ad42323c71ee4f188cad9302a64a9e946e0c1068305d1f830a403a8c0dc12b110d90456c4c61471f3e8c5147c84d500a73c92
+docfiles size=511
  texmf-dist/doc/latex/aomart/README details="Readme"
  texmf-dist/doc/latex/aomart/aomart.bib
  texmf-dist/doc/latex/aomart/aomart.pdf details="Package documentation"
@@ -20350,8 +20401,8 @@ docfiles size=478
  texmf-dist/doc/latex/aomart/aomsample1.tex
  texmf-dist/doc/man/man1/aom-fullref.1
  texmf-dist/doc/man/man1/aom-fullref.man1.pdf
-srccontainersize 25320
-srccontainerchecksum e6c75400e4f6a47ae11e6b03f2e7a082818fb92e1ee87334166c74cc002a856b2c55017dd824d3bef6418f2681907fcb898e8b821e01dbe2acd4b1ad218e10ef
+srccontainersize 25476
+srccontainerchecksum 91cd037fcb69fcd413e85040ecc775fea59a4064046a9cdbd90ee732ad543a0d979450bafec6770c8d968c57a038aeae4e3425e9dd7f2b284ffd9234559a896c
 srcfiles size=26
  texmf-dist/source/latex/aomart/Makefile
  texmf-dist/source/latex/aomart/aomart.dtx
@@ -20368,7 +20419,7 @@ runfiles size=32
 catalogue-ctan /macros/latex/contrib/aomart
 catalogue-license lppl1.3
 catalogue-topics class journalpub
-catalogue-version 1.38
+catalogue-version 1.40
 
 name aomart.aarch64-linux
 category Package
@@ -29669,7 +29720,7 @@ catalogue-version 1.0
 
 name babel
 category Package
-revision 80642
+revision 80853
 shortdesc Multilingual support for LaTeX, LuaLaTeX, XeLaTeX, and Plain TeX
 relocated 1
 longdesc Babel is the multilingual environment for LaTeX (tailored for
@@ -29685,24 +29736,26 @@ longdesc files, with tools providing precise control over hyphenation
 longdesc and line breaking, captions, date formats (across various
 longdesc calendars), spacing, transliteration, numbering and other
 longdesc locale-specific typographical rules.
-containersize 253396
-containerchecksum ef6598a1deb3476ad9e87785655bdec0554d9c984f5f61d6fa7bf3804d454a6fe9ae6d0432e0e4e7f739b395b32c8f234fbe3c6b1053df3849eeaeebab9ecbb0
-doccontainersize 1493644
-doccontainerchecksum 359fb933284e436bbd3b39c9304010adade40bfa580c8cebfcd2f1a476da5494a002b0733eb72f218ed6ef2dea142bed436bcbc5140b322851035ae784e1fa60
-docfiles size=385
+containersize 253844
+containerchecksum 1109a35628ed6f68ad31eca68fc68db27ecdedfbdb98c8f3a6dce39f822c42238dccde3e033d4b03824ef14c3b67994f228b604cc8e1b013d3d71dace0cc788c
+doccontainersize 1715304
+doccontainerchecksum b76ae8950b60d51021ee5d81cef291463f91553389958ecd87288efa2843b29b930b3503b830828e73cd91afbc8e7a5949b251e2d982f145a9a3c899e2765f6f
+docfiles size=444
  RELOC/doc/latex/babel/README.md details="Readme"
  RELOC/doc/latex/babel/babel-code.pdf details="Code documentation"
+ RELOC/doc/latex/babel/babel-plain.pdf details="Documentation for plain TeX"
  RELOC/doc/latex/babel/babel.pdf details="User guide"
-srccontainersize 997352
-srccontainerchecksum 33d1695f79c92a4e16f890b7574c0e3033bf950c28017a8078ef905a3514cee76af9f23e58c14d21ac9023031929f30627c73a76a4deac2ee4dbed2ad6360175
-srcfiles size=518
+srccontainersize 1000728
+srccontainerchecksum 98efd5850d218290d4a9208df8ecac5c9d40926a1a9e0945297ef962b18da0a9393a2d5c067865985f075fd6285cffac1dc4a62f0015cad037c2f17b9391411a
+srcfiles size=542
+ RELOC/source/latex/babel/babel-plain.dtx
  RELOC/source/latex/babel/babel.dtx
  RELOC/source/latex/babel/babel.ins
  RELOC/source/latex/babel/bbcompat.dtx
  RELOC/source/latex/babel/bbidxglo.dtx
  RELOC/source/latex/babel/licr2uni.dtx
  RELOC/source/latex/babel/locale.zip
-runfiles size=1407
+runfiles size=1406
  RELOC/makeindex/babel/bbglo.ist
  RELOC/makeindex/babel/bbind.ist
  RELOC/tex/generic/babel/UKenglish.sty
@@ -30760,7 +30813,7 @@ catalogue-contact-repository https://github.com/latex3/babel
 catalogue-ctan /macros/latex/required/babel/base
 catalogue-license lppl1.3
 catalogue-topics multilingual
-catalogue-version 26.14
+catalogue-version 26.15
 
 name babel-albanian
 category Package
@@ -32600,7 +32653,7 @@ catalogue-version 1.34
 
 name babelbidi
 category Package
-revision 80733
+revision 80830
 shortdesc An extension to babel's bidirectional support
 relocated 1
 longdesc This package extends Babel's bidirectional support by fixing
@@ -32610,16 +32663,16 @@ longdesc configuration, including glyph fallback with LuaTeX. It
 longdesc supports languages available through Babel and works with
 longdesc LuaTeX (recommended), XeTeX, or pdfTeX, with either an LTR or
 longdesc RTL main language.
-containersize 12092
-containerchecksum 8415fd04fa1d7b402ea64e3f38be2c68a7d92289d048ff85decca12b6578357c768465dac4a4e55c005febffcb65cce3a3bfd9de64de012580dd0191faa05c38
-doccontainersize 137064
-doccontainerchecksum d486b22da6afc930a91517e3958d2f72098cc9e2c12f43050258b144e1b8f6b436a582fdf267b9c095112634b3e528820dd9b4d67dd9e7e85dd36467016874a8
+containersize 13684
+containerchecksum 882d651837f13c534562ebb11400a78d89a73f08784e09b23aeea1e34dea3ea9abdfb4488adeb5b870adcfe8c1478eb1379da6d8f697b63aa53829879d21de6e
+doccontainersize 138772
+doccontainerchecksum cac22ef630ca5bb2dd4413c8da272f3e840645f6dfd1625d21cf22bf92077280adce75697657deb73c2214aa11adf3196338dc7ad113db3456f8d5ca5d5e6cf2
 docfiles size=43
  RELOC/doc/latex/babelbidi/LICENSE
  RELOC/doc/latex/babelbidi/README.md details="Readme"
  RELOC/doc/latex/babelbidi/babelbidi.pdf details="Package documentation"
  RELOC/doc/latex/babelbidi/babelbidi.tex
-runfiles size=19
+runfiles size=21
  RELOC/tex/latex/babelbidi/babelbidi-api.def
  RELOC/tex/latex/babelbidi/babelbidi-beamer.def
  RELOC/tex/latex/babelbidi/babelbidi-code.def
@@ -32627,6 +32680,7 @@ runfiles size=19
  RELOC/tex/latex/babelbidi/babelbidi-fontfallback.lua
  RELOC/tex/latex/babelbidi/babelbidi-fonts.def
  RELOC/tex/latex/babelbidi/babelbidi-lang.sty
+ RELOC/tex/latex/babelbidi/babelbidi-latinverbatim.def
  RELOC/tex/latex/babelbidi/babelbidi-layout.def
  RELOC/tex/latex/babelbidi/babelbidi-luatex.def
  RELOC/tex/latex/babelbidi/babelbidi-minted.def
@@ -32638,7 +32692,7 @@ catalogue-contact-repository https://github.com/gambi-shah/babelbidi
 catalogue-ctan /macros/latex/contrib/babelbidi
 catalogue-license lppl1.3c
 catalogue-topics bidi multilingual
-catalogue-version 0.3.2
+catalogue-version 0.4.1
 
 name background
 category Package
@@ -36964,8 +37018,8 @@ catalogue-version 0.6
 
 name beamertheme-tcolorbox
 category Package
-revision 80351
-shortdesc A beamer/ltx-talk inner theme to reproduce standard beamer blocks using tcolorboxes
+revision 80857
+shortdesc A beamer/ltx-talk inner theme which reproduces standard beamer blocks using tcolorboxes
 relocated 1
 longdesc This package provides an inner theme for beamer or ltx-talk
 longdesc which reproduces standard beamer blocks using tcolorboxes. The
@@ -36975,10 +37029,10 @@ depend beamer
 depend tcolorbox
 depend tikzfill
 depend tools
-containersize 3800
-containerchecksum f31f3c950b56f462d8c9cbcbeba94fe783d51312a6702592c1303c2ca17d44164537469b81181267a7bc56c82126259f0016d0614c39b80c5846225966dc11ef
-doccontainersize 336864
-doccontainerchecksum 3ab2615735ebde856e5d3f719b884244ee760b279665f6d18aad0e46fd36411597a6bbd65118b7e473daf32a49daaf65c9d7f293a4a17de5ba4357a8a7f78f81
+containersize 3904
+containerchecksum 205910947bea728a21957fbee14f748ec66fd5e180d2e832f976b9b02c52e4ed9bd1722cc6039a4b123fffbae8acf215331eb5db709c7379aab15e8fec60e46d
+doccontainersize 338072
+doccontainerchecksum c6c406f13fac9041e56ee12d46e965db072403d2e915e502db8beceb20fe200b7d54d48471fe082573540a4c6a0249e007b00c4f49e56423beb0c4627d5fe975
 docfiles size=92
  RELOC/doc/latex/beamertheme-tcolorbox/DEPENDS.txt
  RELOC/doc/latex/beamertheme-tcolorbox/README.md details="Readme"
@@ -36988,12 +37042,13 @@ docfiles size=92
 runfiles size=5
  RELOC/tex/latex/beamertheme-tcolorbox/beamerinnerthemetcolorbox.sty
  RELOC/tex/latex/beamertheme-tcolorbox/talkthemetcolorbox.sty
+catalogue-contact-bugs https://github.com/samcarter/beamertheme-tcolorbox/issues
 catalogue-contact-repository https://github.com/samcarter/beamertheme-tcolorbox
 catalogue-contact-support https://github.com/samcarter/beamertheme-tcolorbox/issues
 catalogue-ctan /macros/latex/contrib/beamer-contrib/themes/beamertheme-tcolorbox
 catalogue-license lppl1.3c
 catalogue-topics presentation
-catalogue-version 1.6
+catalogue-version 1.7
 
 name beamertheme-trigon
 category Package
@@ -37154,7 +37209,7 @@ catalogue-version 1.3
 
 name beamerthemecelestia
 category Package
-revision 80665
+revision 80829
 shortdesc A modern and elegant Beamer theme
 relocated 1
 longdesc A modern and elegant Beamer theme designed for academic and
@@ -37169,10 +37224,10 @@ longdesc and sans-serif variants, and provides flexible font styling
 longdesc across different elements. Focused on readability and visual
 longdesc appeal, Celestia offers a clean and professional look for
 longdesc presentations.
-containersize 30180
-containerchecksum 03dba63fad3b9fa78c56db45688fedbb0f56abca2a27128049b023b3905b1b55fce1e89ae21bf264647f6d11f3a1fd8e1b685d6ff7bba4bba96117e4dbbac688
-doccontainersize 1217708
-doccontainerchecksum 1a48272db0316f4e12ef2fd257089fbdd0906dbd732b6bf0af375e175816023b98e3b3da72741133ad8dcba7c161faf6499072c8a5abe6b1ddd4c1acac79a567
+containersize 30308
+containerchecksum d6120880267ebfb2d2b8888bd1fb4b13622bac871022f876138973709900b927e731ccb1b9838105f46e8c613f243c2318303d6a7977a857c171f28355823a55
+doccontainersize 1218408
+doccontainerchecksum 534bf960afc438ec3185eb4524a2032cad767f4300ec615ce90a9801a0cd2bf6acc26c2d09cc8b9915177077d348c20e5e55574e1c0d7b254fa686be6506abcd
 docfiles size=568
  RELOC/doc/latex/beamerthemecelestia/CHANGELOG.md
  RELOC/doc/latex/beamerthemecelestia/README.md details="Readme"
@@ -37185,12 +37240,12 @@ docfiles size=568
  RELOC/doc/latex/beamerthemecelestia/celestia-demo-fr.pdf details="Example of use (French)" language="fr"
  RELOC/doc/latex/beamerthemecelestia/celestia-demo-fr.tex
  RELOC/doc/latex/beamerthemecelestia/celestia-figures.tex
-runfiles size=45
+runfiles size=46
  RELOC/tex/latex/beamerthemecelestia/beamerthemeCelestia.sty
 catalogue-ctan /macros/latex/contrib/beamer-contrib/themes/beamerthemecelestia
 catalogue-license lppl1.3c
 catalogue-topics presentation
-catalogue-version 2.4.0
+catalogue-version 2.4.1
 
 name beamerthemeconcrete
 category Package
@@ -41846,16 +41901,16 @@ catalogue-version 003
 
 name biblatex-gost
 category Package
-revision 66935
+revision 80799
 shortdesc BibLaTeX support for GOST standard bibliographies
 relocated 1
 longdesc The package provides BibLaTeX support for Russian bibliography
 longdesc style GOST 7.0.5-2008
-containersize 21248
-containerchecksum 8d87595c133fd1b64ea7facda55a1a7a79dbedb93750e0f54abd26e5904d331200349a956eb03a67017015e85e9854e26f6753b5d2be2ef0f3e4d532eb0b7ddf
-doccontainersize 1005352
-doccontainerchecksum 3ee6799d4dd00b4503fd6d7bb041d674c9e61d4ab3c366fe078a9db4a4da154601c13876dec51ba14e3322442e3174cda81212df26d2309e3517a60d06283051
-docfiles size=358
+containersize 21456
+containerchecksum b93d680c97d976de7a472226c0102b191e34324555a27a766c00ce1f2697d9b074393c7561356f30b474a00427a52abff641154dbc9e558f6be81fe54798d15b
+doccontainersize 1010208
+doccontainerchecksum 4ddd721ef49866e84fbf66df7ce207867b5cbef6cf9e433f6581ed93325cbe1b4d520c1d511032a2731c35a702b0c58a7ca16bb9779fb9123df8275fa60532bb
+docfiles size=361
  RELOC/doc/latex/biblatex-gost/README.md details="Readme"
  RELOC/doc/latex/biblatex-gost/biblatex-gost-examples.bib
  RELOC/doc/latex/biblatex-gost/biblatex-gost-examples.pdf details="Examples of use" language="en,ru"
@@ -41918,8 +41973,8 @@ catalogue-also gost
 catalogue-contact-repository https://github.com/odomanov/biblatex-gost/
 catalogue-ctan /macros/latex/contrib/biblatex-contrib/biblatex-gost
 catalogue-license lppl1.3c
-catalogue-topics biblatex std-conform russian
-catalogue-version 1.24
+catalogue-topics biblatex russian std-conform
+catalogue-version 1.25
 
 name biblatex-greifswald
 category Package
@@ -46860,6 +46915,46 @@ catalogue-license lppl1.3c
 catalogue-topics theology
 catalogue-version 1.1.0
 
+name bookbangla
+category Package
+revision 80817
+shortdesc Writing Bangla and Assamese books with memoir
+relocated 1
+longdesc BOOKbangla is a LaTeX document class for writing Bangla and
+longdesc Assamese books, built on memoir and LaTeXbangla. It provides:
+longdesc Four chapter designs, a title page, and page layouts. Numbered
+longdesc examples, theorems, and exercises with optional hints.
+longdesc Solutions, reminder boxes, chapter quotations and configurable
+longdesc lists. Author-selected fonts and bibliography styles, with
+longdesc further customization through memoir. Supports XeLaTeX and
+longdesc LuaLaTeX. Includes a manual in English, Bangla, and Assamese.
+containersize 8084
+containerchecksum df6bb614e45a97e035fd6adacaf14c310f8c130a0fae35efa64bb0eebf9095dd68b9735d6bf3b062ba9d26719600f9690751e50a1ae0852dd4e1099b8e7856b1
+doccontainersize 1823348
+doccontainerchecksum a4827fcd2d76246007efe485cbd4bc9d2b883a75ef96ff0adc4b047fceb933cdd8e7e7bb1b388840a7faeb4c782c30d8f4e11705e6e85d2431a2757fcdc4af4c
+docfiles size=547
+ RELOC/doc/latex/bookbangla/LICENSE
+ RELOC/doc/latex/bookbangla/README details="Readme"
+ RELOC/doc/latex/bookbangla/bookbangla.pdf details="Package documentation" language="en,bn,as"
+ RELOC/doc/latex/bookbangla/bookbangla.tex
+ RELOC/doc/latex/bookbangla/logo.png
+runfiles size=9
+ RELOC/tex/latex/bookbangla/bookbangla.cls
+ RELOC/tex/latex/bookbangla/code/bookbangla-chapters.tex
+ RELOC/tex/latex/bookbangla/code/bookbangla-environments.tex
+ RELOC/tex/latex/bookbangla/code/bookbangla-labels-assamese.tex
+ RELOC/tex/latex/bookbangla/code/bookbangla-labels-bangla.tex
+ RELOC/tex/latex/bookbangla/code/bookbangla-layout.tex
+ RELOC/tex/latex/bookbangla/code/bookbangla-sections.tex
+catalogue-contact-announce https://github.com/Neehan/BOOKbangla/releases
+catalogue-contact-bugs https://github.com/Neehan/BOOKbangla/issues
+catalogue-contact-development https://github.com/Neehan/BOOKbangla/blob/master/CONTRIBUTING.md
+catalogue-contact-repository https://github.com/Neehan/BOOKbangla
+catalogue-ctan /language/bengali/bookbangla
+catalogue-license lppl1.3c
+catalogue-topics assamese bengali book-pub class indic
+catalogue-version 1.1
+
 name bookcover
 category Package
 revision 80624
@@ -47589,7 +47684,7 @@ catalogue-topics font font-type1 font-collection
 
 name bookmark
 category Package
-revision 79461
+revision 80800
 shortdesc A new bookmark (outline) organization for hyperref
 relocated 1
 longdesc This package implements a new bookmark (outline) organization
@@ -47597,16 +47692,16 @@ longdesc for package hyperref. Bookmark properties such as style and
 longdesc color can now be set. Other action types are available (URI,
 longdesc GoToR, Named). The bookmarks are generated in the first compile
 longdesc run. Package hyperref uses two runs.
-containersize 8400
-containerchecksum 08a45966511441c0118e87163f8ac3b7cb34728e01ad79ee8c57063e06baaa075d3f39f7cb14efc5cb2843b6f8a57d381b077b541f3f855dac281fbfd8dfa12e
-doccontainersize 624916
-doccontainerchecksum 5fee7684170ca44b47667daabe1367cf4fe3da0f842a6f1891cf98ccb08b7e73825feed0f4f9c998234afc205a1d197da6e5a3e8c6d26e3b003882dfa3e7e3b8
+containersize 8396
+containerchecksum 3bbe5ee2fb297396cf5fb9b356629cfc093126ff35f5068971e490b7f57978c0f150de2ade8600f6029854548dcbe4c7e886b7bc69207c6f7e27662cbad1b06e
+doccontainersize 626404
+doccontainerchecksum b4737fe05299a31792e683e62f3d9b6743b05e29fbcd1dfb9322eded8c888fbc4cfda20663e28c1428e24067f318af4b5d927156c4a9110bff944d2cc6b87ceb
 docfiles size=175
  RELOC/doc/latex/bookmark/README.md details="Readme"
  RELOC/doc/latex/bookmark/bookmark-example.tex
  RELOC/doc/latex/bookmark/bookmark.pdf details="Package documentation"
-srccontainersize 19772
-srccontainerchecksum d81be62585d97ff75ebb0729016e843fe1168ed71773280105f242941bcfc0067ef0c51dbaddcd592d52cee6d96489c0f424e74f456fc37026490b65f6567d90
+srccontainersize 19852
+srccontainerchecksum 65586a659dc422fba12d2afd568ca72b5fd5cdae97c13c412a5fcc7f80ad7461489b7585408c03d6ff87467070ee68ca994dfc1f8848974d51e45d6825d24382
 srcfiles size=25
  RELOC/source/latex/bookmark/bookmark.dtx
  RELOC/source/latex/bookmark/bookmark.ins
@@ -47623,7 +47718,7 @@ catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/bookm
 catalogue-ctan /macros/latex/contrib/bookmark
 catalogue-license lppl1.3c
 catalogue-topics hyper tagged-pdf
-catalogue-version 1.32
+catalogue-version 1.33
 
 name bookshelf
 category Package
@@ -47902,6 +47997,43 @@ catalogue-ctan /macros/latex/contrib/booktabstabular
 catalogue-license lppl1.3c
 catalogue-topics table-rule
 catalogue-version 1.1.2
+
+name boolalg
+category Package
+revision 80770
+shortdesc Truth tables, step-by-step simplification, and algebraic proofs for Boolean
+relocated 1
+longdesc The boolalg package provides pure-TeX macros for parsing,
+longdesc evaluating, simplifying, and proving Boolean algebra
+longdesc expressions without requiring external tools, Python, or
+longdesc shell-escape: - \btable and \btable*: Generate truth tables
+longdesc with intermediate subexpression columns and optional simplified
+longdesc results. - \bsimplify and \bsimplify*: Perform step-by-step
+longdesc algebraic simplification with explicit law justifications
+longdesc (Idempotence, Absorption, Consensus theorem, De Morgan's laws,
+longdesc Distributivity, etc.). - \bprove: Construct step-by-step
+longdesc algebraic proofs between two equivalent expressions, or
+longdesc automatically find and print a concrete counterexample if the
+longdesc claim is false. Expressions support flexible input syntax
+longdesc including implicit multiplication (AB), postfix primes (A'),
+longdesc prefix operators (!, ~), English words (and, or, xor, nand,
+longdesc nor, xnor, not), and standard LaTeX math symbols (\land, \lor,
+longdesc \oplus, \lnot, etc.).
+containersize 9920
+containerchecksum b2de217e5858bc24cf30dc546d7226f39597dfea6de7a7950dabb7e84e9ec8448bff720c283841c8accf5aa78ac1ed5644aa724222287b42cba934529c3c4f94
+doccontainersize 153788
+doccontainerchecksum 912822a08286ca733081df47fc5c7dc9cb61692f68589bfafc7abd7584162d85d7aecb298a1c21c62c1be926deb542cb2e6c52c96ca58269e116ea5b049b4db8
+docfiles size=43
+ RELOC/doc/latex/boolalg/README.md details="Readme"
+ RELOC/doc/latex/boolalg/boolalg-doc.pdf details="Package documentation"
+ RELOC/doc/latex/boolalg/boolalg-doc.tex
+runfiles size=11
+ RELOC/tex/latex/boolalg/boolalg.sty
+catalogue-also truthtable luatruthtable
+catalogue-ctan /macros/latex/contrib/boolalg
+catalogue-license lppl1.3c
+catalogue-topics logic
+catalogue-version 1.0.0
 
 name boolexpr
 category Package
@@ -52352,7 +52484,7 @@ catalogue-version 2.0
 
 name captdef
 category Package
-revision 79618
+revision 80828
 shortdesc Declare free-standing \caption commands
 relocated 1
 longdesc The \DeclareCaption command defines a class of caption command
@@ -52361,21 +52493,21 @@ longdesc commands are free-standing (i.e., don't need to be inside a
 longdesc float environment). The package uses \DeclareCaption to define
 longdesc \figcaption and \tabcaption, which can be used outside figure
 longdesc or table environments.
-containersize 1144
-containerchecksum 8513e2b573b3d7eb0448c71b20e2f1c4bfb6fb5526346e124a55579595a9c0436943f706f47f31972ec6ca08599f9e0ea780bdc646aecc0ab6bdd34d5662ed19
-doccontainersize 216224
-doccontainerchecksum 1084ddc4674ebf9fb40f4ec38141921bf7d276f1157f3ea184d77cf8f4bf5d026a1fcedd46793e218e91cb20d0721dc8db5182b7d390390a6f69c9f763095197
-docfiles size=57
+containersize 1156
+containerchecksum 699a9e78aec748c169a5a86435336560ae591abcdd0d4ccb76595b6affa3198dea76636656a6deb999816857967b225b9e9d418a098f708c969d53efd36e1c76
+doccontainersize 51128
+doccontainerchecksum dcbcc994b96ce9ac8fb3d6007e32b443b2564c70f3cc55c4f1fba785e009ddb0f761360dccc0196324d36a8fba66818b4c8150c3ab4b19abad7a26f01ebeb2f7
+docfiles size=19
+ RELOC/doc/latex/captdef/README.md
  RELOC/doc/latex/captdef/captdef.pdf details="Package documentation"
  RELOC/doc/latex/captdef/captdef.tex
- RELOC/doc/latex/captdef/miscdoc.sty
 runfiles size=1
  RELOC/tex/latex/captdef/captdef.sty
 catalogue-also capt-of
 catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/captdef
 catalogue-contact-support https://github.com/LaTeX-Package-Repositories/captdef/issues
 catalogue-ctan /macros/latex/contrib/captdef
-catalogue-license lppl1.3
+catalogue-license lppl1.3c
 catalogue-topics caption tagged-pdf-incompatible
 
 name caption
@@ -74168,6 +74300,41 @@ catalogue-license lppl1.3c
 catalogue-topics listing synt-hlt use-luatex tagged-pdf-incompatible
 catalogue-version 2025C
 
+name codemwe
+category Package
+revision 80782
+shortdesc Typeset code with a result box and generate MWE files
+relocated 1
+longdesc This package typesets example code together with its compiled
+longdesc result and writes out a minimal, independently compilable
+longdesc source file for every example. It is written in expl3 and built
+longdesc on tcolorbox, fancyvrb and graphicx. The package was written
+longdesc for manuals, teaching material and package documentation, where
+longdesc the same snippet has to appear three times: as displayed code,
+longdesc as a result, and as a standalone file that the reader can
+longdesc compile. codemwe keeps these three representations in step from
+longdesc a single source.
+containersize 14892
+containerchecksum ed14eb38caa23f2b6c80b3eb2b35122363d87a8a854123c4e0793fd2d05a8af883fba5c8a6ba9263b4b01ba85de0231bca92891ee6afac91aee81e09659d5f1a
+doccontainersize 763508
+doccontainerchecksum c5d68206c5e59daaad874b7204329b7e128a51df4f8758f1fcccc7934237820605462a6ef034dbd941e80d817614067bd485874ef9b8632ffe3ae80388b82e90
+docfiles size=229
+ RELOC/doc/latex/codemwe/README.md details="Readme"
+ RELOC/doc/latex/codemwe/build.sh
+ RELOC/doc/latex/codemwe/chelloworld.png
+ RELOC/doc/latex/codemwe/codemwe.pdf details="Package documentation" language="zh,en"
+ RELOC/doc/latex/codemwe/codemwe.tex
+ RELOC/doc/latex/codemwe/csum.png
+ RELOC/doc/latex/codemwe/sine.pdf
+runfiles size=17
+ RELOC/tex/latex/codemwe/codemwe.sty
+catalogue-contact-bugs https://gitee.com/nwafu_nan/codemwe/issues
+catalogue-contact-repository https://gitee.com/nwafu_nan/codemwe
+catalogue-ctan /macros/latex/contrib/codemwe
+catalogue-license lppl1.3c
+catalogue-topics debug-supp listing verbatim
+catalogue-version 1.1.0
+
 name codepage
 category Package
 revision 51502
@@ -75474,7 +75641,7 @@ containerchecksum 8eed418d43e1f14d4bc867313bbfd5e2acaf6afbed4f7e376666db21e2bff2
 
 name collection-fontsextra
 category Collection
-revision 80510
+revision 80845
 shortdesc Additional fonts
 relocated 1
 depend aboensis
@@ -75567,6 +75734,7 @@ depend cmupint
 depend cochineal
 depend coelacanth
 depend collection-basic
+depend combgames-symbols
 depend comfortaa
 depend comicneue
 depend concmath-fonts
@@ -75862,8 +76030,8 @@ depend yfonts-t1
 depend yinit-otf
 depend ysabeau
 depend zlmtt
-containersize 2168
-containerchecksum 7c1c225bdc4fc7786d47f6c5aeb8923ee241a983caa690b908ed9050d8b2868c07bf2a63c1e02eb4a23d7d75da5254167bf6cc17cd971ecd1762ccb6b79ec2b2
+containersize 2176
+containerchecksum 0173fa5168f2cd57f810b299a317907f062dfb438edd313b2980aa0701b7c20dfe39be06032daf58a60a13dad79436fe4cf20c0994c308d2832f690609126a76
 
 name collection-fontsrecommended
 category Collection
@@ -75975,7 +76143,7 @@ containerchecksum 6844080cc444109ce84e69882a15f7738c6c6acabcc3373267bbd3ae55f4da
 
 name collection-games
 category Collection
-revision 80503
+revision 80840
 shortdesc Games typesetting
 relocated 1
 longdesc Setups for typesetting various games, including chess.
@@ -75988,6 +76156,7 @@ depend chessboard
 depend chessfss
 depend chinesechess
 depend collection-latex
+depend combgames-tikz
 depend crossword
 depend crosswrd
 depend customdice
@@ -76048,8 +76217,8 @@ depend weiqi
 depend wordle
 depend xq
 depend xskak
-containersize 720
-containerchecksum 21e4e32e113c93da6a81f33afa1859a7976bbc3ca501d2955c19716dabcee66a7bd7df70e20f7a731146633475664a986b2cbfc3f6a1318fa2a806090b07580b
+containersize 728
+containerchecksum 56570d5c46d3cef47106033a76b59b5566a41d65347e3b378530d4473bd1160e8732fe0246d4028069a89f03466c811deb1f186aa9acdc5f682dd3056b7745d8
 
 name collection-humanities
 category Collection
@@ -76175,7 +76344,7 @@ containerchecksum ae7cfea1016e6f86088c53311604db1e1a8036f0ed3ea188e39d72be710e97
 
 name collection-langchinese
 category Collection
-revision 80447
+revision 80846
 shortdesc Chinese
 relocated 1
 longdesc Support for Chinese; additional packages in collection-langcjk.
@@ -76200,6 +76369,7 @@ depend luatex-cn
 depend lxgw-fonts
 depend nanicolle
 depend njurepo
+depend openglyph
 depend pgfornament-han
 depend qyxf-book
 depend sjtutex
@@ -76217,8 +76387,8 @@ depend zhmetrics
 depend zhmetrics-uptex
 depend zhnumber
 depend zhspacing
-containersize 588
-containerchecksum 8fa50865878312646b5f82786b0516ea83e895b592ed835a57a396196d082a8ea1f5072b8e250c243a146a1c24d275c2d23e34be9c7d32820fdbc11b2b1dc458
+containersize 596
+containerchecksum 974d437d665186858d5409573725b93fd3576818837907de5a1952bf01fe359c89f74a58e546dc41fdf95b4aafc354620090cd24f456e2f214a0709b2ec8a0ab
 
 name collection-langcjk
 category Collection
@@ -76684,7 +76854,7 @@ containerchecksum 2984c8c78e2ed0bb020c3fe46fd936becb43a76092953a1319ccb6275bee8c
 
 name collection-langjapanese
 category Collection
-revision 76651
+revision 80832
 shortdesc Japanese
 relocated 1
 longdesc Support for Japanese; additional packages are in
@@ -76710,6 +76880,7 @@ depend convert-jpfonts
 depend endnotesj
 depend gckanbun
 depend gentombow
+depend gyoudori
 depend haranoaji
 depend haranoaji-extra
 depend ieejtran
@@ -76750,6 +76921,7 @@ depend pxjahyper
 depend pxjodel
 depend pxrubrica
 depend pxufont
+depend showhanmengrid
 depend texlive-ja
 depend uplatex
 depend uptex
@@ -76758,8 +76930,8 @@ depend uptex-fonts
 depend wadalab
 depend zxjafbfont
 depend zxjatype
-containersize 712
-containerchecksum c49849ed672ba528f4f23fcf835b08d530b4f888954976ce216c45e7d2561663b972621817fc21ba97c3190f283c60b12f4683fae4d7f71181d10de64a5ae389
+containersize 728
+containerchecksum b3ea4969b09f74e13d4a3318c5eebf9bf11795949458ddbfb0d18d9e1d52a8a7635fa98f6600370df5a1980535364ea8e5b254d39a8a444846e7d76bef243b2f
 
 name collection-langkorean
 category Collection
@@ -76786,7 +76958,7 @@ containerchecksum fee189ceeb4335c9c6744d33e5354efd54ef8c4c933da457c128cee50302bf
 
 name collection-langother
 category Collection
-revision 80200
+revision 80784
 shortdesc Other languages
 relocated 1
 longdesc Support for languages not otherwise listed, including Indic,
@@ -76812,6 +76984,7 @@ depend babel-vietnamese
 depend bangla
 depend bangtex
 depend bengali
+depend bookbangla
 depend burmese
 depend chhaya
 depend cjhebrew
@@ -76861,8 +77034,8 @@ depend velthuis
 depend vntex
 depend wnri
 depend wnri-latex
-containersize 836
-containerchecksum 59879be57a0b47e75dd30efc8caec39c2b06b8892167cd24c43d75841326e2d06dd1d9232a68d94c16d8afe697017bf7052f96dd618b085519b24c67d58f45a3
+containersize 840
+containerchecksum 170beefe1dd076b9cd52d975ad6361ae36b5d8aff2ed4e42e830ed6e9e144f67e1be90cc9480ac47b61e0e4a5265900ee892b88eb3b0b24a65b0cf74231a9086
 
 name collection-langpolish
 category Collection
@@ -77015,7 +77188,7 @@ containerchecksum 482a5cf6544793ba2874a0e8abddaf7a73610ee83fab556ee1f9769dacc7f6
 
 name collection-latexextra
 category Collection
-revision 80734
+revision 80824
 shortdesc LaTeX additional packages
 relocated 1
 longdesc A very large collection of add-on packages for LaTeX.
@@ -77269,6 +77442,7 @@ depend codebox
 depend codedescribe
 depend codedoc
 depend codehigh
+depend codemwe
 depend codepage
 depend codesection
 depend collcell
@@ -78466,6 +78640,7 @@ depend stubs
 depend studenthandouts
 depend styledcmd
 depend styleitems
+depend subcaptionlite
 depend subdepth
 depend subdocs
 depend subeqn
@@ -78517,6 +78692,7 @@ depend tamefloats
 depend tangocolors
 depend tasks
 depend tblr-extras
+depend tcbpagefootnote
 depend tcldoc
 depend tcolorbox
 depend tdclock
@@ -78540,6 +78716,7 @@ depend texpower
 depend texshade
 depend texsurgery
 depend textcsc
+depend textdate
 depend textfit
 depend textmerg
 depend textpos
@@ -78735,8 +78912,8 @@ depend zref-vario
 depend zugferd
 depend zwgetfdate
 depend zwpagelayout
-containersize 7976
-containerchecksum a64d6cc8c4f82fb7ee020f0d82c15a1dc6e288eb07a0ffc83446f1a51226dc239ae0c14fdd099083e9f6582cf5f47cf2ed909aa786982aff3af2a14a21d55c3a
+containersize 8004
+containerchecksum aeb1d175adbec1208343cd0078d2e1dd28609d9ca69c848fa23b8fcc5676c078c371fdcbd2de0a6d53d8ef5fc1357f869641f6849fb8a1f0df8f311340ce2dcc
 
 name collection-latexrecommended
 category Collection
@@ -78822,7 +78999,7 @@ containerchecksum bbf3c692073fe9e49afeae55d0943816d5d538c4a68500423eed0152bde5e5
 
 name collection-luatex
 category Collection
-revision 80681
+revision 80781
 shortdesc LuaTeX packages
 relocated 1
 longdesc Packages for LuaTeX, a TeX engine using Lua as an embedded
@@ -78848,6 +79025,7 @@ depend countwords
 depend cstypo
 depend ctablestack
 depend dichromacy
+depend docref
 depend ekdosis
 depend emoji
 depend emojicite
@@ -78965,12 +79143,12 @@ depend typewriter
 depend unibidi-lua
 depend uninormalize
 depend yamlvars
-containersize 1204
-containerchecksum 1e87d0f7b991d8936f98c4270b6d428812d9837c5a3ae577582d0e39fe432f7db02ee815193316f886c267fd6d3b488ec8997d66c6684444d21cafb18ec8896f
+containersize 1212
+containerchecksum 0594f77a0f89127bb315628796c3ef24e37b291b976ae4c52ea11c3198a75f5090915e3062d49f1d619583b278edf918f8888cceab6a7cfeb7e8511f6ba3d195
 
 name collection-mathscience
 category Collection
-revision 80736
+revision 80855
 shortdesc Mathematics, natural sciences, computer science packages
 relocated 1
 depend 12many
@@ -78980,6 +79158,7 @@ depend alg
 depend algobox
 depend algorithm2e
 depend algorithmicx
+depend algorithmlite
 depend algorithms
 depend algpseudocodex
 depend algxpar
@@ -79001,6 +79180,7 @@ depend bitpattern
 depend bodeplot
 depend bohr
 depend boldtensors
+depend boolalg
 depend bosisio
 depend bpchem
 depend bracealign
@@ -79148,6 +79328,7 @@ depend lstbayes
 depend lua-regression
 depend luacoolprop
 depend luanumint
+depend matchedsplit
 depend math-operator
 depend math-shorthandz
 depend mathcommand
@@ -79315,8 +79496,8 @@ depend yquant
 depend ytableau
 depend zeckendorf
 depend zx-calculus
-containersize 2164
-containerchecksum a2cbf5c9c593145ce848abfb35dc20d8a9be10fcb984f0ebda775ca908cb36f5d99902ea01e85264a82ec4d6c9adb110b4ceb2719c132ff54b5185837421acd4
+containersize 2176
+containerchecksum aa90b7a0b2b338d164339225b3924c1c69210a8e17a7199b77d49699e37642bed81f4103ac4416fc1328e29c15ba9d9081669fc7fd6d1f0f682a2b14f9483f32
 
 name collection-metapost
 category Collection
@@ -79430,7 +79611,7 @@ containerchecksum d9acc852d934360f8d5c8a2cfa08a9809b971f20fd6c7bb7fc5aca5318e86c
 
 name collection-pictures
 category Collection
-revision 80727
+revision 80812
 shortdesc Graphics, pictures, diagrams
 relocated 1
 longdesc Including TikZ, pict, etc., but MetaPost and PStricks are
@@ -79478,6 +79659,7 @@ depend dental-palmer
 depend diagmac2
 depend ditaa
 depend doc-pictex
+depend doodle-icons
 depend dot2texi
 depend dottex
 depend dpcircling
@@ -79740,8 +79922,8 @@ depend worldflags
 depend xistercian
 depend xpicture
 depend xypic
-containersize 1944
-containerchecksum ce4b04c82b5677743539389b0c4a5bef31258797269678cb87a5d9ad0118eab5d50575eb3539ad5aa7e333b92bc62c268975edca42d128f0dc59b508e85531d6
+containersize 1948
+containerchecksum 2e899c3696d95944f4984cb2b76e081be7ad3f41d4c049ab75e0665d2593ddf331dee6e593fd54fc2b400f0f13d1710fd2242698ee38756b193265f3ab2accb5
 
 name collection-plaingeneric
 category Collection
@@ -80021,7 +80203,7 @@ containerchecksum 9f2bb87bbe9d464ced2763a8a9e27d4812e61828ff7a8a0ddfa113b2adc413
 
 name collection-publishers
 category Collection
-revision 80636
+revision 80857
 shortdesc Publisher styles, theses, etc.
 relocated 1
 depend aastex
@@ -80172,6 +80354,7 @@ depend jourrr
 depend jouthesis
 depend jpsj
 depend jsonresume
+depend juniamaroc-beamer
 depend jwjournal
 depend jyu-chem-thesis
 depend kdgdocs
@@ -80258,6 +80441,7 @@ depend retosmatematicos
 depend revtex
 depend revtex4
 depend revtex4-1
+depend rhode-island-thesis
 depend rub-kunstgeschichte
 depend rutitlepage
 depend rwth-ci
@@ -80298,6 +80482,7 @@ depend suftesi
 depend sugconf
 depend sysuthesis
 depend tabriz-thesis
+depend tamu-talk
 depend technion-thesis-template
 depend texilikechaps
 depend texilikecover
@@ -80338,6 +80523,7 @@ depend udes-genie-these
 depend udiss
 depend uestcthesis
 depend ufrgscca
+depend ugentdocs
 depend uhhassignment
 depend uiucredborder
 depend uiucthesis
@@ -80382,8 +80568,8 @@ depend yathesis
 depend yazd-thesis
 depend yb-book
 depend york-thesis
-containersize 2124
-containerchecksum 0f3e0c0d24420fb03a4d47062619a70a9e17aa3890be6b29d7399b27ca5b7fcd06be9d14ed692ce60843f3a8a24842976c14c551e9b414385c3f7ed1521c7d4a
+containersize 2148
+containerchecksum 88f19b1e85ce9c3934bf361467129820ecfacfae59534f2aa9769dd218ebe48877e673973273bb3d3d04c2abc01dfb8faf637b2e04f5495baf332066db49ff88
 
 name collection-texworks
 category Collection
@@ -81036,6 +81222,69 @@ catalogue-ctan /macros/latex/contrib/combelow
 catalogue-license lppl1.3
 catalogue-topics fake-glyph
 catalogue-version 0.99f
+
+name combgames-symbols
+category Package
+revision 80845
+shortdesc Symbols and notation for combinatorial game theory
+relocated 1
+longdesc This package provides mathematical symbols and
+longdesc braces-and-slashes notation for combinatorial game theory.
+longdesc Adapted from combgames, it replaces the original bitmap symbols
+longdesc with vector fonts in Type 1 and OpenType formats. It supports
+longdesc pdfLaTeX, XeLaTeX and LuaLaTeX. The package can be used
+longdesc independently of the companion board-drawing package,
+longdesc combgames-tikz.
+execute addMap combgames-symbols.map
+containersize 22120
+containerchecksum 3ec9ad58cab0fe20f1b5bbb0ebbc76ec460b0cc1353e09dc9aab4f215c0fe79af131e5eeab52ab850300f75d39e5ebc7a69222521cdf10de00d5af07edad1744
+doccontainersize 260084
+doccontainerchecksum eaac84c04e9643f466a0c31b1a5d3e4d28240e0b269837e291a9d19975ee40a583a0ffb8549d847af864a314a441362d0bcbc82d98f8cdf970c4c97220f20bbf
+docfiles size=70
+ RELOC/doc/fonts/combgames-symbols/README.md details="Readme"
+ RELOC/doc/fonts/combgames-symbols/combgames-symbols-build.py
+ RELOC/doc/fonts/combgames-symbols/combgames-symbols-doc.pdf details="Package documentation"
+ RELOC/doc/fonts/combgames-symbols/combgames-symbols-doc.tex
+runfiles size=17
+ RELOC/fonts/enc/dvips/combgames-symbols/combgames-symbols.enc
+ RELOC/fonts/map/dvips/combgames-symbols/combgames-symbols.map
+ RELOC/fonts/opentype/public/combgames-symbols/combgames-symbols.otf
+ RELOC/fonts/tfm/public/combgames-symbols/combgames-symbols.tfm
+ RELOC/fonts/type1/public/combgames-symbols/combgames-symbols.pfb
+ RELOC/metapost/combgames-symbols/combgames-symbols.mp
+ RELOC/tex/latex/combgames-symbols/combgames-symbols.sty
+catalogue-ctan /fonts/combgames-symbols
+catalogue-license lppl1.3c
+catalogue-topics games maths
+catalogue-version 1.0
+
+name combgames-tikz
+category Package
+revision 80840
+shortdesc TikZ boards for combinatorial games
+relocated 1
+longdesc This package draws combinatorial game boards using TikZ. It
+longdesc includes Domineering, Clobber, Amazons, Hackenbush, Hex, Toads
+longdesc and Frogs, Phutball and other games, with color variants and
+longdesc facilities for defining additional board tokens. It replaces
+longdesc the PostScript board drawings of combgames and adds further
+longdesc games. It requires and automatically loads the companion
+longdesc package combgames-symbols. The manual provides illustrated
+longdesc examples and token tables.
+containersize 15780
+containerchecksum d126e85cc6829ccaa4ffde5550387f84eb744a6739f13c31e8169e5786a2dde052612d7f445af5be1f41d1290ee2b8770e787f069e34c8c403dd606d7c880e97
+doccontainersize 440076
+doccontainerchecksum 5d8f6d7b96762a80dd40d8bb54b76e20fa652535bbacc29e5206d79a438a78c8e9a5f4726140f424a97a9b4eb89387cae3eb90113ab40f63db6accb084e995f1
+docfiles size=117
+ RELOC/doc/latex/combgames-tikz/README.md details="Readme"
+ RELOC/doc/latex/combgames-tikz/combgames-tikz-doc.pdf details="Package documentation"
+ RELOC/doc/latex/combgames-tikz/combgames-tikz-doc.tex
+runfiles size=17
+ RELOC/tex/latex/combgames-tikz/combgames-tikz.sty
+catalogue-ctan /macros/latex/contrib/combgames-tikz
+catalogue-license lppl1.3c
+catalogue-topics games maths
+catalogue-version 1.0
 
 name combine
 category Package
@@ -87770,7 +88019,7 @@ catalogue-topics cyrillic numbers
 
 name context-filter
 category ConTeXt
-revision 62070
+revision 80843
 shortdesc Run external programs on the contents of a start-stop environment
 relocated 1
 longdesc The filter module provides a simple interface to run external
@@ -87781,11 +88030,11 @@ longdesc output should be read back, and to choose the name of the
 longdesc temporary files that are created. The module is compatible with
 longdesc both MkII and MkIV.
 depend context
-containersize 6872
-containerchecksum c2534b543fd5444776a054f43fafa393040af5bcb67f869d61d200a4a1d0355f1d81c64adab683d15a6be806a21dfc9ad661995bbe51da3c0bfb841ade4b077f
-doccontainersize 11080
-doccontainerchecksum a9c2ea88b0e2514840c368ea7686894dda4b86c93ec8f34989238ffdf5704f1c1898d0ee5e0724035314d2d37803f1a1afdd445dd802a94f5ff4223148f81767
-docfiles size=10
+containersize 6888
+containerchecksum 4d951528ea266fcbf4cb48ff6a5cd8e5e7b944d54e471d8f16f0c0285d351e0fe7bbefae15c9647368d1a8520770f6290733db011ba721b0ed461234c8b77f1c
+doccontainersize 11580
+doccontainerchecksum d031b142ebedc0d72a9aa556f15cf575b143b4fef8de9d02013c0ca84b0320df3d658b842e6805dff82431450ed942bf084b7165b463fef6d5083553483def94
+docfiles size=11
  RELOC/doc/context/third/filter/VERSION
  RELOC/doc/context/third/filter/filter.txt details="Package notes"
 runfiles size=18
@@ -89662,22 +89911,19 @@ catalogue-version 3.0.0
 
 name contract
 category Package
-revision 78970
+revision 80827
 shortdesc Typeset formalized legal documents such as contracts, statutes, etc.
 relocated 1
-longdesc This package enables the typesetting of formalized legal
-longdesc documents such as contracts, statutes etc. It will be the
-longdesc successor to the scrjura package. Like the latter, "contract"
-longdesc allows the typographically appealing typesetting of many
-longdesc different legal texts. The typesetting of contracts according
-longdesc to German conventions is supported "out of the box". In
-longdesc addition, the package supports the definition of custom
-longdesc environments in order to typeset contracts and legal texts
-longdesc according to Anglo-American specifications, for example.
-containersize 6980
-containerchecksum 9a86dc3a34db6509a24c67c1516eae02f2f2cb00ae388deb85bb84275f1df5825dda94f60b2835723a6c12ae3c7b7f94192d9f6a96575f9e6a70c2f62c343764
-doccontainersize 806684
-doccontainerchecksum c3ecd9da608fed33e5e2a1056cc9e158cc1e68c2af483c0d9ab928fb4abc3dd7007457b7d4bad03de3180189fa69eae319c5cdbcf730a37c2484277cfcd9f744
+longdesc The package is a KOMA-Script spin-off replacing the KOMA-Script
+longdesc package scrjura. It provides environments for contracts, laws,
+longdesc acts or other legal puposes. It features support for automatic
+longdesc numbering of paragraphs, and semi-automatic numbering of
+longdesc sentences. Support is offered for both German and English
+longdesc texts.
+containersize 6944
+containerchecksum 06395da4375845813dac17a26df71cddfeaa7c4b25980baed6a103d0d88eafcd358f722b7ce8703db0e2a6d134d7708a18ae384d26535cf2f884ec52844555ad
+doccontainersize 807892
+doccontainerchecksum eefb196ec1b5cb04bbc6bd0f445e3007dfad1014ad44eba4fe2cfcd3e68ad4acc64e8f3f4c6076150c3d97243e9dc1a93de3c8fa76ecaeec35052989f3f65763
 docfiles size=223
  RELOC/doc/latex/contract/LICENSE.md
  RELOC/doc/latex/contract/MANIFEST.md
@@ -89687,18 +89933,19 @@ docfiles size=223
  RELOC/doc/latex/contract/contract-example-en.pdf details="Example of use (English)"
  RELOC/doc/latex/contract/contract-example-en.tex
  RELOC/doc/latex/contract/contract.pdf details="Package documentation"
-srccontainersize 28612
-srccontainerchecksum 5641316ade6720395b8e449f11461d616ce0301f6f1bee5778a5b6e912c5bd95ad468bdf283888acc2a1e01a2c36b701dec76248608657da18f0130c5f8bd475
+srccontainersize 28696
+srccontainerchecksum a5aa4d44d472090a2c9a48489fff063a4f1e27fd2cc23ec61fc19205e4062daae6f7af4c12f51af89d50dee14ba6610372c9a5f469a3002230f0beb7f496a0b7
 srcfiles size=34
  RELOC/source/latex/contract/contract.dtx
 runfiles size=9
  RELOC/tex/latex/contract/contract.sty
+catalogue-contact-bugs https://codeberg.org/komascript/latex-contract/issues
 catalogue-contact-home https://codeberg.org/komascript/latex-contract
 catalogue-contact-repository https://codeberg.org/komascript/latex-contract.git
 catalogue-ctan /macros/latex/contrib/contract
 catalogue-license lppl1.3c
 catalogue-topics legal
-catalogue-version 0.92
+catalogue-version 0.93
 
 name conv-xkv
 category Package
@@ -91941,15 +92188,15 @@ catalogue-version 1.1
 
 name couleurs-fr
 category Package
-revision 78637
+revision 80826
 shortdesc French version of colour definitions from xcolor
 relocated 1
 longdesc This package provides colours with French names, based on
 longdesc xcolor (svgnames, dvipsnames) and xkcd.
-containersize 11404
-containerchecksum c00a38da494c78c9fe636f8f811c3522f9b9403fa83b9fd4be19df5afd30562e9920a69a042e49f3a377be217eb864ce6928bdc1014f0b4bd8fe43807caa4c81
-doccontainersize 264644
-doccontainerchecksum 633e2d782b462669530dd462dda3694e8cecc770e4c388ca34c7678688ceb2be6f8feaad22c030c51836c6dddc9a2d1cb22a6439ebb538495d037848f4e06bab
+containersize 11668
+containerchecksum 419d19904aabe67ff3ee334bdf83adeee9d2c7a2bd6ec34244205f04fe1a2065e005503c18748151cde6428aae45d9c15c0a3bfe6da2f8bf53de590cab9a5e02
+doccontainersize 265424
+doccontainerchecksum 1841d5fd43b5dc6b0aec793ea7472fcd7f8c88f30660619fad184c66bd925427ce651ae9f2206269fa6918bebd804fc3eb39462eb1f0eb18aa51e87638ed469f
 docfiles size=89
  RELOC/doc/latex/couleurs-fr/README.md details="Readme"
  RELOC/doc/latex/couleurs-fr/couleurs-fr-doc-prefix.pdf
@@ -91963,7 +92210,7 @@ catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/ma
 catalogue-ctan /macros/latex/contrib/couleurs-fr
 catalogue-license lppl1.3c
 catalogue-topics colour french
-catalogue-version 0.1.5
+catalogue-version 0.1.6
 
 name count1to
 category Package
@@ -100499,7 +100746,7 @@ catalogue-version 0.6
 
 name datemultical
 category Package
-revision 80296
+revision 80801
 shortdesc Named dates, calendar conversion, and date formatting for LaTeX
 relocated 1
 longdesc This package provides a unified interface for defining,
@@ -100517,16 +100764,16 @@ longdesc calendar-specific month and weekday names, week information,
 longdesc and leap-year, leap-month, and leap-day fields. Persian
 longdesc localization and high-level Persian date and weekday wrappers
 longdesc are also provided.
-containersize 9732
-containerchecksum 59e3611019414834bff329ab8f9838ca06c2a2c5d3d5cef25de5c5f303f1ccd24e39ae99d64e461ac9a3c4942b9e745cf869c08f7844c5ffa552100c35200a25
-doccontainersize 163892
-doccontainerchecksum 9c9c290adc247202d15a19768689aedbcc9fca828b109b5a340c825281f777ad3e4cf152cd99b7bbfbc1fb8933a3c780bd85e545141263e6a8491473ae2f6af4
-docfiles size=50
+containersize 9848
+containerchecksum 80e2caa010d4994de3f843be73a78ebfed1572faa2af6469fdf4922a629da16fbda1092f4d8078e89d9c750b7543ae27a2baf1fd0e9d1d8b6105a873ee42740e
+doccontainersize 190384
+doccontainerchecksum e50bedcd9a06865697044c338d77c6fec0cdef58805cbb11fdc1a1222314dca617c5631898dd2d1c4ab968510dc1ce7be9f72ab81fb97ae4e0646064fd0a871b
+docfiles size=57
  RELOC/doc/latex/datemultical/LICENSE
  RELOC/doc/latex/datemultical/README.md details="Readme"
  RELOC/doc/latex/datemultical/datemultical.pdf details="Package documentation"
  RELOC/doc/latex/datemultical/datemultical.tex
-runfiles size=18
+runfiles size=17
  RELOC/tex/latex/datemultical/datemultical-base.def
  RELOC/tex/latex/datemultical/datemultical-captions.def
  RELOC/tex/latex/datemultical/datemultical-engine-gr.def
@@ -100543,7 +100790,7 @@ catalogue-contact-repository https://github.com/gambi-shah/datemultical
 catalogue-ctan /macros/latex/contrib/datemultical
 catalogue-license lppl1.3c
 catalogue-topics calendar date-time persian use-luatex
-catalogue-version 0.1.0
+catalogue-version 0.2.0
 
 name datenumber
 category Package
@@ -105890,6 +106137,34 @@ catalogue-license lppl1.3
 catalogue-topics subdocs tagged-pdf
 catalogue-version 1.4
 
+name docref
+category Package
+revision 80809
+shortdesc Cross-references to labels in external LaTeX documentation
+relocated 1
+longdesc This package provides cross-references to labels in locally
+longdesc available LaTeX package documentation, retrieving reference
+longdesc numbers, titles, and page numbers. It supports links to PDF
+longdesc manuals via hyperref and requires LuaLaTeX.
+containersize 11128
+containerchecksum 55357966b72d447f98a2d17733f5a7d5cc707bb9b20af9c057ea6b22e556bcd0fcf814dddfd4c9ef1bdea130d53724b8467106b7a0ce77443bb14973593c6592
+doccontainersize 51716
+doccontainerchecksum f6351bda8efda938ce254888ed0c55107d71b2a29c9fefb5b39b51087048bea62db042791faf5e871dd1002064075f7a727bdd84e2ecfee31e40ea6ae3750308
+docfiles size=20
+ RELOC/doc/lualatex/docref/LICENSE
+ RELOC/doc/lualatex/docref/README.md details="Readme"
+ RELOC/doc/lualatex/docref/docref.pdf details="Package documentation"
+ RELOC/doc/lualatex/docref/docref.tex
+runfiles size=10
+ RELOC/tex/lualatex/docref/docref.lua
+ RELOC/tex/lualatex/docref/docref.sty
+catalogue-contact-bugs https://github.com/gambi-shah/docref/issues
+catalogue-contact-repository https://github.com/gambi-shah/docref
+catalogue-ctan /macros/luatex/latex/docref
+catalogue-license lppl1.3c
+catalogue-topics label-ref luatex
+catalogue-version 0.2
+
 name docshots
 category Package
 revision 80645
@@ -106887,6 +107162,33 @@ catalogue-ctan /fonts/domitian
 catalogue-license lppl1.3c ofl other-free
 catalogue-topics font font-serif font-otf font-type1 tagged-pdf
 catalogue-version 1.0.1
+
+name doodle-icons
+category Package
+revision 80812
+shortdesc Use doodle-icons through LaTeX commands
+relocated 1
+longdesc This package provides commands like twemojis that allow using
+longdesc doodle icons through LaTeX commands. The implementation relies
+longdesc on images (PDF from SVG) and should work on every installation.
+containersize 864900
+containerchecksum c8d47f0ac4c027d2e25aa75e7634412b69fb04ac23e185797d678f4a1ab2172400c7d1fc3151298daa4cc1b0066ae18de168723cf4403bb14f419595332f7ec1
+doccontainersize 956936
+doccontainerchecksum faa76b8a3399802366911a2e5229245357b95ccd9055ed9f76134104169f86ec6da387e6aac7585130049f48d5ffc66aa8e58b63bd19db3bc3a74a21ce3826e1
+docfiles size=282
+ RELOC/doc/latex/doodle-icons/README.md details="Readme"
+ RELOC/doc/latex/doodle-icons/doodle-icons-doc.pdf details="Package documentation"
+ RELOC/doc/latex/doodle-icons/doodle-icons-doc.tex
+ RELOC/doc/latex/doodle-icons/doodleiconsbindings.tex
+runfiles size=253
+ RELOC/tex/latex/doodle-icons/doodle-icons.sty
+ RELOC/tex/latex/doodle-icons/doodleicons-all.pdf
+catalogue-contact-bugs https://github.com/cpierquet/latex-packages/issues
+catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/main/doodle-icons
+catalogue-ctan /macros/latex/contrib/doodle-icons
+catalogue-license cc0 lppl1.3c
+catalogue-topics graphics logo text-symbol
+catalogue-version 0.1a
 
 name dosepsbin
 category Package
@@ -142131,24 +142433,24 @@ catalogue-version 0.7.4
 
 name fontscale
 category Package
-revision 77912
+revision 80839
 shortdesc A flexible interface for setting font sizes
 relocated 1
 longdesc This package provides an interface for selecting (arbitrary)
 longdesc font sizes and associated values.
-containersize 5372
-containerchecksum 9ee9c67807a2f2b51cbea7efe1c838ebf04c0768159729e6860d073086281ae14fd101fc45a8025b1e199ee1b32ece1358104c18edabb57fa88034cf6b9259d6
-doccontainersize 174396
-doccontainerchecksum 2f04c186a4c6ddd9ee9861f5405299f6cf7c7afc7ef118fae970593d1399b4a4d1d368da3451326f471c829d6d2780c44be80833f32af04e5b397091ebd42915
-docfiles size=66
+containersize 5420
+containerchecksum c99f0cff0be6f3fa699fae994390045c71180fda369bab1d9587a97280ab78542f896d0ac38f9443eab355675955eedfd11c1ccfcea710220a2e06879a52f4dd
+doccontainersize 223252
+doccontainerchecksum c812998c6f051ba5960055f9005fac64c37db82b594a2270434d8b03495ec8a6a66e7c1761dad53098f45d91de8c97bee66f8f6c9ef9c3ffeb895701e575ff69
+docfiles size=83
  RELOC/doc/latex/fontscale/CHANGELOG.md
  RELOC/doc/latex/fontscale/LICENSE
  RELOC/doc/latex/fontscale/README.txt details="Readme"
  RELOC/doc/latex/fontscale/beerydoc.cls
- RELOC/doc/latex/fontscale/fontscale-classic-list.tex
- RELOC/doc/latex/fontscale/fontscale-syntax.tex
- RELOC/doc/latex/fontscale/fontscale-table-classic.tex
- RELOC/doc/latex/fontscale/fontscale-table-musical.tex
+ RELOC/doc/latex/fontscale/fontscale-input-classic-list.tex
+ RELOC/doc/latex/fontscale/fontscale-input-classic.tex
+ RELOC/doc/latex/fontscale/fontscale-input-musical.tex
+ RELOC/doc/latex/fontscale/fontscale-input-syntax.tex
  RELOC/doc/latex/fontscale/fontscale.pdf details="Package documentation"
  RELOC/doc/latex/fontscale/fontscale.tex
 runfiles size=8
@@ -142158,7 +142460,7 @@ catalogue-contact-repository https://github.com/beeryoliver/fontscale
 catalogue-ctan /macros/latex/contrib/fontscale
 catalogue-license lppl1.3c
 catalogue-topics font-sel
-catalogue-version 5.0.0
+catalogue-version 5.0.1
 
 name fontscripts
 category Package
@@ -153642,7 +153944,7 @@ catalogue-version 1.4
 
 name gradbars
 category Package
-revision 80557
+revision 80797
 shortdesc Compact data graphics for LaTeX tables and inline text
 relocated 1
 longdesc gradbars is a TikZ-based LaTeX package for drawing compact data
@@ -153657,43 +153959,198 @@ longdesc XeLaTeX, and LuaLaTeX. English and Chinese PDF manuals include
 longdesc examples with rendered output and source code. The Chinese
 longdesc manual uses XeLaTeX; the English manual can be compiled with
 longdesc pdfLaTeX.
-containersize 23608
-containerchecksum 2a6a5b3a3868a0644906254ec8a68af8212393729c6d655735da0114e75d7cbd19d51edc0f6d7f2285ef053fb92340bca780be9b4c77aedc6123039e420f6fb8
-doccontainersize 1750396
-doccontainerchecksum aae5690accb684f1b0c9c2dfad01ac77a732474e3ad282a4bba19cc3dedfebc0f078706f412e1e7e004b0f706dede9bfd1c5dd125ad380311821f6f6b0416e66
-docfiles size=522
+containersize 56384
+containerchecksum 97c364175fcb9bbd5e9e78186e6d8ec9159ea2b00212f2bed40d90e14801797577810d4e70b90e7d78beb6928e2d2dc16a544b954aa567b0762d279119e6dd62
+doccontainersize 2789012
+doccontainerchecksum 4458254d09592db8c4639ddf9f8703f88281b877614cf45b17af134d21601fc22b36e6d1189b14f4a8288578765065c11ede8c845512fc68b379489b908a8862
+docfiles size=1061
  RELOC/doc/latex/gradbars/CHANGELOG.md
+ RELOC/doc/latex/gradbars/Chapter/README.md details="Readme (English)"
+ RELOC/doc/latex/gradbars/Chapter/en/README.md details="Readme (English)"
+ RELOC/doc/latex/gradbars/Chapter/en/change-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/code-style-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/column-scales-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/compare-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/cover-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/csv-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/distribution-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/example-models-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/extensions-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/faq-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/groups-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/headers-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/heat-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/install-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/labels-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/layouts-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/legends-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/libraries-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/longtable-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/overflow-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/quality-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/reference-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/references-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/reports-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/research-numbers-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/selection-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/signed-bars-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/spark-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/stack-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/summaries-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/table-alignment-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/table-definitions-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/table-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/table-graphics-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/table-reference-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/table-themes-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/table-width-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/tabularray-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/themes-en.tex
+ RELOC/doc/latex/gradbars/Chapter/en/values-en.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/README.md details="Readme (English)"
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/categories-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/change-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/code-style-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/collision-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/column-scales-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/compare-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/conditional-colors-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/cover-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/csv-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/distribution-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/dumbbell-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/example-comparisons-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/example-contributions-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/example-models-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/example-overview-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/example-palettes-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/example-trends-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/extensions-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/faq-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/groups-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/headers-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/heat-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/install-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/labels-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/layouts-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/legends-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/libraries-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/longtable-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/number-format-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/overflow-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/patterns-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/presets-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/quality-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/reference-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/references-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/reports-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/research-numbers-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/rounded-targets-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/selection-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/signed-bars-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/spark-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/stack-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/stack-legend-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/styles-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/summaries-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/table-alignment-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/table-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/table-definitions-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/table-graphics-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/table-themes-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/table-width-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/tabularray-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/themes-cn.tex
+ RELOC/doc/latex/gradbars/Chapter/zh-cn/values-cn.tex
  RELOC/doc/latex/gradbars/LICENSE
  RELOC/doc/latex/gradbars/README.md details="Readme (English)"
  RELOC/doc/latex/gradbars/README.zh-CN.md details="Readme (Chinese)"
- RELOC/doc/latex/gradbars/docs/api.md
- RELOC/doc/latex/gradbars/docs/data/results.csv
- RELOC/doc/latex/gradbars/docs/gradbars-manual-en.tex
- RELOC/doc/latex/gradbars/docs/gradbars-manual.tex
- RELOC/doc/latex/gradbars/docs/images/dataset-profile.png
- RELOC/doc/latex/gradbars/docs/images/model-comparison.png
- RELOC/doc/latex/gradbars/docs/images/overview-v0.0.3.svg
- RELOC/doc/latex/gradbars/docs/images/theme-gallery.png
- RELOC/doc/latex/gradbars/docs/layouts/grayscale.pdf
- RELOC/doc/latex/gradbars/docs/layouts/grayscale.tex
- RELOC/doc/latex/gradbars/docs/layouts/longtable.pdf
- RELOC/doc/latex/gradbars/docs/layouts/longtable.tex
- RELOC/doc/latex/gradbars/docs/layouts/slides.pdf
- RELOC/doc/latex/gradbars/docs/layouts/slides.tex
- RELOC/doc/latex/gradbars/docs/layouts/twocolumn.pdf
- RELOC/doc/latex/gradbars/docs/layouts/twocolumn.tex
- RELOC/doc/latex/gradbars/docs/releases/v0.0.3.md
+ RELOC/doc/latex/gradbars/api.md
+ RELOC/doc/latex/gradbars/build.lua
+ RELOC/doc/latex/gradbars/data/experiments.csv
+ RELOC/doc/latex/gradbars/data/families.csv
+ RELOC/doc/latex/gradbars/data/magnitudes.csv
+ RELOC/doc/latex/gradbars/data/precision-time.csv
+ RELOC/doc/latex/gradbars/data/results.csv
+ RELOC/doc/latex/gradbars/examples/domain-reports.tex
+ RELOC/doc/latex/gradbars/examples/precision-recall.tex
  RELOC/doc/latex/gradbars/gradbars-manual-en.pdf details="User manual (English)"
+ RELOC/doc/latex/gradbars/gradbars-manual-en.tex
  RELOC/doc/latex/gradbars/gradbars-manual.pdf details="User manual (Chinese)" language="zh"
- RELOC/doc/latex/gradbars/scripts/build_manual.py
-runfiles size=35
+ RELOC/doc/latex/gradbars/gradbars-manual.tex
+ RELOC/doc/latex/gradbars/gradbars-source.pdf
+ RELOC/doc/latex/gradbars/gradbars.dtx
+ RELOC/doc/latex/gradbars/gradbars.ins
+ RELOC/doc/latex/gradbars/images/dataset-profile.png
+ RELOC/doc/latex/gradbars/images/model-comparison.png
+ RELOC/doc/latex/gradbars/images/overview-v0.0.3.svg
+ RELOC/doc/latex/gradbars/images/overview-v0.1.0.svg
+ RELOC/doc/latex/gradbars/images/overview-v1.0.0.svg
+ RELOC/doc/latex/gradbars/images/overview-v1.1.0.svg
+ RELOC/doc/latex/gradbars/images/overview.tex
+ RELOC/doc/latex/gradbars/images/readme-distributions.png
+ RELOC/doc/latex/gradbars/images/readme-gallery.tex
+ RELOC/doc/latex/gradbars/images/readme-graphics.png
+ RELOC/doc/latex/gradbars/images/readme-palettes.png
+ RELOC/doc/latex/gradbars/images/readme-reports.png
+ RELOC/doc/latex/gradbars/images/theme-gallery.png
+ RELOC/doc/latex/gradbars/layouts/grayscale.pdf
+ RELOC/doc/latex/gradbars/layouts/grayscale.tex
+ RELOC/doc/latex/gradbars/layouts/longtable.pdf
+ RELOC/doc/latex/gradbars/layouts/longtable.tex
+ RELOC/doc/latex/gradbars/layouts/slides.pdf
+ RELOC/doc/latex/gradbars/layouts/slides.tex
+ RELOC/doc/latex/gradbars/layouts/twocolumn.pdf
+ RELOC/doc/latex/gradbars/layouts/twocolumn.tex
+ RELOC/doc/latex/gradbars/libraries/gradbars-contrib-demo.sty
+ RELOC/doc/latex/gradbars/libraries/starter/README.md details="Readme (English)"
+ RELOC/doc/latex/gradbars/libraries/starter/check-starter.lua
+ RELOC/doc/latex/gradbars/libraries/starter/example.tex
+ RELOC/doc/latex/gradbars/libraries/starter/gradbars-contrib-starter.sty
+ RELOC/doc/latex/gradbars/releases/v0.0.3.md
+ RELOC/doc/latex/gradbars/source-guide.tex
+runfiles size=98
+ RELOC/scripts/gradbars/accessible.lua
+ RELOC/scripts/gradbars/check.lua
+ RELOC/scripts/gradbars/install-check.lua
+ RELOC/scripts/gradbars/pdf-check.lua
+ RELOC/scripts/gradbars/pdf-structure.lua
+ RELOC/scripts/gradbars/release.lua
+ RELOC/scripts/gradbars/source.lua
+ RELOC/scripts/gradbars/unpack.lua
+ RELOC/tex/latex/gradbars/README.md
+ RELOC/tex/latex/gradbars/gradbars-accessible.sty
+ RELOC/tex/latex/gradbars/gradbars-api.sty
+ RELOC/tex/latex/gradbars/gradbars-backend.sty
+ RELOC/tex/latex/gradbars/gradbars-core.sty
+ RELOC/tex/latex/gradbars/gradbars-keys.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-csv.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-distribution.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-heat.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-legend.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-reports.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-spark.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-stack.sty
+ RELOC/tex/latex/gradbars/gradbars-lib-table.sty
+ RELOC/tex/latex/gradbars/gradbars-model.sty
+ RELOC/tex/latex/gradbars/gradbars-numbers.sty
+ RELOC/tex/latex/gradbars/gradbars-render-tikz.sty
+ RELOC/tex/latex/gradbars/gradbars-table-data.sty
+ RELOC/tex/latex/gradbars/gradbars-table-layout.sty
+ RELOC/tex/latex/gradbars/gradbars-tagging.sty
+ RELOC/tex/latex/gradbars/gradbars-tblr-tagging.sty
  RELOC/tex/latex/gradbars/gradbars.sty
+ RELOC/tex/latex/gradbars/tblrlibgradbars.sty
+catalogue-contact-announce https://github.com/Tape5try/gradbars/releases
 catalogue-contact-bugs https://github.com/Tape5try/gradbars/issues
+catalogue-contact-development https://github.com/Tape5try/gradbars/pulls
+catalogue-contact-home https://github.com/Tape5try/gradbars/wiki
 catalogue-contact-repository https://github.com/Tape5try/gradbars
+catalogue-contact-support https://github.com/Tape5try/gradbars/issues
 catalogue-ctan /graphics/pgf/contrib/gradbars
-catalogue-license mit
+catalogue-license mit cc-by-4
 catalogue-topics diagram pgf-tikz
-catalogue-version 0.0.4
+catalogue-version 1.1.0
 
 name gradient-text
 category Package
@@ -155941,6 +156398,47 @@ docfiles size=82
  RELOC/doc/support/gustprog/plmindex.zip
  RELOC/doc/support/gustprog/porzadki.pl
  RELOC/doc/support/gustprog/slim.zip
+
+name gyoudori
+category Package
+revision 80847
+shortdesc Gyou-dori (line-based placement) of headings, display math and floats for Japanese typesetting
+relocated 1
+longdesc The package implements gyou-dori (line-based placement), a
+longdesc layout used in Japanese typesetting when the lines of the main
+longdesc text are to stay on a line grid: an element whose size differs
+longdesc from the main text is placed in an area of a whole number of
+longdesc lines, so that the following lines stay on the grid. The
+longdesc gyoudori environment and the \gyoudoriarea command place
+longdesc headings and the like in an n-line area (top, center or
+longdesc bottom), positioned by the character frames of the content.
+longdesc Options place display math (equation, \[ \], eqnarray and the
+longdesc amsmath environments) and floats in such areas automatically,
+longdesc and round the float separations to whole lines. It works with
+longdesc nidanfloat, stfloats, flushend and evenend. Works with pLaTeX,
+longdesc upLaTeX and LuaLaTeX (LuaTeX-ja) for horizontal writing. The
+longdesc documentation is in English and Japanese.
+containersize 12020
+containerchecksum 5027a3a076898ae9b5555c440c4caf71f7a977a47fcac4f1083e1ba2adc6a7499b557d52b06f2f0d10c6243851d03ba30a4ba2179e7560e8010fff182624ea34
+doccontainersize 353832
+doccontainerchecksum 93289d8eb13542c52b8aa21332aa835b6ed98fbd1f3acbd8db847d6534096835ca19af579d4844b8927c7e82b8dd1455ee691af90bb0ff96ea34877292eb2e73
+docfiles size=111
+ RELOC/doc/latex/gyoudori/LICENSE
+ RELOC/doc/latex/gyoudori/README-ja.md details="Readme" language="ja"
+ RELOC/doc/latex/gyoudori/README.md details="Readme"
+ RELOC/doc/latex/gyoudori/gyoudori-en.pdf details="Package documentation"
+ RELOC/doc/latex/gyoudori/gyoudori-en.tex
+ RELOC/doc/latex/gyoudori/gyoudori-fig.tex
+ RELOC/doc/latex/gyoudori/gyoudori-ja.pdf details="Package documentation" language="ja"
+ RELOC/doc/latex/gyoudori/gyoudori-ja.tex
+runfiles size=11
+ RELOC/tex/latex/gyoudori/gyoudori.sty
+catalogue-contact-bugs https://github.com/yuw/texmf-gyoudori/issues
+catalogue-contact-repository https://github.com/yuw/texmf-gyoudori
+catalogue-ctan /macros/jptex/latex/gyoudori
+catalogue-license mit
+catalogue-topics japanese
+catalogue-version 20261026.0
 
 name gzt
 category Package
@@ -160933,15 +161431,15 @@ binfiles arch=x86_64-linuxmusl size=997
 
 name hithesis
 category Package
-revision 80613
+revision 80775
 shortdesc Harbin Institute of Technology Thesis Template
 relocated 1
 longdesc This is a LaTeX thesis template package for Harbin Institute of
 longdesc Technology supporting bachelor, master, doctor dissertations.
-containersize 36560
-containerchecksum da6ddb725c86bc553d16818b7295c1a79ae90f844400c725b58282a866018362bc39a3a404e5235aaf8274b7a1c5e536e26481f1beba0a7bca832deece0cf4be
-doccontainersize 1929376
-doccontainerchecksum 06096f5488936997b089ef5f1afa5b01683acdd69bbcef2bb0717c0a7ed4f178753b14ee660f43285a4181a82fa643b288c51435241214b74fa06f059f76e4f8
+containersize 36132
+containerchecksum 93faa5245b6bd02fa656a6314852499d07ae8d861a77e30fe9160040f5a2c8a8c3c55a99f4f960968009c62f09a28937e3ac376094a44ec455a82be8c3fca2b5
+doccontainersize 1929372
+doccontainerchecksum 242abd4de1cd828019ca5c2c082735c2bb1800e123d075282b0d88cb6156f8f9fa48dc812ef15b929c14f18bf3b3187bd1c38cef755a14ae72fcf82dad70c477
 docfiles size=762
  RELOC/doc/xelatex/hithesis/README.md details="Readme"
  RELOC/doc/xelatex/hithesis/dtx-style.sty
@@ -161001,9 +161499,8 @@ docfiles size=762
  RELOC/doc/xelatex/hithesis/hithesis.dtx
  RELOC/doc/xelatex/hithesis/hithesis.ins
  RELOC/doc/xelatex/hithesis/hithesis.pdf details="Package documentation (Chinese)" language="zh"
-runfiles size=117
+runfiles size=82
  RELOC/bibtex/bst/hithesis/hithesis.bst
- RELOC/bibtex/bst/hithesis/hitszthesis.bst
  RELOC/makeindex/hithesis/hithesis.ist
  RELOC/tex/xelatex/hithesis/hithesis.sty
  RELOC/tex/xelatex/hithesis/hithesisart.cfg
@@ -161727,7 +162224,7 @@ catalogue-version 1.1.2
 
 name huawei
 category Package
-revision 73148
+revision 80836
 shortdesc Template for Huawei documents
 relocated 1
 longdesc This unofficial package provides a class for creating documents
@@ -161737,10 +162234,12 @@ depend biblatex
 depend caption
 depend catchfile
 depend changepage
+depend cm-super
 depend currfile
 depend datetime
 depend enumitem
 depend environ
+depend etoolbox
 depend fancyhdr
 depend ffcode
 depend filehook
@@ -161749,8 +162248,8 @@ depend fontsize
 depend footmisc
 depend geometry
 depend hyperref
+depend koma-script
 depend lastpage
-depend libertine
 depend listings
 depend listingsutf8
 depend makecell
@@ -161766,33 +162265,36 @@ depend svg
 depend tcolorbox
 depend textpos
 depend tikzfill
+depend titlesec
 depend titling
 depend transparent
 depend trimspaces
 depend wrapfig
 depend xcolor
-containersize 260756
-containerchecksum 8fc53e6a51f41755f2992296711a252ec4eebec1a758da16fd1bc0a46fb813046272cf23b6a7293a81055f0a943fbecb3842caf0a45918944f4f4ebdd2b22f28
-doccontainersize 692204
-doccontainerchecksum 4a6846c4bb99dd2166f1ec734aee2781afbf3b5c782bc3939706998ef70f5dc71e9ff0fd77f90d91b01a2d4b47869418ee7255dae76dd630b7906b71ded961ab
-docfiles size=183
+depend xkeyval
+containersize 260940
+containerchecksum e02d86252e977b3d0e2456ce387c746dacdf1810200ea52a07bdb582dde3620d20c98ba63b4141592d5456ad243535241f17074fecf9b066272e9a8478bba431
+doccontainersize 806300
+doccontainerchecksum 9c4cef1369b39a4a80c447dd417673dac66aa9eca21c4adb152febf41dfbad8cd41390b46a088ef060192368d5ba10b8cfb909bda462b6a459b262693eaf2f33
+docfiles size=209
  RELOC/doc/latex/huawei/DEPENDS.txt
  RELOC/doc/latex/huawei/LICENSE.txt
  RELOC/doc/latex/huawei/README.md details="Readme"
  RELOC/doc/latex/huawei/huawei.pdf details="Package documentation"
-srccontainersize 11136
-srccontainerchecksum 76d6d843527a2a5b3151f57df81a4caace367d3390560a771a51a0d6db33fa213694e7bf6b4c7be1509e40dd9236f482b0c34cf13861403297c52f8f5e1ffbe6
-srcfiles size=10
+srccontainersize 11548
+srccontainerchecksum 9ebf9adec5bf4f1d2569e2e5ea43c08f992cdbd65962cc2caeba964761b25114e17923c16768817495b4b8c134710016104734366b2036c2285c80fd7d81c86d
+srcfiles size=11
  RELOC/source/latex/huawei/huawei.dtx
  RELOC/source/latex/huawei/huawei.ins
 runfiles size=68
  RELOC/tex/latex/huawei/huawei-cover-picture.pdf
  RELOC/tex/latex/huawei/huawei.cls
+catalogue-contact-bugs https://github.com/yegor256/huawei.cls/issues
 catalogue-contact-home https://github.com/yegor256/huawei.cls
 catalogue-ctan /macros/latex/contrib/huawei
 catalogue-license mit
 catalogue-topics class misc-paper
-catalogue-version 0.19.1
+catalogue-version 0.19.2
 
 name huaz
 category Package
@@ -166222,7 +166724,7 @@ catalogue-version 1.3e
 
 name imfellenglish
 category Package
-revision 80762
+revision 80786
 shortdesc IM Fell English fonts with LaTeX support
 relocated 1
 longdesc Igino Marini has implemented digital revivals of fonts
@@ -166232,9 +166734,9 @@ longdesc the English family, consisting of Roman, Italic and Small-Cap
 longdesc fonts.
 execute addMap imfellEnglish.map
 containersize 2953304
-containerchecksum 96be011bae4dea93b731f94bb82bf96d915918f411c38e9ef2980b1ff7c30287a2d590c2e54a40d364a783350914a138f7b8b62ae156895feb85d652009ac530
-doccontainersize 143300
-doccontainerchecksum 780c3a190fa9cf52191993bb2de0c66bb22459ffec28621d8725c67ddab7edc749b2b25215c38b6a85e7068668a572edcb9b632d125f8c36e80e91fb70056e78
+containerchecksum ddf2ea5af451b16fac23c98de406ec6f52ee67b13e0c479d0648a8c3ffb00380ee8efb446dbdae449557669cdab3577576ee6a7e532b1d47736a4e38f8289876
+doccontainersize 143340
+doccontainerchecksum f2fa05c0aab0ab42c08187bb94ea8929eb8fd841a524d9a7bc38f59f47426069979c589d3782848359dae21108794d6677e9fecb88f343f0a57893cd2a8dae3e
 docfiles size=38
  RELOC/doc/fonts/imfellenglish/COPYING
  RELOC/doc/fonts/imfellenglish/README details="Readme"
@@ -179392,6 +179894,56 @@ catalogue-ctan /macros/latex/contrib/jumplines
 catalogue-license lppl1.3
 catalogue-topics luatex journalpub
 catalogue-version 0.2
+
+name juniamaroc-beamer
+category Package
+revision 80856
+shortdesc A Beamer-based presentation class for JUNIA Maroc
+relocated 1
+longdesc This package provides a Beamer-based presentation class for
+longdesc JUNIA Maroc courses, student projects and academic
+longdesc presentations. It includes institutional colours and original
+longdesc artwork, compact headings, a document-and-section navigation
+longdesc band and a coloured footer. A French slide tutorial, student
+longdesc starter and English reference are supplied. The class supports
+longdesc pdfLaTeX, XeLaTeX and LuaLaTeX. No font files are included. TeX
+longdesc Gyre Heros is used by default. With the brandfonts option,
+longdesc Unicode engines optionally use the externally installed Afacad
+longdesc Flux and Inter Tight families, with TeX Gyre Heros fallback;
+longdesc pdfLaTeX uses the fallback.
+containersize 121188
+containerchecksum 94c5d202769d3b75356fca3d0cdfab0b6803fa292553afa816f4b9dced201515cde55cc5c2aac9d9a294a248f65e34a6e188f00d4a8c5b01a1e05b6b7cc58c42
+doccontainersize 267976
+doccontainerchecksum f04dee65ce9d83f587bcacecf557a3ed2e92cd8a725f1047e99842c8088adf5c42de30beeb15fdc452352133543f058a0364eaab71116089a7b07b3f8775ae30
+docfiles size=112
+ RELOC/doc/latex/juniamaroc-beamer/CHANGELOG.md
+ RELOC/doc/latex/juniamaroc-beamer/FONTS.md
+ RELOC/doc/latex/juniamaroc-beamer/GUIDE-FR.md
+ RELOC/doc/latex/juniamaroc-beamer/LICENSE.md
+ RELOC/doc/latex/juniamaroc-beamer/LPPL-1.3c.txt
+ RELOC/doc/latex/juniamaroc-beamer/MANIFEST.txt
+ RELOC/doc/latex/juniamaroc-beamer/README.md details="Readme"
+ RELOC/doc/latex/juniamaroc-beamer/SHA256SUMS.txt
+ RELOC/doc/latex/juniamaroc-beamer/build.py
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-demo.pdf details="Example of use (long)"
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-demo.tex
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-doc.pdf details="Package documentation"
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-doc.tex
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-example.py
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-figure.tex
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-starter.pdf details="Example of use (short)"
+ RELOC/doc/latex/juniamaroc-beamer/juniamaroc-beamer-starter.tex
+runfiles size=39
+ RELOC/tex/latex/juniamaroc-beamer/assets/juniamaroc-beamer-figure.pdf
+ RELOC/tex/latex/juniamaroc-beamer/assets/juniamaroc-beamer-logo-white.png
+ RELOC/tex/latex/juniamaroc-beamer/assets/juniamaroc-beamer-logo.png
+ RELOC/tex/latex/juniamaroc-beamer/assets/juniamaroc-beamer-symbol-white.png
+ RELOC/tex/latex/juniamaroc-beamer/assets/juniamaroc-beamer-symbol.png
+ RELOC/tex/latex/juniamaroc-beamer/juniamaroc-beamer.cls
+catalogue-ctan /macros/latex/contrib/beamer-contrib/themes/juniamaroc-beamer
+catalogue-license lppl1.3c other-nonfree
+catalogue-topics presentation
+catalogue-version 1.0.0
 
 name junicode
 category Package
@@ -196171,32 +196723,63 @@ catalogue-version 1.0.10
 
 name latexbangla
 category Package
-revision 55475
-shortdesc Enhanced LaTeX integration for Bangla
+revision 80816
+shortdesc Writing Bangla and Assamese with ordinary LaTeX
 relocated 1
-longdesc This package simplifies the process of writing Bangla in LaTeX
-longdesc and addresses most of the associated typesetting issues.
-longdesc Notable features: Automated transition from Bangla to English
-longdesc and vice versa. Patch for the unproportionate whitespace issue
-longdesc in popular Bangla fonts. Full support for all the common
-longdesc commands and environments. Bangla numbering for page, section,
-longdesc chapter, footnotes etc. (extending polyglossia's support). New
-longdesc theorem, problems, example, solution and other environments,
-longdesc all of which are in Bangla.
-containersize 3268
-containerchecksum 8b61b8aee0e95339b356fa85b9bb7ad3833ccf410267eb31a84a811c25c4e34ac350952fa26ed6461468bfeca37121e809ba560fbed7a0d8e747613708ff7795
-doccontainersize 147412
-doccontainerchecksum 8d8c686edbf3e70e70fa577c7d09f2e3d3f1ab938253ed01892ba030be0ba948bba48d67503a6f215628e03160bb32878f868d8a72b5a0d65ce3400fb9011ac9
-docfiles size=41
+longdesc LaTeXbangla makes it possible to write Bangla and Assamese
+longdesc documents with minimal setup and familiar LaTeX commands.
+longdesc Choose a Bangla font and write either language alongside
+longdesc English, with automatic font switching that preserves your
+longdesc chosen English fonts. Features: Automatic font switching, with
+longdesc bold and italic fallbacks when needed. Bangla and Assamese
+longdesc counter numbering, alphabetic list labels, and localized
+longdesc document headings. Integration with references, hyperlinks, and
+longdesc citations. Bangla and Assamese text inside equations using
+longdesc \text{...}, and native digits directly in mathematics,
+longdesc including unbraced superscripts and subscripts. Tested support
+longdesc for 25 font families. Independent English and math font
+longdesc choices. The package supports XeLaTeX and LuaLaTeX and builds
+longdesc on fontspec and Polyglossia.
+containersize 30388
+containerchecksum 33a566ce14a0e63e04e4edc7bd2c69fd064a1cb2c0f352c9aa523c2c37210895a0194909e35785ef025eb8eff875610399a1a7ee2669c16afbf0497d2fadca29
+doccontainersize 1957184
+doccontainerchecksum ef99371327d5fd7305cd74e2a6c9c1cff48e119c8b2d41b3c567eb2190c0e4412c5eb496660d467196774f8fc45f45fff9b2f5127f671f3f05c827af7ef4641a
+docfiles size=599
+ RELOC/doc/latex/latexbangla/LICENSE
  RELOC/doc/latex/latexbangla/README details="Readme"
- RELOC/doc/latex/latexbangla/latexbangla.pdf details="Package documentation"
+ RELOC/doc/latex/latexbangla/latexbangla.pdf details="Package documentation" language="en,bn,as"
  RELOC/doc/latex/latexbangla/latexbangla.tex
-runfiles size=2
+ RELOC/doc/latex/latexbangla/logo.png
+runfiles size=45
+ RELOC/tex/latex/latexbangla/code/engines/latexbangla-engine-luatex.tex
+ RELOC/tex/latex/latexbangla/code/engines/latexbangla-engine-xetex.tex
+ RELOC/tex/latex/latexbangla/code/engines/latexbangla-switching-luatex.lua
+ RELOC/tex/latex/latexbangla/code/languages/latexbangla-assamese.tex
+ RELOC/tex/latex/latexbangla/code/languages/latexbangla-bengali.tex
+ RELOC/tex/latex/latexbangla/code/languages/latexbangla-bibliography-assamese.tex
+ RELOC/tex/latex/latexbangla/code/languages/latexbangla-bibliography-bengali.tex
+ RELOC/tex/latex/latexbangla/code/languages/latexbangla-language.tex
+ RELOC/tex/latex/latexbangla/code/latexbangla-font-selection.tex
+ RELOC/tex/latex/latexbangla/code/latexbangla-fonts.tex
+ RELOC/tex/latex/latexbangla/code/latexbangla-math-digits.tex
+ RELOC/tex/latex/latexbangla/code/latexbangla-numbering.tex
+ RELOC/tex/latex/latexbangla/code/references/latexbangla-biblatex-input.tex
+ RELOC/tex/latex/latexbangla/code/references/latexbangla-biblatex-output.tex
+ RELOC/tex/latex/latexbangla/code/references/latexbangla-bibliography.tex
+ RELOC/tex/latex/latexbangla/code/references/latexbangla-natbib.ins
+ RELOC/tex/latex/latexbangla/code/references/latexbangla-natbib.mbs
+ RELOC/tex/latex/latexbangla/code/references/latexbangla-natbib.tex
+ RELOC/tex/latex/latexbangla/code/references/latexbangla-references.tex
+ RELOC/tex/latex/latexbangla/latexbangla-assamese.lbx
+ RELOC/tex/latex/latexbangla/latexbangla-bengali.lbx
  RELOC/tex/latex/latexbangla/latexbangla.sty
+catalogue-contact-bugs https://github.com/Neehan/latexbangla/issues
+catalogue-contact-development https://github.com/Neehan/LaTeXbangla/blob/master/CONTRIBUTING.md
+catalogue-contact-repository https://github.com/Neehan/LaTeXbangla
 catalogue-ctan /language/bengali/latexbangla
-catalogue-license lppl1.3
-catalogue-topics indic bengali
-catalogue-version 0.2
+catalogue-license lppl1.3c
+catalogue-topics assamese bengali indic
+catalogue-version 2.1
 
 name latexbug
 category Package
@@ -203535,7 +204118,7 @@ catalogue-version 7.051
 
 name libertinus-otf
 category Package
-revision 77682
+revision 80844
 shortdesc Support for Libertinus OpenType
 relocated 1
 longdesc This package offers LuaLaTeX/XeLaTeX support for the Libertinus
@@ -203543,11 +204126,11 @@ longdesc OpenType fonts maintained by Khaled Hosny. Missing fonts are
 longdesc defined via several font feature settings. The Libertinus fonts
 longdesc are similar to Libertine and Biolinum, but come with math
 longdesc symbols.
-containersize 4460
-containerchecksum 8361f8306968b7f159507a2a6b20775c9294d97f98d14f91cb550eacc86c4d804c7ac29eeab642d89c8317238aff5df340e1014e092bd5c546d0054db7a70e8f
-doccontainersize 1309584
-doccontainerchecksum 7506295e99cfc9462f18c9023f6993782e54d1b76bc77def2d20a705f72eb4e9f8e5ab6239969f9b60019233cc8b4494bbd8fcca99bd34623cb8a0911cb43349
-docfiles size=351
+containersize 4496
+containerchecksum f2be2564338a6631058a955967b3b9127ea8997bd4b7e615b7c571d46b10126d1e996294f3f247736fa3a2e7f9fbd88b936b6cde5d6286a821e1d6208d7e74be
+doccontainersize 1294108
+doccontainerchecksum 01dcc7f6e8c53250e913e84cad168aa4437409d7b1cb1211b51df4bb634c6194b545de49b6c3f8fadf68475816d87635e4ed33f93977066c6d4e0cded0382aed
+docfiles size=348
  RELOC/doc/fonts/libertinus-otf/Changes
  RELOC/doc/fonts/libertinus-otf/README.md details="Readme"
  RELOC/doc/fonts/libertinus-otf/libertinus-otf-doc.pdf details="Package documentation"
@@ -203557,8 +204140,8 @@ runfiles size=6
 catalogue-also libertinus-fonts libertinus-type1
 catalogue-ctan /fonts/libertinus-otf
 catalogue-license lppl1.3
-catalogue-topics font-body font-otf font-supp font-serif font-sans font-proportional font-mono font-maths luatex xetex tagged-pdf-partially
-catalogue-version 0.34
+catalogue-topics font-body font-maths font-mono font-otf font-proportional font-sans font-serif font-supp luatex tagged-pdf-partially xetex
+catalogue-version 0.35
 
 name libertinus-type1
 category Package
@@ -216712,7 +217295,7 @@ catalogue-topics engine
 
 name luatex-cn
 category Package
-revision 79914
+revision 80858
 shortdesc A LuaTeX based package to handle Chinese text typesetting
 relocated 1
 longdesc A LuaTeX package for Chinese character typesetting, covering
@@ -216720,11 +217303,11 @@ longdesc horizontal/vertical, traditional/modern layout. Currently focus
 longdesc on Ancient Book replication. Implemented core logic of vertical
 longdesc typesetting, decorative elements of traditional Chinese books,
 longdesc and interlinear notes.
-containersize 259348
-containerchecksum bdd395fe3ee9e24cb8abd40758454f1631f1036c34f9fe55feaf0b5fc6cdecace161843f9841b3fc07953537c1bd7e562c926b5c1ee1e63c0e26dbc3178497c1
-doccontainersize 2995808
-doccontainerchecksum 8948bdfd0f33801e58ed83384388e5bdcfcb585f7ceb1e0738a169e0406fe1436ece645e940ceb6f8021d76fd0cb72f5b0a6419c8de0c1af3a745bccc9b83fa1
-docfiles size=1148
+containersize 269476
+containerchecksum d9faf758aed470b6a9d10b9a2066a3902c7da8416ecdbc4aac3418abb5c7b4da51dad8c82e0e353b1125b2e6ab0c09d222d61dc9340b1310ee654d045cb614ed
+doccontainersize 3293052
+doccontainerchecksum 0274b80689ec42fba97dedf283ee1104e84bddace6b331e6decf1892f60ef7b0ea6c9b7922f00dcf27e0c80edad578b0b92e584806f3afddb50739b30284e3d7
+docfiles size=1231
  RELOC/doc/latex/luatex-cn/CLREQ-CONFORMANCE.md
  RELOC/doc/latex/luatex-cn/LICENSE
  RELOC/doc/latex/luatex-cn/README-EN.md
@@ -216732,7 +217315,7 @@ docfiles size=1148
  RELOC/doc/latex/luatex-cn/VERSION
  RELOC/doc/latex/luatex-cn/luatex-cn-wiki-en.pdf details="Package documentation (English)"
  RELOC/doc/latex/luatex-cn/luatex-cn-wiki-zh.pdf details="Package documentation (Chinese)" language="zh"
-runfiles size=416
+runfiles size=427
  RELOC/tex/lualatex/luatex-cn/banxin/luatex-cn-banxin-layout.lua
  RELOC/tex/lualatex/luatex-cn/banxin/luatex-cn-banxin-main.lua
  RELOC/tex/lualatex/luatex-cn/banxin/luatex-cn-banxin-render-banxin.lua
@@ -216839,7 +217422,7 @@ catalogue-contact-repository https://github.com/open-guji/luatex-cn
 catalogue-ctan /language/chinese/luatex-cn
 catalogue-license apache2
 catalogue-topics chinese class luatex
-catalogue-version 0.4.1
+catalogue-version 0.4.3
 
 name luatex-type-definitions
 category Package
@@ -217122,17 +217705,17 @@ catalogue-version 1.3
 
 name luatexja
 category Package
-revision 80679
+revision 80852
 shortdesc Typeset Japanese with Lua(La)TeX
 relocated 1
 longdesc The package offers support for typesetting Japanese documents
 longdesc with LuaTeX. Either of the Plain and LaTeX2e formats may be
 longdesc used with the package.
 depend luatexbase
-containersize 200960
-containerchecksum b16aa7b610b70b54675953e59c6518bc492c50e9285972787b6417d271c073136087e180a496469b5dc34c0d088b12bc785cb6372524584cac45a54bf6b50416
-doccontainersize 3509468
-doccontainerchecksum 56636d7bc03f3320cafec38b9b851d50c2288ebfc1798e25cc6c6cd25bcfd927ee5d65aa85321089ed966773072c24fa416e7ce468500412b74c231ff7821d19
+containersize 201448
+containerchecksum b7eb30a2e71afc5491d31b38d0b8bf855cf78c6008c371c11558ecd54fd76ba7967f8892296d75f55644b3b1877180a1a8b544723223e0652c52b3f7e1f60179
+doccontainersize 3507144
+doccontainerchecksum beb812e8d78e9ce65256c75937df64cc39881519cbaa8dd3ded6b74e0dc84d200b1b07c119b4450a36f498442305176c84600203bd4d4baaea31462f1a34936f
 docfiles size=1062
  RELOC/doc/luatex/luatexja/COPYING
  RELOC/doc/luatex/luatexja/README details="Readme"
@@ -217150,8 +217733,8 @@ docfiles size=1062
  RELOC/doc/luatex/luatexja/luatexja-ruby.tex
  RELOC/doc/luatex/luatexja/luatexja.dtx
  RELOC/doc/luatex/luatexja/luatexja.ins
-srccontainersize 88120
-srccontainerchecksum 0fd86758d72500c1cfaa7825ff091ef114c386c679854d39a6ccf1408c24bdec087fbae0e66d3bc72913c1f5e4f9519832491b7336aed4c3f404e7c8e957e753
+srccontainersize 88148
+srccontainerchecksum 1bacd1bc6743c7c7bce1554dff692c4cd9c90185002bf52ad1961ce98ba5094c90d4108c9ac78b59041102be18b57534ae73bf3e927febfc3c90f932d7fdb362
 srcfiles size=127
  RELOC/source/luatex/luatexja/ltjclasses.dtx
  RELOC/source/luatex/luatexja/ltjclasses.ins
@@ -217176,7 +217759,7 @@ srcfiles size=127
  RELOC/source/luatex/luatexja/tool/table_jisx0208.tex
  RELOC/source/luatex/luatexja/tool/test_exist_nodelib.tex
  RELOC/source/luatex/luatexja/tool/unicodeBlocks.tex
-runfiles size=474
+runfiles size=475
  RELOC/tex/luatex/luatexja/addons/luatexja-adjust.sty
  RELOC/tex/luatex/luatexja/addons/luatexja-ajmacros.sty
  RELOC/tex/luatex/luatexja/addons/luatexja-fontspec-29e.sty
@@ -217268,6 +217851,7 @@ runfiles size=474
  RELOC/tex/luatex/luatexja/patches/lltjp-footmisc.sty
  RELOC/tex/luatex/luatexja/patches/lltjp-geometry.sty
  RELOC/tex/luatex/luatexja/patches/lltjp-listings.sty
+ RELOC/tex/luatex/luatexja/patches/lltjp-lua-unicode-math.sty
  RELOC/tex/luatex/luatexja/patches/lltjp-microtype.sty
  RELOC/tex/luatex/luatexja/patches/lltjp-preview.sty
  RELOC/tex/luatex/luatexja/patches/lltjp-siunitx.sty
@@ -217281,11 +217865,11 @@ catalogue-contact-repository https://github.com/luatexja/luatexja
 catalogue-ctan /macros/luatex/generic/luatexja
 catalogue-license bsd
 catalogue-topics class japanese luatex macro-gen tagged-pdf-partially
-catalogue-version 20261017.0
+catalogue-version 20261029.0
 
 name luatexko
 category Package
-revision 80118
+revision 80851
 shortdesc Typeset Korean with Lua(La)TeX
 relocated 1
 longdesc This is a Lua(La)TeX macro package that supports typesetting
@@ -217296,16 +217880,16 @@ longdesc package rather than other Hangul macros operating on other
 longdesc engines. LuaTeX version 1.10+ and luaotfload version 2.96+ are
 longdesc required for this package to run. This package also requires
 longdesc the cjk-ko package for its full functionality.
-containersize 30260
-containerchecksum de3332a906afc9fb32bbd854e2d175b292d1333921cf98327f6743009a70721fb36419c9bb193d78394bfe6d0a7bfbc5db830543e863708d545ace54b6593fa0
-doccontainersize 306804
-doccontainerchecksum 486abdc035eaafc7c67f73d382a526268324425585b7b60a6423fcd4edf582a50559b3306b85ab97fc278e2da7d4880303e36f5488854766b5369e12872673da
+containersize 30360
+containerchecksum f13d5add06b27adc1af1ad016a6538e7836c8320009f7414504933f8d7e8193f9c948e873811581323ad92067f755965b2d924e925defcef9b14ded9886bd8de
+doccontainersize 308016
+doccontainerchecksum 93b3d9e13e99ab30c853499f8b13136844eb0c8358a8aad879a88c66cd449628355f13023004dddb8631c2ea5ef395e28065c5a780c996509c79ff0402a587a6
 docfiles size=89
  RELOC/doc/luatex/luatexko/ChangeLog
  RELOC/doc/luatex/luatexko/README details="Readme"
  RELOC/doc/luatex/luatexko/luatexko-doc.pdf details="Package documentation" language="ko"
  RELOC/doc/luatex/luatexko/luatexko-doc.tex
-runfiles size=38
+runfiles size=39
  RELOC/tex/luatex/luatexko/luatexko-normalize.lua
  RELOC/tex/luatex/luatexko/luatexko-uhc2utf8.lua
  RELOC/tex/luatex/luatexko/luatexko.lua
@@ -217315,7 +217899,7 @@ catalogue-contact-repository https://github.com/dohyunkim/luatexko
 catalogue-ctan /macros/luatex/generic/luatexko
 catalogue-license lppl1.3c
 catalogue-topics korean luatex tagged-pdf
-catalogue-version 5.8
+catalogue-version 5.9
 
 name luatextra
 category Package
@@ -217627,22 +218211,23 @@ catalogue-version 0.1
 
 name lucide-icons
 category Package
-revision 79596
+revision 80811
 shortdesc Use lucide-icons through LaTeX commands
 relocated 1
 longdesc This package provides commands like twemojis which allow to use
 longdesc Lucide-Icons through LaTeX commands. The implementation relies
 longdesc on images (PDF from SVG) and should work on every installation.
-containersize 375900
-containerchecksum 1c043c22e4eec2ea825e1e618f4722707779491911ece7fc607e41e22b0a3e64f470934ad116933ea9b11501caa600262250790ba2662a63d83581fe5d7ebbd5
-doccontainersize 654800
-doccontainerchecksum fdf4446e0f2067613bb1931fecbd942c2c8754497efd9b812b74f3bb8ccd8b119233fcfe430a94860ce39b86110be3991fdbec30ecdaedf8ff7fa9de0185dd85
-docfiles size=358
+containersize 458488
+containerchecksum 20392aa491abaf6d72cadeb81fb22097adc7f64f161811307084bb24d7fcb2e5041f8c91c17292a78778b5cf509827c1372d90f8d6cd1a646753c7c04faa66d9
+doccontainersize 521904
+doccontainerchecksum 688539fa6c7a91a5e08b475d41f69e5492959fe7739e4e791b54dee321cf5e3ebcc9b8cbdf62716f1d807f719331204be384e7f42d313556b573978dbf4aeff1
+docfiles size=325
  RELOC/doc/latex/lucide-icons/README.md details="Readme"
  RELOC/doc/latex/lucide-icons/lucide-icons-doc.pdf details="Package documentation"
  RELOC/doc/latex/lucide-icons/lucide-icons-doc.tex
  RELOC/doc/latex/lucide-icons/lucideiconsbindings.tex
-runfiles size=147
+runfiles size=286
+ RELOC/tex/latex/lucide-icons/lucide-icons-all-old.pdf
  RELOC/tex/latex/lucide-icons/lucide-icons-all.pdf
  RELOC/tex/latex/lucide-icons/lucide-icons.sty
 catalogue-contact-bugs https://github.com/cpierquet/latex-packages/issues
@@ -217650,7 +218235,7 @@ catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/ma
 catalogue-ctan /macros/latex/contrib/lucide-icons
 catalogue-license lppl1.3c isc
 catalogue-topics graphics text-symbol
-catalogue-version 1.23.0
+catalogue-version 1.23.0a
 
 name luciole
 category Package
@@ -222686,6 +223271,42 @@ containersize 348
 containerchecksum 90308f7aa8dac08a55e2250f45eafd172619683fdfb900ccd8d7cc80152f236b06ece63fe2611990b4866a9268f8a2e67c29d75e1ff40d412801f51711bbec5a
 binfiles arch=x86_64-linuxmusl size=1
  bin/x86_64-linuxmusl/match_parens
+
+name matchedsplit
+category Package
+revision 80855
+shortdesc Matched delimiters across manually broken equations
+relocated 1
+longdesc This package provides matched delimiters across manually broken
+longdesc equations. It supports nested \left, \middle and \right
+longdesc delimiters, with consistent sizes across rows. The package
+longdesc provides matchedsplit, matchedalign and matchedalign*
+longdesc environments, optional replacements for the corresponding
+longdesc amsmath environments, and optional depth-based delimiter
+longdesc coloring. Coloring can be configured both globally and per
+longdesc environment.
+containersize 3780
+containerchecksum 53356a748cd0b4a31009d5e61263f515263a6160eb6b2f4e68f525512c2eab0e15520875232c23ddcd4953ab593e6cfa3d6b91bc3d86286d7d5a76d9a3fe55dd
+doccontainersize 327956
+doccontainerchecksum 3f248a57a97a0b8bcc494e55f26f0b701eed441fa77e27562727c33ffed42952b37b72ed2afdf9a0ae6aa5561d07f85dc10366d537118480e67160fa7b1b89f6
+docfiles size=90
+ RELOC/doc/latex/matchedsplit/CHANGELOG.md
+ RELOC/doc/latex/matchedsplit/LICENSE
+ RELOC/doc/latex/matchedsplit/MANIFEST.md
+ RELOC/doc/latex/matchedsplit/README.md details="Readme"
+ RELOC/doc/latex/matchedsplit/matchedsplit.pdf details="Package documentation"
+ RELOC/doc/latex/matchedsplit/matchedsplit.tex
+ RELOC/doc/latex/matchedsplit/numbered_example.tex
+runfiles size=4
+ RELOC/tex/latex/matchedsplit/matchedsplit.sty
+catalogue-also longmath
+catalogue-contact-bugs https://github.com/zhaiyusci/matchedsplit/issues
+catalogue-contact-home https://github.com/zhaiyusci/matchedsplit
+catalogue-contact-repository https://github.com/zhaiyusci/matchedsplit
+catalogue-ctan /macros/latex/contrib/matchedsplit
+catalogue-license lppl1.3c
+catalogue-topics alignment maths paren-mgmt
+catalogue-version 0.8.1
 
 name math-into-latex-4
 category Package
@@ -234456,7 +235077,7 @@ catalogue-version 0.6a
 
 name mlmodern
 category Package
-revision 80625
+revision 80802
 shortdesc A blacker Type 1 version of Computer Modern, with multilingual support
 relocated 1
 longdesc MLModern is a text and math font family with (La)TeX support,
@@ -234464,16 +235085,16 @@ longdesc based on the design of Donald Knuth's Computer Modern and the
 longdesc Latin Modern project. It avoids the spindliness of most other
 longdesc outline versions of Computer Modern.
 execute addMap mlm.map
-containersize 10385120
-containerchecksum c1f1b00111d23b1d3a406107c70dc2a8c227c2c42767cfd5cd21eefd138c69de766221b67a0442df948b1996030cc9230389b5f71f006a75256b421bf1b07caf
-doccontainersize 108788
-doccontainerchecksum 939c89a3da70db95755cdc20236e99a6e88947b9a75c62f63dd688be61e9a5ad81d3e3a07627c5e2a9ef226ee03e06ddf296b143a375292ae5d55c7121b3657a
+containersize 10386748
+containerchecksum a46de2059e15c759c03dbd810a323ab91e74e917f7f15576c953e465167006c34719556fd58772719a21425ab10bd304241090315732a16ccd9205982d1bf783
+doccontainersize 108880
+doccontainerchecksum a264791cc997098dce041eaeb1cc8fc5e5eab19ec7c472c964633cff324dbaa026eb36de478762d482e587327c4b2295fd866117f8a70f6a3026dce6988aed86
 docfiles size=34
  RELOC/doc/fonts/mlmodern/LICENSE
  RELOC/doc/fonts/mlmodern/README details="Readme"
  RELOC/doc/fonts/mlmodern/mlmodern.pdf details="Package documentation"
  RELOC/doc/fonts/mlmodern/mlmodern.tex
-runfiles size=5585
+runfiles size=5596
  RELOC/fonts/map/dvips/mlmodern/mlm-substitute.map
  RELOC/fonts/map/dvips/mlmodern/mlm.map
  RELOC/fonts/opentype/public/mlmodern/mlmmono10-italic.otf
@@ -235256,11 +235877,22 @@ runfiles size=5585
  RELOC/tex/latex/mlmodern/ly1mlmtt.fd
  RELOC/tex/latex/mlmodern/ly1mlmvtt.fd
  RELOC/tex/latex/mlmodern/mlmodern.sty
+ RELOC/tex/latex/mlmodern/omlmlmdh.fd
  RELOC/tex/latex/mlmodern/omlmlmm.fd
  RELOC/tex/latex/mlmodern/omlmlmr.fd
+ RELOC/tex/latex/mlmodern/omlmlmss.fd
+ RELOC/tex/latex/mlmodern/omlmlmssq.fd
+ RELOC/tex/latex/mlmodern/omlmlmtt.fd
+ RELOC/tex/latex/mlmodern/omlmlmvtt.fd
+ RELOC/tex/latex/mlmodern/omsmlmdh.fd
  RELOC/tex/latex/mlmodern/omsmlmr.fd
+ RELOC/tex/latex/mlmodern/omsmlmss.fd
+ RELOC/tex/latex/mlmodern/omsmlmssq.fd
  RELOC/tex/latex/mlmodern/omsmlmsy.fd
+ RELOC/tex/latex/mlmodern/omsmlmtt.fd
+ RELOC/tex/latex/mlmodern/omsmlmvtt.fd
  RELOC/tex/latex/mlmodern/omxmlmex.fd
+ RELOC/tex/latex/mlmodern/ot1mlmcmtt.fd
  RELOC/tex/latex/mlmodern/ot1mlmdh.fd
  RELOC/tex/latex/mlmodern/ot1mlmr.fd
  RELOC/tex/latex/mlmodern/ot1mlmss.fd
@@ -235306,7 +235938,7 @@ runfiles size=5585
 catalogue-ctan /fonts/mlmodern
 catalogue-license lppl1.3c
 catalogue-topics font font-body font-cm font-maths font-mono font-otf font-proportional font-sans font-serif font-supp font-t1enc font-type1 tagged-pdf
-catalogue-version 2.0
+catalogue-version 2.0a
 
 name mltex
 category Package
@@ -236565,18 +237197,18 @@ catalogue-version 1.0
 
 name moloch
 category Package
-revision 80648
+revision 80803
 shortdesc Minimalist, feature-rich theme for beamer and ltx-talk
 relocated 1
 longdesc Moloch is a minimalist, feature-rich theme for LaTeX
 longdesc presentations with a clean design and extensive customization
 longdesc options. It provides a beamer theme, and an experimental
 longdesc version of the same design for the ltx-talk class.
-containersize 12640
-containerchecksum 0945bef8acd5e0476336775d197eea0bae96f724edf82e1a94afb3881062c28f6e5b2375d0e83ce0de3c835af1d860a6a9c4df5b901c416cb6f8240dfbc04703
-doccontainersize 1261952
-doccontainerchecksum 09c0f0febb7f8dd27daf12b25f5fdaf47adab16719dc3bc95bbbeb89bbe6349d048425b90c044381dc26379aaf864d8adeac039570eab0ad2ca9552def0fbbcb
-docfiles size=395
+containersize 12644
+containerchecksum 6e02a6d30f94f563f84eecd4e18c5a30d757494261c5ca327cef842666fd16a21dbfa62b4237657dcfeaa58b70b62f9c1d7c0d2a856087e4a5a23be1a5fd7908
+doccontainersize 1265060
+doccontainerchecksum 4ce9d46da9a3cec649e8166d1e3f33f7f26c6e65d91d3693d73bab3c4d31f78c73b67a716c13352ac18ba115da8ef6fa8060404558e4835c1bcfdaf28d5b85b7
+docfiles size=396
  RELOC/doc/latex/moloch/AGENTS.md
  RELOC/doc/latex/moloch/CHANGELOG.md
  RELOC/doc/latex/moloch/CLAUDE.md
@@ -236584,8 +237216,8 @@ docfiles size=395
  RELOC/doc/latex/moloch/LICENSE
  RELOC/doc/latex/moloch/README.md details="Readme"
  RELOC/doc/latex/moloch/moloch.pdf details="Package documentation"
-srccontainersize 23492
-srccontainerchecksum bedaf8674e72b75d2fd023718c01bd37483d5d9f8a170ca18a99120dcce396ca67830f95a5d371bdd8c924cd87e7ef1aa5c78956fc9caf358bba49dfc32d3a85
+srccontainersize 23508
+srccontainerchecksum 76557ff8bdff50f2264a9f96e100259200842b022503efe4fb2eb6e8b05e3c3ceef3ad92783fc0638ffec5f2d0d9f9b883b84bc8f753e5c2529caeb58c07d4e2
 srcfiles size=38
  RELOC/source/latex/moloch/beamercolorthememoloch-highcontrast.dtx
  RELOC/source/latex/moloch/beamercolorthememoloch-tomorrow.dtx
@@ -236612,7 +237244,7 @@ catalogue-contact-support https://github.com/jolars/moloch/discussions
 catalogue-ctan /macros/latex/contrib/beamer-contrib/themes/moloch
 catalogue-license cc-by-sa-4
 catalogue-topics presentation
-catalogue-version 2.3.0
+catalogue-version 2.3.1
 
 name monaspace-otf
 category Package
@@ -245505,7 +246137,7 @@ catalogue-version 2.00
 
 name mystyletau
 category Package
-revision 80754
+revision 80787
 shortdesc Custom Tau glyphs for topology using vector fonts
 relocated 1
 longdesc This package provides two unique graphical variants of the Tau
@@ -245513,27 +246145,25 @@ longdesc symbol: \vtau and \atau. These symbols were designed in
 longdesc Inkscape and converted into a TrueType font to ensure perfect
 longdesc scaling and color support. The package requires LuaLaTeX or
 longdesc XeLaTeX.
-containersize 2512
-containerchecksum 429f1144f629a758bbe7d925d04eef192907507116b71dad0c33eff152c7debd03c6192ca0045f5d4467cf38fe39e23e02fb65649a6b67c2da47f8af4a6fc2ac
-doccontainersize 225292
-doccontainerchecksum eed0757cacbe9c6b7e41f1d96585aabe78d276ca7f909988956f96521330227f02463575e6316e95f5bd45e812538bd545d404948aa5885144e5d8d66e519c10
-docfiles size=66
+containersize 6692
+containerchecksum cbb90c8f2d9e6606b5551cae08c3129abcb369286fd5bf68240ce2c8acfbb2cfa3138786a16b22f4e9dd5797762262dc364b37ed156c11e54935d39c4849fa13
+doccontainersize 125628
+doccontainerchecksum f5a359cc61c8c3b2edf7b263287109e16682576e5510fe01925f20d0f72b4224e065c8a17722d40f4ca0b9144c6ea5e95cc33bcc288669ec1e85b5363960f1bd
+docfiles size=34
  RELOC/doc/fonts/mystyletau/README.md details="Readme"
- RELOC/doc/fonts/mystyletau/atau.pdf
  RELOC/doc/fonts/mystyletau/mystyletau.pdf details="Package documentation"
  RELOC/doc/fonts/mystyletau/mystyletau.tex
- RELOC/doc/fonts/mystyletau/mytau.png
- RELOC/doc/fonts/mystyletau/mytau2.png
- RELOC/doc/fonts/mystyletau/vtau.pdf
-runfiles size=2
+runfiles size=4
  RELOC/fonts/truetype/public/mystyletau/mytautwo.ttf
+ RELOC/tex/latex/mystyletau/mystyletau-atau.pdf
+ RELOC/tex/latex/mystyletau/mystyletau-vtau.pdf
  RELOC/tex/latex/mystyletau/mystyletau.sty
 catalogue-contact-bugs https://github.com/franto666/mystyletau/issues
 catalogue-contact-repository https://github.com/franto666/mystyletau
 catalogue-ctan /fonts/mystyletau
 catalogue-license lppl1.3c
-catalogue-topics font-symbol-maths font-ttf luatex maths maths-symbol
-catalogue-version 2.1
+catalogue-topics font-supp-symbol font-symbol-maths font-ttf maths maths-symbol symbol-supp
+catalogue-version 2.2
 
 name na-box
 category Package
@@ -248509,7 +249139,7 @@ catalogue-version 1.1
 
 name neoschool
 category Package
-revision 80730
+revision 80769
 shortdesc LaTeX class for teachers
 relocated 1
 longdesc This package provides secondary school teachers with a
@@ -248523,11 +249153,11 @@ longdesc integrates numerous commonly used LaTeX packages, which
 longdesc significantly reduces the need for extensive preambles and
 longdesc minimizes compatibility issues. Additionally, it is
 longdesc multilingual, supporting French, English, and German.
-containersize 61960
-containerchecksum 4f1afcef44ac1447320b192ef8f45c86fed07d56a080f6beca39dd7273631f98045de9f261b5e5e97276f134744c557f14898be0c1bf172870898ff9a69d31bf
-doccontainersize 701816
-doccontainerchecksum 3bae0850d8bec801e2ef12041e61fd62e37852a813766c33fed222c89ada2e2759b223dffad71f8b21b96dbf6d5ccb16c1f2329f667213cb066cd694c12b7461
-docfiles size=240
+containersize 62152
+containerchecksum a341c331ef34f51bc54a3b48b9d1c20d720820613e2f090eac075018b917e856e32a00d55d5a1f39c14be281b25e49655e80181bb37640e306db736142950bde
+doccontainersize 702364
+doccontainerchecksum ad376266f8dcaa5aeae4297eb253b96debe4fafc0701ad4c9bdc7e3a3968e97e3eacdb3f0dfd7a7b7a89778ed27e6d2b3b190741a361b7a06ed368cf64b846dc
+docfiles size=241
  RELOC/doc/latex/neoschool/CHANGELOG.md
  RELOC/doc/latex/neoschool/README.md details="Readme"
  RELOC/doc/latex/neoschool/neoschool-de.pdf details="Package documentation (German)" language="de"
@@ -248536,12 +249166,12 @@ docfiles size=240
  RELOC/doc/latex/neoschool/neoschool-fr.tex
  RELOC/doc/latex/neoschool/neoschool.pdf details="Package documentation (English)"
  RELOC/doc/latex/neoschool/neoschool.tex
-runfiles size=100
+runfiles size=101
  RELOC/tex/latex/neoschool/neoschool.cls
 catalogue-ctan /macros/latex/contrib/neoschool
 catalogue-license lppl1.3c
 catalogue-topics class teaching
-catalogue-version 1.3.25
+catalogue-version 1.3.26
 
 name nestquot
 category Package
@@ -259619,7 +260249,7 @@ catalogue-topics numbers
 
 name numodel-bundle
 category Package
-revision 80584
+revision 80837
 shortdesc Numerical physics models with Forrester diagrams and auto-sized plots
 relocated 1
 longdesc A LuaLaTeX bundle for writing and rendering numerical models
@@ -259630,11 +260260,11 @@ longdesc diagrams), numodel-plot (a PGFPlots styling layer that
 longdesc auto-sizes plots to whole-number tick intervals), and
 longdesc numodel-coach (exports a model as a CMA Coach 7 modelling
 longdesc activity).
-containersize 70792
-containerchecksum 3ee1f93685c562f0d911610b7ad60de63d76d5b3d03bca43e2d56f1971679faf4531b73e903fd6315786ea4d35a4d10bc737a7cd5d63b879618b246e32470480
-doccontainersize 498832
-doccontainerchecksum fe041adef05ea12ecf43210fd371c41a610b1d6a50d79bf9a3c50edc80886c9a9f5bba53342f4d21170b55580f53a40ed9ead797065b7d1d7d433bdf6ba54134
-docfiles size=156
+containersize 78760
+containerchecksum a2c2d6f323aa68f0725c645159c7241441f7ed1a2229cc9008b0cfb52603bfbe2e3f7dc6018cc261c6b0f6a533cedd312aa8e55509bb28882260de8eaec8f821
+doccontainersize 515020
+doccontainerchecksum 1845b113d1b070690adad23498a6014110b152bce0ec92b48ea3b028c7bb0bfc0d7433fa64e9b9928e19e1a01105ecf8ff6c59be14afee471761cea146c0ae05
+docfiles size=163
  RELOC/doc/lualatex/numodel-bundle/CHANGELOG.md
  RELOC/doc/lualatex/numodel-bundle/README.md details="Readme"
  RELOC/doc/lualatex/numodel-bundle/numodel-coach-manual.pdf details="Package documentation (numodel-coach)"
@@ -259643,16 +260273,16 @@ docfiles size=156
  RELOC/doc/lualatex/numodel-bundle/numodel-manual.tex
  RELOC/doc/lualatex/numodel-bundle/numodel-plot-manual.pdf details="Package documentation (numodel-plot)"
  RELOC/doc/lualatex/numodel-bundle/numodel-plot-manual.tex
-srccontainersize 50360
-srccontainerchecksum 1e3bb5758ab64ad88626d196672f1e4efdd6aba1908cfdaa8c5ae729ca9017128a2704add28cafdaa1ef5c195e55377e6ceb9243e0646298d480378a6a5d43bb
-srcfiles size=66
+srccontainersize 51880
+srccontainerchecksum cf31839e1e77c300a08415904b5ee94a8d5d2a5b6d1cf5ca4a1c8c718fc851412ccfbe1747bbc5ce4aca567034755e072d5cd15686ce966986db55a0a5c36bb4
+srcfiles size=67
  RELOC/source/lualatex/numodel-bundle/numodel-coach.dtx
  RELOC/source/lualatex/numodel-bundle/numodel-coach.ins
  RELOC/source/lualatex/numodel-bundle/numodel-plot.dtx
  RELOC/source/lualatex/numodel-bundle/numodel-plot.ins
  RELOC/source/lualatex/numodel-bundle/numodel.dtx
  RELOC/source/lualatex/numodel-bundle/numodel.ins
-runfiles size=92
+runfiles size=102
  RELOC/tex/lualatex/numodel-bundle/numodel-EN.def
  RELOC/tex/lualatex/numodel-bundle/numodel-FPEVAL.def
  RELOC/tex/lualatex/numodel-bundle/numodel-NL.def
@@ -259662,11 +260292,12 @@ runfiles size=92
  RELOC/tex/lualatex/numodel-bundle/numodel-plot.sty
  RELOC/tex/lualatex/numodel-bundle/numodel.lua
  RELOC/tex/lualatex/numodel-bundle/numodel.sty
+catalogue-contact-bugs https://github.com/paulzuurbier/numodel/issues
 catalogue-contact-repository https://github.com/paulzuurbier/numodel
 catalogue-ctan /macros/luatex/latex/numodel-bundle
 catalogue-license lppl1.3c
 catalogue-topics diagram diagram-flow graphics-plot luatex pgf-tikz physics teaching use-luatex
-catalogue-version 0.11.0
+catalogue-version 0.12.0
 
 name numprint
 category Package
@@ -263538,20 +264169,111 @@ catalogue-license mit
 catalogue-topics colour
 catalogue-version 1.0.3
 
+name openglyph
+category Package
+revision 80846
+shortdesc Font-backed typesetting and component-based construction of historic Chinese
+relocated 1
+longdesc The package provides named, font-backed historical Chinese
+longdesc glyphs for XeLaTeX and LuaLaTeX. Authors enter ASCII
+longdesc identifiers instead of inserting separate missing-character
+longdesc images. The distribution includes 22,583 GlyphWiki ebag_s
+longdesc forms, their source-program dependency subset, and an optional
+longdesc offline Python/Node component-edit compiler. New forms are
+longdesc built into OpenType fonts with stable project-local private-use
+longdesc addresses and reproducible source records. Ordinary typesetting
+longdesc requires neither shell escape nor a network service. This
+longdesc package is not an OCR system and does not establish scholarly
+longdesc readings or the correctness of a generated glyph.
+containersize 19117196
+containerchecksum 01eba1a3b223e9b0cfcc088fd10fdfc7fed56ce135ea2f58d299cb2b91cb44aece889df907824742ce9e57d2947a46087cb1a85876b6257e21b624a617b9d730
+doccontainersize 423520
+doccontainerchecksum 4c95061e39ed0d9d5ea732f60be2f2763c1b3de095faa30168870caa0f43cccc45c04ba72d62d616e880e2c4f7e50a911b0001aa9510cfbddb6a890913238130
+docfiles size=441
+ RELOC/doc/fonts/openglyph/AI-ASSISTANCE.md
+ RELOC/doc/fonts/openglyph/CHANGELOG.md
+ RELOC/doc/fonts/openglyph/LICENSE
+ RELOC/doc/fonts/openglyph/README.md details="Readme"
+ RELOC/doc/fonts/openglyph/THIRD-PARTY-NOTICES.md
+ RELOC/doc/fonts/openglyph/examples/myglyphs/GLYPHWIKI-LICENSE.txt
+ RELOC/doc/fonts/openglyph/examples/myglyphs/OpenGlyph-650e3923e9b6.otf
+ RELOC/doc/fonts/openglyph/examples/myglyphs/allocation.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/catalog.tex
+ RELOC/doc/fonts/openglyph/examples/myglyphs/manifest.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/project.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n1.kage.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n1.program.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n2.kage.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n2.program.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n3.kage.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n3.program.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n4.kage.json
+ RELOC/doc/fonts/openglyph/examples/myglyphs/sources/n4.program.json
+ RELOC/doc/fonts/openglyph/openglyph-doc.pdf details="Package documentation"
+ RELOC/doc/fonts/openglyph/openglyph-doc.tex
+ RELOC/doc/fonts/openglyph/openglyph-example.pdf
+ RELOC/doc/fonts/openglyph/openglyph-example.tex
+ RELOC/doc/fonts/openglyph/openglyph-index.html
+srccontainersize 3125536
+srccontainerchecksum 91993e8dfeaf9ac30057d5ca9cc399610c509562f8cb1674f84b9fc92b117238d0460bccc47ffa17ac24b20de2fe46f0af7f64ac7849cc384f4d7b69c08e89c0
+srcfiles size=3881
+ RELOC/source/fonts/openglyph/data/ebag-addresses.json
+ RELOC/source/fonts/openglyph/data/ebag-manifest.json
+ RELOC/source/fonts/openglyph/data/glyphwiki-ebag.kage.jsonl.gz
+ RELOC/source/fonts/openglyph/data/provenance.json
+ RELOC/source/fonts/openglyph/examples/modules.json
+ RELOC/source/fonts/openglyph/examples/newforms.json
+ RELOC/source/fonts/openglyph/licenses/GlyphWiki-README.txt
+ RELOC/source/fonts/openglyph/licenses/GlyphWiki.txt
+ RELOC/source/fonts/openglyph/requirements-build.txt
+ RELOC/source/fonts/openglyph/scripts/build_ebag.py
+ RELOC/source/fonts/openglyph/scripts/build_index.py
+ RELOC/source/fonts/openglyph/scripts/oglib/__init__.py
+ RELOC/source/fonts/openglyph/scripts/oglib/catalog.py
+ RELOC/source/fonts/openglyph/scripts/oglib/font.py
+ RELOC/source/fonts/openglyph/scripts/oglib/kage.py
+ RELOC/source/fonts/openglyph/scripts/oglib/project.py
+ RELOC/source/fonts/openglyph/scripts/oglib/template_modules.py
+ RELOC/source/fonts/openglyph/scripts/oglib/template_program.py
+ RELOC/source/fonts/openglyph/scripts/openglyph.py
+ RELOC/source/fonts/openglyph/scripts/verify_bundle.py
+ RELOC/source/fonts/openglyph/tests/test_builder.py
+ RELOC/source/fonts/openglyph/tests/test_project.py
+ RELOC/source/fonts/openglyph/tests/test_tex_install.py
+ RELOC/source/fonts/openglyph/vendor/kage-engine/2d.js
+ RELOC/source/fonts/openglyph/vendor/kage-engine/COPYING
+ RELOC/source/fonts/openglyph/vendor/kage-engine/buhin.js
+ RELOC/source/fonts/openglyph/vendor/kage-engine/curve.js
+ RELOC/source/fonts/openglyph/vendor/kage-engine/kage.js
+ RELOC/source/fonts/openglyph/vendor/kage-engine/kagecd.js
+ RELOC/source/fonts/openglyph/vendor/kage-engine/kagedf.js
+ RELOC/source/fonts/openglyph/vendor/kage-engine/polygon.js
+ RELOC/source/fonts/openglyph/vendor/kage-engine/polygons.js
+runfiles size=11134
+ RELOC/fonts/opentype/public/openglyph/OpenGlyphEbag.otf
+ RELOC/tex/latex/openglyph/openglyph-ebag.def
+ RELOC/tex/latex/openglyph/openglyph.sty
+catalogue-contact-bugs https://github.com/Open-Glyph/OpenGlyph-LaTeX/issues
+catalogue-contact-repository https://github.com/Open-Glyph/OpenGlyph-LaTeX
+catalogue-ctan /fonts/openglyph
+catalogue-license mit gpl3 other-free
+catalogue-topics chinese font font-cjk font-otf use-luatex use-xetex
+catalogue-version 0.2.1
+
 name openmoji
 category Package
-revision 79605
+revision 80810
 shortdesc Use openmoji through LaTeX commands
 relocated 1
 longdesc This package provides commands like twemojis which allow to use
 longdesc OpenMoji through LaTeX commands. This relies on images (PDF
 longdesc from SVG), so no fancy unicode-font stuff is needed and it
 longdesc should work on every installation.
-containersize 4966352
-containerchecksum 4e489c7af357d8d35c40646fa517a2b51ac04c025ca71f41e48cbafe0dd0fd4457e3df0a66e5cd8a47f9dbfca02d3775037bc4f61de2f067cf28b1cea96522cb
-doccontainersize 5440956
-doccontainerchecksum 4d10eb7e6e575f4558e663eb9b43740491853d768e8f32054193f3319cc281a84db5715b9d40351595252e1fa9241e5125ce77fcb8691e5b1ce60531044a3133
-docfiles size=3025
+containersize 4966952
+containerchecksum 957a305400c3e9a1b2c72786adfa181e8d07ba0f5ee9bdb1a99ac5c949d36e42dde9ed319536bf51d8eced73439171f5acb7dc918782896e00533df9b3d1558b
+doccontainersize 5359944
+doccontainerchecksum c82945200aeb7740962601277a189e20b080a1146180020b3368ee8df9a8316de0fa9cf3ac448adb942595445ec6ecf5bc4d200ff08d6842e55edf64a07c9fd5
+docfiles size=3004
  RELOC/doc/latex/openmoji/README.md details="Readme"
  RELOC/doc/latex/openmoji/openmoji-doc.pdf details="Package documentation"
  RELOC/doc/latex/openmoji/openmoji-doc.tex
@@ -263566,7 +264288,7 @@ catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/ma
 catalogue-ctan /macros/latex/contrib/openmoji
 catalogue-license lppl1.3c cc-by-sa-4
 catalogue-topics graphics text-symbol
-catalogue-version 17.0.0
+catalogue-version 17.0.0a
 
 name opensans
 category Package
@@ -265679,27 +266401,25 @@ catalogue-version 2.1
 
 name orientation
 category Package
-revision 57390
-shortdesc Set page orientation with dvips/Ghostscript (ps2pdf)
+revision 80768
+shortdesc Set page orientation
 relocated 1
 longdesc This package provides commands for manual (per-page and
 longdesc per-document) orientation of pages in a PDF created with
-longdesc dvips/Ghostscript (ps2pdf). For future versions it is planned
-longdesc to add support for other drivers, allowing for PDF orientation
-longdesc to be set in (x)dvipdfmx and pdfmode pdfTeX using the same
-longdesc commands from the user perspective.
-containersize 928
-containerchecksum 729921d3152b76fc4c6c8385ce0b5a8ca2491670a7082133084c2e09774bd5c94b7c6c6b8ace1db787b4626f68a9b184550d43adace8dc6646ad36d2d9703f8d
-doccontainersize 900
-doccontainerchecksum 75d3d1dd0a71d34429584dc1519b9ba26e329f58f468ae8548e7f9ec9f92e6877917bda790b61af9642e595d6b42370e8fc511b2e1d9b974617a6f5bddf96821
+longdesc dvips/Ghostscript (ps2pdf), as well as (x)dvipdfmx, pdfmode
+longdesc pdfTeX and LuaTeX.
+containersize 2480
+containerchecksum 7c994440505fdcb963f75216c0ecb3bbd15068c32c429f7b3bef8a9fec7d62761e7b7bd1322aec91e780443d84e370bed6bb73c72b08ccb9d1137126d6050743
+doccontainersize 1096
+doccontainerchecksum b32f5ef678860dbc49a1f17535c2dd08fdd93a9952d9273c4263d37e9d9f72c748ffe2b1b4efd118dc8f8c8335fb0dfcfe5603370f3ef152265c47221aba2830
 docfiles size=1
  RELOC/doc/latex/orientation/README details="Readme"
-runfiles size=1
+runfiles size=2
  RELOC/tex/latex/orientation/orientation.sty
 catalogue-ctan /macros/latex/contrib/orientation
 catalogue-license cc0
-catalogue-topics landscape dvips-special
-catalogue-version 1.0
+catalogue-topics dvips-special landscape
+catalogue-version 2.0
 
 name orkhun
 category Package
@@ -269516,7 +270236,7 @@ catalogue-version 3.01
 
 name pascaltriangle
 category Package
-revision 76924
+revision 80767
 shortdesc Draw beautiful Pascal (Yanghui) triangles
 relocated 1
 longdesc This LaTeX3 package based on TikZ helps to generate beautiful
@@ -269524,10 +270244,10 @@ longdesc Pascal (Yanghui) triangles. It provides a unique drawing macro
 longdesc \pascal which can generate isosceles or right-angle triangles
 longdesc customized by means of different \pascal macro options or the
 longdesc \pascalset macro.
-containersize 3696
-containerchecksum da4bafcb89380f55e91b40518e2baf83060c7c4ef8e60b2463b2ac8ced0ba492c91f9c03a3ecf74bca57c465d193aafb990ee6a8f069d33aea8d86eb7259e356
-doccontainersize 164516
-doccontainerchecksum 09d1e1dd949b4e7e4e5298b25104fa6a9f6ef1aa4e468c8a059266e5fbadf9e84e4649b2c5ba60e4460ef2d37f345eeb250ba3dd3e9145ab1c33eccdbac3ff23
+containersize 3684
+containerchecksum 451bfcb8e2b43d93e2266d49c1370bac2f0fe1808f345cdb24d20fc07b190c9970d1dab89ee6c233fd200cf997cbc699225e0dd617b1d9d6c0cda5355ccab6ab
+doccontainersize 164156
+doccontainerchecksum 1254686c523c38170a0c755f0a6b5cf94f8b76a7cf7f1c2cec0eb4b041c20bdca91ffed453738e0f05ea51bc500959edd8fd35f1cda31dbfa511141ae1c8e517
 docfiles size=46
  RELOC/doc/latex/pascaltriangle/README.md details="Readme"
  RELOC/doc/latex/pascaltriangle/build.sh
@@ -269540,8 +270260,8 @@ catalogue-contact-bugs https://github.com/registor/pascaltriangle/issues
 catalogue-contact-repository https://github.com/registor/pascaltriangle
 catalogue-ctan /macros/latex/contrib/pascaltriangle
 catalogue-license lppl1.3c
-catalogue-topics maths calculation pgf-tikz
-catalogue-version 1.0.1
+catalogue-topics calculation maths pgf-tikz
+catalogue-version 1.0.2
 
 name passivetex
 category Package
@@ -274690,73 +275410,190 @@ catalogue-version 1.02
 
 name pgf-go
 category Package
-revision 78101
+revision 80785
 shortdesc Diagramming and commenting on Go games
 relocated 1
 longdesc A LaTeX package for creating Go (Baduk) diagrams with ease. It
+longdesc can read SGF files, resolve captures, and count territory. It
 longdesc features an efficient coordinate-loading syntax to streamline
 longdesc workflows and offers flexible profile manipulation, allowing
 longdesc users to customize board layouts, stones, and annotations
-longdesc effortlessly.
-containersize 14032
-containerchecksum e576104ce9cecaf545b969309797f06fec96f0b660a5532f927c78bbec6d4520c7f45547098a067a670ae72878c5e1301ed67ad44439480cf9d1575d301fa16d
-doccontainersize 1120332
-doccontainerchecksum 25a4d2bd7fd27fa844bd17f5eaff118e661fb2783bed639aae58975ee757621e8f01affbf5537ef6e3c84bfdda246734e2d86d47c3955d9ed1d1302553036801
-docfiles size=1052
+longdesc effortlessly. It also provides macros for easily arranging
+longdesc diagrams and problems.
+containersize 375264
+containerchecksum 5b5611535dc05845bd9a69f3fc4ecd5f44ae02fd710a617e5c364b9b6cac37b3716f6f360a3654a58b588de0ce5bc364461b53f02360149b7a5def0156febb5b
+doccontainersize 4219940
+doccontainerchecksum cdad8da2d49efd567c843fb4452c5a26205236d89a5f5d3ff6c90c6ed0056682df46d2ef0a753b5c2dcef669bce1cfeadc35fa2146a19be48c6e44d159bc4d00
+docfiles size=2302
+ RELOC/doc/latex/pgf-go/CHANGELOG.md
  RELOC/doc/latex/pgf-go/README.md details="Readme"
+ RELOC/doc/latex/pgf-go/en/game.sgf
  RELOC/doc/latex/pgf-go/en/pgfgo-board.tex
  RELOC/doc/latex/pgf-go/en/pgfgo-catalog.tex
- RELOC/doc/latex/pgf-go/en/pgfgo-definitions.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-coordinates.tex
  RELOC/doc/latex/pgf-go/en/pgfgo-en.tex
- RELOC/doc/latex/pgf-go/en/pgfgo-examples.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-game.tex
  RELOC/doc/latex/pgf-go/en/pgfgo-initialexamples.tex
  RELOC/doc/latex/pgf-go/en/pgfgo-introduction.tex
- RELOC/doc/latex/pgf-go/en/pgfgo-keystone.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-layout.tex
  RELOC/doc/latex/pgf-go/en/pgfgo-marks.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-memory.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-news.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-players.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-settings.tex
+ RELOC/doc/latex/pgf-go/en/pgfgo-sgffiles.tex
  RELOC/doc/latex/pgf-go/en/pgfgo-stones.tex
+ RELOC/doc/latex/pgf-go/en/variations.sgf
+ RELOC/doc/latex/pgf-go/es/josekis.sgf
+ RELOC/doc/latex/pgf-go/es/partida.sgf
  RELOC/doc/latex/pgf-go/es/pgfgo-catalogo.tex
- RELOC/doc/latex/pgf-go/es/pgfgo-definiciones.tex
- RELOC/doc/latex/pgf-go/es/pgfgo-ejemplos.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-configuracion.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-coordenadas.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-disposicion.tex
  RELOC/doc/latex/pgf-go/es/pgfgo-ejemplosiniciales.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-eljuego.tex
  RELOC/doc/latex/pgf-go/es/pgfgo-eltablero.tex
- RELOC/doc/latex/pgf-go/es/pgfgo-elterritorio.tex
  RELOC/doc/latex/pgf-go/es/pgfgo-es.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-jugadores.tex
  RELOC/doc/latex/pgf-go/es/pgfgo-lasmarcas.tex
  RELOC/doc/latex/pgf-go/es/pgfgo-laspiedras.tex
- RELOC/doc/latex/pgf-go/es/pgfgo-loelemental.tex
- RELOC/doc/latex/pgf-go/es/pgfgo-lopendiente.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-memoria.tex
  RELOC/doc/latex/pgf-go/es/pgfgo-motivacion.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-novedades.tex
+ RELOC/doc/latex/pgf-go/es/pgfgo-sgf.tex
+ RELOC/doc/latex/pgf-go/es/problema.sgf
+ RELOC/doc/latex/pgf-go/es/variantes.sgf
+ RELOC/doc/latex/pgf-go/examples/code-page.tex
+ RELOC/doc/latex/pgf-go/examples/comentada.sgf
+ RELOC/doc/latex/pgf-go/examples/commented.sgf
  RELOC/doc/latex/pgf-go/examples/example-0.pdf
  RELOC/doc/latex/pgf-go/examples/example-0.tex
  RELOC/doc/latex/pgf-go/examples/example-1.pdf
  RELOC/doc/latex/pgf-go/examples/example-1.tex
+ RELOC/doc/latex/pgf-go/examples/example-10.pdf
+ RELOC/doc/latex/pgf-go/examples/example-10.tex
+ RELOC/doc/latex/pgf-go/examples/example-11.pdf
+ RELOC/doc/latex/pgf-go/examples/example-11.tex
+ RELOC/doc/latex/pgf-go/examples/example-12.pdf
+ RELOC/doc/latex/pgf-go/examples/example-12.tex
+ RELOC/doc/latex/pgf-go/examples/example-13.pdf
+ RELOC/doc/latex/pgf-go/examples/example-13.tex
+ RELOC/doc/latex/pgf-go/examples/example-14.pdf
+ RELOC/doc/latex/pgf-go/examples/example-14.tex
+ RELOC/doc/latex/pgf-go/examples/example-15.pdf
+ RELOC/doc/latex/pgf-go/examples/example-15.tex
+ RELOC/doc/latex/pgf-go/examples/example-16.pdf
+ RELOC/doc/latex/pgf-go/examples/example-16.tex
+ RELOC/doc/latex/pgf-go/examples/example-17.pdf
+ RELOC/doc/latex/pgf-go/examples/example-17.tex
+ RELOC/doc/latex/pgf-go/examples/example-18.pdf
+ RELOC/doc/latex/pgf-go/examples/example-18.tex
+ RELOC/doc/latex/pgf-go/examples/example-19.pdf
+ RELOC/doc/latex/pgf-go/examples/example-19.tex
  RELOC/doc/latex/pgf-go/examples/example-2.pdf
  RELOC/doc/latex/pgf-go/examples/example-2.tex
+ RELOC/doc/latex/pgf-go/examples/example-20.pdf
+ RELOC/doc/latex/pgf-go/examples/example-20.tex
+ RELOC/doc/latex/pgf-go/examples/example-21.pdf
+ RELOC/doc/latex/pgf-go/examples/example-21.tex
+ RELOC/doc/latex/pgf-go/examples/example-22.pdf
+ RELOC/doc/latex/pgf-go/examples/example-22.tex
+ RELOC/doc/latex/pgf-go/examples/example-23.pdf
+ RELOC/doc/latex/pgf-go/examples/example-23.tex
+ RELOC/doc/latex/pgf-go/examples/example-24.pdf
+ RELOC/doc/latex/pgf-go/examples/example-24.tex
+ RELOC/doc/latex/pgf-go/examples/example-25.pdf
+ RELOC/doc/latex/pgf-go/examples/example-25.tex
+ RELOC/doc/latex/pgf-go/examples/example-26.pdf
+ RELOC/doc/latex/pgf-go/examples/example-26.tex
+ RELOC/doc/latex/pgf-go/examples/example-27.pdf
+ RELOC/doc/latex/pgf-go/examples/example-27.tex
+ RELOC/doc/latex/pgf-go/examples/example-28.pdf
+ RELOC/doc/latex/pgf-go/examples/example-28.tex
+ RELOC/doc/latex/pgf-go/examples/example-29.pdf
+ RELOC/doc/latex/pgf-go/examples/example-29.tex
  RELOC/doc/latex/pgf-go/examples/example-3.pdf
  RELOC/doc/latex/pgf-go/examples/example-3.tex
+ RELOC/doc/latex/pgf-go/examples/example-30.pdf
+ RELOC/doc/latex/pgf-go/examples/example-30.tex
+ RELOC/doc/latex/pgf-go/examples/example-31.pdf
+ RELOC/doc/latex/pgf-go/examples/example-31.tex
+ RELOC/doc/latex/pgf-go/examples/example-32.pdf
+ RELOC/doc/latex/pgf-go/examples/example-32.tex
+ RELOC/doc/latex/pgf-go/examples/example-33.pdf
+ RELOC/doc/latex/pgf-go/examples/example-33.tex
+ RELOC/doc/latex/pgf-go/examples/example-34.pdf
+ RELOC/doc/latex/pgf-go/examples/example-34.tex
  RELOC/doc/latex/pgf-go/examples/example-4.pdf
  RELOC/doc/latex/pgf-go/examples/example-4.tex
  RELOC/doc/latex/pgf-go/examples/example-5.pdf
  RELOC/doc/latex/pgf-go/examples/example-5.tex
  RELOC/doc/latex/pgf-go/examples/example-6.pdf details="Example of use"
  RELOC/doc/latex/pgf-go/examples/example-6.tex
+ RELOC/doc/latex/pgf-go/examples/example-7.pdf
+ RELOC/doc/latex/pgf-go/examples/example-7.tex
+ RELOC/doc/latex/pgf-go/examples/example-8.pdf
+ RELOC/doc/latex/pgf-go/examples/example-8.tex
+ RELOC/doc/latex/pgf-go/examples/example-9.pdf
+ RELOC/doc/latex/pgf-go/examples/example-9.tex
+ RELOC/doc/latex/pgf-go/examples/games.sgf
+ RELOC/doc/latex/pgf-go/examples/gibo.sgf
+ RELOC/doc/latex/pgf-go/examples/hatsuyoron.sgf
+ RELOC/doc/latex/pgf-go/examples/joseki.sgf
+ RELOC/doc/latex/pgf-go/examples/kifu.sgf
+ RELOC/doc/latex/pgf-go/examples/lee.sgf
+ RELOC/doc/latex/pgf-go/examples/maeda-segoe.sgf
+ RELOC/doc/latex/pgf-go/examples/problem.sgf
+ RELOC/doc/latex/pgf-go/examples/qipu.sgf
+ RELOC/doc/latex/pgf-go/img/pgfgo-cell.png
+ RELOC/doc/latex/pgf-go/img/pgfgo-grid.png
+ RELOC/doc/latex/pgf-go/img/pgfgo-hoshi.png
+ RELOC/doc/latex/pgf-go/img/pgfgo-shine.png
+ RELOC/doc/latex/pgf-go/img/pgfgo-star.pdf
+ RELOC/doc/latex/pgf-go/img/pgfgo-tile.png
  RELOC/doc/latex/pgf-go/pgf-go-en.pdf details="Package documentation (English)"
  RELOC/doc/latex/pgf-go/pgf-go-es.pdf details="Package documentation (Spanish)" language="es"
  RELOC/doc/latex/pgf-go/pgfgo-preamble.tex
  RELOC/doc/latex/pgf-go/pgfgo.cfg
-runfiles size=31
+runfiles size=260
+ RELOC/tex/latex/pgf-go/pgf-go-charsets.lua
  RELOC/tex/latex/pgf-go/pgf-go-coordinate-parser.sty
  RELOC/tex/latex/pgf-go/pgf-go-goban.sty
+ RELOC/tex/latex/pgf-go/pgf-go-images.sty
+ RELOC/tex/latex/pgf-go/pgf-go-kernel-expl3.sty
+ RELOC/tex/latex/pgf-go/pgf-go-kernel-lua.sty
+ RELOC/tex/latex/pgf-go/pgf-go-kernel.sty
+ RELOC/tex/latex/pgf-go/pgf-go-lang.sty
+ RELOC/tex/latex/pgf-go/pgf-go-layout.sty
+ RELOC/tex/latex/pgf-go/pgf-go-lines.sty
  RELOC/tex/latex/pgf-go/pgf-go-marks.sty
  RELOC/tex/latex/pgf-go/pgf-go-players.sty
  RELOC/tex/latex/pgf-go/pgf-go-profiles.sty
  RELOC/tex/latex/pgf-go/pgf-go-remember.sty
+ RELOC/tex/latex/pgf-go/pgf-go-sgf.sty
  RELOC/tex/latex/pgf-go/pgf-go-stones.sty
+ RELOC/tex/latex/pgf-go/pgf-go-store.sty
+ RELOC/tex/latex/pgf-go/pgf-go-territory.sty
+ RELOC/tex/latex/pgf-go/pgf-go.lua
  RELOC/tex/latex/pgf-go/pgf-go.sty
+ RELOC/tex/latex/pgf-go/pgfgo-baduktv-black.png
+ RELOC/tex/latex/pgf-go/pgfgo-baduktv-goban.png
+ RELOC/tex/latex/pgf-go/pgfgo-baduktv-white.png
+ RELOC/tex/latex/pgf-go/pgfgo-board.jpg
+ RELOC/tex/latex/pgf-go/pgfgo-shadow.png
+ RELOC/tex/latex/pgf-go/pgfgo-shell-black.png
+ RELOC/tex/latex/pgf-go/pgfgo-shell-white-1.png
+ RELOC/tex/latex/pgf-go/pgfgo-shell-white-2.png
+ RELOC/tex/latex/pgf-go/pgfgo-shell-white-3.png
+ RELOC/tex/latex/pgf-go/pgfgo-shell-white-4.png
+ RELOC/tex/latex/pgf-go/pgfgo-shell-white-5.png
+ RELOC/tex/latex/pgf-go/pgfgo-yunzi-black.png
+ RELOC/tex/latex/pgf-go/pgfgo-yunzi-white-1.png
+ RELOC/tex/latex/pgf-go/pgfgo-yunzi-white-2.png
 catalogue-ctan /graphics/pgf/contrib/pgf-go
-catalogue-license lppl1.3
-catalogue-topics games go pgf-tikz
-catalogue-version 0.2025.03.10
+catalogue-license lppl1.3c fdl
+catalogue-topics games go pgf-tikz use-luatex
+catalogue-version 0.2026.10.23
 
 name pgf-interference
 category Package
@@ -277297,7 +278134,7 @@ catalogue-version 0.2A
 
 name physketch
 category Package
-revision 80736
+revision 80859
 shortdesc TikZ styles and pictures for physics drawings
 relocated 1
 longdesc The package provides TikZ styles, pictures and commands for the
@@ -277307,12 +278144,15 @@ longdesc rotation arrows, liquids and glass, light sources, lenses,
 longdesc screens and mirrors, current sources and meters, and
 longdesc engineering-style distances and angles. It also fixes a
 longdesc consistent house style for line widths, gaps and arrow tips.
-containersize 10700
-containerchecksum 0a91f67cf72671b833b4a9211cbdf2db9c1e227268f1abeb2fcb54dc9b5c000cbe3ae5f277b320478bb478c4f507009aff1397ed61ab382f8813149e11fde516
-doccontainersize 463804
-doccontainerchecksum a74797d723cc6ae796c631e0feee06e350a1c93c91dcc785a3285b347c1b38e26acd28fe1eff0f11f9a0fbe1210df14c686d5cb1d0b060a6cb760654ef618c7d
-docfiles size=124
+containersize 10616
+containerchecksum e390cccf23b5f065b4acd7ee20fe73c573cb3690fb345ffe8a14ee6af1b200af3f8102b3c93455be15867551c1cdb4a1355ea4eb2c7c0331ae8737daeaba0fbe
+doccontainersize 997200
+doccontainerchecksum 6b82a60794dee54898f62ae9bcef45e8f1dc3151097f517594dad5254e2a308d15d29319d0de583df6ad1d9569fcc9ac563f95a37ac32c1b8425a78c865160f6
+docfiles size=269
+ RELOC/doc/latex/physketch/CHANGELOG.md
  RELOC/doc/latex/physketch/README.md details="Readme"
+ RELOC/doc/latex/physketch/physketch-doc-ru.pdf details="Package documentation (Russian)" language="ru"
+ RELOC/doc/latex/physketch/physketch-doc-ru.tex
  RELOC/doc/latex/physketch/physketch-doc.pdf details="Package documentation"
  RELOC/doc/latex/physketch/physketch-doc.tex
 runfiles size=15
@@ -277322,11 +278162,12 @@ runfiles size=15
  RELOC/tex/latex/physketch/physketch.mechanics.sty
  RELOC/tex/latex/physketch/physketch.optics.sty
  RELOC/tex/latex/physketch/physketch.sty
+catalogue-contact-bugs https://github.com/gimaevazamat/physketch/issues
 catalogue-contact-repository https://github.com/gimaevazamat/physketch
 catalogue-ctan /graphics/pgf/contrib/physketch
 catalogue-license lppl1.3c
 catalogue-topics graphics-in-tex pgf-tikz physics
-catalogue-version 0.1.0
+catalogue-version 0.1.1
 
 name physunits
 category Package
@@ -285159,7 +286000,7 @@ catalogue-version 1.0
 
 name printfilelist
 category Package
-revision 79315
+revision 80796
 shortdesc Print a list of the files used by the current document
 relocated 1
 longdesc This package provides two commands for inspecting the files
@@ -285169,15 +286010,15 @@ longdesc filter and a starred form that produces a compact,
 longdesc comma-separated inline list. \ispackageloaded reports whether a
 longdesc given package is loaded, and its version if so. The package
 longdesc requires nothing beyond the LaTeX kernel.
-containersize 1472
-containerchecksum 70d0534b0f1eb53fe319708829697ec54bdac7d11343f48749308203ee45dfd53c3e00a71d75e0c4002253bf185c514d3dd812e7b51ccf6c5925ea172c2a0608
-doccontainersize 284376
-doccontainerchecksum 000146fb3ea90a928b1927854684d9beb59d20ddf0bebbd7faae9144486e1f3653efb65c12e5e68d8329ec8c0efd2a3cb6036d260c455b871e1d25dec35e09eb
-docfiles size=72
+containersize 1480
+containerchecksum 25ec3f7216aaba678cd567d0070d0946831e1a08bf8287f256079def0e0a07999c1e77bd6d17908bb62012dce09fe70fc79d6e103f4d293c8f33ce1ebee9b782
+doccontainersize 285688
+doccontainerchecksum 8c309863afcd1f656ff99944f78487c06f6d7b83106aef5abec834bce996d4131b11a386a3bd98e91da89e92ffefd3ce4ea3a30f5221995b59eb85e55eaf494f
+docfiles size=73
  RELOC/doc/latex/printfilelist/README.md details="Readme"
  RELOC/doc/latex/printfilelist/printfilelist.pdf details="Package documentation"
-srccontainersize 3956
-srccontainerchecksum 117fa72dfa66a36bb6f735465d7d89492e0f9004f2cdd8209db65f4355f263228432568947ac8260972a48c968c5362ef496fe0e9ee019c942178d88db8777ac
+srccontainersize 4180
+srccontainerchecksum 9d8807c481da6517587e30652f7934d2870f2559cc996a48a4937344e8df1d836f10625ccfa01b773452f7034ec80616127e6f4c0bea1b585344b57074edd785
 srcfiles size=4
  RELOC/source/latex/printfilelist/printfilelist.dtx
  RELOC/source/latex/printfilelist/printfilelist.ins
@@ -285188,7 +286029,7 @@ catalogue-contact-repository https://github.com/gaksaray/printfilelist
 catalogue-ctan /macros/latex/contrib/printfilelist
 catalogue-license lppl1.3c
 catalogue-topics doc-debug doc-mgmt
-catalogue-version 1.1.0
+catalogue-version 1.1.1
 
 name printlen
 category Package
@@ -285975,7 +286816,7 @@ catalogue-version 1.0
 
 name proflycee
 category Package
-revision 80524
+revision 80780
 shortdesc A LaTeX package for French maths teachers in high school
 relocated 1
 longdesc This package provides some commands to help French mathematics
@@ -285985,19 +286826,20 @@ longdesc present Python code or pseudocode, a Python execution console ;
 longdesc simplify calculations in fractional form, simplify roots ;
 longdesc display and use a trigonometric circle ; display a small
 longdesc diagram for the sign of an affine function or a trinomial ; ...
-containersize 501768
-containerchecksum a4a2625e49b6e81ef1790035678c0fa84e64902fc4d18920e1c3dc09935e9a2a80f4708f98b4b06d9affccd8cef14352255664568cf256724207719335ed9145
-doccontainersize 2575728
-doccontainerchecksum f6880cc035ca3623d32d33bdd9bfd3a6bd92120d77c1b9b505a98841d7626ece230c7ad59d61803df526f2033516125583044cbc33c97825878a76608be14584
-docfiles size=675
+containersize 506940
+containerchecksum 139b97c811809716eaaa873aed5c023ad0c93f3d7fa90b16d51d2aa578f4451e8c995da5f24f5c24d9b61825b7162fda42ff1a58fa11cfd8fc48152a5e7a07f0
+doccontainersize 2590060
+doccontainerchecksum 917c58ad5d414c7a15f0e242a015b7dd013af7df945840b538dc3671f0d9e9fe6a6791642e6964b39210d0cc02f514542559ab2333329b6734a22510aae28e17
+docfiles size=678
  RELOC/doc/latex/proflycee/ProfLycee-doc-simple.pdf details="Simplified documentation (bilingual English-French)"
  RELOC/doc/latex/proflycee/ProfLycee-doc.pdf details="Package documentation" language="fr"
  RELOC/doc/latex/proflycee/ProfLycee-docctan.zip
  RELOC/doc/latex/proflycee/ProfLycee-exemples-pyluatex.pdf details="Examples using pyluatex" language="fr"
  RELOC/doc/latex/proflycee/ProfLycee-exemples-pythontex.pdf
  RELOC/doc/latex/proflycee/README.md details="Readme"
-runfiles size=342
+runfiles size=351
  RELOC/metapost/proflycee/PfLEspace.mp
+ RELOC/tex/latex/proflycee/ProfLycee-Arbres.sty
  RELOC/tex/latex/proflycee/ProfLycee-Light.sty
  RELOC/tex/latex/proflycee/ProfLycee-Macros.sty
  RELOC/tex/latex/proflycee/ProfLycee-Pictosbac.sty
@@ -286052,7 +286894,7 @@ catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/ma
 catalogue-ctan /macros/latex/contrib/proflycee
 catalogue-license lppl1.3c cc0 mit cc-by-sa-3
 catalogue-topics french maths pgf-tikz teaching
-catalogue-version 4.02b
+catalogue-version 4.02c
 
 name profmaquette
 category Package
@@ -297465,7 +298307,7 @@ catalogue-version 1.0
 
 name quran
 category Package
-revision 80406
+revision 80850
 shortdesc An easy way to typeset any part of The Holy Quran
 relocated 1
 longdesc This package offers the user an easy way to typeset The Holy
@@ -297475,16 +298317,18 @@ longdesc part of the Quran based on its popular division, including
 longdesc surah, ayah, juz, hizb, quarter, and page. Besides the Arabic
 longdesc original, translations to English, German, French, and Persian
 longdesc are provided, as well as an English transliteration.
-containersize 1629600
-containerchecksum 3b72c116bbbbab1dc934cb44e31f02b0f5b897c49d5767a9efc9cb6814a1ad4bdc156949f3d1079b41ee95dda14357cbfb79dfad85a81570ab92de9c97f85c5e
-doccontainersize 1412760
-doccontainerchecksum 323fa498ef9c599a20aab2c82bc26d2605c6e7c3eeca77ec2b625f98b444d00038723c5f190c04bda0a9dc93612af32743314a470ab223895c5929ae59778c83
-docfiles size=387
+containersize 1788508
+containerchecksum 695aa72e5853824601b0619116c3db06a14c91104245001f51348a73bc1346059836dad2dd0270b70c9e7202edfb5b66b2a5ee2e1fb0434b70c0d16840f2765c
+doccontainersize 1487968
+doccontainerchecksum 37e92810c05a218dcbfd2f33b386bb72778f6adf0590946ca4895ed8ad269d0e8d578365e7cf573750da086bef248891bc422813f1870dc89705f163eb483c0f
+docfiles size=410
  RELOC/doc/latex/quran/README details="Readme"
  RELOC/doc/latex/quran/quran-doc-ar.pdf
  RELOC/doc/latex/quran/quran-doc-ar.tex
  RELOC/doc/latex/quran/quran-doc.pdf details="Package documentation"
  RELOC/doc/latex/quran/quran-doc.tex
+ RELOC/doc/latex/quran/quran-test-warsh.pdf
+ RELOC/doc/latex/quran/quran-test-warsh.tex
  RELOC/doc/latex/quran/quran-test.pdf details="Example of use"
  RELOC/doc/latex/quran/quran-test.tex
  RELOC/doc/latex/quran/quran-test1.pdf
@@ -297492,12 +298336,13 @@ docfiles size=387
  RELOC/doc/latex/quran/quran-test2.pdf
  RELOC/doc/latex/quran/quran-test2.tex
  RELOC/doc/latex/quran/quran.png
-runfiles size=2657
+runfiles size=3066
  RELOC/tex/latex/quran/quran-transde.def
  RELOC/tex/latex/quran/quran-transen.def
  RELOC/tex/latex/quran/quran-transfa.def
  RELOC/tex/latex/quran/quran-transfr.def
  RELOC/tex/latex/quran/quran-translt.def
+ RELOC/tex/latex/quran/quran-warsh-tables.def
  RELOC/tex/latex/quran/quran.sty
  RELOC/tex/latex/quran/qurantext-de.translation.def
  RELOC/tex/latex/quran/qurantext-en.translation.def
@@ -297507,13 +298352,14 @@ runfiles size=2657
  RELOC/tex/latex/quran/qurantext-simple.def
  RELOC/tex/latex/quran/qurantext-uthmani-min.def
  RELOC/tex/latex/quran/qurantext-uthmani.def
-catalogue-also quran-de quran-ur quran-bn lipsum ptext
+ RELOC/tex/latex/quran/qurantext-warsh.def
+catalogue-also quran-bn quran-de quran-en quran-es quran-id quran-ur lipsum ptext
 catalogue-contact-bugs https://github.com/javadr/quran/issues
 catalogue-contact-repository https://github.com/javadr/quran
 catalogue-ctan /macros/unicodetex/latex/quran
 catalogue-license lppl1.3c
 catalogue-topics arabic dummy-gen macro-supp
-catalogue-version 2.5
+catalogue-version 2.6
 
 name quran-bn
 category Package
@@ -301499,6 +302345,47 @@ catalogue-ctan /macros/latex/contrib/rgltxdoc
 catalogue-license lppl1.2
 catalogue-topics doc-supp
 catalogue-version 1.3
+
+name rhode-island-thesis
+category Package
+revision 80854
+shortdesc University of Rhode Island thesis template
+relocated 1
+longdesc This class produces theses and dissertations that follow the
+longdesc formatting guidelines of the Graduate School at the University
+longdesc of Rhode Island. It generates the title page, approval page,
+longdesc table of contents, and lists of figures and tables, sets the
+longdesc margins, spacing and page numbering, and produces the List of
+longdesc References and the Bibliography.
+containersize 28868
+containerchecksum 75cd4f995ee5ac159e9bb85fb8ac02a6bc8f220d18754307d35fd77df9000d6eca71137ece809cb9e24e0c8ebbeb50384847b748952f521b7a15bc47d84cc597
+doccontainersize 410680
+doccontainerchecksum 81f2fd801ce917ec7de1fe77d020a89f1e512e3087596ceda57c56259fc04727352aa4b05269a9750178696ee911306b7d24f9a01db832ab6e9a23551b3a3c9e
+docfiles size=118
+ RELOC/doc/latex/rhode-island-thesis/README.txt details="Readme"
+ RELOC/doc/latex/rhode-island-thesis/abstract.tex
+ RELOC/doc/latex/rhode-island-thesis/acknowledgements.tex
+ RELOC/doc/latex/rhode-island-thesis/appendixA.tex
+ RELOC/doc/latex/rhode-island-thesis/chapter1.tex
+ RELOC/doc/latex/rhode-island-thesis/chapter2.tex
+ RELOC/doc/latex/rhode-island-thesis/chapter3.tex
+ RELOC/doc/latex/rhode-island-thesis/dedication.tex
+ RELOC/doc/latex/rhode-island-thesis/preface.tex
+ RELOC/doc/latex/rhode-island-thesis/references.bib
+ RELOC/doc/latex/rhode-island-thesis/rhode-island-thesis-doc.pdf details="Package documentation"
+ RELOC/doc/latex/rhode-island-thesis/rhode-island-thesis-doc.tex
+ RELOC/doc/latex/rhode-island-thesis/rhode-island-thesis.pdf details="Example of use"
+ RELOC/doc/latex/rhode-island-thesis/rhode-island-thesis.tex
+runfiles size=49
+ RELOC/bibtex/bst/rhode-island-thesis/rhode-island-thesis-apa.bst
+ RELOC/bibtex/bst/rhode-island-thesis/rhode-island-thesis-bib.bst
+ RELOC/bibtex/bst/rhode-island-thesis/rhode-island-thesis-ref.bst
+ RELOC/tex/latex/rhode-island-thesis/rhode-island-thesis.cls
+catalogue-contact-repository https://github.com/kylemonette/thesis-template
+catalogue-ctan /macros/latex/contrib/rhode-island-thesis
+catalogue-license lppl1.3c
+catalogue-topics class dissertation doc-templ std-conform
+catalogue-version 3.1
 
 name ribbonproofs
 category Package
@@ -313332,28 +314219,28 @@ catalogue-version 1.0.0beta
 
 name secdot
 category Package
-revision 79618
+revision 80779
 shortdesc Section numbers with trailing dots
 relocated 1
 longdesc Makes the numbers of \section commands come out with a trailing
 longdesc dot. Includes a command whereby the same can be made to happen
 longdesc with other sectioning commands.
-containersize 1896
-containerchecksum 969b7bd991a80ed4b31a2a0be57455bc3d91309b9cf24bc48588c74e4d4bcbf47aa64a11e9aa841793ff688de50ff454e6349d18bb8c03c77a57521c7621ad7d
-doccontainersize 269836
-doccontainerchecksum 7b86817a9bd513f1d8cff59d3e2a0e60a5cbefbd4b1e31cec0ea41a6ffa9e2f351fb1d0f33c6d1dde788520cafe5307fa829e684231eca9cafb4b456e019624e
-docfiles size=69
+containersize 1976
+containerchecksum 0843fd250d39cf93ef46887b623c256b21974933878fc4daf6c16441d9fae025141dc5ac5898537a80e35237e99766fc18ee8808547006ba2588057539b1ae4f
+doccontainersize 47976
+doccontainerchecksum 9178820deaeb47d6bb0e1baf6f97f010e0ec827f1a4577f895518af6f05c0a40284afc21116686157e6a27e1b00078d1140ac0703357ebfc9bcae0063209a530
+docfiles size=18
  RELOC/doc/latex/secdot/README.md
  RELOC/doc/latex/secdot/secdot.ltx
  RELOC/doc/latex/secdot/secdot.pdf details="Package documentation"
-runfiles size=1
+runfiles size=2
  RELOC/tex/latex/secdot/secdot.sty
 catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/secdot
 catalogue-contact-support https://github.com/LaTeX-Package-Repositories/secdot/issues
 catalogue-ctan /macros/latex/contrib/secdot
 catalogue-license lppl1.1
 catalogue-topics headings tagged-pdf
-catalogue-version 1.2
+catalogue-version 1.2a
 
 name secnum
 category Package
@@ -315913,6 +316800,36 @@ catalogue-ctan /macros/latex/contrib/showexpl
 catalogue-license lppl1.2
 catalogue-topics listing macro-demo tagged-pdf-incompatible
 catalogue-version 0.3s
+
+name showhanmengrid
+category Package
+revision 80795
+relocated 1
+containersize 4948
+containerchecksum f4c74355b3011015fa4975f96a137dea4ba02f0b6e016348d68859f13b3bde283851e3fd07182b3add6d99e42b8f0172f1a8ed591364dd32e55ec03a46b30841
+doccontainersize 264228
+doccontainerchecksum f8659b0efc1cedb68c597dfc2e62def9356de4100aa6a7f106657c695c0b608fde7bb85057413c9d437bd7d0eec3e08e2cc66d28b24cefd8da3c78dad4796500
+docfiles size=101
+ RELOC/doc/latex/showhanmengrid/LICENSE
+ RELOC/doc/latex/showhanmengrid/README.md
+ RELOC/doc/latex/showhanmengrid/jfm-shgtest.lua
+ RELOC/doc/latex/showhanmengrid/showhanmengrid.pdf
+ RELOC/doc/latex/showhanmengrid/showhanmengrid.tex
+ RELOC/doc/latex/showhanmengrid/test-common.tex
+ RELOC/doc/latex/showhanmengrid/test-jfm.tex
+ RELOC/doc/latex/showhanmengrid/test-jlreq.tex
+ RELOC/doc/latex/showhanmengrid/test-kanjiskip.tex
+ RELOC/doc/latex/showhanmengrid/test-keys.tex
+ RELOC/doc/latex/showhanmengrid/test-luatexja-tate.tex
+ RELOC/doc/latex/showhanmengrid/test-luatexja.tex
+ RELOC/doc/latex/showhanmengrid/test-mag.tex
+ RELOC/doc/latex/showhanmengrid/test-nojapanese.tex
+ RELOC/doc/latex/showhanmengrid/test-overflow.tex
+ RELOC/doc/latex/showhanmengrid/test-ptex-tate.tex
+ RELOC/doc/latex/showhanmengrid/test-ptex.tex
+ RELOC/doc/latex/showhanmengrid/test-tombo.tex
+runfiles size=4
+ RELOC/tex/latex/showhanmengrid/showhanmengrid.sty
 
 name showhyphenation
 category Package
@@ -322951,7 +323868,7 @@ catalogue-topics maths matrix maths-syseqn maths-theorem typeset-grid tagged-pdf
 
 name spanish-mathml-intent
 category Package
-revision 80757
+revision 80791
 shortdesc Spanish MathML intent for accessible (tagged) PDF with LuaLaTeX
 longdesc This package adds MathML intent to mathematics written in
 longdesc Spanish with LuaLaTeX. The intent attribute tells a screen
@@ -322962,22 +323879,22 @@ longdesc numbers, units, money, dates and times, geometry, algebra and
 longdesc statistics, each with the Spanish reading it should have. It is
 longdesc aimed at primary and secondary school teachers.
 depend spanish-mathml-intent.ARCH
-containersize 64032
-containerchecksum df978a404639608a616db007270da74dbfd682cdfbd4d72f012ae25ab66f6dc71130c9b4f0cb6e19857bc8455b9add41acef7cf8a3e417c6d2e1c12035c8e8d8
-doccontainersize 3014304
-doccontainerchecksum 3a6f7a395b054ef309e0f99fd1b04b75626c200a8ff25c8d5ffff79fadfb549f7e899665bc77e843bf3f16d66030affd2c412f2938b84bfdab3ed2d7adc6e407
-docfiles size=754
+containersize 64112
+containerchecksum b634011ddc6b087867923b90783b67eab43c666c5974c5bdf1cb443a0a837245b03f08010e087b59ace01c602d9c6dda013e5066f250a698da35a754b0aca17b
+doccontainersize 3015816
+doccontainerchecksum 76a6e4b0eb0f3025a6daa4cf601087b78f55ac62553cf2a30d38d365d79513f54f24c5d1e34678d95989bb52d3a91bb5c47c071a2f068b10ae417c93e9ffdac5
+docfiles size=756
  texmf-dist/doc/lualatex/spanish-mathml-intent/README.md details="Readme"
- texmf-dist/doc/lualatex/spanish-mathml-intent/spanish-mathml-intent.pdf details="Package documentation"
+ texmf-dist/doc/lualatex/spanish-mathml-intent/spanish-mathml-intent.pdf details="Package documentation" language="es"
  texmf-dist/doc/lualatex/spanish-mathml-intent/spmmli-tool.man1.pdf details="Manual page for spmmli-tool"
  texmf-dist/doc/man/man1/spmmli-tool.1
  texmf-dist/doc/man/man1/spmmli-tool.man1.pdf details="Manual page for spmmli-tool"
-srccontainersize 166572
-srccontainerchecksum 662fdc04a7a424fbd52d5dcb8e2eddec6282df488eca1512d66afa449bdb1505c713c7933a9de3cc2eeb9bd964984e0aefc5b4cde62ae1617f6a71ba6ed91797
+srccontainersize 167344
+srccontainerchecksum 6e38fb8d1f3e35649addf5ce323373283fd656bd8b7ecb0f88290e8b97daf5a65998ab1caabe294063ac9a500cafa4bdb071802c793556b18ca7939af9b00a12
 srcfiles size=276
  texmf-dist/source/lualatex/spanish-mathml-intent/spanish-mathml-intent.dtx
  texmf-dist/source/lualatex/spanish-mathml-intent/spanish-mathml-intent.ins
-runfiles size=120
+runfiles size=119
  texmf-dist/scripts/spanish-mathml-intent/spmmli-tool.lua
  texmf-dist/tex/lualatex/spanish-mathml-intent/spanish-mathml-intent.sty
  texmf-dist/tex/lualatex/spanish-mathml-intent/spintent.lua
@@ -322987,7 +323904,7 @@ catalogue-contact-support https://github.com/pablgonz/spanish-mathml-intent/disc
 catalogue-ctan /macros/luatex/latex/spanish-mathml-intent
 catalogue-license lppl1.3c
 catalogue-topics accessible luatex maths spanish teaching
-catalogue-version 1.1
+catalogue-version 1.2
 
 name spanish-mathml-intent.aarch64-linux
 category Package
@@ -325168,7 +326085,7 @@ catalogue-version 3.25
 
 name spim-phdthesisthemes
 category Package
-revision 79121
+revision 80778
 shortdesc Classes, styles and configuration files for writing PhD dissertations
 relocated 1
 longdesc LaTeX classes, packages and configuration files for typesetting
@@ -325197,11 +326114,11 @@ longdesc without explicit written permission from the owning university
 longdesc or institution. The exact terms governing the logos are set
 longdesc forth in the file logos/LICENSE.logos. By redistributing this
 longdesc package, you agree to abide by those terms.
-containersize 26312
-containerchecksum c655bbffd84d520b56e8e6a2d01ba1eb3a675c3a0ea56290a9fbca01ad963c1850770e985650a44b940208357fff9978c48e574b566d733e2d6076f4c837cad9
-doccontainersize 428176
-doccontainerchecksum 9fa19c75491db7b78f423ddb675cce986e6b3e054111c59237c820ae711be73b88e2b37c30960575169ea049532651163f95c27110587bacb4370f6fb025397b
-docfiles size=259
+containersize 26376
+containerchecksum b11604c695b6e6f2cdcd4fea3b9ffe1c96dfdcfd77f5c84d14fee7ce04bd917622e902d3b43b4d08e030c1c61989e0442791301c02485bf04f50873e38f088b2
+doccontainersize 426188
+doccontainerchecksum 8128886e908d2174ef8222bbd364dadcba0069550b964c729c9af1ba291e3f5e98fb62b97ea9a0e9d8b074df7725911cd9b9080c46eb18e4d7dfb22e12820d0c
+docfiles size=258
  RELOC/doc/latex/spim-phdthesisthemes/AUTHORS
  RELOC/doc/latex/spim-phdthesisthemes/Changelog
  RELOC/doc/latex/spim-phdthesisthemes/LICENSE.LGPLv3
@@ -325236,8 +326153,8 @@ catalogue-contact-home https://www.arakhne.org/latex/tex-templates
 catalogue-contact-repository https://github.com/gallandarakhneorg/tex-templates
 catalogue-ctan /macros/latex/contrib/spim-phdthesisthemes
 catalogue-license lgpl3
-catalogue-topics report-like class doc-templ std-conform
-catalogue-version 20260508
+catalogue-topics class doc-templ report-like std-conform
+catalogue-version 20261023
 
 name spix
 category Package
@@ -330039,6 +330956,51 @@ catalogue-license lppl1.3c
 catalogue-topics diagram
 catalogue-version 2.2.1
 
+name subcaptionlite
+category Package
+revision 80824
+shortdesc Subfigures and subtables without the caption package
+relocated 1
+longdesc The subcaption package needs the caption package, which
+longdesc redefines \@makecaption of the class; thus it cannot be used
+longdesc with a class that has its own design of captions. This package
+longdesc provides the subfigure and subtable environments, \subcaption,
+longdesc \subcaptionbox and \subref with the same syntax as subcaption,
+longdesc without touching \@makecaption of the class. Subfigures and
+longdesc subtables are numbered (a), (b), ... within each figure or
+longdesc table, and \ref gives e.g. 4.2(a). The number of the float is
+longdesc right whether its caption comes before or after the
+longdesc subcaptions. hyperref and cleveref are supported, and
+longdesc \captionsetup is accepted and ignored. The font and the spaces
+longdesc of the subcaptions can be changed by redefining three macros;
+longdesc the space after the label is half of the full-width character
+longdesc with Japanese classes. Supported formats/engines: pdflatex,
+longdesc xelatex, lualatex (with or without LuaTeX-ja), platex, uplatex
+longdesc (with dvipdfmx).
+containersize 3792
+containerchecksum 8f8ab0359988b7446d644dfb799224702f7c1c7236bb4812c9606bdc15ce9df60c64fa194951130b7805b0cfc8861ed449bf160de0cc9fd51194a18d0e08290a
+doccontainersize 349976
+doccontainerchecksum ed33bae88a93bfe8ad0f91eb71c54c79ef4bec07a0cb6536d4fadbfe7b3434e65c6f8d01e4f3ab9444f4c080ef3b60626011600779deb1b6e3ee3b0a7855e03e
+docfiles size=102
+ RELOC/doc/latex/subcaptionlite/LICENSE
+ RELOC/doc/latex/subcaptionlite/README.md details="Readme"
+ RELOC/doc/latex/subcaptionlite/subcaptionlite.pdf details="Package documentation"
+ RELOC/doc/latex/subcaptionlite/subcaptionlite.tex
+ RELOC/doc/latex/subcaptionlite/test-basic.tex
+ RELOC/doc/latex/subcaptionlite/test-common.tex
+ RELOC/doc/latex/subcaptionlite/test-errors.tex
+ RELOC/doc/latex/subcaptionlite/test-hyperref.tex
+ RELOC/doc/latex/subcaptionlite/test-japanese.tex
+runfiles size=3
+ RELOC/tex/latex/subcaptionlite/subcaptionlite.sty
+catalogue-also subcaption
+catalogue-contact-bugs https://github.com/munepi/subcaptionlite/issues
+catalogue-contact-repository https://github.com/munepi/subcaptionlite
+catalogue-ctan /macros/latex/contrib/subcaptionlite
+catalogue-license lppl1.3c
+catalogue-topics caption subfloat
+catalogue-version 1.0
+
 name subdepth
 category Package
 revision 79618
@@ -332465,18 +333427,18 @@ catalogue-version 1.4d
 
 name tablericons
 category Package
-revision 79604
+revision 80823
 shortdesc Use tablerIcons through LaTeX commands
 relocated 1
 longdesc This package provides commands like twemojis which allow to use
 longdesc tablerIcons through LaTeX commands. This relies on images (PDF
 longdesc from SVG), so no fancy unicode-font stuff is needed and it
 longdesc should work on every installation.
-containersize 1405060
-containerchecksum f910540bf809f3f1bf4c8a869e301a6b565dd7663a1eb283ac6f539d41631716894bb172444da5ca99137af7cf7f3da5b2f610ba7dd1a41d25a7e3f04d743500
-doccontainersize 1886528
-doccontainerchecksum f5b54df1759b49e2ec5b58ce78442e4e353611453c0550a428ab5fd784eaedc3aa1a0adbcffcaf1b319f54e9797f9df2417e41d64f558d01ababb5f3656351fd
-docfiles size=1174
+containersize 1405492
+containerchecksum fd44de3e66beab0bef2cf4d900afa78b6e588561b7fe13f514d371c444c8f4faa22c2d5e32f4381365bc757d88692267d4ccd5e2d659d5cc851bb551ab3c4140
+doccontainersize 1748228
+doccontainerchecksum 1dae608801dd93739b1b1cba3aeb8a805472de99fccba499261d2880bae2c3399d4b73c0b33acec078ef44b6631ec82d6ac16889945100f97eef27892f666ff0
+docfiles size=1139
  RELOC/doc/latex/tablericons/README.md details="Readme"
  RELOC/doc/latex/tablericons/tablericons-doc.pdf details="Package documentation"
  RELOC/doc/latex/tablericons/tablericons-doc.tex
@@ -332491,7 +333453,7 @@ catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/ma
 catalogue-ctan /macros/latex/contrib/tablericons
 catalogue-license lppl1.3c mit
 catalogue-topics graphics text-symbol
-catalogue-version 3.44
+catalogue-version 3.44a
 
 name tablists
 category Package
@@ -333434,6 +334396,47 @@ catalogue-license lppl1.3
 catalogue-topics bibtex-doc
 catalogue-version 1.4
 
+name tamu-talk
+category Package
+revision 80794
+shortdesc An independently maintained Texas A&M theme for ltx-talk
+relocated 1
+longdesc This package provides an independently maintained Texas A&M
+longdesc theme for the ltx-talk class.
+containersize 5028
+containerchecksum 56ab26ed2714d453f201915f204d5ddec5cf25cd3f127cc8e923a3452fa0173fb3fd781013925ba8ddc4206c81199219753b59bb42044bad5a0c0eb6bef04dbc
+doccontainersize 256548
+doccontainerchecksum a54753aa5f2560aac81522b6bf14f62f662bba804dc2850529b743867659655b43abd3be096f691177a66c0eed08f4be7860b70f19c2a7131c69f605634dd945
+docfiles size=85
+ RELOC/doc/latex/tamu-talk/CHANGELOG.md
+ RELOC/doc/latex/tamu-talk/LICENSE
+ RELOC/doc/latex/tamu-talk/README.md details="Readme"
+ RELOC/doc/latex/tamu-talk/tamu-talk-code.pdf
+ RELOC/doc/latex/tamu-talk/tamu-talk-code.tex
+ RELOC/doc/latex/tamu-talk/tamu-talk-doc.pdf details="Package documentation"
+ RELOC/doc/latex/tamu-talk/tamu-talk-doc.tex
+ RELOC/doc/latex/tamu-talk/tamu-talk-example.pdf details="Example of use"
+ RELOC/doc/latex/tamu-talk/tamu-talk-example.tex
+srccontainersize 6064
+srccontainerchecksum ac9830ed6cd2b32e4bced637f71fa9be2e094d39d6df441da86816a7c02ebfd4b3e2759cd5e8145f300987059018dce47c6e03f37ac231471b812b51c9b321cb
+srcfiles size=7
+ RELOC/source/latex/tamu-talk/tamu-talk.dtx
+ RELOC/source/latex/tamu-talk/tamu-talk.ins
+runfiles size=10
+ RELOC/tex/latex/tamu-talk/tamu-talk-boxes.sty
+ RELOC/tex/latex/tamu-talk/tamu-talk-colors.sty
+ RELOC/tex/latex/tamu-talk/tamu-talk-compat.sty
+ RELOC/tex/latex/tamu-talk/tamu-talk-footer.sty
+ RELOC/tex/latex/tamu-talk/tamu-talk-header.sty
+ RELOC/tex/latex/tamu-talk/tamu-talk-options.sty
+ RELOC/tex/latex/tamu-talk/tamu-talk-titlepage.sty
+ RELOC/tex/latex/tamu-talk/tamu-talk.sty
+catalogue-contact-repository https://github.com/wsmith-sch/tamu-talk
+catalogue-ctan /macros/latex/contrib/tamu-talk
+catalogue-license lppl1.3c
+catalogue-topics presentation
+catalogue-version 0.1.0
+
 name tango
 category Package
 revision 71825
@@ -333669,6 +334672,28 @@ catalogue-ctan /macros/latex/contrib/tblr-extras
 catalogue-license lppl1.3c
 catalogue-topics table table-long
 catalogue-version 1.3
+
+name tcbpagefootnote
+category Package
+revision 80793
+relocated 1
+containersize 2404
+containerchecksum e2d71d943376d24354a096d08af7b6a292c5b3c83d625249a51bae8e5a4de3284e2a596d77cc08f7caff84ec9fafa39a37393af28cceb0fb1263fd134e9c1b0d
+doccontainersize 188536
+doccontainerchecksum 439c7b4e975c1af8ac5fff260350e7dc72f125e418f1fb13e214e1b4b25ccb75e880695fc1667654f0e89ade6846aa57ed1f1aa730bfbc97dad636b530ea5db5
+docfiles size=60
+ RELOC/doc/latex/tcbpagefootnote/LICENSE
+ RELOC/doc/latex/tcbpagefootnote/README.md
+ RELOC/doc/latex/tcbpagefootnote/tcbpagefootnote.pdf
+ RELOC/doc/latex/tcbpagefootnote/tcbpagefootnote.tex
+ RELOC/doc/latex/tcbpagefootnote/test-basic.tex
+ RELOC/doc/latex/tcbpagefootnote/test-breakable.tex
+ RELOC/doc/latex/tcbpagefootnote/test-common.tex
+ RELOC/doc/latex/tcbpagefootnote/test-errors.tex
+ RELOC/doc/latex/tcbpagefootnote/test-hyperref.tex
+ RELOC/doc/latex/tcbpagefootnote/test-japanese.tex
+runfiles size=2
+ RELOC/tex/latex/tcbpagefootnote/tcbpagefootnote.sty
 
 name tcldoc
 category Package
@@ -337148,7 +338173,7 @@ binfiles arch=x86_64-linuxmusl size=1
 
 name tex4ht
 category Package
-revision 80758
+revision 80804
 shortdesc Convert (La)TeX to HTML/XML
 longdesc A converter from TeX and LaTeX to SGML-based formats such as
 longdesc (X)HTML, MathML, OpenDocument, and Docbook, providing a
@@ -337169,10 +338194,10 @@ longdesc files from them is nontrivial, and generally done with the
 longdesc Makefile in development, from which the TeX4ht package in TeX
 longdesc Live is updated.
 depend tex4ht.ARCH
-containersize 1150872
-containerchecksum e3b79d924e0af8bb8110fb634243fb22c73857f4a6cb94862e25b57292b165836772d64649da9a47a4306cf267b455075baf107cbfb71489ebbd86907e9533f8
+containersize 1150964
+containerchecksum ee447bf20e13dbdedf46ac99c5ff643ee21b8f40ee46c7e207207c283c0c586d87cad03a62a604c0da8b87c38e8a862c56bf014307f7819cfe5863da7f6c46b3
 doccontainersize 136384
-doccontainerchecksum 99390c9e683289b52bd5158fccfac715376ec658b9ee8780319cda8806ebd73d494d1cf901e2c2853c09a2b9d363d6098c92e3c9610dcfe97d645b4e070edfe5
+doccontainerchecksum 4b97b8db8d8df2fe72edbf7bbdacb87074f3d7fdb31501bcf2dea56939fa0106eb870d5b92a6bf0184a6d0b12556648feb89cbdbc5b820ca9fc3364ebfc26e9b
 docfiles size=260
  texmf-dist/doc/generic/tex4ht/Makefile
  texmf-dist/doc/generic/tex4ht/README details="Readme"
@@ -337244,9 +338269,9 @@ docfiles size=260
  texmf-dist/doc/generic/tex4ht/mn56.html
  texmf-dist/doc/generic/tex4ht/mn5x.png
  texmf-dist/doc/generic/tex4ht/mn6x.png
-srccontainersize 1528200
-srccontainerchecksum 2015e1bc189662e35eb8408354586f5ee9075acf68b941fa7f97497636f2d2d1e333d458cc05b9a7960ef1e401c7ff8fe77ea303a36ce07aa5b33e4810d2beaf
-srcfiles size=4692
+srccontainersize 1529152
+srccontainerchecksum 0c92d0d10b3d0c062854517a28ed85d7d9a39b2020723e533454a4e11afe10ed4fb86af155a87bba62eecb2fa486fb78899035d3bbbe61c9de7d555b12290973
+srcfiles size=4694
  texmf-dist/source/generic/tex4ht/ChangeLog
  texmf-dist/source/generic/tex4ht/Makefile
  texmf-dist/source/generic/tex4ht/README
@@ -349799,7 +350824,7 @@ docfiles size=376
 
 name texlive-scripts
 category TLCore
-revision 80761
+revision 80861
 shortdesc TeX Live infrastructure programs
 longdesc Includes install-tl, tl-portable, rungs, etc.; not needed for
 longdesc tlmgr to run but still ours. Not included in tlcritical.
@@ -349807,11 +350832,11 @@ depend texlive-scripts.ARCH
 depend texlive.infra
 execute addMap mathpple.map
 postaction shortcut type=menu name="TeX Live command-line"   cmd=TEXDIR/tlpkg/installer/tl-cmd.bat
-containersize 764320
-containerchecksum de4f41593c3e70510a85c1253e153f37925514c1f578b92234cf24a7321086edefad11f222f07318ada543882ac742f0f7f3a94bb7fb15d3d4b5a34fc6c63ad3
-doccontainersize 474520
-doccontainerchecksum fcd52362e19d480bfe9174577fd293a32a2f14449e6c4c5d1aa3e4bc5e90ccff03cb542e28eba7fa783a1eb5bf449846842de37c41f2c18ce0afb41d20efbe19
-docfiles size=633
+containersize 768040
+containerchecksum 9587a4587161364985d0191a837ce1afd605e1ae6686189159eeb6d4307605807275d4ade1fd712440cc346f32dc877335cd3ad1af7b2dc01f65529e1558d159
+doccontainersize 475452
+doccontainerchecksum 1fab0e3dc1d2c90a22f1a970122f3cfa7b85a0b5a18c6743e01d79cd05b57604ec189a97e9b854f02e1b02259bd6f983657da06161da954ed90051fbe73eb76c
+docfiles size=635
  doc.html
  texmf-dist/doc/man/man1/fmtutil-sys.1
  texmf-dist/doc/man/man1/fmtutil-sys.man1.pdf
@@ -349841,7 +350866,7 @@ docfiles size=633
  texmf-dist/doc/man/man5/fmtutil.cnf.man5.pdf
  texmf-dist/doc/man/man5/updmap.cfg.5
  texmf-dist/doc/man/man5/updmap.cfg.man5.pdf
-runfiles size=991
+runfiles size=996
  install-tl
  texmf-dist/dvips/tetex/config.builtin35
  texmf-dist/dvips/tetex/config.dfaxhigh
@@ -352515,6 +353540,36 @@ catalogue-ctan /macros/unicodetex/latex/textcsc
 catalogue-license lppl1.3 cc-by-sa-3
 catalogue-topics typesetting unicode tagged-pdf-partially
 catalogue-version 1.2.0
+
+name textdate
+category Package
+revision 80822
+shortdesc Displaying dates in textual form
+relocated 1
+longdesc The \textdate command displays numerical dates in textual form.
+longdesc It supports seven languages and accepts ISO-style dates, as
+longdesc well as day-first dates for languages using that convention. A
+longdesc date can be supplied directly or stored in a macro, making the
+longdesc package particularly useful for automatically displaying
+longdesc release dates in package documentation.
+containersize 2796
+containerchecksum 39ae4f3e4627c4be45aa1432ca2c1c027862edd12617709e689fa6ce3c851bca341f0ea0df482414b9d67da6249232fad9645f0ec4db9e70bafc02dd021c7b72
+doccontainersize 85448
+doccontainerchecksum a5247729e01a87958fd6147fbd623a0d7b76003716b45f350e09bc9bd3664c539458be2157b6eaa8690f2b6288d2983f3d59922e1b5de868441ab05d8efaf67e
+docfiles size=23
+ RELOC/doc/latex/textdate/README.md details="Readme"
+ RELOC/doc/latex/textdate/textdate.pdf details="Package documentation"
+srccontainersize 4736
+srccontainerchecksum 9aa9b5e1ccfb83906745526b5ba2e4d1d843ab7ab2cb29bfc308b3cb6ea45b8184280d653985b31b1a2da74133e4e9fb9247085825105ecac01a3aa2353deb9b
+srcfiles size=6
+ RELOC/source/latex/textdate/textdate.dtx
+ RELOC/source/latex/textdate/textdate.ins
+runfiles size=4
+ RELOC/tex/latex/textdate/textdate.sty
+catalogue-ctan /macros/latex/contrib/textdate
+catalogue-license lppl1.3c
+catalogue-topics date-time multilingual
+catalogue-version 1.0
 
 name textfit
 category Package
@@ -359837,7 +360892,7 @@ catalogue-version 2.20c
 
 name tkz-grapheur
 category Package
-revision 80547
+revision 80818
 shortdesc A LaTeX package with tools for graph plotting (and TikZ)
 relocated 1
 longdesc This package provides some commands to help French mathematics
@@ -359846,20 +360901,19 @@ longdesc and draw functions and interpolations curves work with
 longdesc integrals, tangents, intersections get coordinates of points
 longdesc ... The syntax is rather explicit, like \DefinirCourbe,
 longdesc \RecupererCoordonnees,\TrouverIntersections, etc.
-containersize 71956
-containerchecksum 0787b14e1ced5a70b9e81fae99ab1a9f2de3be79ded5d2918c3e17bea130693aa8636ccb07572234d421d4d2ce432d6a05ce287d2083fd378fe9bc09d3f72199
-doccontainersize 7075252
-doccontainerchecksum abd057049d3ea41eea057f43e9a725316681a068601b52a29c037aa36e25a0575ca8a5f5b7b1911c36b269d053816ba66f28d5854604ffa706c21a44b975643d
-docfiles size=2010
+containersize 77596
+containerchecksum 51f7177c3c0b4b957e3b987ac315c314c5e2fc92d2260bab587355c1761a0512c7a6457d3f8a9099d37e00c49f5bb1053687eb2e06d60db26376da0f3f00c170
+doccontainersize 7136740
+doccontainerchecksum 58c66c49fd8b2ab48cadbc97f9f3f96418af7922a6032bb34483d3b43f8ca4b376f54799e861a60e6403ea2b8932b0d9ed29b1d6d37fb684a16c16b35da0bb3a
+docfiles size=1788
  RELOC/doc/latex/tkz-grapheur/README.md details="Readme"
  RELOC/doc/latex/tkz-grapheur/tkz-grapheur-altversion-doc.pdf details="Package documentation (French)" language="fr"
- RELOC/doc/latex/tkz-grapheur/tkz-grapheur-cbesniv.pdf
  RELOC/doc/latex/tkz-grapheur/tkz-grapheur-doc-en.pdf details="Package documentation (English)" language="en"
  RELOC/doc/latex/tkz-grapheur/tkz-grapheur-doc-fr.pdf details="Package documentation (French)" language="fr"
  RELOC/doc/latex/tkz-grapheur/tkz-grapheur-docctan.zip
  RELOC/doc/latex/tkz-grapheur/tkz-grapheur-examples-integrals.pdf
  RELOC/doc/latex/tkz-grapheur/tkz-grapheur-exemples-integrales.pdf
-runfiles size=159
+runfiles size=170
  RELOC/tex/latex/tkz-grapheur/tkz-grapheur-altversion.tex
  RELOC/tex/latex/tkz-grapheur/tkz-grapheur-calc.tex
  RELOC/tex/latex/tkz-grapheur/tkz-grapheur-en.tex
@@ -359874,7 +360928,7 @@ catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/ma
 catalogue-ctan /graphics/pgf/contrib/tkz-grapheur
 catalogue-license lppl1.3c
 catalogue-topics graphics graphics-plotfn maths pgf-tikz
-catalogue-version 0.32a
+catalogue-version 0.32b
 
 name tkz-interval
 category Package
@@ -371310,6 +372364,75 @@ catalogue-license lppl1.3c agpl3
 catalogue-topics dissertation portuguese-br std-conform
 catalogue-version 2.13a
 
+name ugentdocs
+category Package
+revision 80808
+shortdesc House style document classes for Ghent University
+relocated 1
+longdesc This package implements the house style of Ghent University
+longdesc (version 2025, following the official style guide) for
+longdesc bachelor's, master's, and PhD dissertations, research articles,
+longdesc reports, exams, letters, course notes, and beamer slides, and
+longdesc generates print-ready book covers for PhD dissertations and
+longdesc courses. Dictionaries / lexicons for Dutch and English are
+longdesc included, users can add their own for other languages. The
+longdesc package requires LuaLaTeX or XeLaTeX for loading the official
+longdesc UGent fonts used in the logos.
+containersize 40492
+containerchecksum 40d0ecef549ca51dde3956db7c6c8ff437678c0c61424b6aabcbeae3bb510065c71a2e31eb2c198d8ff14d49e93fe6979bc09070b7f677a977c7e72d090ab118
+doccontainersize 877004
+doccontainerchecksum 21e607bb7f8037c8f4206ed789312baf1470200f3c39481460356b50a556a55eabe6a25e26319176252a7f2b09213dd29255fd28c1307c81802e9d540106e340
+docfiles size=281
+ RELOC/doc/latex/ugentdocs/CHANGELOG.md
+ RELOC/doc/latex/ugentdocs/Images/ugent-oehoe.jpg
+ RELOC/doc/latex/ugentdocs/README.md details="Readme"
+ RELOC/doc/latex/ugentdocs/beamerthemeugentuserguide.tex
+ RELOC/doc/latex/ugentdocs/example-ugentarticle.tex
+ RELOC/doc/latex/ugentdocs/example-ugentbama-1.tex
+ RELOC/doc/latex/ugentdocs/example-ugentbama-2.tex
+ RELOC/doc/latex/ugentdocs/example-ugentcourse.tex
+ RELOC/doc/latex/ugentdocs/example-ugentexam-1.tex
+ RELOC/doc/latex/ugentdocs/example-ugentexam-2.tex
+ RELOC/doc/latex/ugentdocs/example-ugentletter.tex
+ RELOC/doc/latex/ugentdocs/example-ugentphd-1.tex
+ RELOC/doc/latex/ugentdocs/example-ugentphd-2.tex
+ RELOC/doc/latex/ugentdocs/example-ugentreport-1.tex
+ RELOC/doc/latex/ugentdocs/example-ugentreport-2.tex
+ RELOC/doc/latex/ugentdocs/ugentdocs.pdf details="Package documentation"
+ RELOC/doc/latex/ugentdocs/ugentletter.cfg
+srccontainersize 84288
+srccontainerchecksum 1b639c7c43cd131671c04a1aeb81a34e8e36a91b31b2ae5480a64127208efc61e8adc2b453eba48b941244469271283d7f7fb6ce60706b5eedb22f2aab87e4e6
+srcfiles size=101
+ RELOC/source/latex/ugentdocs/ugentdocs.dtx
+ RELOC/source/latex/ugentdocs/ugentdocs.ins
+runfiles size=116
+ RELOC/tex/latex/ugentdocs/beamercolorthemeugent.sty
+ RELOC/tex/latex/ugentdocs/beamerfontthemeugent.sty
+ RELOC/tex/latex/ugentdocs/beamerinnerthemeugent.sty
+ RELOC/tex/latex/ugentdocs/beamerouterthemeugent.sty
+ RELOC/tex/latex/ugentdocs/beamerthemeugent.sty
+ RELOC/tex/latex/ugentdocs/ugentarticle.cls
+ RELOC/tex/latex/ugentdocs/ugentbama.cls
+ RELOC/tex/latex/ugentdocs/ugentbookcover.cls
+ RELOC/tex/latex/ugentdocs/ugentcolor.sty
+ RELOC/tex/latex/ugentdocs/ugentcommon.clo
+ RELOC/tex/latex/ugentdocs/ugentcourse.cls
+ RELOC/tex/latex/ugentdocs/ugentdocs-dutch.dict
+ RELOC/tex/latex/ugentdocs/ugentdocs-english.dict
+ RELOC/tex/latex/ugentdocs/ugentexam.cls
+ RELOC/tex/latex/ugentdocs/ugentletter.cls
+ RELOC/tex/latex/ugentdocs/ugentphd.cls
+ RELOC/tex/latex/ugentdocs/ugentreport.cls
+catalogue-contact-announce https://github.com/SeppeOngena/ugentdocs/releases.atom
+catalogue-contact-bugs https://github.com/SeppeOngena/ugentdocs/issues
+catalogue-contact-development https://github.com/SeppeOngena/ugentdocs/blob/HEAD/CONTRIBUTING.md
+catalogue-contact-repository https://github.com/SeppeOngena/ugentdocs/
+catalogue-contact-support https://github.com/SeppeOngena/ugentdocs/discussions
+catalogue-ctan /macros/unicodetex/latex/ugentdocs
+catalogue-license lppl1.3c
+catalogue-topics article-like class course-material dissertation dutch exam letter notes presentation report-like std-conform use-luatex use-xetex
+catalogue-version 1.0.1
+
 name uhc
 category Package
 revision 16791
@@ -376220,44 +377343,36 @@ catalogue-version 0.1
 
 name unipersian
 category Package
-revision 80361
-shortdesc Persian language support for LaTeX, LuaLaTeX, and XeLaTeX using Babel
+revision 80833
+shortdesc Persian typesetting for LaTeX, LuaLaTeX, and XeLaTeX using BabelBidi
 relocated 1
-longdesc This package provides a convenient interface for typesetting
-longdesc Persian as the main language, with English text in LaTeX, based
-longdesc on the Babel package and using LuaTeX (recommended), XeTeX
-longdesc (fallback), or pdfTeX (last resort) as the underlying engine.
-longdesc It provides Persian captions and numerals, bidirectional text
-longdesc support, and adaptations for common document classes and
-longdesc Beamer.
-containersize 12656
-containerchecksum b5615eeae3e7e65d7dffa8a196ff1d2e59409dbbd18f311c6412f4782efea0527ecafc951d8383d63c80c8ebdbcf6799bdcac29166f9713ffb8ecbc1ca32d3f9
-doccontainersize 232460
-doccontainerchecksum 937f8b89d0ec11a8004fc35aad077bfc1e0dd3903a5dc50c0397c5c15ba3b5c39dc5992df33b874beac75cc068c38e83847e47e00cbec29b4121f5cbd42dbed3
-docfiles size=68
+longdesc This package provides Persian typesetting with LuaLaTeX
+longdesc (recommended), XeLaTeX, and pdfTeX (basic support), using
+longdesc BabelBidi (based on Babel). It supports Persian as the main or
+longdesc a secondary language, with Persian captions, numerals, and font
+longdesc configuration.
+containersize 7456
+containerchecksum 7fece770d7755ea9a14a1138d732ca76d19482298d217a8be4f31d80bdc2d83541809462f0aabba80394c51babdfbd4084e75980a3091d90c5e5ff6c8a175bd2
+doccontainersize 203088
+doccontainerchecksum 55485c3975792a17b2665198d4fbbd16887dc22410adaccb8f9440602a4d4b6c10afdb430e568962ddeb98368d81cdc91ae43f3f7f4397f1830e89d66dded656
+docfiles size=60
  RELOC/doc/latex/unipersian/LICENSE
  RELOC/doc/latex/unipersian/README.md details="Readme"
- RELOC/doc/latex/unipersian/unipersian.pdf details="Package documentation"
+ RELOC/doc/latex/unipersian/unipersian.pdf details="Package documentation" language="fa"
  RELOC/doc/latex/unipersian/unipersian.tex
-runfiles size=22
- RELOC/tex/latex/unipersian/unipersian-beamer-luatex.def
- RELOC/tex/latex/unipersian/unipersian-book.def
+runfiles size=12
  RELOC/tex/latex/unipersian/unipersian-captions.def
- RELOC/tex/latex/unipersian/unipersian-fonts-fallback.def
  RELOC/tex/latex/unipersian/unipersian-fonts.def
  RELOC/tex/latex/unipersian/unipersian-listings-fallback.def
  RELOC/tex/latex/unipersian/unipersian-listings.sty
- RELOC/tex/latex/unipersian/unipersian-luatex.def
  RELOC/tex/latex/unipersian/unipersian-numerals.def
- RELOC/tex/latex/unipersian/unipersian-pdftex.def
- RELOC/tex/latex/unipersian/unipersian-xetex.def
  RELOC/tex/latex/unipersian/unipersian.sty
 catalogue-contact-bugs https://github.com/gambi-shah/unipersian/issues
 catalogue-contact-repository https://github.com/gambi-shah/unipersian
 catalogue-ctan /language/persian/unipersian
 catalogue-license lppl1.3c
 catalogue-topics persian
-catalogue-version 0.2.0
+catalogue-version 0.3.0
 
 name uniquecounter
 category Package
@@ -377619,7 +378734,7 @@ binfiles arch=x86_64-linuxmusl size=5998
 
 name upmethodology
 category Package
-revision 78632
+revision 80766
 shortdesc Writing specifications such as for UP-based methodologies
 relocated 1
 longdesc The bundle allows the user to create Unified Process
@@ -377627,11 +378742,11 @@ longdesc methodology (UP or RUP) based documents. The style provides
 longdesc document versioning, document history, document authors,
 longdesc document validators, specification description, task
 longdesc management, and several helping macros.
-containersize 32284
-containerchecksum ffc3d009c90d6c6b62fc09ef3e5833ec0c024a368865cac421f94b98981cfa324324dd4e11e726ccef7ef034327b0dc84e2263e6d8a750705595d41f1bf564ee
-doccontainersize 585848
-doccontainerchecksum ea989b03a683bd4a496531c05e6b214c34e2ffb806bb8528c3ce20110c41a943fa31da0737447bc9a1ae7e188b210d187d47e44204d8d4ed1a3276bc93759755
-docfiles size=212
+containersize 32396
+containerchecksum e5b6b3b877cd4ea4f5fed72e9560a417c50efb41b75cd188fed85ec6884bcef04f1a12113e296fabf93dfb81c9ad83bca6b514f5226561321d510c59f3cd3f03
+doccontainersize 572812
+doccontainerchecksum afb93fade3afdffd1fc20739bb806dbb65420965529097c79638c7a00031592fbd5703a0b7e02ad7ce85e2e5812e8944a4d0f6abf6e302845c15c9fd7d9fa3b5
+docfiles size=208
  RELOC/doc/latex/upmethodology/AUTHORS
  RELOC/doc/latex/upmethodology/COPYING
  RELOC/doc/latex/upmethodology/Changelog
@@ -377665,7 +378780,7 @@ catalogue-contact-repository https://github.com/gallandarakhneorg/tex-upmethodol
 catalogue-ctan /macros/latex/contrib/upmethodology
 catalogue-license lgpl3
 catalogue-topics doc-mgmt
-catalogue-version 20260406
+catalogue-version 20261022
 
 name uppunctlm
 category Package
@@ -378655,7 +379770,7 @@ catalogue-version 1.1
 
 name user-persona
 category Package
-revision 78798
+revision 80838
 shortdesc Typesetting User Persona sheets for UX and HCI (Human-Computer Interaction)
 relocated 1
 longdesc This package provides a structured environment and command set
@@ -378674,14 +379789,15 @@ longdesc both columns. Predefined semantic colours are supplied for
 longdesc common persona sections (Goals, Behaviours, Pain Points,
 longdesc Context). Inline pill labels and icon badges are supported via
 longdesc \personapill and \personabrand (using fontawesome5).
-containersize 2592
-containerchecksum 68e92f997391cad698f118a4360d0e262648f2d764c79b407cf5765803e775618bb1728847e89154d2403c363249e0cee04029079aa7953792814b6d7131b6f4
-doccontainersize 117244
-doccontainerchecksum c42ddec78964e14e24023fcbb347c75c6ae252368f6a39c3d9a9002c230fdd5992fe6753de257325e057f50f60e6bc74e415d59e52fdfa88ac0f2d7405896964
-docfiles size=37
+containersize 3660
+containerchecksum 4277efa2b46ec7a292be42f4cb3048275d3db2f5198cdb4080bae318cebbd9e8f4a956d4f7cd4c3082d73169fb622a52380b534cae5a090346b3254c74b2ce03
+doccontainersize 667248
+doccontainerchecksum 514c95e80ee47bed2b9473d33f30280252348a958fda1464a606d2b7e0b760070d6192d75ee539be083aa32a6677679c33bd7c696023f4869ca631ff8b4afffa
+docfiles size=172
  RELOC/doc/latex/user-persona/README.md details="Readme"
  RELOC/doc/latex/user-persona/user-persona-detailed.pdf details="Example of use (2)"
  RELOC/doc/latex/user-persona/user-persona-detailed.tex
+ RELOC/doc/latex/user-persona/user-persona-example-screenshot.png
  RELOC/doc/latex/user-persona/user-persona-example.pdf details="Example of use (1)"
  RELOC/doc/latex/user-persona/user-persona-example.tex
  RELOC/doc/latex/user-persona/user-persona.pdf details="Package documentation"
@@ -378692,8 +379808,8 @@ catalogue-contact-bugs https://github.com/fractuscontext/user-persona/issues/
 catalogue-contact-repository https://github.com/fractuscontext/user-persona/
 catalogue-ctan /macros/latex/contrib/user-persona
 catalogue-license lppl1.3c
-catalogue-topics doc-templ layout project-mgmt graphics-use
-catalogue-version 1.0.0
+catalogue-topics doc-templ graphics-use layout project-mgmt
+catalogue-version 2.0
 
 name ushort
 category Package
@@ -378835,12 +379951,12 @@ catalogue-version 3.1.8
 
 name utbmciad-report
 category Package
-revision 79121
+revision 80777
 shortdesc A class and configuration file for writing high quality scientific or technical reports
 relocated 1
 longdesc LaTeX class and configuration file for typesetting a scientific
 longdesc or technical report following the template and guidelines from
-longdesc the "Connaissance et Intelligence Articielle Distribuees" (CIAD
+longdesc the Connaissance et Intelligence Articielle Distribuees (CIAD
 longdesc UR 7533) research laboratory of the Universite de Technologie
 longdesc Belfort Montbeliard in France. Built on top of the powerful
 longdesc UPmethodology suite, it provides a professional, ready-to-use
@@ -378866,10 +379982,10 @@ longdesc without explicit written permission from the owning university
 longdesc or institution. The exact terms governing the logos are set
 longdesc forth in the file logos/LICENSE.logos. By redistributing this
 longdesc package, you agree to abide by those terms.
-containersize 3869508
-containerchecksum 50267f234eab5121a816926df6c5ed168e477372bcc561b10a7923facc77d1e1a5df066dacf2da85f4f4f71890a54bb6accbc1b79615e2cc53f5de3855c9adf8
-doccontainersize 3552000
-doccontainerchecksum 70f372459c0b6c58b002921ccd01b779a4781741e8d3ceb006c0a9f51ad865a66d8e92b2d51d81f5109efc8a63e0604b2bef506416ed218f945c5f4c470d8ff7
+containersize 3873272
+containerchecksum bf47fca92037a32e1cb65b1a1f77eefd32aac9bf0a5af1b93d18b3cacfd8189240e3bea5f8904db9fc89c31923582a9a023a9893173a5bd619b8d08db038675d
+doccontainersize 3551556
+doccontainerchecksum 068b7808655ffbc27b8cdd4a3485d4c98c8318505a2784ae67499f66834fdc54ef45e7b7721666527f244bab61eb2d1b9fbc904f85e910df582341b58ed4625f
 docfiles size=878
  RELOC/doc/latex/utbmciad-report/AUTHORS
  RELOC/doc/latex/utbmciad-report/Changelog
@@ -378879,7 +379995,7 @@ docfiles size=878
  RELOC/doc/latex/utbmciad-report/VERSION
  RELOC/doc/latex/utbmciad-report/utbmciadreport-doc.pdf details="Package documentation"
  RELOC/doc/latex/utbmciad-report/utbmciadreport-doc.tex
-runfiles size=960
+runfiles size=966
  RELOC/bibtex/bst/utbmciad-report/utbmciad.bst
  RELOC/tex/latex/utbmciad-report/logos/README.TEXLIVE
  RELOC/tex/latex/utbmciad-report/upmext-utbmciad.cfg
@@ -378891,8 +380007,8 @@ catalogue-contact-home https://www.arakhne.org/latex/tex-templates
 catalogue-contact-repository https://github.com/gallandarakhneorg/tex-templates
 catalogue-ctan /macros/latex/contrib/utbmciad-report
 catalogue-license lgpl3
-catalogue-topics report-like class doc-templ std-conform
-catalogue-version 20260508
+catalogue-topics class doc-templ report-like std-conform
+catalogue-version 20261023
 
 name utexasthesis
 category Package
@@ -384594,25 +385710,25 @@ catalogue-version 2.3
 
 name vscodeicons
 category Package
-revision 79603
+revision 80821
 shortdesc Use vscode icons through LaTeX commands
 relocated 1
 longdesc This package inspired by twemojis provides commands to use the
 longdesc icons from the vscode-icons project through LaTeX commands.
 longdesc This relies on images (PDF from SVG), so no fancy unicode-font
 longdesc stuff is needed and it should work on every installation.
-containersize 2375444
-containerchecksum 70ee501ffbbcc3a7627b58305affba3df28606cc40365d1f03dfd437058f207966bcbf0da7f539f82414d513fc9ac25fac1172bd8a58e5a0cf8b280d667d8e3b
-doccontainersize 2607828
-doccontainerchecksum 373c82b67227b88a4488620846309f689c184e6365c68fffbab6282c8c1ae36f18de2f86cb0b60a2437893930552f49530cc4519f22f05e2ea0b70e691d66d68
-docfiles size=932
+containersize 2375776
+containerchecksum 348068990122925ceaf22b2b7c70e0dcc3f663a2bb91ad79d1ad5858604ad30e6ee76b1f1b7d674bbf1386be870fc77ef558514a2fc4fab21c99cbf807d3d5ec
+doccontainersize 2509248
+doccontainerchecksum c3195034603c828243cd568a7eaeb8e7e68fa546823c07f433ff2a3213360f0c059837d6114d15b4a2fd118193afbf9eadef846a562abee24e98a92b9d746615
+docfiles size=907
  RELOC/doc/latex/vscodeicons/README.md details="Readme"
  RELOC/doc/latex/vscodeicons/vscodeicons-doc.pdf details="Package documentation"
  RELOC/doc/latex/vscodeicons/vscodeicons-doc.tex
  RELOC/doc/latex/vscodeicons/vscodeiconsdefaultbindings.tex
  RELOC/doc/latex/vscodeicons/vscodeiconsfiletypebindings.tex
  RELOC/doc/latex/vscodeicons/vscodeiconsfoldertypebindings.tex
-runfiles size=737
+runfiles size=738
  RELOC/tex/latex/vscodeicons/vscodeicons-default-all.pdf
  RELOC/tex/latex/vscodeicons/vscodeicons-filetype-all.pdf
  RELOC/tex/latex/vscodeicons/vscodeicons-foldertype-all.pdf
@@ -384622,7 +385738,7 @@ catalogue-contact-repository https://github.com/cpierquet/latex-packages/tree/ma
 catalogue-ctan /macros/latex/contrib/vscodeicons
 catalogue-license lppl1.3c cc-by-sa-4 mit
 catalogue-topics graphics text-symbol
-catalogue-version 12.19.0
+catalogue-version 12.19.0a
 
 name vtable
 category Package

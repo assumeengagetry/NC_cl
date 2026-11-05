@@ -1,0 +1,43 @@
+\TemplateHeading
+\templatefourrow{12.965}{课程名称}{计算机网络课程设计}{实验课时}{\experimenthours}
+\templatefourrow{13.688}{实验项目}{ICMP协议分析}{实验时间}{2026.11.04}
+\templaterow{实验目的}{25}{
+识别ICMP回显请求与应答，分析字段、数据及往返时间；改变数据长度和初始TTL，观察IPv4分片、重组与超时差错报告；采用ICMP方式探测路径，将命令输出与实际请求、响应逐项对应。
+}
+\templaterow{实验环境}{48}{
+MacBook Air M1；macOS 26.7.2（25G332）；Wireshark、TShark和dumpcap 4.6.7。真实接口为Wi-Fi \code{en0}，本机IPv4 \code{10.135.133.108/21}、MTU 1500，默认网关\code{10.135.135.254}。系统自带\code{/sbin/ping}及\code{/usr/sbin/traceroute}用于发包。
+
+目标\domain{cs.scu.edu.cn}解析为\code{202.115.32.43}，本次全部正式测量固定使用该IPv4。指导教师陈黎；班级全称：\classfullname；教学周第10周。实验课时未能核实，留空。
+}
+\templaterow{\experimentlabel}{88.576}{
+\subheading{一、实际操作与取证方法}
+1. 完整阅读指导书，核对本机帮助。指导书允许其他系统使用等效参数：Windows的\code{-n 5}对应macOS的\code{-c 5}，\code{-l 2500}对应\code{-s 2500}，初始TTL \code{-i}对应\code{-m}；macOS的\code{-i}实际是发送间隔，不能照抄。等待参数\code{-W 1000}单位为毫秒。
+
+2. 在\code{en0}用Wireshark随附dumpcap分阶段采集，捕获过滤器\code{ip proto 1 and (host 10.135.133.108)}，保留所有IPv4分片。每阶段结束后停止采集，再由Wireshark GUI打开文件检查字段、原始字节与重组。
+
+3. 实际执行普通Ping、大数据Ping、TTL=2及必要的TTL=1补测，再逐步执行TTL=3、4，每次5个请求；在TTL=4收到目标应答后停止递增。另执行\code{traceroute -I -n -m 30 -q 3 -w 1 202.115.32.43}，以ICMP方式完成路径探测。
+}
+
+\reportpage{\continuedlabel}{
+\subheading{二、命令、抓包文件与复核}
+正式测量于2026年11月4日18:43:48至18:44:29（北京时间）进行。所有文件均为实际原始采集，不重排时间戳、不生成合成报文、不替换报文字段。文件位于证据包的\code{attachments/}；本文用短名引用，帧号始终以对应文件为准。
+\par\noindent\begin{tabularx}{\linewidth}{|l|r|X|}\hline
+抓包文件（均以.pcapng结尾）&帧数&实际参数或结果\\\hline
+\code{01-ping-default}&10&\code{-c 5 -W 1000}，5对回显\\\hline
+\code{02-ping-2500}&20&另加\code{-s 2500}，双向各两片\\\hline
+\code{03-ping-ttl02}&5&另加\code{-m 2}，仅5个请求\\\hline
+\code{04-ping-ttl01}&5&另加\code{-m 1}，仅5个请求\\\hline
+\code{05-ping-ttl03}&10&另加\code{-m 3}，5个超时响应\\\hline
+\code{05-ping-ttl04}&10&另加\code{-m 4}，5个目标应答\\\hline
+\code{06-traceroute-icmp}&19&12个探测，4个超时、3个应答\\\hline
+\end{tabularx}\par
+
+4. 普通Ping与Traceroute使用显示过滤器\code{icmp}；分片阶段使用\code{ip.proto == 1}，避免只看成功解码ICMP的最后一片。展开IPv4与ICMP首部，读取Checksum、Identifier、Sequence、分片ID/MF/Offset和重组长度。
+
+5. TShark导出逐帧详情、十六进制及TSV；独立脚本按字节复算校验和、重组两方向分片，并以端点、引用IP ID、ICMP Identifier/Sequence和时间配对。全部79帧的IPv4校验和有效，69个完整ICMP消息（含重组）及9个引用IPv4首部校验和有效；18对Echo数据逐字节相同，9个超时引用匹配成功。
+
+6. 报告插图使用本次真实TShark逐帧输出及已保存命令日志的排版摘录，明确标注为原始输出，并非GUI截图；没有改写报文字段或伪称实时重测。完整文本与pcapng保存在附件，插图采用PDF封装，保持之前Overleaf图片兼容方案。
+
+\subheading{实际现象与处理}
+TTL=2未收到Time Exceeded，按要求补测TTL=1仍无响应；继续增至TTL=3捕获到超时报文，TTL=4收到目标应答。无需替换目标。Traceroute第1跳只收到第三个探测的响应，第2跳均为星号，第3、4跳仍有响应；据实记录，不推测缺失字段。本次未修改系统DNS、路由、代理或防火墙，采集已停止。
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "asset": "udp-header.pdf",
+    "original": "02-udp-request.png",
+    "crop_pixels": [
+      115,
+      1125,
+      1350,
+      1483
+    ],
+    "size": [
+      1235,
+      358
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "udp-bytes.pdf",
+    "original": "02-udp-request.png",
+    "crop_pixels": [
+      1365,
+      505,
+      2600,
+      675
+    ],
+    "size": [
+      1235,
+      170
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "udp-ip.pdf",
+    "original": "02-udp-request.png",
+    "crop_pixels": [
+      115,
+      588,
+      1350,
+      1095
+    ],
+    "size": [
+      1235,
+      507
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "udp-response.pdf",
+    "original": "03-udp-response.png",
+    "crop_pixels": [
+      115,
+      1125,
+      1350,
+      1445
+    ],
+    "size": [
+      1235,
+      320
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "upload-success.pdf",
+    "original": "11-upload-zoom.png",
+    "crop_pixels": [
+      112,
+      145,
+      2750,
+      1010
+    ],
+    "size": [
+      2638,
+      865
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "syn-detail.pdf",
+    "original": "04-tcp-syn.png",
+    "crop_pixels": [
+      115,
+      690,
+      1320,
+      1745
+    ],
+    "size": [
+      1205,
+      1055
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "synack-detail.pdf",
+    "original": "05-tcp-synack.png",
+    "crop_pixels": [
+      115,
+      1123,
+      1320,
+      1595
+    ],
+    "size": [
+      1205,
+      472
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "ack-window.pdf",
+    "original": "06-tcp-ack.png",
+    "crop_pixels": [
+      115,
+      944,
+      1320,
+      1305
+    ],
+    "size": [
+      1205,
+      361
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "follow-stream.pdf",
+    "original": "09-follow-stream.png",
+    "crop_pixels": [
+      160,
+      160,
+      1740,
+      1430
+    ],
+    "size": [
+      1580,
+      1270
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "data-detail.pdf",
+    "original": "07-tcp-data.png",
+    "crop_pixels": [
+      115,
+      690,
+      1320,
+      1635
+    ],
+    "size": [
+      1205,
+      945
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "data-list.pdf",
+    "original": "07-tcp-data.png",
+    "crop_pixels": [
+      110,
+      260,
+      2600,
+      545
+    ],
+    "size": [
+      2490,
+      285
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "rtt-detail.pdf",
+    "original": "08-tcp-rtt.png",
+    "crop_pixels": [
+      115,
+      690,
+      1320,
+      1630
+    ],
+    "size": [
+      1205,
+      940
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  },
+  {
+    "asset": "release-list.pdf",
+    "original": "12-release-columns.png",
+    "crop_pixels": [
+      113,
+      255,
+      1320,
+      550
+    ],
+    "size": [
+      1207,
+      295
+    ],
+    "operations": "rectangular crop only; lossless PDF image embedding"
+  }
+]

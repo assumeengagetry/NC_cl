@@ -1,0 +1,106 @@
+[
+  {
+    "image": "ack-window.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1205,
+      450
+    ]
+  },
+  {
+    "image": "data-detail.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1205,
+      945
+    ]
+  },
+  {
+    "image": "data-list.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      2490,
+      285
+    ]
+  },
+  {
+    "image": "follow-stream.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1580,
+      1270
+    ]
+  },
+  {
+    "image": "release-list.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      2500,
+      345
+    ]
+  },
+  {
+    "image": "rtt-detail.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1205,
+      990
+    ]
+  },
+  {
+    "image": "syn-detail.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1205,
+      1075
+    ]
+  },
+  {
+    "image": "synack-detail.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1205,
+      510
+    ]
+  },
+  {
+    "image": "udp-bytes.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1235,
+      170
+    ]
+  },
+  {
+    "image": "udp-header.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1235,
+      390
+    ]
+  },
+  {
+    "image": "udp-ip.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1235,
+      532
+    ]
+  },
+  {
+    "image": "udp-response.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      1235,
+      360
+    ]
+  },
+  {
+    "image": "upload-success.pdf",
+    "pixels_equal": true,
+    "dimensions": [
+      2638,
+      865
+    ]
+  }
+]

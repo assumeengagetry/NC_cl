@@ -219,5 +219,7 @@
   "experiment_evidence_and_five_content_sections_unchanged": true,
   "source_images_png_unchanged": true,
   "compiler_warnings_note": "No missing characters/images, undefined references, Overfull boxes or template-cell overflow in final native logs. Underfull spacing notices occur in narrow long-field tables.",
-  "prior_delivery_backup": "旧版已备份到交付目录之外的实验2_工作记录_20261024/图片兼容修复/原交付备份。"
+  "prior_delivery_backup": "旧版已备份到交付目录之外的实验2_工作记录_20261024/图片兼容修复/原交付备份。",
+  "zip_filename": "06_实验2_许盛凯_2024141460445_Overleaf.zip",
+  "zip_purpose": "可编辑Overleaf报告源工程；此记录中的ZIP重编译结果对应此文件"
 }

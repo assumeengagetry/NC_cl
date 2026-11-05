@@ -1,0 +1,4 @@
+Capturing on 'Wi-Fi: en0'
+File: 99_工作记录/实验3_20261031/evidence/tcp-upload-03.pcapng
+Packets: 2 Packets: 17 Packets: 42 Packets: 87 Packets: 155 Packets: 186 Packets: 188 Packets: 189 Packets: 190 Packets: 192 Packets: 196 Packets: 197 Packets: 200 Packets: 201 Packets: 202 Packets: 204 Packets: 206 Packets: 208 Packets: 209 Packets: 210 Packets captured: 210
+Packets received/dropped on interface 'Wi-Fi: en0': 210/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)
