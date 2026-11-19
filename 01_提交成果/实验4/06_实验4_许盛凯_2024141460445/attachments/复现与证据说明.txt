@@ -1,7 +1,0 @@
-1. 七个pcapng均为2026-11-04真实en0采集，合计79帧，未经筛选重排；正文短名与附件同名。
-2. 目标固定为cs.scu.edu.cn解析到的202.115.32.43；本机10.135.133.108，MTU1500。
-3. command.txt是执行当时保存的命令输出，capture.txt是dumpcap采集统计；frames.json、fields.tsv、details.txt由TShark读取相应原始pcapng生成。
-4. validate_capture.py独立解析Ethernet/IPv4/ICMP、校验和、分片及引用；capture-validation.json记录结果，facts.json/MD为逐组配对记录，analysis/保存逐帧详情。
-5. 报告插图来自真实Wireshark界面及终端对本次已保存命令日志的回显；日志回显不是重新测量。assets/采用截图的无损PDF封装。原始PNG、完整截图及可用的裁剪记录保存在证据附件screenshots/中。 screenshot-validation.json逐图核对PNG与PDF内嵌栅格像素一致。旧*-figure-text.txt为原始字段摘录，不冒称软件截图。
-6. capture_lab4.py含本次固定地址，复用前另存并核对接口、IP和目标，勿覆盖原证据。
-7. 本轮未修改DNS、代理、路由或防火墙，采集已停止。

@@ -1,0 +1,25 @@
+\reportpage{\datacontinued}{
+\subheading{四、Fa0/0关闭与启用的对照}
+Fa0/0已配置\code{192.168.1.1 255.255.255.0}。先在接口配置模式执行\code{shutdown}，回到特权模式查看状态；再进入相同接口执行\code{no shutdown}，并再次查看。完整的模式提示符及状态变化见\figref{fig:status}。
+\Evidence{fig:status}{assets/console-status.pdf}{Console中关闭、启用Fa0/0并核对接口状态}{115mm}
+\qa{问题3：接口关闭和启用时的接口状态、线路协议状态及Ping结果怎样？为什么只配置地址还不能确认通信正常？}{
+两次测试的结果如下；PC1的原始Ping输出见下一页\figref{fig:ping}。}
+\noindent\begin{tabularx}{\linewidth}{|l|X|l|l|}\hline
+操作&接口状态Status&Protocol&Ping收/发\\\hline
+\code{shutdown}&\code{administratively down}&\code{down}&0/4\\\hline
+\code{no shutdown}&\code{up}&\code{up}&4/4\\\hline
+\end{tabularx}\par
+接口关闭时，即使地址和掩码已经正确，也处于管理性关闭状态，不能完成此次链路通信。启用后接口状态与线路协议均为up，Ping随之成功，说明还必须同时检查接口启用状态、接线及链路工作状态，不能只查看IP地址。
+}
+
+\reportpage{\datacontinued}{
+\subheading{五、PC1的Ping记录与同网段判断}
+PC1在两种接口状态下分别执行\code{ping 192.168.1.1}，每次4个请求。关闭时4次均超时，丢包率100\%；启用后4次均收到响应，丢包率0\%，见\figref{fig:ping}。成功响应的TTL为255，往返时间最小0 ms、最大1 ms、平均0 ms。本次启用后的这组Ping没有首包丢失。
+\Evidence{fig:ping}{assets/ping-comparison.pdf}{同一目的地址在接口关闭与启用时的两次Ping}{112mm}
+\qa{问题4：根据地址和掩码判断PC1与Fa0/0是否在同一子网。Ping时需要路由器向另一个网络转发分组吗？}{
+根据\figref{fig:ip}与\figref{fig:status}的地址，两者与\code{255.255.255.0}按位与所得网络地址均为\code{192.168.1.0}，即同属\code{192.168.1.0/24}子网。PC1判断目标在本地子网，通过ARP获得目标接口的MAC地址后，经交换机向路由器Fa0/0发送帧。
+
+目的IP就是路由器本机接口地址\code{192.168.1.1}，路由器在本地处理ICMP请求并返回应答，无须将请求转发到其他网络。尽管PC1设置的默认网关也是\code{192.168.1.1}，本次Ping本身不能证明跨网段路由功能正常。}
+\subheading{实际异常及处理}
+曾出现以太网链路红色；在Workspace List中发现两段连接为Copper Roll-Over，误用了Console线。改为铜质直通线，并启用Fa0/0后，接口为up/up，Ping为4/4成功，最终状态见\figref{fig:topology}、\figref{fig:status}及\figref{fig:ping}。
+}

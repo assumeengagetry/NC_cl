@@ -1,0 +1,18 @@
+\reportpage{\datacontinued}{
+\subheading{三、Console接入与命令模式}
+在PC0依次选择Desktop、Terminal。串口设置为9600 bit/s、8个数据位、无校验、1个停止位、无流量控制，见\figref{fig:serial}。确认后进入路由器命令行。
+\Evidence{fig:serial}{assets/console-serial-detail.pdf}{串口参数（同一截图左右列裁剪并排，省略中间空白）}{52mm}
+\qa{问题2：根据终端记录列出四种模式提示符，并说明查看接口状态、修改设备配置和修改接口配置分别在哪种模式下完成。}{
+设备画布标签为Router0，而IOS主机名为Router，所以命令行使用下列提示符。实际模式切换及接口命令见下一页\figref{fig:status}。}
+\noindent\begin{tabularx}{\linewidth}{|l|l|>{\raggedright\arraybackslash}X|}\hline
+模式&本次提示符&进入方法及本次用途\\\hline
+用户EXEC&\code{Router>}&登录后默认进入；不能直接使用全局配置命令\\\hline
+特权EXEC&\code{Router\#}&执行\code{enable}；用\code{show ip interface brief}查看状态，用\code{show running-config}查看配置\\\hline
+全局配置&\code{Router(config)\#}&在特权模式执行\code{configure terminal}；配置本地账户及enable口令\\\hline
+接口配置&\code{Router(config-if)\#}&在全局模式执行\code{interface fastEthernet 0/0}；配置地址、关闭或启用接口\\\hline
+\end{tabularx}\par
+\subheading{模式转换与命令范围}
+用户模式执行\code{enable}进入特权模式；再执行\code{configure terminal}进入全局配置模式；选择接口后进入接口配置模式。\code{exit}可从接口配置返回全局配置，\code{end}直接回到特权EXEC；由特权EXEC退回用户EXEC应使用\code{disable}。
+
+本次\code{ip address 192.168.1.1 255.255.255.0}、\code{shutdown}及\code{no shutdown}属于接口配置命令。\code{username}和\code{enable secret}属于全局配置命令；选择\code{line vty 0 4}后，提示符变为\code{Router(config-line)\#}，在该线路配置模式下设置远程接入行为。
+}

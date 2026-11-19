@@ -1,0 +1,290 @@
+[
+  {
+    "file": "assets_prepared/q4/q4-hq-config.png",
+    "source": "evidence/q4-hq-config-final.png",
+    "source_sha256": "7ece4e2291b6edd31c9a3f7970382e96ad3e9814f620deadfdcfb35a37a71267",
+    "output_sha256": "e9d5c2bf00fe9acd91f1472a202f3bd2d87ffbc30416227bbbc029617021ea90",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      450,
+      485
+    ],
+    "method": "same_source_separated_title_hostname_interface_regions_with_disclosed_gaps",
+    "crop_boxes_xyxy": [
+      [
+        1400,
+        0,
+        1850,
+        55
+      ],
+      [
+        50,
+        700,
+        500,
+        721
+      ],
+      [
+        50,
+        1343,
+        500,
+        1728
+      ]
+    ],
+    "caption": "题4 HQ 最终接口地址及掩码（同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-east-config.png",
+    "source": "evidence/q4-east-config-final.png",
+    "source_sha256": "9dd4f6d8327e52e4d2ffa8b93cad0d45db7b177a6c365ec79c3e7bb81bb914c4",
+    "output_sha256": "83421d8bfd5721c323d9ff24c0fd50826807863454d1e17439accfcef44aa1be",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      450,
+      345
+    ],
+    "method": "same_source_separated_title_hostname_interface_regions_with_disclosed_gaps",
+    "crop_boxes_xyxy": [
+      [
+        1400,
+        0,
+        1850,
+        55
+      ],
+      [
+        50,
+        700,
+        500,
+        721
+      ],
+      [
+        50,
+        1343,
+        500,
+        1588
+      ]
+    ],
+    "caption": "题4 East 最终接口地址及掩码（同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-west-config.png",
+    "source": "evidence/q4-west-config-final.png",
+    "source_sha256": "8ac21f2de8c7aaf7bf7b02fcb831c423c7a7df8644cf7ff2d34ec3401ab1a1d3",
+    "output_sha256": "622d8c3705755a11b53bf05cc48014b58a94bebd7438aa738a9028ee55acd122",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      450,
+      365
+    ],
+    "method": "same_source_separated_title_hostname_interface_regions_with_disclosed_gaps",
+    "crop_boxes_xyxy": [
+      [
+        1400,
+        0,
+        1850,
+        55
+      ],
+      [
+        50,
+        700,
+        500,
+        721
+      ],
+      [
+        50,
+        1343,
+        500,
+        1608
+      ]
+    ],
+    "caption": "题4 West 最终接口地址及掩码（同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-router2-config.png",
+    "source": "evidence/q4-router2-config.png",
+    "source_sha256": "72ccd302e19c98ef130d3589d5637cf6470b551d7ac60c816f143af3dc2ae118",
+    "output_sha256": "6027670b2e79e91b5ae5c56d4f75236660097769b1c0e4c64e7e06f722e60742",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      450,
+      165
+    ],
+    "method": "same_source_separated_title_hostname_interface_regions_with_disclosed_gaps",
+    "crop_boxes_xyxy": [
+      [
+        1400,
+        0,
+        1850,
+        55
+      ],
+      [
+        50,
+        660,
+        500,
+        681
+      ],
+      [
+        50,
+        1583,
+        500,
+        1648
+      ]
+    ],
+    "caption": "题4 Router2 / hostname Router 最终接口地址及掩码（同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-hq-clock.png",
+    "source": "evidence/q4-hq-clock.png",
+    "source_sha256": "0d0042325b702e59bbc602eb48ab2ab286e7f15069ebe9eb1c5b917f0648dbd6",
+    "output_sha256": "0f82af9face1ca680b6e6010eb94ff57879eb66e7126b48849a39cde680738ca",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      85
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1380,
+        650,
+        1465
+      ]
+    ],
+    "caption": "HQ Serial0/2/0控制器：DCE V.35、clock rate64000（连续矩形裁剪）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-hq-status.png",
+    "source": "evidence/q4-hq-status-final.png",
+    "source_sha256": "f9148c8e676933ce63d2d882f283c4f785168dcce7937ad72ad94b5b3e5bca75",
+    "output_sha256": "2658c4c81b489894406e2f3d9226dca4f4370f5d14b3a0582a8d7d9e327b77ad",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      800,
+      145
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1660,
+        850,
+        1805
+      ]
+    ],
+    "caption": "HQ最终五个已编址接口均为up/up，包含Serial0/2/0=172.16.71.5（连续矩形裁剪）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-assessment.png",
+    "source": "evidence/q4-assessment.png",
+    "source_sha256": "c3e3585b69f261dfc504af25f60733b1ae098d4f9d648c82660d53436974f0bd",
+    "output_sha256": "972925dbcc5d0c95a0a049f34748a5a69e888601ba5e61e8b84b2b3b79f71641",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      765,
+      1140
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        40,
+        340,
+        805,
+        1480
+      ]
+    ],
+    "caption": "题4全部20项均为Correct；活动未评估的HQ S0/2/0和East S0/0/0由接口配置图补充（连续矩形裁剪）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-assessment-count.png",
+    "source": "evidence/q4-assessment.png",
+    "source_sha256": "c3e3585b69f261dfc504af25f60733b1ae098d4f9d648c82660d53436974f0bd",
+    "output_sha256": "5007704605c7e61ddde7e42bab438fe6b5f90f7ff0565bac1eb0002b1f4e9ea5",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      405,
+      170
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        2815,
+        270,
+        3220,
+        440
+      ]
+    ],
+    "caption": "题4Item Count为20/20；Score0/0表示评分权重为0（评分窗口右侧连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-completion.png",
+    "source": "evidence/q4-completion.png",
+    "source_sha256": "ac915c746550bbd3d695945a0ee5b650988dd68049ba835f2b360a87be09367a",
+    "output_sha256": "cfd37bb285e575732f196af376053bf0652842b7cdf26e7fee483b41707fae87",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      195,
+      30
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        1105,
+        1595,
+        1300,
+        1625
+      ]
+    ],
+    "caption": "题4Completion为100%（活动窗口底部连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q4/q4-topology.png",
+    "source": "evidence/q4-completion.png",
+    "source_sha256": "ac915c746550bbd3d695945a0ee5b650988dd68049ba835f2b360a87be09367a",
+    "output_sha256": "cdf21d12bfb3c1d472339f7eeb95d35ae9018bc9edfa5a1a1b7b625994f2a3de",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      1370,
+      610
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        1390,
+        350,
+        2760,
+        960
+      ]
+    ],
+    "caption": "题4四路由器、六个LAN与三条串行链路实际拓扑（连续矩形裁剪）"
+  }
+]

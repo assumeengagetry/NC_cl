@@ -1,0 +1,340 @@
+{
+  "operation": "Base assets are unmodified rectangular crops. Explicitly marked -detail assets compose two aligned column crops from the same screenshot with a visible separator, omitting only the middle horizontal whitespace; see each asset composition metadata. No text is rewritten, and no source pixels are retouched or resampled.",
+  "crop_convention": "Pillow box (left, top, right, bottom), pixels, right/bottom exclusive",
+  "assets": {
+    "topology": {
+      "source": "../original-screenshots/01-topology.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        480,
+        720,
+        1900,
+        980
+      ],
+      "dimensions_px": [
+        1420,
+        260
+      ],
+      "png": "topology.png",
+      "pdf": "topology.pdf",
+      "height_at_120mm_width": 21.97,
+      "pdf_verified_lossless": true,
+      "png_sha256": "e651aea3f43f1433a60a16bb295d459b7fc7f3c3d275e0aba25f8bd50dd68287",
+      "pdf_page_mm": [
+        120,
+        21.97
+      ]
+    },
+    "pc1-ip": {
+      "source": "../original-screenshots/02-pc1-ip.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        40,
+        130,
+        1390,
+        630
+      ],
+      "dimensions_px": [
+        1350,
+        500
+      ],
+      "png": "pc1-ip.png",
+      "pdf": "pc1-ip.pdf",
+      "height_at_120mm_width": 44.44,
+      "pdf_verified_lossless": true,
+      "png_sha256": "b5ab96c1ba4f6c95f8ee7e9a20402d6a52eb4f071a45100d442e38f016abc96f",
+      "pdf_page_mm": [
+        120,
+        44.44
+      ]
+    },
+    "console-serial": {
+      "source": "../original-screenshots/04-console-serial.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        45,
+        133,
+        1830,
+        565
+      ],
+      "dimensions_px": [
+        1785,
+        432
+      ],
+      "png": "console-serial.png",
+      "pdf": "console-serial.pdf",
+      "height_at_120mm_width": 29.04,
+      "pdf_verified_lossless": true,
+      "png_sha256": "81ead2eac7022b5fdb8f16b90fbb7a1e1cb5a82729e01b349b3738236ef898d6",
+      "pdf_page_mm": [
+        120,
+        29.04
+      ]
+    },
+    "console-status": {
+      "source": "../original-screenshots/06-console-history-upper.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        52,
+        350,
+        900,
+        1057
+      ],
+      "dimensions_px": [
+        848,
+        707
+      ],
+      "png": "console-status.png",
+      "pdf": "console-status.pdf",
+      "height_at_120mm_width": 100.05,
+      "pdf_verified_lossless": true,
+      "png_sha256": "e31738b8846a917edb1f48d8b9537b844a69c74ee7a834b4e5ba4f989315ac35",
+      "pdf_page_mm": [
+        120,
+        100.05
+      ]
+    },
+    "console-auth-config": {
+      "source": "../original-screenshots/06-console-history-upper.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        52,
+        1058,
+        650,
+        1239
+      ],
+      "dimensions_px": [
+        598,
+        181
+      ],
+      "png": "console-auth-config.png",
+      "pdf": "console-auth-config.pdf",
+      "height_at_120mm_width": 36.32,
+      "pdf_verified_lossless": true,
+      "png_sha256": "3cc628c9496bef85f8892456c7468cbeefb2b56ee114d289ebdc21ca06ec2a2c",
+      "pdf_page_mm": [
+        120,
+        36.32
+      ]
+    },
+    "config-save": {
+      "source": "../original-screenshots/05-console-history.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        52,
+        1068,
+        600,
+        1390
+      ],
+      "dimensions_px": [
+        548,
+        322
+      ],
+      "png": "config-save.png",
+      "pdf": "config-save.pdf",
+      "height_at_120mm_width": 70.51,
+      "pdf_verified_lossless": true,
+      "png_sha256": "a7457c049623a751177b979e7194e02d78fc52ef5ccf2941ea12f39a66699566",
+      "pdf_page_mm": [
+        120,
+        70.51
+      ]
+    },
+    "ping-comparison": {
+      "source": "../original-screenshots/03-pc1-ping-telnet.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        52,
+        225,
+        640,
+        749
+      ],
+      "dimensions_px": [
+        588,
+        524
+      ],
+      "png": "ping-comparison.png",
+      "pdf": "ping-comparison.pdf",
+      "height_at_120mm_width": 106.94,
+      "pdf_verified_lossless": true,
+      "png_sha256": "3c01512a93d3833980e098d3acfb84e86bff615b9717e7a8997975499936d605",
+      "pdf_page_mm": [
+        120,
+        106.94
+      ]
+    },
+    "telnet-auth": {
+      "source": "../original-screenshots/03-pc1-ping-telnet.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        52,
+        765,
+        455,
+        1028
+      ],
+      "dimensions_px": [
+        403,
+        263
+      ],
+      "png": "telnet-auth.png",
+      "pdf": "telnet-auth.pdf",
+      "height_at_120mm_width": 78.31,
+      "pdf_verified_lossless": true,
+      "png_sha256": "44b5fe63f9d2afc251b0da5c2a832f863f392f3afdb9d5a5dac618ecb3fd6921",
+      "pdf_page_mm": [
+        120,
+        78.31
+      ]
+    },
+    "telnet-privilege": {
+      "source": "../original-screenshots/03-pc1-ping-telnet.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "crop_xyxy": [
+        52,
+        1005,
+        670,
+        1274
+      ],
+      "dimensions_px": [
+        618,
+        269
+      ],
+      "png": "telnet-privilege.png",
+      "pdf": "telnet-privilege.pdf",
+      "height_at_120mm_width": 52.23,
+      "pdf_verified_lossless": true,
+      "png_sha256": "7073322e34f687ca4a29cf56ded4bc7eb76f4e4cbad2482c74c0041d85779f9a",
+      "pdf_page_mm": [
+        120,
+        52.23
+      ]
+    },
+    "console-serial-detail": {
+      "source": "../original-screenshots/04-console-serial.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "composition": "Same original screenshot left label column and right value column placed side by side. Original vertical alignment and pixels are unchanged. Middle blank area omitted. Added 28px light grey separator with grey dashed vertical line. No labels or values rewritten. Must disclose the composition in the figure caption.",
+      "source_crop_rectangles_xyxy": [
+        [
+          45,
+          133,
+          480,
+          565
+        ],
+        [
+          1640,
+          133,
+          1940,
+          565
+        ]
+      ],
+      "destination_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          463,
+          0
+        ]
+      ],
+      "omitted_original_horizontal_interval_px": [
+        480,
+        1640
+      ],
+      "separator_width_px": 28,
+      "dimensions_px": [
+        763,
+        432
+      ],
+      "png": "console-serial-detail.png",
+      "pdf": "console-serial-detail.pdf",
+      "height_at_120mm_width": 67.94,
+      "pdf_page_mm": [
+        120,
+        67.94
+      ],
+      "pdf_verified_lossless": true,
+      "png_sha256": "da8241951c2ec81cc25f268eb27558626bcdbc606169c28d1d2e75f387fb5352"
+    },
+    "pc1-ip-detail": {
+      "source": "../original-screenshots/02-pc1-ip.png",
+      "source_dimensions_px": [
+        3262,
+        2100
+      ],
+      "composition": "Same original screenshot left label column and right value column placed side by side. Original vertical alignment and pixels are unchanged. Middle blank area omitted. Added 28px light grey separator with grey dashed vertical line. No labels or values rewritten. Must disclose the composition in the figure caption.",
+      "source_crop_rectangles_xyxy": [
+        [
+          40,
+          130,
+          475,
+          630
+        ],
+        [
+          1110,
+          130,
+          1430,
+          630
+        ]
+      ],
+      "destination_xy": [
+        [
+          0,
+          0
+        ],
+        [
+          463,
+          0
+        ]
+      ],
+      "omitted_original_horizontal_interval_px": [
+        475,
+        1110
+      ],
+      "separator_width_px": 28,
+      "dimensions_px": [
+        783,
+        500
+      ],
+      "png": "pc1-ip-detail.png",
+      "pdf": "pc1-ip-detail.pdf",
+      "height_at_120mm_width": 76.63,
+      "pdf_page_mm": [
+        120,
+        76.63
+      ],
+      "pdf_verified_lossless": true,
+      "png_sha256": "1c42de719a1cfada6f68f787b2f5398999a0ff29df35dea172ab605209050508"
+    }
+  }
+}

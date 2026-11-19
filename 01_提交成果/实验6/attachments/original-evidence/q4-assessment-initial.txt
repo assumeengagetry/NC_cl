@@ -1,0 +1,273 @@
+Window: "Cisco Packet Tracer - /Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/学生原始包/实验6_学生版/04_大地址块编址设计_学生版.pka - Guest - 2026-11-17 21:21:10", App: Cisco Packet Tracer.
+0 standard window Secondary Actions: Raise, Cisco Packet Tracer - /Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/学生原始包/实验6_学生版/04_大地址块编址设计_学生版.pka - Guest - 2026-11-17 21:21:10
+	1 checkbox Logical Mode, Description: Logical Mode (Shift+L), Value: 1, ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalSwitch, Secondary Actions: Raise
+	2 checkbox Physical Mode, Description: Physical Mode (Shift+P), Value: 0, ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_physicalSwitch, Secondary Actions: Raise
+	3 text Description: X and Y coordinates of mouse, ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar.m_xyLabel, Secondary Actions: Raise
+	4 text field (settable) Current Cluster Name, Description: Root, ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar.m_curClusterNameLbl, Secondary Actions: Raise
+	5 button (disabled) Go Back One Level (Alt+Left), ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar.m_BtnBack
+	6 button Create New Cluster (Shift+U), ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar.m_createClusterBtn, Secondary Actions: Raise
+	7 button (disabled) Move Object(Shift+M), ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar.m_moveBtn
+	8 button Set Background Image (Shift+I), ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar.m_setBGImageBtn, Secondary Actions: Raise
+	9 button Environment (Shift+E), ID: PtApp.CAppWindowBase.centralwidget.m_PLFrame.m_logicalToolbar.m_environmentBtn, Secondary Actions: Raise
+	10 container Workspace Description
+		11 scroll bar (settable) Value: 0, ID: PtApp.CAppWindowBase.centralwidget.m_pWorkSpaceWnd.m_pViewArea_Window.m_workspaceWS.CWorkspace.CLogicalWorkspace.qt_scrollarea_hcontainer.QScrollBar
+		12 scroll bar (settable) Value: 0, ID: PtApp.CAppWindowBase.centralwidget.m_pWorkSpaceWnd.m_pViewArea_Window.m_workspaceWS.CWorkspace.CLogicalWorkspace.qt_scrollarea_vcontainer.QScrollBar
+	13 text Description: Time, Value: Time: 00:10:11, ID: PtApp.CAppWindowBase.centralwidget.m_RSFrame.CRealtimeToolbar.m_timeLbl, Secondary Actions: Raise
+	14 button Power Cycle Devices (Alt+S), ID: PtApp.CAppWindowBase.centralwidget.m_RSFrame.CRealtimeToolbar.ResetNetworkBtn, Secondary Actions: Raise
+	15 button Fast Forward Time (Alt+D), ID: PtApp.CAppWindowBase.centralwidget.m_RSFrame.CRealtimeToolbar.FastForwardTimeBtn, Secondary Actions: Raise
+	16 checkbox Realtime Mode, Description: Realtime Mode (Shift+R), Value: 1, ID: PtApp.CAppWindowBase.centralwidget.m_RSFrame.m_realtimeSwitch, Secondary Actions: Raise
+	17 checkbox Simulation Mode, Description: Simulation Mode (Shift+S), Value: 0, ID: PtApp.CAppWindowBase.centralwidget.m_RSFrame.m_simulationSwitch, Secondary Actions: Raise
+	18 split group PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter
+		19 button Scenario Information, Description: Description of what this scenario represents., Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.UserCreatedPDU.m_scenarioInfoBtn
+		20 combo box 场景 0, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.UserCreatedPDU.m_scenarioComboBox
+			21 text field (settable) Value: 场景 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.UserCreatedPDU.m_scenarioComboBox.QLineEdit
+		22 button New, Description: Add another scenario., Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.UserCreatedPDU.NewScenarioBtn
+		23 button Delete, Description: Delete the current scenario including the user PDUs, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.UserCreatedPDU.DeleteScenarioBtn
+		24 checkbox Toggle PDU list window, Description: Expands the PDU list table into a dock window, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.UserCreatedPDU.OpenListWindowBtn
+		25 outline List of user packets
+			26 column List of user packets
+			27 column List of user packets
+			28 column List of user packets
+			29 column List of user packets
+			30 column List of user packets
+			31 column List of user packets
+			32 column List of user packets
+			33 column List of user packets
+			34 column List of user packets
+			35 column List of user packets
+			36 column List of user packets
+		37 checkbox User Created PDU toggle, Value: 1, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_expandPacketWindowBtn, Secondary Actions: Raise
+		38 checkbox Network Devices, Description: Network Devices Ctrl+Alt+R, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.group_Network_Devices
+		39 checkbox End Devices, Description: End Devices Ctrl+Alt+V, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.group_End_Devices
+		40 checkbox Components, Description: Components Ctrl+Alt+B, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.group_Components
+		41 checkbox Connections, Description: Connections Ctrl+Alt+O, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.group_Connections
+		42 checkbox Miscellaneous, Description: Miscellaneous Ctrl+Alt+E, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.group_Miscellaneous
+		43 checkbox Multiuser Connection, Description: Multiuser Connection Ctrl+Alt+M, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.group_Multiuser_Connection
+		44 checkbox Legacy, Description: Legacy Devices, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.group_Legacy
+		45 image PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.QLabel
+		46 text field (settable) Search for device, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.CDeviceTypesBox_SearchInput
+		47 checkbox Routers, Description: Routers Ctrl+Alt+R, Value: 0, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.type_Routers
+		48 checkbox Switches, Description: Switches Ctrl+Alt+S, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.type_Switches
+		49 checkbox Hubs, Description: Hubs Ctrl+Alt+U, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.type_Hubs
+		50 checkbox Wireless Devices, Description: Wireless Devices Ctrl+Alt+W, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.type_Wireless_Devices
+		51 checkbox Security, Description: Security Ctrl+Alt+C, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.type_Security
+		52 checkbox WAN Emulation, Description: WAN Emulation Ctrl+Alt+N, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceTypesBox.type_WAN_Emulation
+		53 text Value:  (Select a Device to Drag and Drop to the Workspace) , ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.CDeviceLabel
+		54 checkbox 1841, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_1841
+		55 checkbox 1941, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_1941
+		56 checkbox 2620XM, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_2620XM
+		57 checkbox 2621XM, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_2621XM
+		58 checkbox 2901, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_2901
+		59 checkbox 2911, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_2911
+		60 checkbox 819HG-4G-IOX, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_819HG_4G_IOX
+		61 checkbox 819HGW, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_819HGW
+		62 checkbox 829, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_829
+		63 checkbox CGR1240, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_CGR1240
+		64 checkbox IR1101, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_IR1101
+		65 checkbox IR8340, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_IR8340
+		66 checkbox ISR4321, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_ISR4321
+		67 checkbox ISR4331, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_ISR4331
+		68 checkbox PT8200, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_PT8200
+		69 checkbox Router-PT, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_Router_PT
+		70 checkbox Router-PT-Empty, Description: stock, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_Router_PT_Empty
+		71 checkbox 2811 IOS15, Description: custom, Value: 0, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_viewport.scroll_frame_Routers.device_Routers_2811
+		72 scroll bar (settable) Value: 0, ID: PtApp.CAppWindowBase.centralwidget.m_pNetWorkCompBoxFrame.m_bottomSplitter.m_pNetWorkCompBox.CDeviceSpecificBox.scroll_Routers.qt_scrollarea_hcontainer.QScrollBar
+	73 button New, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	74 button Open, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	75 button Save, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	76 button Print, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	77 button Network Information, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	78 button User Profile, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise, Description: Set the name, email, and additional information to be used for submission of this file. Profile is unrelated to your login information and status.
+	79 button Activity Wizard, Description: Open the Activity Wizard to create your own PKA activities., ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	80 button Copy, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	81 button Paste, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	82 button Undo, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	83 button Redo, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	84 button Zoom In, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	85 button Zoom Reset, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	86 button Zoom Out, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	87 button View the entire workspace., ID: PtApp.CAppWindowBase.m_pToolBar.Show Viewport, Secondary Actions: Raise
+	88 button View the workspace as a tabular list of devices and links., ID: PtApp.CAppWindowBase.m_pToolBar.Show Workspace List, Secondary Actions: Raise
+	89 button View all commands entered in this file., ID: PtApp.CAppWindowBase.m_pToolBar.View Command Log, Secondary Actions: Raise
+	90 button Custom Devices Dialog, Description: Customize any existing device model with pre-installed modules and IOS versions., ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	91 button Cluster Associations Dialog, Description: Associate Logical Workspace clusters to Physical Workspace containers., ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	92 button Contents, ID: PtApp.CAppWindowBase.m_pToolBar.QToolButton, Secondary Actions: Raise
+	93 checkbox Select (Esc), Value: 1, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	94 checkbox Inspect (I), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	95 checkbox Delete (Del), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	96 checkbox Resize (Alt+R), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	97 checkbox Place Note (N), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	98 checkbox Draw Line (L), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	99 checkbox Draw Rectangle (R), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	100 checkbox Draw Ellipse (E), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	101 checkbox Draw Freeform (F), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	102 checkbox Add Simple PDU (P), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	103 checkbox Add Complex PDU (C), Value: 0, ID: PtApp.CAppWindowBase.m_pPlToolBar.QToolButton, Secondary Actions: Raise
+	104 text Description: Activity Results, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_checkAnswersTitle, Secondary Actions: Raise, Value: Activity Results Time Elapsed: 00:10:21 You did not complete the activity. Please close this window and try again.
+	105 container PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget
+		106 button Expand/Collapse All, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_btnExpColAll
+		107 button Show Incorrect Items, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_btnShowIncorrectItem
+		108 outline PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			109 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				110 container Network, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			111 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				112 container East, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			113 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				114 container Ports, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			115 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				116 container FastEthernet0/0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			117 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				118 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				119 container Incorrect, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				120 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				121 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			122 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				123 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				124 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				125 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				126 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			127 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				128 container FastEthernet0/1, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			129 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				130 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				131 container Incorrect, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				132 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				133 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			134 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				135 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				136 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				137 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				138 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			139 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				140 container HQ, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			141 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				142 container Ports, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			143 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				144 container FastEthernet0/0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			145 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				146 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				147 container Incorrect, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				148 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				149 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			150 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				151 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				152 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				153 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				154 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			155 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				156 container FastEthernet0/1, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			157 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				158 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				159 container Incorrect, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				160 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				161 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			162 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				163 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				164 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				165 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				166 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			167 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				168 container Serial0/0/0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			169 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				170 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				171 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				172 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				173 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			174 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				175 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				176 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				177 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				178 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			179 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				180 container Serial0/0/1, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			181 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				182 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				183 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				184 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				185 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			186 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				187 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				188 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				189 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				190 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			191 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				192 container Router2, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			193 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				194 container Ports, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			195 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				196 container Serial0/0/0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			197 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				198 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				199 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				200 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				201 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			202 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				203 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				204 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				205 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				206 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			207 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				208 container West, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			209 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				210 container Ports, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			211 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				212 container FastEthernet0/0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			213 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				214 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				215 container Incorrect, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				216 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				217 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			218 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				219 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				220 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				221 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				222 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			223 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				224 container FastEthernet0/1, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			225 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				226 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				227 container Incorrect, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				228 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				229 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			230 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				231 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				232 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				233 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				234 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			235 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				236 container Serial0/0/0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			237 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				238 container IP Address, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				239 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				240 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				241 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			242 row PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				243 container Subnet Mask, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				244 container Correct, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				245 container 0, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+				246 container Other, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			247 column PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			248 column PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			249 column PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			250 column PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+			251 column PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.m_checkAnswerTree
+		252 text Description: : 0, Value: : 0 : 0 Score Item Count text, Secondary Actions: Raise, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_stackedwidget.m_assessmentItemsTab.frame.m_pointsText
+	253 tab group Assessment Items, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_tabbar, Secondary Actions: Raise
+		254 tab Overall Feedback, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_tabbar
+		255 tab Assessment Items, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_tabbar
+		256 tab Connectivity Tests, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_resultsTab.qt_tabwidget_tabbar
+	257 button Close, ID: PtApp.CAppWindowBase.CBaseCheckAnswerPage.m_closeButton, Secondary Actions: Raise
+	258 text Cisco Packet Tracer - /Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/学生原始包/实验6_学生版/04_大地址块编址设计_学生版.pka - Guest - 2026-11-17 21:21:10
+	259 menu button Window sharing
+260 menu bar
+	261 Cisco Packet Tracer
+	262 File
+	263 Edit
+	264 Options
+	265 View
+	266 Tools
+	267 Extensions
+	268 Window
+	269 Help
+
+The focused UI element is 10 container Workspace Description

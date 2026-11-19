@@ -1,0 +1,404 @@
+[
+  {
+    "file": "assets_prepared/q2/q2-pc1-ip.png",
+    "source": "evidence/q2-pc1-ip.png",
+    "source_sha256": "53c552e9363ee1e011595f2576d3417535b20760b2a7e32cce6eafff7322b4d4",
+    "output_sha256": "f098f2a1198379b3b88aa67d48ee00b0e037e82a137421b87a9ebb7df66b63bb",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "PC1最终IPv4配置：172.16.3.10/24，网关172.16.3.1（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-r1-config.png",
+    "source": "evidence/q2-r1-interface.png",
+    "source_sha256": "06400065b9c367eff837d7e7176d983374bb262e16eecc6cd7874ad62c4ef58a",
+    "output_sha256": "f94d18eb2d42e879ea1ea428bd879bc94eefd3bff5b8d18d80ea3a6406508af0",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      65
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        760,
+        650,
+        825
+      ]
+    ],
+    "caption": "R1的Fa0/0配置：172.16.3.1/24及no shutdown（原截图配置命令区域连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-r1-detail.png",
+    "source": "evidence/q2-r1-interface.png",
+    "source_sha256": "06400065b9c367eff837d7e7176d983374bb262e16eecc6cd7874ad62c4ef58a",
+    "output_sha256": "532bd3c45c478d0599acaa4ce4d2273d285bb512b58f892990cc1e0b8adfce86",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      60
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1125,
+        650,
+        1185
+      ]
+    ],
+    "caption": "R1的Fa0/0实测状态up/up，地址172.16.3.1/24（原截图show命令与输出区域连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-pc1-ping.png",
+    "source": "evidence/q2-pc1-ping.png",
+    "source_sha256": "1ac759aabc00fa50824c4e595cf0fc5bcb12c6e8469196957fa12b58bb5e22e4",
+    "output_sha256": "8881ae3b6f3adb7ac442ec1652a1d632718e2e323adb1f7792809fc946190dbf",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      330
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        220,
+        650,
+        550
+      ]
+    ],
+    "caption": "PC1 Ping本地网关172.16.3.1，4/4响应（完整命令与输出连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-pc2-ip.png",
+    "source": "evidence/q2-pc2-ip.png",
+    "source_sha256": "d60c7331e8ce0b21eec553425da4aa0a528c957202736e4c6d3b1d0be1fcd727",
+    "output_sha256": "c9f147750fdf9feaa2b7627d18297914b27430fe7353c0a4e7b01ea2c2ac6432",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "PC2最终IPv4配置：172.16.1.10/24，网关172.16.1.1（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-r2-config.png",
+    "source": "evidence/q2-r2-interface.png",
+    "source_sha256": "7dd2f741c78e5d2c21f8542e2a1347e19ebc4fde243017dca1bb1a00d476fcb7",
+    "output_sha256": "716eb56dcdcc67c62c71d36b61344357fee85473644cb8b6beb86d4374ee9043",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      65
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        760,
+        650,
+        825
+      ]
+    ],
+    "caption": "R2的Fa0/0配置：172.16.1.1/24及no shutdown（原截图配置命令区域连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-r2-detail.png",
+    "source": "evidence/q2-r2-interface.png",
+    "source_sha256": "7dd2f741c78e5d2c21f8542e2a1347e19ebc4fde243017dca1bb1a00d476fcb7",
+    "output_sha256": "ab87bfb0601b43b42785e793d92513fe1d69a8ebece2250b491541459714f39a",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      60
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1125,
+        650,
+        1185
+      ]
+    ],
+    "caption": "R2的Fa0/0实测状态up/up，地址172.16.1.1/24（原截图show命令与输出区域连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-pc2-ping.png",
+    "source": "evidence/q2-pc2-ping.png",
+    "source_sha256": "a63afbbeeb398053a471be27b56471279f248096463f162d6fa9ccd1abecaf2c",
+    "output_sha256": "36ecd2c585e4a1367601656fc9bbbaec302efc91ce748fd0a90747e9541503ac",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      330
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        220,
+        650,
+        550
+      ]
+    ],
+    "caption": "PC2 Ping本地网关172.16.1.1，4/4响应（完整命令与输出连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-pc3-ip.png",
+    "source": "evidence/q2-pc3-ip.png",
+    "source_sha256": "06b4e5d58d6b8c818b1758e98782671402af65b98e2c259180ad691076da4d44",
+    "output_sha256": "9262099ed6e05b176a12cca91c88e965bc434ce791e26652395e0fd63e939d81",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "PC3最终IPv4配置：192.168.2.10/24，网关192.168.2.1（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-r3-config.png",
+    "source": "evidence/q2-r3-interface.png",
+    "source_sha256": "d67d005173a77fa880125233976d571e20272df36947a8925cdc4aec33f25beb",
+    "output_sha256": "cf952f069795673c96b74fe0d8a12f8d1cd538903e0a4b7bb13d5ad1a3f52b3f",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      65
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        760,
+        650,
+        825
+      ]
+    ],
+    "caption": "R3的Fa0/0配置：192.168.2.1/24及no shutdown（原截图配置命令区域连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-r3-detail.png",
+    "source": "evidence/q2-r3-interface.png",
+    "source_sha256": "d67d005173a77fa880125233976d571e20272df36947a8925cdc4aec33f25beb",
+    "output_sha256": "e6b743b7e868b997c7a640720b832f59d530d52b3ad207cd4c14f5c58d8b7964",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      60
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1125,
+        650,
+        1185
+      ]
+    ],
+    "caption": "R3的Fa0/0实测状态up/up，地址192.168.2.1/24（原截图show命令与输出区域连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-pc3-ping.png",
+    "source": "evidence/q2-pc3-ping.png",
+    "source_sha256": "72203a8a2c0b4a5f202c0aa4bbbaa5226195919e0593adb19bc8d44992aea1a6",
+    "output_sha256": "9b74e671b9d54e14195070eb864f358f153fee9261f70c021fccd40a133ae6cb",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      330
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        220,
+        650,
+        550
+      ]
+    ],
+    "caption": "PC3 Ping本地网关192.168.2.1，4/4响应（完整命令与输出连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-assessment.png",
+    "source": "evidence/q2-assessment.png",
+    "source_sha256": "ff121d50bf5b4a7a6aa525a7e01e6f75573b4f55f4de9efd7f99098e4b52620c",
+    "output_sha256": "36e4df8074a0615254dfb058b5d14709106fae146b3350505f807b9af89da9d6",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      765,
+      1100
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        40,
+        340,
+        805,
+        1440
+      ]
+    ],
+    "caption": "题2全部18项 Assessment Items 均为 Correct（连续矩形裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-assessment-count.png",
+    "source": "evidence/q2-assessment.png",
+    "source_sha256": "ff121d50bf5b4a7a6aa525a7e01e6f75573b4f55f4de9efd7f99098e4b52620c",
+    "output_sha256": "0a6739a9f4833c3760f6ac8f2c1a4e5a4be70cf07c6853126a4362e920f86f53",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      405,
+      170
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        2815,
+        270,
+        3220,
+        440
+      ]
+    ],
+    "caption": "题2 Item Count 为18/18；此活动评分权重均为0，Score显示0/0（同一评分窗口右侧连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-completion.png",
+    "source": "evidence/q2-completion.png",
+    "source_sha256": "ace83455e3c93096fc11369fb62902704e411e4a9e80081a5e1df5ce19478f1d",
+    "output_sha256": "6030ca2137f2053b780bf9a2323747d924ea2fc18adbfea2533c189f55a93d4a",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      195,
+      30
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        1105,
+        1595,
+        1300,
+        1625
+      ]
+    ],
+    "caption": "题2 Completion 为100%（活动窗口底部连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q2/q2-topology.png",
+    "source": "evidence/q2-completion.png",
+    "source_sha256": "ace83455e3c93096fc11369fb62902704e411e4a9e80081a5e1df5ce19478f1d",
+    "output_sha256": "b104c6ff499ba6564dd74c208c785cfe1e51bed6b8e45abae64fcd29c63436a4",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      1370,
+      450
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        1460,
+        580,
+        2830,
+        1030
+      ]
+    ],
+    "caption": "题2主机与路由器拓扑；本题仅配置并验证以太网接口（连续矩形裁剪）"
+  }
+]

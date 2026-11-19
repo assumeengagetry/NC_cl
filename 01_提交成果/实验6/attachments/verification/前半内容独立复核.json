@@ -1,0 +1,55 @@
+{
+  "q1": {
+    "required_assets": 16,
+    "used_assets": 16,
+    "missing_requirement_assets": [],
+    "missing_files": [],
+    "questions_present": true
+  },
+  "q2": {
+    "required_assets": 15,
+    "used_assets": 15,
+    "missing_requirement_assets": [],
+    "missing_files": [],
+    "questions_present": true
+  },
+  "scope_review": [
+    "q1 six baseline Ping results preserved, including 3/4 correct-gateway result",
+    "q1 off-link gateway 4/4 and same-MAC ARP recorded; Proxy ARP stated as mechanism inference",
+    "q1 final gateway restoration and separate 4/4 remote retest recorded",
+    "q2 only local-gateway connectivity claimed; no router-to-router routing claim",
+    "q2 shutdown/address-mask faults are diagnostic reasoning, not claimed experiments",
+    "q1/q2 field-column crop disclosure provided in every configuration caption",
+    "teacher review fields blank; teachingweek macro blank"
+  ],
+  "template": {
+    "same_style_as_experiment5_except_pdf_title": true,
+    "doc_xml_twips": [
+      10440,
+      14740
+    ],
+    "expected_page_bp": [
+      522,
+      737
+    ],
+    "compiled_environment_test_page_bp": [
+      522,
+      737
+    ],
+    "body_font": "FandolSong 10.5bp, baseline14.5bp",
+    "margins_mm": {
+      "left": 20.0025,
+      "right": 18.009306,
+      "top": 25.4,
+      "bottom": 10.00125
+    }
+  },
+  "pending_before_final": "Root final integration and rendering/overflow verification only; Q4 final result applied to closing.",
+  "closing_final_status": {
+    "q1": "100%, 9/9",
+    "q2": "100%, 18/18",
+    "q3": "100%, 24/24",
+    "q4": "100%, 20/20",
+    "q4_correction": "Initial 14/20; reversed association between equal-capacity LAN subnets and six interfaces corrected according to assessment mapping. No last-usable-address adjustment claimed."
+  }
+}

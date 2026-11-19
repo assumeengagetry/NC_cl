@@ -1,0 +1,252 @@
+[
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-assessment-count.png",
+    "pdf": "assets/q1/q1-assessment-count.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-assessment.png",
+    "pdf": "assets/q1/q1-assessment.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-atl-ip.png",
+    "pdf": "assets/q1/q1-atl-ip.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-completion.png",
+    "pdf": "assets/q1/q1-completion.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-correct-pings.png",
+    "pdf": "assets/q1/q1-correct-pings.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-empty-pings.png",
+    "pdf": "assets/q1/q1-empty-pings.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-lax-final.png",
+    "pdf": "assets/q1/q1-lax-final.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-lax-gw-correct.png",
+    "pdf": "assets/q1/q1-lax-gw-correct.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-lax-gw-empty.png",
+    "pdf": "assets/q1/q1-lax-gw-empty.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-lax-gw-offlink.png",
+    "pdf": "assets/q1/q1-lax-gw-offlink.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-lax-gw-wrong.png",
+    "pdf": "assets/q1/q1-lax-gw-wrong.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-offlink-arp.png",
+    "pdf": "assets/q1/q1-offlink-arp.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-offlink-remote.png",
+    "pdf": "assets/q1/q1-offlink-remote.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-phx-ip.png",
+    "pdf": "assets/q1/q1-phx-ip.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-restored-remote.png",
+    "pdf": "assets/q1/q1-restored-remote.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-topology.png",
+    "pdf": "assets/q1/q1-topology.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q1/q1-wrong-pings.png",
+    "pdf": "assets/q1/q1-wrong-pings.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-assessment-count.png",
+    "pdf": "assets/q2/q2-assessment-count.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-assessment.png",
+    "pdf": "assets/q2/q2-assessment.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-completion.png",
+    "pdf": "assets/q2/q2-completion.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-pc1-ip.png",
+    "pdf": "assets/q2/q2-pc1-ip.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-pc1-ping.png",
+    "pdf": "assets/q2/q2-pc1-ping.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-pc2-ip.png",
+    "pdf": "assets/q2/q2-pc2-ip.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-pc2-ping.png",
+    "pdf": "assets/q2/q2-pc2-ping.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-pc3-ip.png",
+    "pdf": "assets/q2/q2-pc3-ip.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-pc3-ping.png",
+    "pdf": "assets/q2/q2-pc3-ping.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-r1-config.png",
+    "pdf": "assets/q2/q2-r1-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-r1-detail.png",
+    "pdf": "assets/q2/q2-r1-detail.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-r2-config.png",
+    "pdf": "assets/q2/q2-r2-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-r2-detail.png",
+    "pdf": "assets/q2/q2-r2-detail.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-r3-config.png",
+    "pdf": "assets/q2/q2-r3-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-r3-detail.png",
+    "pdf": "assets/q2/q2-r3-detail.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q2/q2-topology.png",
+    "pdf": "assets/q2/q2-topology.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q3/q3-assessment-count.png",
+    "pdf": "assets/q3/q3-assessment-count.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q3/q3-assessment.png",
+    "pdf": "assets/q3/q3-assessment.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q3/q3-completion.png",
+    "pdf": "assets/q3/q3-completion.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q3/q3-router3-config.png",
+    "pdf": "assets/q3/q3-router3-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q3/q3-router4-config.png",
+    "pdf": "assets/q3/q3-router4-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q3/q3-router5-config.png",
+    "pdf": "assets/q3/q3-router5-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q3/q3-topology.png",
+    "pdf": "assets/q3/q3-topology.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-assessment-count.png",
+    "pdf": "assets/q4/q4-assessment-count.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-assessment.png",
+    "pdf": "assets/q4/q4-assessment.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-completion.png",
+    "pdf": "assets/q4/q4-completion.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-east-config.png",
+    "pdf": "assets/q4/q4-east-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-hq-clock.png",
+    "pdf": "assets/q4/q4-hq-clock.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-hq-config.png",
+    "pdf": "assets/q4/q4-hq-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-hq-status.png",
+    "pdf": "assets/q4/q4-hq-status.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-router2-config.png",
+    "pdf": "assets/q4/q4-router2-config.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-topology.png",
+    "pdf": "assets/q4/q4-topology.pdf",
+    "pixel_identical": true
+  },
+  {
+    "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/assets_prepared/q4/q4-west-config.png",
+    "pdf": "assets/q4/q4-west-config.pdf",
+    "pixel_identical": true
+  }
+]

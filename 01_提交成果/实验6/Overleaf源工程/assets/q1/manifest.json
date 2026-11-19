@@ -1,0 +1,452 @@
+[
+  {
+    "file": "assets_prepared/q1/q1-lax-gw-empty.png",
+    "source": "evidence/q1-lax-gw-empty.png",
+    "source_sha256": "88d5edbbf7f587fec7b967665eb234f1db5332c18da94c0b4fdfb321ebadecd2",
+    "output_sha256": "39b64c4fd0771b42445d23f845f0ed6991f30ff9582d9a9603aecc4f6994c84e",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "LAXpc 网关留空时的 IPv4 配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-lax-gw-correct.png",
+    "source": "evidence/q1-lax-gw-correct.png",
+    "source_sha256": "554946d321e19d3a53698a7cda9dc33df1a5d37a0c4937c400e1bebaa900fbc2",
+    "output_sha256": "ae740dcc8c6c33b906f08bb151c790121fd21f0fa27ad34f5a3c4425e0618522",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "LAXpc 的正确 IPv4 配置：192.168.1.2/24，网关192.168.1.1（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-phx-ip.png",
+    "source": "evidence/q1-phx-ip.png",
+    "source_sha256": "e2f176900cb926cfce52adef2fbc898e7080e73ded9d03f9dc667be2f2596ef5",
+    "output_sha256": "43cb3f33121d80ed0a989f16ed8fe887fad6bfa2266b07279cebbfa876a261fd",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "PHXpc 最终 IPv4 配置：192.168.2.2/24，网关192.168.2.1（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-atl-ip.png",
+    "source": "evidence/q1-atl-ip.png",
+    "source_sha256": "96960fd9dae5873232b328156c50573bd1e5c7bbf98b48d94f2a8196e451fe6f",
+    "output_sha256": "e249707ef515154fc06913c63b0605a523b1a0887f563b5d96c32af2cff05008",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "ATLpc 最终 IPv4 配置：192.168.3.2/24，网关192.168.3.1（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-lax-gw-wrong.png",
+    "source": "evidence/q1-lax-gw-wrong.png",
+    "source_sha256": "71114e5411b8bc2c41274387934f9a68e27be19aba352c0e9ff2a28362454af8",
+    "output_sha256": "70cde21fec6adfb979c958b69fa29fa650919a974e039b7865d44b6b08fbb939",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "LAXpc 将网关设为本地不存在的192.168.1.254（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-lax-gw-offlink.png",
+    "source": "evidence/q1-lax-gw-offlink.png",
+    "source_sha256": "78afe33eae2f59f3db749a97bffe0ebb7a92aecbbdac1003fa6aa1f527bbd535",
+    "output_sha256": "1650f0839becc950680677588328ea3cbd86b77ce0d351f488e6ad1ea612ccc1",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "LAXpc 将网关设为跨网段地址192.168.2.1（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-lax-final.png",
+    "source": "evidence/q1-lax-final.png",
+    "source_sha256": "35ba056d35caacaa06d95249dcc909dc0863f487cc88520e399cbed6448778f7",
+    "output_sha256": "ae740dcc8c6c33b906f08bb151c790121fd21f0fa27ad34f5a3c4425e0618522",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      769,
+      370
+    ],
+    "method": "same_source_aligned_column_crops_with_disclosed_gap",
+    "crop_boxes_xyxy": [
+      [
+        45,
+        190,
+        470,
+        560
+      ],
+      [
+        1100,
+        190,
+        1430,
+        560
+      ]
+    ],
+    "caption": "LAXpc 恢复后的最终 IPv4 配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-empty-pings.png",
+    "source": "evidence/q1-empty-pings.png",
+    "source_sha256": "91dbf0978fe07b06d71d5377888e651ce72939d50fdc3b8a95a219fa1f86e2ef",
+    "output_sha256": "90199f793d50803a1fc48abec9c3dca125f87b10caa7f84557ef6bb72d0c2ac9",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      570
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        220,
+        650,
+        790
+      ]
+    ],
+    "caption": "网关留空：本地目标4/4成功，远端目标0/4成功（连续矩形裁剪，保留该组完整命令与输出）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-correct-pings.png",
+    "source": "evidence/q1-correct-pings.png",
+    "source_sha256": "90864f890838435594131b4366125b83e06ac9b502d53ba0a44ea36d5abe51a7",
+    "output_sha256": "894fb9539ec48cdd94768393925296977715b46d0c17de7dcfa86601f47dbc6a",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      600
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        815,
+        650,
+        1415
+      ]
+    ],
+    "caption": "正确网关：本地目标4/4成功，远端目标3/4成功，保留首包超时（连续矩形裁剪，保留该组完整命令与输出）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-wrong-pings.png",
+    "source": "evidence/q1-wrong-pings.png",
+    "source_sha256": "9626fdd904ca7b4406057f733540b4f1f6f793c5077c8139c5fcb12d1c4bb0a3",
+    "output_sha256": "ad5891fa289632d57b7d4c3d57b73fa645ed4c02a806615425a85ce48485a175",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      560
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1370,
+        650,
+        1930
+      ]
+    ],
+    "caption": "不存在的本地网关：本地目标4/4成功，远端目标0/4成功（连续矩形裁剪，保留该组完整命令与输出）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-offlink-remote.png",
+    "source": "evidence/q1-offlink-remote.png",
+    "source_sha256": "315231972a7a4b5ceed55670aaffb88f8782d7430508a0671c659695fa8ac6fc",
+    "output_sha256": "a040215d809ca690faffafff8e2c95bc5ba131d041c20bb610e00d0410653df7",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      310
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1660,
+        650,
+        1970
+      ]
+    ],
+    "caption": "跨网段网关补充测试：远端目标4/4成功（连续矩形裁剪，保留该组完整命令与输出）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-offlink-arp.png",
+    "source": "evidence/q1-offlink-arp.png",
+    "source_sha256": "52cb2a41eee60cb4279ea2ca3e1a61cbd657ba07f0d6dd9433c7115d1c76dd88",
+    "output_sha256": "b9c904e0c21af87ddfc0254df7b5300c2e40f4f86c37cf88132566db9f2dd54e",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      490
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1480,
+        650,
+        1970
+      ]
+    ],
+    "caption": "跨网段网关补测的 ARP 表和本地4/4成功：两地址对应同一MAC（连续矩形裁剪，保留该组完整命令与输出）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-restored-remote.png",
+    "source": "evidence/q1-restored-remote.png",
+    "source_sha256": "4ad9d7af4eae40e3342fa3fd0af74c5668ef98467b80185b0929204a348d4ea5",
+    "output_sha256": "68647e1cd6a385aa0c8bb76bf7c1efc0ef0c2f53b0d4603f99f4ea88b1131e9f",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      310
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        50,
+        1660,
+        650,
+        1970
+      ]
+    ],
+    "caption": "恢复正确网关192.168.1.1后复测远端，4/4成功（连续矩形裁剪，保留该组完整命令与输出）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-assessment.png",
+    "source": "evidence/q1-assessment.png",
+    "source_sha256": "0ca67d64b78ec8c0996fa849c3ea35bdbbfc9ab7915daf3bcf5507d8d35d3e47",
+    "output_sha256": "db912e1491b1ac5ca882978aeb65de62e75469622b3c9e32121d2617e4eade11",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      765,
+      590
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        40,
+        340,
+        805,
+        930
+      ]
+    ],
+    "caption": "题1全部9项 Assessment Items 均为 Correct（连续矩形裁剪）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-assessment-count.png",
+    "source": "evidence/q1-assessment.png",
+    "source_sha256": "0ca67d64b78ec8c0996fa849c3ea35bdbbfc9ab7915daf3bcf5507d8d35d3e47",
+    "output_sha256": "68e6dc90a92a1614e1a47f0235847414cd46e08f302345298e079c19fd5f2d3f",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      405,
+      170
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        2815,
+        270,
+        3220,
+        440
+      ]
+    ],
+    "caption": "题1 Item Count 为9/9；此活动评分权重均为0，Score显示0/0（同一评分窗口右侧连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-completion.png",
+    "source": "evidence/q1-completion.png",
+    "source_sha256": "b5932420c54d9f23b143a379300261bc91e3ba9fbc9f863b55ec6b9407d29309",
+    "output_sha256": "699aee3fc2dbe5eff1ab8a7bb0da66f8d475ad99417608a30c1d3ddb0ef7593b",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      600,
+      100
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        0,
+        1595,
+        600,
+        1695
+      ]
+    ],
+    "caption": "题1 Completion 为100%（活动窗口底部连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q1/q1-topology.png",
+    "source": "evidence/q1-completion.png",
+    "source_sha256": "b5932420c54d9f23b143a379300261bc91e3ba9fbc9f863b55ec6b9407d29309",
+    "output_sha256": "a285155cd0c9e0fb2a875a49157c5cd97b05fc45862edb159686a43aed8f613c",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      1140,
+      585
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        1315,
+        390,
+        2455,
+        975
+      ]
+    ],
+    "caption": "题1三台主机、交换机和路由器拓扑（连续矩形裁剪）"
+  }
+]

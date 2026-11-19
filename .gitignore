@@ -1,0 +1,46 @@
+# macOS / Windows metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local working copies, renders, scratch builds and downloaded runtimes.
+# Final reports, editable sources and original evidence live in 01_提交成果/.
+/99_工作记录/
+/02_课程资料/软件安装包/
+
+# Local development dependencies and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# LaTeX files produced when compiling an editable source project in place.
+# Keep experiment access/error logs and archived validation logs as evidence.
+**/Overleaf源工程/*.aux
+**/Overleaf源工程/*.log
+**/Overleaf源工程/*.out
+**/Overleaf源工程/*.toc
+**/Overleaf源工程/*.lof
+**/Overleaf源工程/*.lot
+**/Overleaf源工程/*.fls
+**/Overleaf源工程/*.fdb_latexmk
+**/Overleaf源工程/*.xdv
+**/Overleaf源工程/*.synctex.gz
+**/Overleaf源工程/main.pdf
+
+# Editor temporary files and local credentials
+*.swp
+*.swo
+*~
+.env
+.env.*
+!.env.example
+
+# Deliberately keep PDF/ZIP reports, TeX sources, PNG evidence,
+# Packet Tracer .pkt/.pka files and original .pcap/.pcapng captures.

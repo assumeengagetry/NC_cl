@@ -1,0 +1,78 @@
+\reportpage{\dataheading}{
+\taskheading{3}{VLSM划分与接口编址}
+\subheading{实验结果：LAN子网划分}
+父地址块为192.168.1.0/24。按活动表4的A至F顺序，每次选取最低可用且对齐的地址块；LAN首个可用地址分配给指定路由器接口。下表中的可用范围两端均包含在内。
+
+\begin{subnettable}
+LAN A\newline 60主机 & 192.168.1.0/26\newline 255.255.255.192 & 广播192.168.1.63\newline 可用192.168.1.1至192.168.1.62 & Router4\newline Fa0/0\newline 192.168.1.1\\\hline
+LAN B\newline 60主机 & 192.168.1.64/26\newline 255.255.255.192 & 广播192.168.1.127\newline 可用192.168.1.65至192.168.1.126 & Router4\newline Fa0/1\newline 192.168.1.65\\\hline
+LAN C\newline 30主机 & 192.168.1.128/27\newline 255.255.255.224 & 广播192.168.1.159\newline 可用192.168.1.129至192.168.1.158 & Router3\newline Fa0/0\newline 192.168.1.129\\\hline
+LAN D\newline 30主机 & 192.168.1.160/27\newline 255.255.255.224 & 广播192.168.1.191\newline 可用192.168.1.161至192.168.1.190 & Router3\newline Fa0/1\newline 192.168.1.161\\\hline
+LAN E\newline 14主机 & 192.168.1.192/28\newline 255.255.255.240 & 广播192.168.1.207\newline 可用192.168.1.193至192.168.1.206 & Router5\newline Fa0/0\newline 192.168.1.193\\\hline
+LAN F\newline 14主机 & 192.168.1.208/28\newline 255.255.255.240 & 广播192.168.1.223\newline 可用192.168.1.209至192.168.1.222 & Router5\newline Fa0/1\newline 192.168.1.209\\\hline
+\end{subnettable}
+
+\subheading{计算依据与需求口径}
+选取最小主机位数$h$，使$2^h-2\geq H$。60、30、14个可用地址分别需要$h=6,5,4$，对应/26、/27、/28，每块含64、32、16个地址。活动按这些主机需求直接划分；表中的需求作为包含路由器接口的可用地址总数处理。/27、/28中路由器占用一个地址后，还分别可分给29、13个终端，不能额外再容纳30、14台终端和一个网关。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{3}{串口子网划分}
+六个LAN占用192.168.1.0至192.168.1.223。按活动表5的链路顺序，从192.168.1.224开始划分三个/30，每个含4个地址，其中2个可分配给接口。
+
+\begin{subnettable}
+链路1 & 192.168.1.224/30\newline 255.255.255.252 & 广播192.168.1.227\newline 可用192.168.1.225至192.168.1.226 & Router4 S0/0/0\newline 192.168.1.225\newline Router3 S0/0/0\newline 192.168.1.226\\\hline
+链路2 & 192.168.1.228/30\newline 255.255.255.252 & 广播192.168.1.231\newline 可用192.168.1.229至192.168.1.230 & Router4 S0/0/1\newline 192.168.1.229\newline Router5 S0/0/1\newline 192.168.1.230\\\hline
+链路3 & 192.168.1.232/30\newline 255.255.255.252 & 广播192.168.1.235\newline 可用192.168.1.233至192.168.1.234 & Router3 S0/0/1\newline 192.168.1.233\newline Router5 S0/0/0\newline 192.168.1.234\\\hline
+\end{subnettable}
+
+\subheading{地址空间核对}
+九个子网占用的完整地址块总数为
+\[
+2\times64+2\times32+2\times16+3\times4=236\text{。}
+\]
+父网含256个地址，剩余20个地址，为192.168.1.236至192.168.1.255，可表示为192.168.1.236/30与192.168.1.240/28。各块网络边界分别按64、32、16、4的步长对齐，互不重叠，均包含在192.168.1.0/24内。
+
+\subheading{验证范围}
+已核对12个接口的IPv4地址与掩码，并执行no shutdown。串口时钟沿用活动预置值。本题未配置跨网段路由，也未测试远端LAN互通，完成度仅表示活动规定的接口编址检查通过。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{3}{Router4与Router3接口配置}
+拓扑设备名Router4、Router3分别对应IOS主机名HQ、Branch1。以下截图读取实际running-config，每台均含两个以太网接口及两个串口的地址和掩码。
+\Evidence{fig:q3-r4}{assets/q3/q3-router4-config.pdf}{Router4（HQ）四接口配置；同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容}{84mm}
+\Evidence{fig:q3-r3}{assets/q3/q3-router3-config.pdf}{Router3（Branch1）四接口配置；同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容}{84mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{3}{Router5接口配置与核对}
+Router5对应IOS主机名Branch2。Fa0/0与Fa0/1分别使用LAN E和LAN F的首个可用地址；两条串口分别使用链路3的第二个可用地址.234和链路2的第二个可用地址.230。
+\Evidence{fig:q3-r5}{assets/q3/q3-router5-config.pdf}{Router5（Branch2）四接口配置；同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容}{112mm}
+\subheading{核对方法}
+将三台设备running-config中的每个interface及其下一行ip address与九子网表逐项比较：Fa0/0和Fa0/1共6组，Serial0/0/0和Serial0/0/1共6组，12个地址及12个掩码全部一致。LAN分别使用/26、/27、/28，串口统一使用/30；没有将网络地址或广播地址配置到接口。
+
+接口已执行no shutdown，串口时钟沿用活动原配置。上述截图与下一页配置检查证明题目要求的编址完成；本题未进行远端LAN的路由及连通性测试。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{3}{配置检查}
+完成度为100\%；12个接口各检查IP地址与子网掩码，共24项，全部Correct。
+\Evidence{fig:q3-completion}{assets/q3/q3-completion.pdf}{题3活动完成度100\%}{10mm}
+\Evidence{fig:q3-assessment}{assets/q3/q3-assessment.pdf}{题3全部24项Assessment Items，均为Correct}{156mm}
+\Evidence{fig:q3-count}{assets/q3/q3-assessment-count.pdf}{题3检查统计：Item Count为24/24}{14mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{3}{分析问题}
+\qa{问题5：60主机LAN与30主机LAN最小子网为何不同？}{
+选择LAN A和LAN C。LAN A需要60个可用地址，$2^5-2=30<60$而$2^6-2=62\geq60$，因此最小为/26（64个总地址，62个可用地址）。LAN C需要30个可用地址，$2^4-2=14<30$而$2^5-2=30$，因此最小为/27（32个总地址，30个可用地址）。子网地址块大小须为2的整数次幂，并保留网络和广播地址；60与30分别跨过不同容量门槛，不能仅按需求数直接分配60或30个连续地址。}
+\qa{问题6：怎样验证一条串口链路属于同一/30并排除误用地址？}{
+选择链路1。两端实际配置为Router4 S0/0/0的192.168.1.225与Router3 S0/0/0的192.168.1.226，掩码均为255.255.255.252。末字节按位与为
+\[
+\begin{aligned}
+225\mathbin{\&}252&=224,\\
+226\mathbin{\&}252&=224\text{。}
+\end{aligned}
+\]
+故网络均为192.168.1.224/30；地址块是.224至.227。低2位00的.224为网络地址，11的.227为广播地址，只有01的.225和10的.226可给两端。链路2属于.228/30、链路3属于.232/30，其地址按相同掩码计算后不会得到.224，因而可排除串用。两端实际配置见\figref{fig:q3-r4}与\figref{fig:q3-r3}，与上述计算一致；24项评分明细也均为Correct。}
+}

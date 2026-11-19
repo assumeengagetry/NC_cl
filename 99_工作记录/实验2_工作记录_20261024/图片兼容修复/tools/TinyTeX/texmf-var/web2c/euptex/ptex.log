@@ -1,2 +1,0 @@
-# actual command line used during this run
-# euptex -ini   -jobname=ptex -progname=ptex -kanji-internal=euc ptex.ini </dev/null

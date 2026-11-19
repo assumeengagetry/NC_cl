@@ -1,0 +1,144 @@
+{
+  "devices": 3,
+  "interfaces_verified": 12,
+  "interfaces": [
+    {
+      "router": "Router4",
+      "interface": "FastEthernet0/0",
+      "expected_ip": "192.168.1.1",
+      "actual_ip": "192.168.1.1",
+      "expected_mask": "255.255.255.192",
+      "actual_mask": "255.255.255.192",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router4",
+      "interface": "FastEthernet0/1",
+      "expected_ip": "192.168.1.65",
+      "actual_ip": "192.168.1.65",
+      "expected_mask": "255.255.255.192",
+      "actual_mask": "255.255.255.192",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router3",
+      "interface": "FastEthernet0/0",
+      "expected_ip": "192.168.1.129",
+      "actual_ip": "192.168.1.129",
+      "expected_mask": "255.255.255.224",
+      "actual_mask": "255.255.255.224",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router3",
+      "interface": "FastEthernet0/1",
+      "expected_ip": "192.168.1.161",
+      "actual_ip": "192.168.1.161",
+      "expected_mask": "255.255.255.224",
+      "actual_mask": "255.255.255.224",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router5",
+      "interface": "FastEthernet0/0",
+      "expected_ip": "192.168.1.193",
+      "actual_ip": "192.168.1.193",
+      "expected_mask": "255.255.255.240",
+      "actual_mask": "255.255.255.240",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router5",
+      "interface": "FastEthernet0/1",
+      "expected_ip": "192.168.1.209",
+      "actual_ip": "192.168.1.209",
+      "expected_mask": "255.255.255.240",
+      "actual_mask": "255.255.255.240",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router4",
+      "interface": "Serial0/0/0",
+      "expected_ip": "192.168.1.225",
+      "actual_ip": "192.168.1.225",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router3",
+      "interface": "Serial0/0/0",
+      "expected_ip": "192.168.1.226",
+      "actual_ip": "192.168.1.226",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router4",
+      "interface": "Serial0/0/1",
+      "expected_ip": "192.168.1.229",
+      "actual_ip": "192.168.1.229",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router5",
+      "interface": "Serial0/0/1",
+      "expected_ip": "192.168.1.230",
+      "actual_ip": "192.168.1.230",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router3",
+      "interface": "Serial0/0/1",
+      "expected_ip": "192.168.1.233",
+      "actual_ip": "192.168.1.233",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router5",
+      "interface": "Serial0/0/0",
+      "expected_ip": "192.168.1.234",
+      "actual_ip": "192.168.1.234",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    }
+  ],
+  "all_12_match": true,
+  "all_12_enabled_by_config": true,
+  "correct_items": 24,
+  "incorrect_items": 0,
+  "all_subnets_within_parent": true,
+  "no_overlap": true,
+  "allocated_addresses": 236,
+  "remaining_addresses": 20,
+  "plan_file": "vlsm-q3-plan.json",
+  "source": "Actual Packet Tracer running-config and assessment AX dumps",
+  "evidence_sha256": {
+    "q3-router3-config.txt": "2dd8d6e9817d889a27a87fb4b06c45ecc1986fa89f8b3a799bdf77300c0920a6",
+    "q3-router4-config.txt": "402e8c9c81da1e06bb28b9aa50c1b538accfafe3005be489df0f91a676ad3a9d",
+    "q3-router5-config.txt": "58f6c3073b19371b2e8e738490233bdc462084a2652919d3626eb8ad5db595c9",
+    "q3-assessment.txt": "de1d08bc068fd534fbae4d076a5d545dcc629f386092e9b36c0873a6598769d3",
+    "q3-assessment.png": "04a6746a544fb4b04e25c077410118aac0687a8edfd952205956ebf7ec64fac0",
+    "q3-completion.png": "8be7d3785254f1fc07c4b9e4b1aa465929410b3c05eec1ac46aea87ce06f90d1"
+  }
+}

@@ -1,4 +1,0 @@
-Capturing on 'Wi-Fi: en0'
-File: /Users/apple/Workspace/NC_cl/99_工作记录/实验4_20261104/evidence/01-ping-default.pcapng
-Packets: 1 Packets: 2 Packets: 3 Packets: 4 Packets: 5 Packets: 6 Packets: 7 Packets: 8 Packets: 10 Packets captured: 10
-Packets received/dropped on interface 'Wi-Fi: en0': 10/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)

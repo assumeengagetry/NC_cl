@@ -1,0 +1,169 @@
+{
+  "interfaces": [
+    {
+      "router": "HQ",
+      "interface": "FastEthernet0/0",
+      "expected_ip": "172.16.66.1",
+      "actual_ip": "172.16.66.1",
+      "expected_mask": "255.255.254.0",
+      "actual_mask": "255.255.254.0",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "HQ",
+      "interface": "FastEthernet0/1",
+      "expected_ip": "172.16.64.1",
+      "actual_ip": "172.16.64.1",
+      "expected_mask": "255.255.254.0",
+      "actual_mask": "255.255.254.0",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "East",
+      "interface": "FastEthernet0/0",
+      "expected_ip": "172.16.69.1",
+      "actual_ip": "172.16.69.1",
+      "expected_mask": "255.255.255.0",
+      "actual_mask": "255.255.255.0",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "East",
+      "interface": "FastEthernet0/1",
+      "expected_ip": "172.16.68.1",
+      "actual_ip": "172.16.68.1",
+      "expected_mask": "255.255.255.0",
+      "actual_mask": "255.255.255.0",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "West",
+      "interface": "FastEthernet0/0",
+      "expected_ip": "172.16.70.129",
+      "actual_ip": "172.16.70.129",
+      "expected_mask": "255.255.255.128",
+      "actual_mask": "255.255.255.128",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "West",
+      "interface": "FastEthernet0/1",
+      "expected_ip": "172.16.70.1",
+      "actual_ip": "172.16.70.1",
+      "expected_mask": "255.255.255.128",
+      "actual_mask": "255.255.255.128",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "HQ",
+      "interface": "Serial0/0/0",
+      "expected_ip": "172.16.71.1",
+      "actual_ip": "172.16.71.1",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "West",
+      "interface": "Serial0/0/0",
+      "expected_ip": "172.16.71.2",
+      "actual_ip": "172.16.71.2",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "HQ",
+      "interface": "Serial0/2/0",
+      "expected_ip": "172.16.71.5",
+      "actual_ip": "172.16.71.5",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "East",
+      "interface": "Serial0/0/0",
+      "expected_ip": "172.16.71.6",
+      "actual_ip": "172.16.71.6",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "HQ",
+      "interface": "Serial0/0/1",
+      "expected_ip": "172.16.71.9",
+      "actual_ip": "172.16.71.9",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    },
+    {
+      "router": "Router2",
+      "interface": "Serial0/0/0",
+      "expected_ip": "172.16.71.10",
+      "actual_ip": "172.16.71.10",
+      "expected_mask": "255.255.255.252",
+      "actual_mask": "255.255.255.252",
+      "matches": true,
+      "configured_shutdown": false
+    }
+  ],
+  "all_12_match": true,
+  "all_12_enabled_by_config": true,
+  "hq_status_final": [
+    "FastEthernet0/0        172.16.66.1     YES manual up                    up",
+    "FastEthernet0/1        172.16.64.1     YES manual up                    up",
+    "Serial0/0/0            172.16.71.1     YES manual up                    up",
+    "Serial0/0/1            172.16.71.9     YES manual up                    up",
+    "Serial0/2/0            172.16.71.5     YES manual up                    up"
+  ],
+  "hq_five_up_up": true,
+  "hq_s020_clock_64000": true,
+  "hq_dce_v35_64000_observed": true,
+  "all_subnets_within_parent": true,
+  "no_overlap": true,
+  "allocated_addresses": 1804,
+  "remaining_addresses": 244,
+  "evidence_sha256": {
+    "q4-hq-config-final.txt": "868924894053560600cd1e5db2ba6ae454ef7eadc0810c5f81e065e374b6a2cc",
+    "q4-east-config-final.txt": "dcc63b69ed92828c6a95c1af59f7efad2a342667b5f6fa8d5632641f04c40589",
+    "q4-west-config-final.txt": "6453f89f3ec2edffda924265953964b4d58824aac3c10c7236689ea85a7aba75",
+    "q4-router2-config.txt": "d6bd4dafa9f18cdac8d563b29eef6283939464f381b32044b1c46d0f1792dc16",
+    "q4-assessment.txt": "67d54f8b18b0a09e18153fca092934abe58d6908ef116c9a1c1c7dc0bc2fc744",
+    "q4-hq-status-final.txt": "bd547a8c9e57fd093cb5bf8e711a55fc445207d1a533e867909f31bbd5ed894e",
+    "q4-hq-clock.txt": "76c3b033016ef785c4867fc3f640b8d62bd98d6798fe689a059c611602fd788c",
+    "q4-assessment.png": "c3e3585b69f261dfc504af25f60733b1ae098d4f9d648c82660d53436974f0bd",
+    "q4-completion.png": "ac915c746550bbd3d695945a0ee5b650988dd68049ba835f2b360a87be09367a"
+  },
+  "assessment_ax_correct": 18,
+  "assessment_ax_incorrect": 0,
+  "assessment_ax_ip_mask_items": 18,
+  "assessment_visual_correct": 20,
+  "assessment_visual_incorrect": 0,
+  "assessment_visual_item_count": "20/20",
+  "assessment_visual_by_router": {
+    "East": 4,
+    "HQ": 8,
+    "Router2": 2,
+    "West": 6
+  },
+  "completion_visual_percent": 100,
+  "assessment_ax_limitation": "AX text exposes only 18 items; screenshot independently shows all 20 (including East FastEthernet0/0 IP Address and Subnet Mask).",
+  "unscored_interfaces": [
+    "HQ Serial0/2/0",
+    "East Serial0/0/0"
+  ]
+}

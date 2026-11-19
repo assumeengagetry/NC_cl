@@ -1,3 +1,0 @@
-frame.number	frame.time_epoch	ip.src	ip.dst	ip.len	ip.hdr_len	ip.proto	ip.flags.mf	ip.frag_offset	udp.srcport	udp.dstport	udp.length	udp.checksum	udp.checksum.status	dns.id	dns.qry.name
-1	1793458259.843704000	10.135.133.233	223.5.5.5	59	20	17	False	0	55130	53	39	0x0095	1	0xf6ff	www.baidu.com
-2	1793458259.852718000	223.5.5.5	10.135.133.233	105	20	17	False	0	53	55130	85	0x0000	3	0xf6ff	www.baidu.com

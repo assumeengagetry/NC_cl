@@ -1,0 +1,45 @@
+\TemplateHeading
+\templatefourrow{12.965}{课程名称}{计算机网络课程设计}{实验课时}{\experimenthours}
+\templatefourrow{13.688}{实验项目}{路由器配置实验}{实验时间}{2026.11.10}
+\templaterow{实验目的}{26}{
+掌握通过Console口配置路由器的基本方法，识别用户EXEC、特权EXEC、全局配置及接口配置模式；配置IPv4地址并对比接口关闭和启用时的通信结果；配置Telnet远程管理，验证本地账户认证和enable权限提升的区别。
+}
+\templaterow{实验环境}{39}{
+macOS；Cisco Packet Tracer 9.0.1。模拟设备为1台1841路由器Router0、1台2950-24交换机Switch0和2台PC-PT（PC0、PC1）。PC0用于Console管理，PC1用于Ping与Telnet测试。
+
+指导教师：陈黎；课序号：06；班级全称：\classfullname；教学周：第11周。实际交换机标签为Switch0，对应指导书的Switch1，连接角色相同。实验课时未核实，留空。
+}
+\templaterow{\experimentlabel}{96.977}{
+\subheading{一、实验步骤与记录方法}
+1. 按指导书搭建拓扑。PC0的RS-232接Router0的Console口；Router0的Fa0/0接交换机Fa0/1，交换机Fa0/2接PC1的Fa0。后两段使用铜质直通线。
+
+2. 在PC0的Desktop中打开Terminal，使用默认串口参数。核对Fa0/0已有IPv4地址，通过\code{shutdown}和\code{no shutdown}分别关闭、启用接口；每个状态下查看\code{show ip interface brief}并在PC1执行Ping。
+
+3. 在Console中建立本地账户、配置enable口令和VTY线路；使用\code{show running-config}核对，再保存到启动配置。
+
+4. 从PC1发起Telnet，先输入错误口令，再输入正确口令。比较普通权限和enable之后执行\code{configure terminal}的结果，最后退出远程会话并保存Packet Tracer工程。
+
+5. 数据取自本次实际命令回显；插图由Packet Tracer真实界面及保留的终端历史截图裁剪，未重写终端内容。原图、裁剪映射、操作记录及\code{.pkt}工程另附。未进行跨网段转发测试，也未计时验证5分钟空闲断开。
+}
+
+\reportpage{\dataheading}{
+\subheading{二、拓扑、地址与链路用途}
+实际拓扑见\figref{fig:topology}；蓝色线为Console配置线，另外两段以太网链路为铜质直通线。
+\Evidence{fig:topology}{assets/topology.pdf}{本次实际拓扑：PC0—Router0—Switch0—PC1}{35mm}
+\noindent\begin{tabularx}{\linewidth}{|l|X|}\hline
+连接端口&线缆与用途\\\hline
+PC0 RS-232—Router0 Console&Console配置线；串口管理\\\hline
+Router0 Fa0/0—Switch0 Fa0/1&铜质直通线；以太网通信\\\hline
+Switch0 Fa0/2—PC1 Fa0&铜质直通线；以太网通信\\\hline
+\end{tabularx}\par
+\noindent\begin{tabularx}{\linewidth}{|l|l|X|}\hline
+设备与接口&IPv4/掩码&默认网关\\\hline
+Router0 Fa0/0&192.168.1.1/24&无须设置\\\hline
+PC1 Fa0&192.168.1.2/24&192.168.1.1\\\hline
+PC0 RS-232&不配置IPv4&不配置\\\hline
+\end{tabularx}\par
+其中/24对应255.255.255.0。PC1的实际静态配置见\figref{fig:ip}。
+\Evidence{fig:ip}{assets/pc1-ip-detail.pdf}{PC1静态配置（同一截图左右列裁剪并排，省略中间空白）}{48mm}
+\qa{问题1：PC0的配置线与PC1的以太网链路各有什么用途？为什么PC0无需设置IPv4地址？}{
+如\figref{fig:topology}，PC0通过RS-232到Console的串口链路发送配置命令，不依赖IP寻址，也不要求路由器的以太网接口处于启用状态。PC1的以太网链路经过交换机，用于承载本次IPv4通信，包括ICMP Ping和Telnet。因此PC1需要配置IPv4地址，而仅作为串口终端的PC0不需要配置IPv4地址。}
+}

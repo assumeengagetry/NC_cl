@@ -1,1 +1,0 @@
-截图来源：使用AppleScript及macOS原生screencapture命令，读取真实Wireshark 4.6.7窗口和Terminal窗口。Wireshark打开附件同名原始pcapng，未修改抓包。终端使用cat回显本次已保存的测量日志，未重新测量；TTL3重复反馈有明确省略标记，完整原文仍保留。originals/保存完整窗口原图，crop-manifest.json记录唯一矩形裁剪范围及SHA256。报告资产为截图RGB像素的无损PDF封装，未重绘界面、修改字段或拼接图像。

@@ -1,0 +1,15 @@
+# Treat experiment artifacts as binary; do not normalize their bytes.
+*.pdf binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.doc binary
+*.docx binary
+*.pkt binary
+*.pka binary
+*.pcap binary
+*.pcapng binary
+
+# Preserve the exact bytes of captured command output and validation evidence.
+01_提交成果/**/attachments/** -text

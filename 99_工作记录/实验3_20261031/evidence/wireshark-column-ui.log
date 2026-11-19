@@ -1,5 +1,0 @@
- ** (wireshark:53649) 23:41:11.923768 [GUI WARNING] -- Couldn't load "qt" translations! Searched: QList("/tmp/nccl-lab3-wireshark-columns/languages", "/Applications/Wireshark.app/Contents/Resources/share/wireshark/languages", ":/i18n/", "/Applications/Wireshark.app/Contents/translations")
- ** (wireshark:53649) 23:41:12.853845 [GUI WARNING] -- Populating font family aliases took 98 ms. Replace uses of missing font family "SF Mono" with one that exists to avoid this cost. 
-2026-10-31 23:41:12.876 Wireshark[53649:442210] error messaging the mach port for IMKCFRunLoopWakeUpReliable
- ** (wireshark:53649) 23:41:12.943232 [GUI WARNING] -- Cell requested for row 0 is out of bounds for table with 0 rows! Resizing table model.
- ** (wireshark:53649) 23:41:12.955067 [GUI WARNING] -- Cell requested for row 0 is out of bounds for table with 0 rows! Resizing table model.

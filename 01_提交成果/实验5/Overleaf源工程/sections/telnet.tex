@@ -1,0 +1,24 @@
+\reportpage{\datacontinued}{
+\subheading{六、账户、VTY与启动配置}
+在PC0 Console中配置用户\code{admin}，登录口令为\code{456}，初始权限等级为1；配置\code{enable secret 123}。随后选择VTY 0至4，设置本地账户认证、允许Telnet及5分钟空闲超时，命令记录见\figref{fig:authconfig}。
+\Evidence{fig:authconfig}{assets/console-auth-config.pdf}{本地账户、enable口令和VTY线路的实际配置}{49mm}
+使用\code{show running-config}核对配置。默认权限等级1在运行配置中省略，显示为\code{username admin password 0 456}；\code{enable secret}显示为散列值。执行\code{copy running-config startup-config}后接受默认目标文件名，出现\code{[OK]}，见\figref{fig:save}。
+\Evidence{fig:save}{assets/config-save.pdf}{VTY运行配置与保存startup-config成功回显}{63mm}
+\qa{问题5：VTY允许的接入协议和登录认证方式是什么？5分钟空闲超时限制哪一段时间？}{
+如\figref{fig:authconfig}、\figref{fig:save}，\code{transport input telnet}指定VTY允许Telnet接入；\code{login local}表示使用路由器本地用户数据库验证用户名及口令，本次账户为\code{admin}。
+
+\code{exec-timeout 5 0}的两个参数分别为分钟和秒，限制会话连续无交互输入的空闲时长。它不是总连接时长上限，也不是Ping响应等待时间。本文已核对该配置，但未等待5分钟进行超时断开计时测试。}
+}
+
+\reportpage{\datacontinued}{
+\subheading{七、Telnet认证与两级权限验证}
+PC1执行\code{telnet 192.168.1.1}，先看到\code{Open}及认证提示。第一次输入\code{admin}和错误口令，出现\code{\% Login invalid}；随后在同一连接中重新输入正确账户与口令，获得\code{Router>}，见\figref{fig:login}。口令输入本身不回显。
+\Evidence{fig:login}{assets/telnet-auth.pdf}{Telnet连接建立、错误口令及正确认证}{51mm}
+\qa{问题6：错误口令与正确口令分别出现什么结果？如何区分连接建立与通过认证？}{
+如\figref{fig:login}，\code{Open}仅表示Telnet连接已建立，后面仍需认证。错误口令触发\code{\% Login invalid}并重新提示\code{Username:}，没有立即断开；正确认证后出现\code{Router>}才表明已进入路由器用户EXEC。}
+\Evidence{fig:privilege}{assets/telnet-privilege.pdf}{普通权限被拒、enable提升权限及主动退出}{56mm}
+\qa{问题7：执行enable前后进入全局配置模式的结果怎样？登录口令和特权口令分别控制什么？}{
+如\figref{fig:privilege}，\code{Router>}下执行\code{configure terminal}得到\code{Invalid input detected}，无法进入配置模式；执行\code{enable}并输入\code{123}后提示符变为\code{Router\#}，再次执行配置命令才进入\code{Router(config)\#}。
+
+登录口令\code{456}用于确认本地账户身份，获得等级1的用户EXEC；特权口令\code{123}控制进入特权EXEC，随后才可进入全局配置。最后执行\code{end}、\code{exit}主动退出，连接关闭并返回PC1的\code{C:\textbackslash>}。}
+}

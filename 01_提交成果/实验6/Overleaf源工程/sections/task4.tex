@@ -1,0 +1,91 @@
+\reportpage{\dataheading}{
+\taskheading{4}{较大地址块的VLSM编址}
+\subheading{实验结果：LAN子网划分}
+父地址块172.16.64.0/21，掩码255.255.248.0，包含172.16.64.0至172.16.71.255。按需求从大到小划分/23、/24、/25子网；同容量LAN采用下表对应关系，各指定接口使用所属子网的首个可用地址。
+
+\begin{subnettable}
+LAN A\newline 500主机 & 172.16.66.0/23\newline 255.255.254.0 & 广播172.16.67.255\newline 可用172.16.66.1至172.16.67.254 & HQ\newline Fa0/0\newline 172.16.66.1\\\hline
+LAN B\newline 500主机 & 172.16.64.0/23\newline 255.255.254.0 & 广播172.16.65.255\newline 可用172.16.64.1至172.16.65.254 & HQ\newline Fa0/1\newline 172.16.64.1\\\hline
+LAN C\newline 250主机 & 172.16.69.0/24\newline 255.255.255.0 & 广播172.16.69.255\newline 可用172.16.69.1至172.16.69.254 & East\newline Fa0/0\newline 172.16.69.1\\\hline
+LAN D\newline 250主机 & 172.16.68.0/24\newline 255.255.255.0 & 广播172.16.68.255\newline 可用172.16.68.1至172.16.68.254 & East\newline Fa0/1\newline 172.16.68.1\\\hline
+LAN E\newline 120主机 & 172.16.70.128/25\newline 255.255.255.128 & 广播172.16.70.255\newline 可用172.16.70.129至172.16.70.254 & West\newline Fa0/0\newline 172.16.70.129\\\hline
+LAN F\newline 120主机 & 172.16.70.0/25\newline 255.255.255.128 & 广播172.16.70.127\newline 可用172.16.70.1至172.16.70.126 & West\newline Fa0/1\newline 172.16.70.1\\\hline
+\end{subnettable}
+
+\subheading{最小地址块计算}
+500个可用地址需$2^9-2=510$，选择/23，共512地址；250个需$2^8-2=254$，选择/24，共256地址；120个需$2^7-2=126$，选择/25，共128地址。前缀每增加1位，地址块容量减半；分配时同时检查容量、边界对齐及与已分配子网不重叠。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{4}{串口子网划分}
+六个LAN占用172.16.64.0至172.16.70.255，下一可用地址为172.16.71.0。按活动链路顺序划分三个/30，把首、次可用地址分别分给指定两端。
+
+\begin{subnettable}
+链路1 & 172.16.71.0/30\newline 255.255.255.252 & 广播172.16.71.3\newline 可用172.16.71.1至172.16.71.2 & HQ S0/0/0\newline 172.16.71.1\newline West S0/0/0\newline 172.16.71.2\\\hline
+链路2 & 172.16.71.4/30\newline 255.255.255.252 & 广播172.16.71.7\newline 可用172.16.71.5至172.16.71.6 & HQ S0/2/0\newline 172.16.71.5\newline East S0/0/0\newline 172.16.71.6\\\hline
+链路3 & 172.16.71.8/30\newline 255.255.255.252 & 广播172.16.71.11\newline 可用172.16.71.9至172.16.71.10 & HQ S0/0/1\newline 172.16.71.9\newline Router2 S0/0/0\newline 172.16.71.10\\\hline
+\end{subnettable}
+
+\subheading{接口数量与时钟要求}
+HQ有两个以太网接口和三个串口；East、West各有两个以太网接口和一个串口；Router2配置一个串口，共$5+3+3+1=12$个接口。题目另要求HQ的Serial0/2/0作为DCE端设置\code{clock rate 64000}并启用接口。时钟速率单位为bit/s，它与IPv4地址、子网掩码是不同配置项。
+
+\subheading{规划一致性核对}
+三条串口分别使用.0、.4、.8的4地址边界，每段仅使用网络地址后第1和第2个地址，不使用网络地址和广播地址。全部九个子网均在父块/21内，且不相互重叠。下一节用本次实际接口配置与评分明细验证规划已落实。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{4}{HQ与East实际接口配置}
+HQ的五个接口与East的三个接口按子网表配置。以下读取本次running-config，图中同时保留设备名、接口名、实际地址和掩码。
+\Evidence{fig:q4-hq}{assets/q4/q4-hq-config.pdf}{HQ五接口配置；同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容}{100mm}
+\Evidence{fig:q4-east}{assets/q4/q4-east-config.pdf}{East三接口配置；同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容}{73mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{4}{West与Router2实际接口配置}
+West配置LAN E、LAN F及到HQ的串口。拓扑中的Router2对应IOS主机名Router，仅需为Serial0/0/0配置第三条链路的第二个可用地址172.16.71.10/30。
+\Evidence{fig:q4-west}{assets/q4/q4-west-config.pdf}{West三接口配置；同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容}{95mm}
+\Evidence{fig:q4-router2}{assets/q4/q4-router2-config.pdf}{Router2（Router）串口配置；同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容}{48mm}
+逐项核对四台路由器running-config中的12个interface及ip address，地址和掩码均与九子网表一致。所有指定接口执行no shutdown；未指定接口不计入本次编址检查。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{4}{HQ串口时钟与启用状态}
+HQ的Serial0/2/0配置172.16.71.5/30，与East的Serial0/0/0（172.16.71.6/30）同属172.16.71.4/30。两端地址及掩码分别见\figref{fig:q4-hq}、\figref{fig:q4-east}。
+
+\code{show controllers serial 0/2/0}显示DCE V.35及clock rate 64000，确认HQ为该链路DCE端，时钟速率为64000 bit/s。
+\Evidence{fig:q4-clock}{assets/q4/q4-hq-clock.pdf}{HQ Serial0/2/0为DCE端，实际时钟速率64000}{52mm}
+
+\code{show ip interface brief}显示HQ的Fa0/0、Fa0/1、S0/0/0、S0/0/1、S0/2/0均为up/up，其中Serial0/2/0已启用且链路协议正常。
+\Evidence{fig:q4-status}{assets/q4/q4-hq-status.pdf}{HQ五个指定接口实际地址与状态均已核对}{62mm}
+
+活动评分未覆盖HQ Serial0/2/0及East Serial0/0/0的地址与掩码，故另外读取两端配置、DCE控制器输出和接口状态，补足这一链路的验证。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{4}{配置检查}
+完成度为100\%，Item Count为20/20；所有列出的IP Address和Subnet Mask均为Correct。评分覆盖10个接口，另外2个接口已在前页结合实际配置、时钟及状态独立检查。
+\Evidence{fig:q4-completion}{assets/q4/q4-completion.pdf}{题4活动完成度100\%}{10mm}
+\Evidence{fig:q4-assessment}{assets/q4/q4-assessment.pdf}{题4全部20项Assessment Items，均为Correct}{143mm}
+\Evidence{fig:q4-count}{assets/q4/q4-assessment-count.pdf}{题4检查统计：Item Count为20/20}{14mm}
+
+}
+
+\reportpage{\datacontinued}{
+\taskheading{4}{分析问题}
+\qa{问题7：第一个/23的网络、广播地址及第三字节变化是什么？}{
+按地址从低到高，第一个/23子网为172.16.64.0/23，对应本方案LAN B，配置于HQ Fa0/1，掩码255.255.254.0。网络地址为172.16.64.0，广播地址为172.16.65.255，可用范围为172.16.64.1至172.16.65.254。
+
+掩码第三字节254为二进制11111110，第三字节最低1位与第四字节的8位共同构成9位主机位。网络地址第三字节64为01000000；将9位主机位全置1后，第三字节变为65（01000001），第四字节变为255。故一个/23覆盖连续两个/24，网络边界的第三字节应为偶数。
+
+若把172.16.65.0/23当作另一个子网起点，65按位与254仍为64，它实际上属于172.16.64.0/23。严格网络地址校验会指出主机位未清零；若按掩码规范化，则得到已分配的64.0/23，造成重复或重叠。若错误地把65.0至66.255当成一个/23区间，还会跨越两个真正的/23边界，不能由一个/23前缀表示。}
+\qa{问题8：占用和剩余多少地址，能否再增加250主机LAN？}{
+按完整子网块统计，网络地址和广播地址也计入占用：
+\[
+\begin{aligned}
+N_{\mathrm{used}}&=2\times512+2\times256\\
+&\quad+2\times128+3\times4=1804,\\
+N_{\mathrm{free}}&=2^{32-21}-1804=244\text{。}
+\end{aligned}
+\]
+剩余范围为172.16.71.12至172.16.71.255。250台主机至少需要/24，因为$2^7-2=126<250$，而$2^8-2=254\geq250$；一个/24占256个总地址。剩余244小于256，且172.16.71.0/24的前12个地址已由三条/30链路使用。因此，保持现有分配时无法再划出一个支持250台主机的LAN。即使已有部分LAN的可用地址暂未使用，它们也属于已分配子网，不能在保持现有划分时重复分配给新LAN。}
+}

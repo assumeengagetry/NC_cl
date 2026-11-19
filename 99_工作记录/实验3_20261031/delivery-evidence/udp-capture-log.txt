@@ -1,6 +1,0 @@
-Capturing on 'Wi-Fi: en0'
-File: /Users/apple/Workspace/NC_cl/99_工作记录/实验3_20261031/evidence/2024141460445_许盛凯_实验3_UDP.pcapng
-
-Packets: 2 
-Packets captured: 2
-Packets received/dropped on interface 'Wi-Fi: en0': 2/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)

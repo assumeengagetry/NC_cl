@@ -1,0 +1,167 @@
+[
+  {
+    "name": "LAN A",
+    "need": 60,
+    "network": "192.168.1.0/26",
+    "mask": "255.255.255.192",
+    "broadcast": "192.168.1.63",
+    "first": "192.168.1.1",
+    "last": "192.168.1.62",
+    "interfaces": [
+      {
+        "router": "Router4",
+        "interface": "Fa0/0",
+        "ip": "192.168.1.1",
+        "switch": "Switch1"
+      }
+    ]
+  },
+  {
+    "name": "LAN B",
+    "need": 60,
+    "network": "192.168.1.64/26",
+    "mask": "255.255.255.192",
+    "broadcast": "192.168.1.127",
+    "first": "192.168.1.65",
+    "last": "192.168.1.126",
+    "interfaces": [
+      {
+        "router": "Router4",
+        "interface": "Fa0/1",
+        "ip": "192.168.1.65",
+        "switch": "Switch0"
+      }
+    ]
+  },
+  {
+    "name": "LAN C",
+    "need": 30,
+    "network": "192.168.1.128/27",
+    "mask": "255.255.255.224",
+    "broadcast": "192.168.1.159",
+    "first": "192.168.1.129",
+    "last": "192.168.1.158",
+    "interfaces": [
+      {
+        "router": "Router3",
+        "interface": "Fa0/0",
+        "ip": "192.168.1.129",
+        "switch": "Switch2"
+      }
+    ]
+  },
+  {
+    "name": "LAN D",
+    "need": 30,
+    "network": "192.168.1.160/27",
+    "mask": "255.255.255.224",
+    "broadcast": "192.168.1.191",
+    "first": "192.168.1.161",
+    "last": "192.168.1.190",
+    "interfaces": [
+      {
+        "router": "Router3",
+        "interface": "Fa0/1",
+        "ip": "192.168.1.161",
+        "switch": "Switch3"
+      }
+    ]
+  },
+  {
+    "name": "LAN E",
+    "need": 14,
+    "network": "192.168.1.192/28",
+    "mask": "255.255.255.240",
+    "broadcast": "192.168.1.207",
+    "first": "192.168.1.193",
+    "last": "192.168.1.206",
+    "interfaces": [
+      {
+        "router": "Router5",
+        "interface": "Fa0/0",
+        "ip": "192.168.1.193",
+        "switch": "Switch5"
+      }
+    ]
+  },
+  {
+    "name": "LAN F",
+    "need": 14,
+    "network": "192.168.1.208/28",
+    "mask": "255.255.255.240",
+    "broadcast": "192.168.1.223",
+    "first": "192.168.1.209",
+    "last": "192.168.1.222",
+    "interfaces": [
+      {
+        "router": "Router5",
+        "interface": "Fa0/1",
+        "ip": "192.168.1.209",
+        "switch": "Switch4"
+      }
+    ]
+  },
+  {
+    "name": "链路1",
+    "need": 2,
+    "network": "192.168.1.224/30",
+    "mask": "255.255.255.252",
+    "broadcast": "192.168.1.227",
+    "first": "192.168.1.225",
+    "last": "192.168.1.226",
+    "interfaces": [
+      {
+        "router": "Router4",
+        "interface": "S0/0/0",
+        "ip": "192.168.1.225"
+      },
+      {
+        "router": "Router3",
+        "interface": "S0/0/0",
+        "ip": "192.168.1.226"
+      }
+    ]
+  },
+  {
+    "name": "链路2",
+    "need": 2,
+    "network": "192.168.1.228/30",
+    "mask": "255.255.255.252",
+    "broadcast": "192.168.1.231",
+    "first": "192.168.1.229",
+    "last": "192.168.1.230",
+    "interfaces": [
+      {
+        "router": "Router4",
+        "interface": "S0/0/1",
+        "ip": "192.168.1.229"
+      },
+      {
+        "router": "Router5",
+        "interface": "S0/0/1",
+        "ip": "192.168.1.230"
+      }
+    ]
+  },
+  {
+    "name": "链路3",
+    "need": 2,
+    "network": "192.168.1.232/30",
+    "mask": "255.255.255.252",
+    "broadcast": "192.168.1.235",
+    "first": "192.168.1.233",
+    "last": "192.168.1.234",
+    "interfaces": [
+      {
+        "router": "Router3",
+        "interface": "S0/0/1",
+        "ip": "192.168.1.233"
+      },
+      {
+        "router": "Router5",
+        "interface": "S0/0/0",
+        "ip": "192.168.1.234"
+      }
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "experiment": 6,
+  "student": "许盛凯",
+  "student_id": "2024141460445",
+  "course_sequence": "06",
+  "teaching_week": 12,
+  "experiment_date": "2026-11-17",
+  "packet_tracer_version": "9.0.1",
+  "completion_percent": [
+    100,
+    100,
+    100,
+    100
+  ],
+  "assessment_items": [
+    {
+      "correct": 9,
+      "total": 9
+    },
+    {
+      "correct": 18,
+      "total": 18
+    },
+    {
+      "correct": 24,
+      "total": 24
+    },
+    {
+      "correct": 20,
+      "total": 20
+    }
+  ],
+  "q4_assessment_scope": "10 interfaces automatically checked; HQ S0/2/0 and East S0/0/0 additionally verified by actual config, clock and interface status",
+  "q3_q4_scope": "Interface addressing; no remote LAN routing or ping claims",
+  "pdf_pages": 28,
+  "evidence_figures": 46,
+  "paper_points": [
+    522,
+    737
+  ],
+  "week_confirmed_by_user": true,
+  "analysis_questions_1_to_8_present": true,
+  "visual_qa": {
+    "pages_1_to_10": "passed independent visual review",
+    "pages_11_to_20": "passed independent visual review",
+    "pages_21_to_28": "passed independent visual review"
+  },
+  "independent_zip_rebuild": {
+    "compiler": "Tectonic 0.17.0, XeTeX engine",
+    "successful": true,
+    "no_missing_glyphs_or_overflow_or_undefined_references": true,
+    "render_scale_long_edge": 1600,
+    "page_pixel_comparison": [
+      {
+        "page": 1,
+        "pixels_identical": true
+      },
+      {
+        "page": 2,
+        "pixels_identical": true
+      },
+      {
+        "page": 3,
+        "pixels_identical": true
+      },
+      {
+        "page": 4,
+        "pixels_identical": true
+      },
+      {
+        "page": 5,
+        "pixels_identical": true
+      },
+      {
+        "page": 6,
+        "pixels_identical": true
+      },
+      {
+        "page": 7,
+        "pixels_identical": true
+      },
+      {
+        "page": 8,
+        "pixels_identical": true
+      },
+      {
+        "page": 9,
+        "pixels_identical": true
+      },
+      {
+        "page": 10,
+        "pixels_identical": true
+      },
+      {
+        "page": 11,
+        "pixels_identical": true
+      },
+      {
+        "page": 12,
+        "pixels_identical": true
+      },
+      {
+        "page": 13,
+        "pixels_identical": true
+      },
+      {
+        "page": 14,
+        "pixels_identical": true
+      },
+      {
+        "page": 15,
+        "pixels_identical": true
+      },
+      {
+        "page": 16,
+        "pixels_identical": true
+      },
+      {
+        "page": 17,
+        "pixels_identical": true
+      },
+      {
+        "page": 18,
+        "pixels_identical": true
+      },
+      {
+        "page": 19,
+        "pixels_identical": true
+      },
+      {
+        "page": 20,
+        "pixels_identical": true
+      },
+      {
+        "page": 21,
+        "pixels_identical": true
+      },
+      {
+        "page": 22,
+        "pixels_identical": true
+      },
+      {
+        "page": 23,
+        "pixels_identical": true
+      },
+      {
+        "page": 24,
+        "pixels_identical": true
+      },
+      {
+        "page": 25,
+        "pixels_identical": true
+      },
+      {
+        "page": 26,
+        "pixels_identical": true
+      },
+      {
+        "page": 27,
+        "pixels_identical": true
+      },
+      {
+        "page": 28,
+        "pixels_identical": true
+      }
+    ]
+  },
+  "pdf_equals_source_preview": true,
+  "pdf_sha256": "ba8b0e4aa3140c7ac2ced84d2d06b9d2d9d1da4c71a6dd16f0a20edc38adff88",
+  "overleaf_zip_sha256": "1689a814a38cd1b31dcb20f82917b8aa5d4edbf640a3fa2be850c173a0355688",
+  "raw_evidence_directory": "attachments/original-evidence",
+  "completed_activities_directory": "/Users/apple/Workspace/NC_cl/01_提交成果/实验6/已完成活动_本地留存",
+  "original_zip_sha256": "a53195a9acf14e0dff298bbf48ea76ae4e8251a1fc6a5940f072d700c61f0430",
+  "fields_left_blank": [
+    "实验课时",
+    "教师评议",
+    "成绩",
+    "签名"
+  ],
+  "submitted_to_course_platform": false,
+  "original_raw_evidence_directory": "/Users/apple/Workspace/NC_cl/99_工作记录/实验6_20261117/evidence",
+  "evidence_archived_for_git_on": "2026-11-19",
+  "raw_evidence_file_count": 87,
+  "raw_evidence_copy_sha256_verified": true
+}

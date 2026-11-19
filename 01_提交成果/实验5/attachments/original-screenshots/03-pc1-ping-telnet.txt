@@ -1,0 +1,110 @@
+The following is a diff from the previous accessibility tree for Window: "PC1" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 169-209
+~		166 text Description: Command Prompt , ID: PtApp.CBaseDeviceWidgetClass.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_5.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.CDesktopApplet.CWorkstationCommandPromptBase.m_titleBar.m_titleLabel
+~		167 button close, Secondary Actions: Raise, ID: PtApp.CBaseDeviceWidgetClass.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_5.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.CDesktopApplet.CWorkstationCommandPromptBase.m_titleBar.m_closeButton
+~		168 text entry area (settable) Command+F6 to exit CLI focus., Secondary Actions: Raise, Value: 
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ping 192.168.1.1
+
+Pinging 192.168.1.1 with 32 bytes of data:
+
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>ping 192.168.1.1
+
+Pinging 192.168.1.1 with 32 bytes of data:
+
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
+Reply from 192.168.1.1: bytes=32 time=1ms TTL=255
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
+
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>telnet 192.168.1.1
+Trying 192.168.1.1 ...Open
+
+
+User Access Verification
+
+Username: admin
+Password: 
+% Login invalid
+
+Username: admin
+Password: 
+Router>configure terminal
+                 ^
+% Invalid input detected at '^' marker.
+	
+Router>enable
+Password: 
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#end
+Router#exit
+
+[Connection to 192.168.1.1 closed by foreign host]
+C:\>, ID: PtApp.CBaseDeviceWidgetClass.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_5.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.CDesktopApplet.CWorkstationCommandPromptBase.CCommandLine
+The focused UI element is 168 text entry area (settable) Command+F6 to exit CLI focus., Secondary Actions: Raise, Value: 
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ping 192.168.1.1
+
+Pinging 192.168.1.1 with 32 bytes of data:
+
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>ping 192.168.1.1
+
+Pinging 192.168.1.1 with 32 bytes of data:
+
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
+Reply from 192.168.1.1: bytes=32 time=1ms TTL=255
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=255
+
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>telnet 192.168.1.1
+Trying 192.168.1.1 ...Open
+
+
+User Access Verification
+
+Username: admin
+Password: 
+% Login invalid
+
+Username: admin
+Password: 
+Router>configure terminal
+                 ^
+% Invalid input detected at '^' marker.
+	
+Router>enable
+Password: 
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#end
+Router#exit
+
+[Connection to 192.168.1.1 closed by foreign host]
+C:\>, ID: PtApp.CBaseDeviceWidgetClass.mainScrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_5.c_physicalTab.qt_tabwidget_stackedwidget.m_DeskTopTab.scrollArea.qt_scrollarea_viewport.desktopScrollAreaWidgetContents.CDesktopApplet.CWorkstationCommandPromptBase.CCommandLine

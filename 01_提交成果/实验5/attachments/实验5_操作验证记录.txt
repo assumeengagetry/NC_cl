@@ -1,0 +1,80 @@
+实验5：路由器配置实验——操作验证记录
+日期：2026-11-10
+说明：本记录依据本次 Packet Tracer 实际操作与命令回显整理，供后续实验报告引用。
+
+一、拓扑与终端
+物理连线已由用户修正。实际交换机名称为 Switch0，未改名为手册中的 Switch1。
+PC0 通过 Console 线接入路由器，使用 Desktop > Terminal 配置。
+串口参数：9600 bit/s、8 数据位、None 校验、1 停止位、None 流控。
+PC1：192.168.1.2，子网掩码 255.255.255.0，默认网关 192.168.1.1。
+Router Fa0/0：192.168.1.1，子网掩码 255.255.255.0。
+
+二、接口关闭与启用对比
+已核对 Fa0/0 现有地址配置为 192.168.1.1/24。通过 PC0 Console 关闭接口：
+enable
+configure terminal
+interface fastEthernet 0/0
+shutdown
+end
+show ip interface brief
+
+观察结果：Fa0/0 为 administratively down / down。
+PC1 执行：ping 192.168.1.1
+结果：Sent = 4，Received = 0，Lost = 4（100% loss）。
+
+通过 PC0 Console 启用接口：
+configure terminal
+interface fastEthernet 0/0
+no shutdown
+end
+show ip interface brief
+
+观察结果：Fa0/0 为 up / up。
+PC1 再次执行：ping 192.168.1.1
+结果：Sent = 4，Received = 4，Lost = 0（0% loss）。
+回显 TTL = 255；RTT：Minimum = 0 ms，Maximum = 1 ms，Average = 0 ms。
+结论：配置地址后还必须启用接口，才能完成本次以太网通信。
+
+三、账户、VTY 与配置保存
+通过 PC0 Console 执行：
+configure terminal
+username admin privilege 1 password 456
+enable secret 123
+line vty 0 4
+login local
+transport input telnet
+exec-timeout 5 0
+end
+show running-config
+
+已核对运行配置。admin 默认 privilege 1 在配置显示中被省略，登录权限仍为用户 EXEC。
+VTY 0–4 允许 Telnet，采用本地账户认证，空闲超时为 5 分钟。
+执行：copy running-config startup-config
+结果：[OK]，路由器配置已写入 startup-config。
+
+四、Telnet 登录与两级权限验证
+PC1 执行：telnet 192.168.1.1
+连接结果：Open。
+首次使用错误登录口令：出现 % Login invalid。
+随后使用 admin / 456 正确登录：出现 Router>。
+
+在 Router> 下执行：configure terminal
+结果：Invalid input detected，未进入全局配置模式。
+
+执行：enable
+输入特权口令：123
+结果：提示符变为 Router#。
+再次执行：configure terminal
+结果：提示符变为 Router(config)#，成功进入全局配置模式。
+
+执行：end
+随后执行：exit
+结果：远程连接关闭，出现 Connection closed ... foreign host，并返回 PC1 的 C:\>。
+
+五、实验结果说明
+登录口令 456 控制本地账户认证；enable 口令 123 控制进入特权 EXEC。
+Telnet 的 Open 仅说明连接已建立；Router> 表明用户已成功通过认证。
+Router# 与 Router(config)# 分别证明已进入特权 EXEC 和全局配置模式。
+startup-config 已保存成功。Packet Tracer 工程也已保存并核对文件存在：
+/Users/apple/Workspace/NC_cl/实验5_路由器配置_已完成.pkt
+本记录为文字操作记录，不包含截图附件。

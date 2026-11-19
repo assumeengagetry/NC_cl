@@ -1,0 +1,217 @@
+System Bootstrap, Version 12.1(3r)T2, RELEASE SOFTWARE (fc1)
+Copyright (c) 2000 by cisco Systems, Inc.
+cisco 2811 (MPC860) processor (revision 0x200) with 60416K/5120K bytes of memory
+
+Readonly ROMMON initialized
+
+program load complete, entry point: 0x8000f000, size: 0xc940
+program load complete, entry point: 0x8000f000, size: 0xc940
+
+program load complete, entry point: 0x8000f000, size: 0x3ed1338
+Self decompressing the image :
+######################### [OK]
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, 2800 Software (C2800NM-IPBASE-M), Version 12.3(14)T7, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Wed 22-Mar-06 18:40 by pt_team
+Image text-base: 0x40095498, data-base: 0x414E0000
+
+cisco 2811 (MPC860) processor (revision 0x200) with 60416K/5120K bytes of memory
+Processor board ID JAD05190MTZ (4292891495)
+M860 processor: part number 0, mask 49
+2 FastEthernet/IEEE 802.3 interface(s)
+4 Low-speed serial(sync/async) network interface(s)
+239K bytes of non-volatile configuration memory.
+62720K bytes of processor board System flash (Read/Write)
+Cisco IOS Software, 2800 Software (C2800NM-IPBASE-M), Version 12.3(14)T7, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Wed 22-Mar-06 18:40 by pt_team
+
+Press RETURN to get started!
+
+
+
+HQ>enable
+HQ#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HQ(config)#interface FastEthernet0/0
+HQ(config-if)#ip address 172.16.64.1 255.255.254.0
+HQ(config-if)#no shutdown
+
+HQ(config-if)#i
+%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+nterface FastEthernet0/1
+HQ(config-if)#ip address 172.16.66.1 255.255.254.0
+HQ(config-if)#no shutdown
+
+HQ(config-if)#in
+%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+terface Serial0/0/0
+HQ(config-if)#ip address 172.16.71.1 255.255.255.252
+HQ(config-if)#no shutdown
+
+%LINK-5-CHANGED: Interface Serial0/0/0, changed state to down
+HQ(config-if)#interface Serial0/2/0
+HQ(config-if)#ip address 172.16.71.5 255.255.255.252
+HQ(config-if)#clock rate 64000
+HQ(config-if)#no shutdown
+
+%LINK-5-CHANGED: Interface Serial0/2/0, changed state to down
+HQ(config-if)#interface Serial0/0/1
+HQ(config-if)#ip address 172.16.71.9 255.255.255.252
+HQ(config-if)#no shutdown
+
+%LINK-5-CHANGED: Interface Serial0/0/1, changed state to down
+HQ(config-if)#end
+HQ#sh
+%SYS-5-CONFIG_I: Configured from console by console
+ow running-config
+Building configuration...
+
+Current configuration : 858 bytes
+!
+version 12.3
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname HQ
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 172.16.64.1 255.255.254.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 172.16.66.1 255.255.254.0
+ duplex auto
+ speed auto
+!
+interface Serial0/0/0
+ ip address 172.16.71.1 255.255.255.252
+!
+interface Serial0/0/1
+ ip address 172.16.71.9 255.255.255.252
+!
+interface Serial0/2/0
+ ip address 172.16.71.5 255.255.255.252
+ clock rate 64000
+!
+interface Serial0/2/1
+ no ip address
+ clock rate 2000000
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+ --More-- 
+%LINK-5-CHANGED: Interface Serial0/0/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to up
+
+%LINK-5-CHANGED: Interface Serial0/2/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/2/0, changed state to up
+
+%LINK-5-CHANGED: Interface Serial0/0/1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to up
+
+HQ#how ip interface brief
+       ^
+% Invalid input detected at '^' marker.
+	
+HQ#show controllers serial 0/2/0
+Interface Serial0/2/0
+Hardware is PowerQUICC MPC860
+DCE V.35, clock rate 64000
+idb at 0x81081AC4, driver data structure at 0x81084AC0
+SCC Registers:
+General [GSMR]=0x2:0x00000000, Protocol-specific [PSMR]=0x8
+Events [SCCE]=0x0000, Mask [SCCM]=0x0000, Status [SCCS]=0x00
+Transmit on Demand [TODR]=0x0, Data Sync [DSR]=0x7E7E
+Interrupt Registers:
+Config [CICR]=0x00367F80, Pending [CIPR]=0x0000C000
+Mask   [CIMR]=0x00200000, In-srv  [CISR]=0x00000000
+Command register [CR]=0x580
+Port A [PADIR]=0x1030, [PAPAR]=0xFFFF
+       [PAODR]=0x0010, [PADAT]=0xCBFF
+Port B [PBDIR]=0x09C0F, [PBPAR]=0x0800E
+       [PBODR]=0x00000, [PBDAT]=0x3FFFD
+Port C [PCDIR]=0x00C, [PCPAR]=0x200
+       [PCSO]=0xC20,  [PCDAT]=0xDF2, [PCINT]=0x00F
+Receive Ring
+        rmd(68012830): status 9000 length 60C address 3B6DAC4
+        rmd(68012838): status B000 length 60C address 3B6D444
+Transmit Ring
+ --More-- 

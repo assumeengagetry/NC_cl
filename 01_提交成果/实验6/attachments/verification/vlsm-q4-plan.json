@@ -1,0 +1,161 @@
+[
+  {
+    "name": "LAN A",
+    "need": 500,
+    "network": "172.16.66.0/23",
+    "mask": "255.255.254.0",
+    "broadcast": "172.16.67.255",
+    "first": "172.16.66.1",
+    "last": "172.16.67.254",
+    "interfaces": [
+      {
+        "router": "HQ",
+        "interface": "Fa0/0",
+        "ip": "172.16.66.1"
+      }
+    ]
+  },
+  {
+    "name": "LAN B",
+    "need": 500,
+    "network": "172.16.64.0/23",
+    "mask": "255.255.254.0",
+    "broadcast": "172.16.65.255",
+    "first": "172.16.64.1",
+    "last": "172.16.65.254",
+    "interfaces": [
+      {
+        "router": "HQ",
+        "interface": "Fa0/1",
+        "ip": "172.16.64.1"
+      }
+    ]
+  },
+  {
+    "name": "LAN C",
+    "need": 250,
+    "network": "172.16.69.0/24",
+    "mask": "255.255.255.0",
+    "broadcast": "172.16.69.255",
+    "first": "172.16.69.1",
+    "last": "172.16.69.254",
+    "interfaces": [
+      {
+        "router": "East",
+        "interface": "Fa0/0",
+        "ip": "172.16.69.1"
+      }
+    ]
+  },
+  {
+    "name": "LAN D",
+    "need": 250,
+    "network": "172.16.68.0/24",
+    "mask": "255.255.255.0",
+    "broadcast": "172.16.68.255",
+    "first": "172.16.68.1",
+    "last": "172.16.68.254",
+    "interfaces": [
+      {
+        "router": "East",
+        "interface": "Fa0/1",
+        "ip": "172.16.68.1"
+      }
+    ]
+  },
+  {
+    "name": "LAN E",
+    "need": 120,
+    "network": "172.16.70.128/25",
+    "mask": "255.255.255.128",
+    "broadcast": "172.16.70.255",
+    "first": "172.16.70.129",
+    "last": "172.16.70.254",
+    "interfaces": [
+      {
+        "router": "West",
+        "interface": "Fa0/0",
+        "ip": "172.16.70.129"
+      }
+    ]
+  },
+  {
+    "name": "LAN F",
+    "need": 120,
+    "network": "172.16.70.0/25",
+    "mask": "255.255.255.128",
+    "broadcast": "172.16.70.127",
+    "first": "172.16.70.1",
+    "last": "172.16.70.126",
+    "interfaces": [
+      {
+        "router": "West",
+        "interface": "Fa0/1",
+        "ip": "172.16.70.1"
+      }
+    ]
+  },
+  {
+    "name": "链路1",
+    "need": 2,
+    "network": "172.16.71.0/30",
+    "mask": "255.255.255.252",
+    "broadcast": "172.16.71.3",
+    "first": "172.16.71.1",
+    "last": "172.16.71.2",
+    "interfaces": [
+      {
+        "router": "HQ",
+        "interface": "S0/0/0",
+        "ip": "172.16.71.1"
+      },
+      {
+        "router": "West",
+        "interface": "S0/0/0",
+        "ip": "172.16.71.2"
+      }
+    ]
+  },
+  {
+    "name": "链路2",
+    "need": 2,
+    "network": "172.16.71.4/30",
+    "mask": "255.255.255.252",
+    "broadcast": "172.16.71.7",
+    "first": "172.16.71.5",
+    "last": "172.16.71.6",
+    "interfaces": [
+      {
+        "router": "HQ",
+        "interface": "S0/2/0",
+        "ip": "172.16.71.5"
+      },
+      {
+        "router": "East",
+        "interface": "S0/0/0",
+        "ip": "172.16.71.6"
+      }
+    ]
+  },
+  {
+    "name": "链路3",
+    "need": 2,
+    "network": "172.16.71.8/30",
+    "mask": "255.255.255.252",
+    "broadcast": "172.16.71.11",
+    "first": "172.16.71.9",
+    "last": "172.16.71.10",
+    "interfaces": [
+      {
+        "router": "HQ",
+        "interface": "S0/0/1",
+        "ip": "172.16.71.9"
+      },
+      {
+        "router": "Router2",
+        "interface": "S0/0/0",
+        "ip": "172.16.71.10"
+      }
+    ]
+  }
+]

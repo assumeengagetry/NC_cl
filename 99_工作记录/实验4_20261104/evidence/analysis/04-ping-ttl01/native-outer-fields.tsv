@@ -1,6 +1,0 @@
-frame	time	wire_length	src	dst	ip_header_length	ip_total_length	ip_id	ttl	protocol	ip_checksum	mf	offset_units	offset_bytes	ip_payload_length	type	code	identifier	sequence	icmp_checksum	icmp_length	icmp_data_length
-1	1793789045.298716	98	10.135.133.108	202.115.32.43	20	84	0x6548	1	1	0xd9cf	False	0	0	64	8	0	63220	0	0x105b	64	56
-2	1793789046.303837	98	10.135.133.108	202.115.32.43	20	84	0xe761	1	1	0x57b6	False	0	0	64	8	0	63220	1	0xfc3a	64	56
-3	1793789047.308986	98	10.135.133.108	202.115.32.43	20	84	0x74bb	1	1	0xca5c	False	0	0	64	8	0	63220	2	0xe838	64	56
-4	1793789048.312329	98	10.135.133.108	202.115.32.43	20	84	0x6cbc	1	1	0xd25b	False	0	0	64	8	0	63220	3	0xdafc	64	56
-5	1793789049.317436	98	10.135.133.108	202.115.32.43	20	84	0xcc2a	1	1	0x72ed	False	0	0	64	8	0	63220	4	0xc713	64	56

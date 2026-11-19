@@ -1,0 +1,81 @@
+{
+  "report": "06_实验5_许盛凯_2024141460445.pdf",
+  "pages": 8,
+  "questions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "figures": 9,
+  "page_size_bp": [
+    [
+      522.0,
+      737.0
+    ],
+    [
+      522.0,
+      737.0
+    ],
+    [
+      522.0,
+      737.0
+    ],
+    [
+      522.0,
+      737.0
+    ],
+    [
+      522.0,
+      737.0
+    ],
+    [
+      522.0,
+      737.0
+    ],
+    [
+      522.0,
+      737.0
+    ],
+    [
+      522.0,
+      737.0
+    ]
+  ],
+  "compile_engine": "XeLaTeX",
+  "zip_independent_rebuild": true,
+  "independent_rebuild_text_identical": true,
+  "independent_rebuild_all_page_pixels_identical_140dpi": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "missing_characters_undefined_refs_overflows": [],
+  "visual_review": {
+    "pages_1_to_4": "passed",
+    "pages_5_to_8": "passed"
+  },
+  "packet_tracer_original_copy_identical": true,
+  "figure_originals_and_crop_manifest_retained": true,
+  "blank_fields": [
+    "实验课时",
+    "成绩评定",
+    "指导教师签名",
+    "指导老师评议"
+  ],
+  "sha256": {
+    "06_实验5_许盛凯_2024141460445.pdf": "4f7dacf2dee55afe631ace570eb3e5a9ffde182301167735c778de4e6599e17b",
+    "06_实验5_许盛凯_2024141460445_Overleaf.zip": "dcd8037ed2bd9a381deef6b89c9c379af74e01f15342aa19f9e6478d2fe92e78",
+    "06_实验5_许盛凯_2024141460445_实验附件.zip": "f08c113374429844d7d57bbd8ba5a5a8759830bc7af3c748da4030491248d1ab",
+    "2024141460445_许盛凯_实验5.pkt": "c2e70d7664ea3e0fd40a831927bf1f1dafd4951c4bc2daab563820927598f46a"
+  }
+}

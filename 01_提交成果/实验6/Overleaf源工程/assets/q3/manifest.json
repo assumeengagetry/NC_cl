@@ -1,0 +1,206 @@
+[
+  {
+    "file": "assets_prepared/q3/q3-router3-config.png",
+    "source": "evidence/q3-router3-config.png",
+    "source_sha256": "30a1e69868a45e11ea581f7683048cb03f9ed3ee7337f1e2c7dc9f67c80cd28c",
+    "output_sha256": "4f9ae0d697b3611c67e900d25c1e19bb1f17de7eaa3f83bb47643b01790bfaab",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      450,
+      425
+    ],
+    "method": "same_source_separated_title_hostname_interface_regions_with_disclosed_gaps",
+    "crop_boxes_xyxy": [
+      [
+        1400,
+        0,
+        1850,
+        55
+      ],
+      [
+        50,
+        700,
+        500,
+        721
+      ],
+      [
+        50,
+        1343,
+        500,
+        1668
+      ]
+    ],
+    "caption": "题3 Router3（Branch1）四接口实际地址及掩码（同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容）"
+  },
+  {
+    "file": "assets_prepared/q3/q3-router4-config.png",
+    "source": "evidence/q3-router4-config.png",
+    "source_sha256": "d8f486b0070cd95bcdfaeb91c7c3b11874ba72fcfef694590c6de4bf1b69d9e2",
+    "output_sha256": "0dcc199867c833b8632ea4dc75823bdaa35a53e286ae1dc40070b3a5e2f334d7",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      450,
+      425
+    ],
+    "method": "same_source_separated_title_hostname_interface_regions_with_disclosed_gaps",
+    "crop_boxes_xyxy": [
+      [
+        1400,
+        0,
+        1850,
+        55
+      ],
+      [
+        50,
+        540,
+        500,
+        561
+      ],
+      [
+        50,
+        1183,
+        500,
+        1508
+      ]
+    ],
+    "caption": "题3 Router4（HQ）四接口实际地址及掩码（同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容）"
+  },
+  {
+    "file": "assets_prepared/q3/q3-router5-config.png",
+    "source": "evidence/q3-router5-config.png",
+    "source_sha256": "3d6e18d75c575ef751042918c05553a5ca7c04662b5e3fa5e927855a87bbdf79",
+    "output_sha256": "aad60b11878c18c51b0e24a068c47e94962dae141fc5c3280dabc926ccc61989",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      450,
+      425
+    ],
+    "method": "same_source_separated_title_hostname_interface_regions_with_disclosed_gaps",
+    "crop_boxes_xyxy": [
+      [
+        1400,
+        0,
+        1850,
+        55
+      ],
+      [
+        50,
+        700,
+        500,
+        721
+      ],
+      [
+        50,
+        1343,
+        500,
+        1668
+      ]
+    ],
+    "caption": "题3 Router5（Branch2）四接口实际地址及掩码（同一原图标题、hostname及接口区域分块裁剪，虚线表示省略内容）"
+  },
+  {
+    "file": "assets_prepared/q3/q3-assessment.png",
+    "source": "evidence/q3-assessment.png",
+    "source_sha256": "04a6746a544fb4b04e25c077410118aac0687a8edfd952205956ebf7ec64fac0",
+    "output_sha256": "481445037f6a9fea6cdc31d2619e0aa487f7f2f821f42fbbfbcf535994e09de7",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      765,
+      1260
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        40,
+        340,
+        805,
+        1600
+      ]
+    ],
+    "caption": "题3三台路由器12个接口的地址及掩码，24项均为Correct（连续矩形裁剪）"
+  },
+  {
+    "file": "assets_prepared/q3/q3-assessment-count.png",
+    "source": "evidence/q3-assessment.png",
+    "source_sha256": "04a6746a544fb4b04e25c077410118aac0687a8edfd952205956ebf7ec64fac0",
+    "output_sha256": "ba15120ab91212bd9d6ad06c47780c42404d7a726f043c89b4e4faa92bd82a85",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      405,
+      170
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        2815,
+        270,
+        3220,
+        440
+      ]
+    ],
+    "caption": "题3Item Count为24/24；Score0/0表示评分权重为0（评分窗口右侧连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q3/q3-completion.png",
+    "source": "evidence/q3-completion.png",
+    "source_sha256": "8be7d3785254f1fc07c4b9e4b1aa465929410b3c05eec1ac46aea87ce06f90d1",
+    "output_sha256": "f0b247ac3266c829a361a7ff16bb4092770bfcc13e855f1ab07d2b501874ea9f",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      195,
+      30
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        1105,
+        1595,
+        1300,
+        1625
+      ]
+    ],
+    "caption": "题3Completion为100%（活动窗口底部连续裁剪）"
+  },
+  {
+    "file": "assets_prepared/q3/q3-topology.png",
+    "source": "evidence/q3-completion.png",
+    "source_sha256": "8be7d3785254f1fc07c4b9e4b1aa465929410b3c05eec1ac46aea87ce06f90d1",
+    "output_sha256": "7848caa9d053c470a53989813ec1a9bf4fc7f5851e2b24bdb559f6c4ce41d26c",
+    "source_size": [
+      3262,
+      2100
+    ],
+    "output_size": [
+      1330,
+      685
+    ],
+    "method": "continuous_rectangle_crop",
+    "crop_boxes_xyxy": [
+      [
+        1495,
+        430,
+        2825,
+        1115
+      ]
+    ],
+    "caption": "题3 HQ、Branch1、Branch2及六个LAN、三条串行链路（连续矩形裁剪）"
+  }
+]

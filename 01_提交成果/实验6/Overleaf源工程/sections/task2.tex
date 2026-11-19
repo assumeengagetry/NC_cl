@@ -1,0 +1,63 @@
+\reportpage{\dataheading}{
+\taskheading{2}{配置主机与路由器以太网接口}
+\subheading{实验结果：三台PC的静态配置}
+按活动地址表配置三台PC，子网掩码均为255.255.255.0。每台PC的默认网关均为本地连接路由器的Fa0/0地址。
+\Evidence{fig:q2-pc1-ip}{assets/q2/q2-pc1-ip.pdf}{PC1配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{50mm}
+\Evidence{fig:q2-pc2-ip}{assets/q2/q2-pc2-ip.pdf}{PC2配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{50mm}
+\Evidence{fig:q2-pc3-ip}{assets/q2/q2-pc3-ip.pdf}{PC3配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{50mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{2}{三台路由器Fa0/0配置与状态}
+在接口配置模式下设置地址、掩码并执行\code{no shutdown}；随后用\code{show ip interface fastEthernet 0/0}读取地址前缀及接口状态。
+\noindent\begin{tabularx}{\linewidth}{|l|X|l|l|}\hline
+路由器/接口 & IPv4地址 & 掩码 & 状态\\\hline
+R1 Fa0/0 & 172.16.3.1 & /24 & up/up\\\hline
+R2 Fa0/0 & 172.16.1.1 & /24 & up/up\\\hline
+R3 Fa0/0 & 192.168.2.1 & /24 & up/up\\\hline
+\end{tabularx}\par
+\Evidence{fig:q2-r1-config}{assets/q2/q2-r1-config.pdf}{R1配置命令：地址、255.255.255.0掩码与no shutdown}{16mm}
+\Evidence{fig:q2-r1-detail}{assets/q2/q2-r1-detail.pdf}{R1接口实测：172.16.3.1/24，up/up}{15mm}
+\Evidence{fig:q2-r2-config}{assets/q2/q2-r2-config.pdf}{R2配置命令：地址、255.255.255.0掩码与no shutdown}{16mm}
+\Evidence{fig:q2-r2-detail}{assets/q2/q2-r2-detail.pdf}{R2接口实测：172.16.1.1/24，up/up}{15mm}
+\Evidence{fig:q2-r3-config}{assets/q2/q2-r3-config.pdf}{R3配置命令：地址、255.255.255.0掩码与no shutdown}{16mm}
+\Evidence{fig:q2-r3-detail}{assets/q2/q2-r3-detail.pdf}{R3接口实测：192.168.2.1/24，up/up}{15mm}
+三组图分别为各自原截图中配置命令和show输出的连续矩形裁剪。活动要求保留原拓扑，本题未增加串口地址或路由配置。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{2}{三台PC到本地网关的完整Ping}
+分别测试PC1至172.16.3.1、PC2至172.16.1.1、PC3至192.168.2.1，均发送4次、收到4次、丢失0次。
+\Evidence{fig:q2-pc1-ping}{assets/q2/q2-pc1-ping.pdf}{PC1到本地网关172.16.3.1：完整Ping命令、4次响应及统计}{60mm}
+\Evidence{fig:q2-pc2-ping}{assets/q2/q2-pc2-ping.pdf}{PC2到本地网关172.16.1.1：完整Ping命令、4次响应及统计}{60mm}
+\Evidence{fig:q2-pc3-ping}{assets/q2/q2-pc3-ping.pdf}{PC3到本地网关192.168.2.1：完整Ping命令、4次响应及统计}{60mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{2}{配置检查}
+完成度达到100\%，Item Count为18/18。三台PC各检查地址、掩码和默认网关，三台路由器各检查Fa0/0地址、掩码和Port Status，全部18项均为Correct。
+\Evidence{fig:q2-completion}{assets/q2/q2-completion.pdf}{题2活动完成度100\%}{6mm}
+\Evidence{fig:q2-assessment}{assets/q2/q2-assessment.pdf}{题2全部18项评分明细：PC1—PC3与R1—R3均Correct}{168mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{2}{检查统计与分析问题}
+\Evidence{fig:q2-count}{assets/q2/q2-assessment-count.pdf}{题2Item Count=18/18；Score=0/0为活动未设数值权重}{22mm}
+\qa{问题3：任选主机与网关，计算网络地址并判断能否直接通信。}{
+选择PC1（172.16.3.10）与R1 Fa0/0（172.16.3.1），二者掩码均为255.255.255.0，即/24。
+\[
+\begin{aligned}
+172.16.3.10\mathbin{\mathrm{AND}}255.255.255.0&=172.16.3.0,\\
+172.16.3.1\mathbin{\mathrm{AND}}255.255.255.0&=172.16.3.0.
+\end{aligned}
+\]
+前三个字节均被255保留，是网络部分；第四字节与0相与后为0，是主机部分。因此二者同属172.16.3.0/24。末字节二进制分别为00001010和00000001，与掩码末字节00000000相与均为00000000。
+
+配置见\figref{fig:q2-pc1-ip}、\figref{fig:q2-r1-config}；\figref{fig:q2-r1-detail}确认接口及线路协议均为up。\figref{fig:q2-pc1-ping}记录4/4响应，说明PC1能够在本地子网内直接通过交换机与网关接口通信，无须经另一台路由器转发。}
+\qa{问题4：Ping不通本地网关时，怎样区分接口未启用与主机地址/掩码错误？}{
+先检查路由器接口状态。\code{show ip interface brief}的Status若为\code{administratively down}，表示接口被管理性关闭，应在该接口执行\code{no shutdown}。同时核对IP-Address、Status与Protocol；若为down/down但非管理性关闭，还需检查线缆、端口及对端，不能一概归因于主机地址。
+
+若指定接口为up/up，再核对PC的IPv4 Address、Subnet Mask和Default Gateway，以及路由器接口的Internet address前缀。分别将主机、网关地址与正确掩码按位与，核对网络地址一致，并排除使用网络地址、广播地址或重复地址。掩码错误可能使主机把应直接交付的目标误判为远端，也可能掩盖地址规划错误。
+
+本次三台接口均为up/up，三台PC的网关Ping均4/4成功。以上为故障定位判据，并非声称本次另行实施了接口关闭或错误掩码故障测试。}
+}

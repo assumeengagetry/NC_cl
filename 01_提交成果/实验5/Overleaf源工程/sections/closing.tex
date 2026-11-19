@@ -1,0 +1,20 @@
+\startreportpage{25.4}
+\templaterow{\datacontinued}{91}{
+\subheading{八、故障分析与结果汇总}
+\qa{问题8：若PC1能Ping通Router0，但无法通过Telnet登录，优先检查哪两项路由器配置？如何验证？}{
+第一项是VTY允许的输入协议。通过PC0 Console在特权模式执行\code{show running-config}，检查\code{line vty 0 4}下是否存在\code{transport input telnet}，正确配置参照\figref{fig:save}。若不允许Telnet，即使ICMP可达也不能完成远程接入。
+
+第二项是认证方式与本地账户是否匹配。检查线路是否使用\code{login local}，并核对全局是否存在正确的\code{username admin password ...}配置。连接显示\code{Open}后再用正确用户名与口令重试，观察能否进入\code{Router>}。\code{enable secret}控制后续提权，不能代替登录认证。以上为排查思路；本次没有发生“Ping成功但Telnet连接无法建立”的故障。}
+最终检查与前述结果一致，路由器启动配置和Packet Tracer工程均已保存。
+}
+\templaterow{结\quad 论}{34}{
+本次完成Console接入、IPv4接口配置与状态对照、Telnet本地账户认证和权限验证。相同地址配置下，接口管理性关闭会使Ping失败；启用接口后同网段通信恢复。Telnet连接建立、用户认证成功及进入特权模式是不同阶段，可由\code{Open}、\code{Router>}和\code{Router\#}等回显区分。本次结果只验证本地子网内的连通和远程管理。
+}
+\templaterow{小\quad 结}{54.59}{
+通过本次操作，进一步理解了配置命令与所在模式的对应关系，也掌握了“核对线缆和端口—检查接口状态—测试IP连通—验证远程认证及权限”的排查顺序。配置地址后仍需确认\code{no shutdown}及线路协议状态，不能凭地址正确就判断网络已通。
+
+实验中的普通用户无法直接进入全局配置，说明登录认证与特权授权应分别检查。保存\code{startup-config}用于保留设备配置，保存\code{.pkt}用于保留完整模拟工程，两项均已完成。
+
+依据：课程《实验5：路由器配置实验》指导书及本次Packet Tracer原始截图、命令记录。
+}
+\TemplateReview

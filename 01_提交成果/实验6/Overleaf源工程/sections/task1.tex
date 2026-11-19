@@ -1,0 +1,75 @@
+\reportpage{\dataheading}{
+\taskheading{1}{只配置主机IPv4地址}
+\subheading{实验结果：三台主机最终配置}
+三台PC采用静态IPv4配置，掩码均为255.255.255.0。LAXpc在网关对照测试结束后恢复正确网关192.168.1.1；交换机、路由器及预设RIP沿用活动原配置。
+\Evidence{fig:q1-lax-final}{assets/q1/q1-lax-final.pdf}{LAXpc最终配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{50mm}
+\Evidence{fig:q1-phx-ip}{assets/q1/q1-phx-ip.pdf}{PHXpc最终配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{50mm}
+\Evidence{fig:q1-atl-ip}{assets/q1/q1-atl-ip.pdf}{ATLpc最终配置（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{50mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{1}{网关留空时的两次Ping}
+LAXpc保持192.168.1.2/24，先清空Default Gateway，再依次测试本地192.168.1.1和远端192.168.2.2。
+\Evidence{fig:q1-empty-gw}{assets/q1/q1-lax-gw-empty.pdf}{网关留空（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{54mm}
+\Evidence{fig:q1-empty-ping}{assets/q1/q1-empty-pings.pdf}{网关留空：本地4/4响应，远端0/4响应；完整命令、响应与统计}{112mm}
+本网段通信成功，而远端四次请求全部超时。此时不能仅凭本地Ping成功就判断主机已具备跨网段通信能力。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{1}{正确网关时的两次Ping}
+将LAXpc默认网关设为192.168.1.1，地址和掩码保持不变，再执行相同两条命令。
+\Evidence{fig:q1-correct-gw}{assets/q1/q1-lax-gw-correct.pdf}{正确网关（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{54mm}
+\Evidence{fig:q1-correct-ping}{assets/q1/q1-correct-pings.pdf}{正确网关：本地4/4响应，远端3/4响应，保留首包超时}{116mm}
+远端后三包均收到回复，TTL为126。首包超时可能与初始地址解析有关，但本次未直接记录该包的逐跳事件，不将其原因写成已验证结论。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{1}{填入不存在的本网段网关}
+将LAXpc默认网关改为192.168.1.254，再测试相同的本地与远端目标。活动拓扑中没有使用该地址的网关。
+\Evidence{fig:q1-wrong-gw}{assets/q1/q1-lax-gw-wrong.pdf}{不存在的本网段网关（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{54mm}
+\Evidence{fig:q1-wrong-ping}{assets/q1/q1-wrong-pings.pdf}{网关为192.168.1.254：本地4/4响应，远端0/4响应}{110mm}
+该组与网关留空组的远端Ping现象相同，均为四次超时；两种设置必须结合Default Gateway字段区分。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{1}{跨网段网关补测}
+进一步把Default Gateway设为192.168.2.1。该地址不属于LAXpc的192.168.1.0/24子网，但界面接受了这项设置；实际测试远端192.168.2.2仍获得4/4响应。
+\Evidence{fig:q1-offlink-gw}{assets/q1/q1-lax-gw-offlink.pdf}{跨网段网关（同一原图左右字段列裁剪并排，虚线表示省略中间空白）}{56mm}
+\Evidence{fig:q1-offlink-ping}{assets/q1/q1-offlink-remote.pdf}{跨网段网关补测：远端192.168.2.2完整Ping结果为4/4成功}{65mm}
+该补测没有替换前述六次基本测试。它说明本仿真中，网关配置不符合本地主机子网并不一定表现为Ping失败，因而还需检查地址规划、ARP信息及活动评分项。下一页保留对此现象的ARP核对和恢复网关后的复测。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{1}{ARP核对与恢复正确网关}
+跨网段网关测试后查看ARP表，并Ping本地192.168.1.1，再次查看ARP表。两个地址均映射到\code{0001.c96c.2800}。
+\Evidence{fig:q1-offlink-arp}{assets/q1/q1-offlink-arp.pdf}{跨网段网关与本地网关映射为同一MAC，本地Ping为4/4成功}{98mm}
+恢复\figref{fig:q1-lax-final}中的正确网关192.168.1.1后，重新Ping远端192.168.2.2，四次均收到回复，丢包率为0\%。
+\Evidence{fig:q1-restored-ping}{assets/q1/q1-restored-remote.pdf}{恢复正确网关后的远端Ping：Sent=4、Received=4、Lost=0}{63mm}
+}
+
+\reportpage{\datacontinued}{
+\taskheading{1}{配置检查}
+完成度达到100\%；三台PC各有IPv4地址、子网掩码、默认网关三项，共9项，全部为Correct。
+\Evidence{fig:q1-completion}{assets/q1/q1-completion.pdf}{题1活动完成度100\%}{21mm}
+\Evidence{fig:q1-assessment}{assets/q1/q1-assessment.pdf}{题1全部9项Assessment Items，所有项目均为Correct}{95mm}
+\Evidence{fig:q1-count}{assets/q1/q1-assessment-count.pdf}{题1检查统计：Item Count为9/9}{40mm}
+本活动各评分项的Points均为0，界面Score显示0/0，表示活动未为项目设置数值权重；本题依据Completion=100\%与9/9项Correct判断配置通过。
+}
+
+\reportpage{\datacontinued}{
+\taskheading{1}{分析问题}
+\qa{问题1：六次Ping中，不同网关对本地和远端目标的可达性有什么影响？}{
+\noindent\begin{tabularx}{\linewidth}{|l|X|X|}\hline
+默认网关 & 本地192.168.1.1 & 远端192.168.2.2\\\hline
+留空 & 4/4成功 & 0/4，全部超时\\\hline
+192.168.1.1 & 4/4成功 & 3/4，首包超时\\\hline
+192.168.1.254 & 4/4成功 & 0/4，全部超时\\\hline
+\end{tabularx}\par
+六次原始结果见\figref{fig:q1-empty-ping}、\figref{fig:q1-correct-ping}、\figref{fig:q1-wrong-ping}。按/24掩码计算，192.168.1.2与192.168.1.1的网络地址均为192.168.1.0；192.168.2.2的网络地址为192.168.2.0。因此本地目标可直接解析MAC并交付，三种网关条件下均成功；远端目标需要经网关转发，留空或填写不存在的网关均失败。正确网关组后三包收到回复，说明远端路径已经可达；首包超时的具体原因未由Ping输出单独证实。}
+\qa{问题2：怎样区分三种错误网关情形，怎样确认恢复？}{
+留空表示没有指定默认下一跳；192.168.1.254虽属于本地子网，却没有对应网关。两组远端均超时，须比较\figref{fig:q1-empty-gw}与\figref{fig:q1-wrong-gw}的Default Gateway字段，而不能只看Ping现象。
+
+192.168.2.1按/24计算属于另一子网，本不应作为本地主机的默认网关。本次却远端4/4成功，且ARP表中它与本地192.168.1.1映射到同一MAC（\figref{fig:q1-offlink-arp}）。该现象与本地路由器代理ARP并继续转发的机制一致；本题未直接读取Proxy ARP开关，故这是由实测支持的解释，不是已核对的配置事实。
+
+最终恢复192.168.1.1，并由\figref{fig:q1-restored-ping}中远端192.168.2.2的Sent=4、Received=4、Lost=0确认通信恢复；同时通过全部9项配置检查。}
+}
