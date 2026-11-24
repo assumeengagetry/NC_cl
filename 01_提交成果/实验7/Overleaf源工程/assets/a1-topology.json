@@ -1,0 +1,27 @@
+{
+  "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验7_20261124/pt/top-current.png",
+  "source_sha256": "d81a4385b7465a37957b57ca0fd372935bd4ad1a66f256db54373f36ac9483b3",
+  "source_size_pixels": [
+    1632,
+    2100
+  ],
+  "crop_box_ltrb_pixels": [
+    425,
+    570,
+    1085,
+    1510
+  ],
+  "output_size_pixels": [
+    660,
+    940
+  ],
+  "resampling": "None",
+  "editing": "Single continuous rectangle crop only",
+  "alpha_operation": "None",
+  "caption": "A1初始拓扑",
+  "png": "a1-topology.png",
+  "pdf": "a1-topology.pdf",
+  "png_sha256": "ed76b900f71f00f77618f4d92f866a29b3cdb3518861a86633cf8af9815bc2b4",
+  "pdf_sha256": "07a442d013cddbf060959c28496109b66c6382f250984620dcbf09ead0cea46a",
+  "lossless_pdf_roundtrip_verified": true
+}

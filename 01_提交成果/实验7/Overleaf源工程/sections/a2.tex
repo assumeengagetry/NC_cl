@@ -1,0 +1,24 @@
+\reportpage{\datacontinued}{
+\taskheading{A2}{在Simulation模式中观察第三台PC首次获址}
+第三台PC在Packet Tracer中的名称为PC2，对应指导书中的PC3。切换到Simulation模式后接入交换机，待链路就绪，在PC2的IP Configuration中选择DHCP。在仿真模式逐步推进，记录PC2、Switch0和Server0之间的交互。
+
+\IfFileExists{assets/a2-events.pdf}{%
+ \ev[155mm]{fig:a2-events}{a2-events}{PC2首次获取地址时的Simulation事件列表}
+ 同一PDU出现在设备发送、交换机转发和接收端到达的多条事件记录中。报文类型按周期中的四次协议消息辨认，转发事件不重复计为新类型。}{%
+ 提供的事件截图可用于核对客户端、交换机与服务器参与的转发过程。}
+}
+\reportpage{\datacontinued}{
+\subheading{最终配置与连通性}
+PC2以DHCP模式获得192.168.7.102/24。对192.168.7.2执行Ping，复测四次均收到回复。
+\IfFileExists{assets/a2-pc2-ip.pdf}{\ev[52mm]{fig:a2-ip}{a2-pc2-ip}{第三台PC自动获取的IPv4配置}}{}
+\IfFileExists{assets/a2-pc2-ping.pdf}{\ev[92mm]{fig:a2-ping}{a2-pc2-ping}{第三台PC向服务器发送Ping的命令与输出}}{}
+
+\subheading{问题分析}
+\qa{8. 第三台PC首次地址获取包含哪些主要类型的报文？分别由谁发送？最终获得什么配置？}{客户端PC2发出Discover发现服务，再发送Request选择地址。服务器Server0发送Offer提供地址，并以ACK确认租约。PC2最终取得192.168.7.102和掩码255.255.255.0，能够访问同一子网内的服务器。}
+}
+\reportpage{\datacontinued}{
+\subheading{请求与响应的地址字段}
+\IfFileExists{assets/a2-discover.pdf}{\ev[80mm]{fig:a2-discover}{a2-discover}{PC2发出DHCP请求的PDU详情}}{}
+\IfFileExists{assets/a2-ack.pdf}{\ev[80mm]{fig:a2-ack}{a2-ack}{服务器回应PC2的PDU详情}}{}
+\qa{9. 未获取IPv4地址的PC2怎样发出请求？服务器怎样把响应送到PC2？}{客户端在首次发现服务器时，以0.0.0.0为源IPv4地址，向255.255.255.255发送使用UDP的本地广播。交换机将帧转发至同一广播域。服务器可以按客户端广播标志、拟分配地址及客户端硬件地址选择广播或直接单播。本次A2截图保留拓扑和转发过程，缺少DHCP回应的目的地址字段。}
+}

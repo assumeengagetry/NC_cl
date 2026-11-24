@@ -1,0 +1,12 @@
+\reportpage{\datacontinued}{
+\taskheading{B2}{在有效租约内主动续租}
+在同一虚拟机的eth0接口保留192.168.76.100/24，通过USR1向同一udhcpc进程触发续租。操作发生在B1确认约101秒后，续租前后IPv4地址一致。
+\terminalrecord{b2-console.txt}
+}
+\reportpage{\datacontinued}{
+\subheading{续租报文与关键字段}
+\ev[38mm]{fig:b2req}{b2-request}{原始第17帧，单播续租请求}
+\ev[38mm]{fig:b2ack}{b2-ack}{原始第18帧，服务器广播ACK}
+\qa{4. B1和B2的报文类型与地址字段有何区别？}{B1释放后的重新获取有Discover、Offer、Request、ACK四帧。B1的Request从0.0.0.0发往255.255.255.255，携带选项50和54。B2仅有Request与ACK。Request以192.168.76.100为源IP，单播至192.168.76.2，UDP端口为68至67，ciaddr为192.168.76.100，未携带选项50及54。本次服务器向255.255.255.255广播ACK，yiaddr为192.168.76.100。}
+\qa{5. 租期、T1和T2各是多少？为何能提前续租？}{抓包中ACK选项51为86400秒，未携带选项58和59。依RFC 2131第4.4.5节，默认T1为50\%即43200秒，默认T2为87.5\%即75600秒。主动续租可以在T1之前触发。}
+}

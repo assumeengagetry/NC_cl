@@ -1,0 +1,42 @@
+\reportpage{\dataheading}{
+\taskheading{B1}{在隔离网络中释放并重新获取DHCPv4地址}
+\subheading{实验环境与记录}
+指导书以Windows的命令为例。本次复做在macOS上的QEMU中启动Alpine Linux，连接受限模式的用户态虚拟网络192.168.76.0/24。客户端为BusyBox \code{udhcpc} 1.37.0，接口为\code{eth0}，虚拟DHCP服务器为192.168.76.2。QEMU在虚拟链路导出原始报文，随后从抓包中截取B1事务并保存为\code{实验7\_B1.pcapng}。
+
+虚拟机先通过DHCP取得有效租约，随后向同一客户端进程发送USR2释放地址，并检查接口已没有IPv4地址。再向该进程发送USR1，触发重新获取。
+
+\subheading{虚拟机终端记录}
+\terminalrecord{b1-console.txt}
+记录显示已配置\code{192.168.76.100/24}，路由表只有直连路由，\code{/etc/resolv.conf}没有DNS服务器项。B1结束后保持该客户端运行，以便在同一租约上做B2。
+}
+\reportpage{\datacontinued}{
+\subheading{获址报文及配置核对}
+\code{实验7\_B1.pcapng}中，第1帧先单播释放旧租约，事务标识为\code{0xed276d54}。第2至5帧共享事务标识\code{0xfac92663}和客户端硬件地址\code{52:54:00:07:00:01}。下表帧号对应独立B1抓包。原始截图对应帧10至14。
+
+\begin{eventtable}
+1 & Release & 192.168.76.100 $\to$ 192.168.76.2\\\hline
+2 & Discover & 0.0.0.0 $\to$ 255.255.255.255\\\hline
+3 & Offer & 192.168.76.2 $\to$ 255.255.255.255\\\hline
+4 & Request & 0.0.0.0 $\to$ 255.255.255.255\\\hline
+5 & ACK & 192.168.76.2 $\to$ 255.255.255.255\\\hline
+\end{eventtable}
+
+\IfFileExists{assets/b1-list.pdf}{\ev[50mm]{fig:b1-list}{b1-list}{隔离网络的B1获址报文列表}}{}
+\IfFileExists{assets/b1-ack.pdf}{\ev[32mm]{fig:b1-ack}{b1-ack}{隔离网络B1的ACK字段}}{}
+
+\begin{fieldtable}
+分配地址 & \code{yiaddr}为192.168.76.100，终端接口地址一致\\\hline
+子网掩码 & 选项1为255.255.255.0，终端为/24\\\hline
+默认网关 & ACK未下发选项3，终端无默认路由\\\hline
+DNS服务器 & ACK未下发选项6，终端DNS文件为空\\\hline
+DHCP服务器 & 选项54为192.168.76.2，与终端日志一致\\\hline
+\end{fieldtable}
+}
+\reportpage{\datacontinued}{
+\subheading{问题分析}
+\qa{1. 哪些报文构成本次重新获取地址过程？说明识别依据。}{第1帧是释放已有租约的DHCPRELEASE。重新获址由第2至5帧组成，依次为DHCPDISCOVER、DHCPOFFER、DHCPREQUEST和DHCPACK，对应选项53值1、2、3、5。四帧的事务标识和客户端硬件地址一致。Offer的\code{yiaddr}是192.168.76.100，紧随其后的Request用选项50请求该地址，以选项54选中服务器192.168.76.2。第5帧ACK确认了相同的地址。}
+
+\qa{2. DHCP使用什么传输层协议及端口？Transaction ID有什么作用？}{抓包中的Discover及Request通过UDP从客户端端口68发往服务器端口67。Offer及ACK反向使用UDP源端口67和目的端口68。Transaction ID由客户端设置，对应的服务器回复沿用此值。结合相同的客户端硬件地址，可将往返报文归到同一次事务。}
+
+\qa{3. 实际获得的IPv4地址、掩码、网关与DNS是什么？ACK与本机配置是否一致？}{第5帧ACK给出192.168.76.100和255.255.255.0，虚拟机\code{ip -4 addr show dev eth0}显示\code{192.168.76.100/24}。本次ACK未下发默认网关与DNS，终端的路由表和DNS配置也未安装这些项。回应中的192.168.76.2是DHCP服务器地址，虚拟机可以通过直连子网与其通信。}
+}

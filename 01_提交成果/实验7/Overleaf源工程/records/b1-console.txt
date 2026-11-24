@@ -1,0 +1,22 @@
+    inet 192.168.76.100/24 brd 192.168.76.255 scope global eth0
+       valid_lft forever preferred_lft forever
+dhcp-lab7 # kill -USR2 "$(cat /tmp/udhcpc.pid)"
+dhcp-lab7 # sleep 1
+udhcpc: unicasting a release of 192.168.76.100 to 192.168.76.2
+udhcpc: sending release
+udhcpc: entering released state
+[deconfig] eth0 cleared
+dhcp-lab7 # ip -4 addr show dev eth0
+dhcp-lab7 # kill -USR1 "$(cat /tmp/udhcpc.pid)"
+dhcp-lab7 # sleep 2
+udhcpc: broadcasting discover
+udhcpc: broadcasting select for 192.168.76.100, server 192.168.76.2
+udhcpc: lease of 192.168.76.100 obtained from 192.168.76.2, lease time 86400
+[bound] eth0 address=192.168.76.100 mask=255.255.255.0 router= DNS= lease=86400s
+dhcp-lab7 # date -u '+%F %T UTC'
+2026-11-24 13:40:03 UTC
+dhcp-lab7 # ip -4 addr show dev eth0
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP qlen 1000
+    inet 192.168.76.100/24 brd 192.168.76.255 scope global eth0
+       valid_lft forever preferred_lft forever
+dhcp-lab7 # ip -4 route show

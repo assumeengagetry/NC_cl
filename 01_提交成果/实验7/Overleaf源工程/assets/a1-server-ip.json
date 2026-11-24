@@ -1,0 +1,27 @@
+{
+  "source": "/Users/apple/Workspace/NC_cl/99_工作记录/实验7_20261124/pt/a1-server-ip.png",
+  "source_sha256": "e64412c526f75ac0d5405ec0322d968e79aab32ffc8c17641ec8406c8149489a",
+  "source_size_pixels": [
+    3262,
+    2100
+  ],
+  "crop_box_ltrb_pixels": [
+    35,
+    125,
+    1525,
+    555
+  ],
+  "output_size_pixels": [
+    1490,
+    430
+  ],
+  "resampling": "None",
+  "editing": "Single continuous rectangle crop only",
+  "alpha_operation": "None",
+  "caption": "Server0 静态 IPv4 参数",
+  "png": "a1-server-ip.png",
+  "pdf": "a1-server-ip.pdf",
+  "png_sha256": "b5fd2574e31091a907ef5836fc4584a267c477c095c580cecca43cf455afef00",
+  "pdf_sha256": "b513ba8ae22396cbb6a4830376433139ef0bbc470d48e87d5b9ecbc117b51279",
+  "lossless_pdf_roundtrip_verified": true
+}
